@@ -64,6 +64,7 @@ public class UtilTestcases {
     @Before
     public void executeBeforeEachTest() {
         log.info("execute Before Each Test");
+
     }
 
 
@@ -96,7 +97,7 @@ public class UtilTestcases {
             rteArray = ((JSONArray) RTE);
         }
         assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject) -> {
+        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
             switch (type) {
                 case BLOCK:
                     String title = embeddedObject.getString("title");
@@ -123,7 +124,7 @@ public class UtilTestcases {
         }
 
         assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject) -> {
+        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
             switch (type) {
                 case BLOCK:
                     // statements of BLOCK
@@ -160,7 +161,7 @@ public class UtilTestcases {
         }
 
         assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject) -> {
+        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
             switch (type) {
                 case BLOCK:
                     // statements of BLOCK
@@ -200,7 +201,7 @@ public class UtilTestcases {
         }
 
         assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject) -> {
+        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
 
             switch (type) {
 
@@ -230,7 +231,7 @@ public class UtilTestcases {
         }
 
         assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject) -> {
+        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
             switch (type) {
                 case DISPLAYABLE:
                     // statements of displayable

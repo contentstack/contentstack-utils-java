@@ -1,0 +1,231 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: Utils</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.contentstack.utils</a> ]
+</div>
+
+<h1>Coverage Summary for Class: Utils (com.contentstack.utils)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Utils</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    72.7%
+  </span>
+  <span class="absValue">
+    (8/ 11)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    74.2%
+  </span>
+  <span class="absValue">
+    (49/ 66)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.contentstack.utils;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.contentstack.utils.helper.EmbeddedObject;
+<i>4</i>&nbsp;import com.contentstack.utils.helper.EmbeddedObjectCallback;
+<i>5</i>&nbsp;import com.contentstack.utils.render.DefaultOptions;
+<i>6</i>&nbsp;import com.contentstack.utils.render.Options;
+<i>7</i>&nbsp;
+<i>8</i>&nbsp;import org.json.JSONArray;
+<i>9</i>&nbsp;import org.json.JSONObject;
+<i>10</i>&nbsp;import org.jsoup.Jsoup;
+<i>11</i>&nbsp;import org.jsoup.nodes.Document;
+<i>12</i>&nbsp;import org.jsoup.select.Elements;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;import java.util.Optional;
+<i>15</i>&nbsp;import java.util.logging.Logger;
+<i>16</i>&nbsp;import java.util.stream.StreamSupport;
+<i>17</i>&nbsp;
+<b class="nc"><i>18</i>&nbsp;public class Utils {</b>
+<i>19</i>&nbsp;
+<b class="fc"><i>20</i>&nbsp;    private static final Logger logger = Logger.getLogger(Utils.class.getName());</b>
+<i>21</i>&nbsp;
+<i>22</i>&nbsp;    /**
+<i>23</i>&nbsp;     * Accepts to render content on the basis of below content
+<i>24</i>&nbsp;     * @param rteString   String of the rte available for the embedding
+<i>25</i>&nbsp;     * @param embedObject JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
+<i>26</i>&nbsp;     * @param options     Options take takes input as (StyleType type, JSONObject embeddedObject)
+<i>27</i>&nbsp;     * @return String of rte with replaced tag
+<i>28</i>&nbsp;     */
+<i>29</i>&nbsp;    public static String renderContent(String rteString, JSONObject embedObject, Options options) {
+<i>30</i>&nbsp;
+<b class="fc"><i>31</i>&nbsp;        final String[] sReplaceRTE = {rteString};</b>
+<b class="fc"><i>32</i>&nbsp;        Document html = Jsoup.parse(rteString);</b>
+<b class="fc"><i>33</i>&nbsp;        getEmbeddedObjects(html, embeddedObject -&gt; {</b>
+<b class="fc"><i>34</i>&nbsp;            Optional&lt;JSONObject&gt; filteredContent = null;</b>
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;            // Find the type of _embedded object
+<b class="fc"><i>37</i>&nbsp;            if (embeddedObject.getType().equalsIgnoreCase(&quot;entry&quot;)) {</b>
+<i>38</i>&nbsp;
+<b class="fc"><i>39</i>&nbsp;                boolean available = embedObject.has(&quot;_embedded_entries&quot;);</b>
+<b class="fc"><i>40</i>&nbsp;                if (available) {</b>
+<b class="fc"><i>41</i>&nbsp;                    JSONArray jsonArray = embedObject.optJSONArray(&quot;_embedded_entries&quot;);</b>
+<b class="fc"><i>42</i>&nbsp;                    filteredContent = findEmbeddedEntry(jsonArray, embeddedObject);</b>
+<i>43</i>&nbsp;                }
+<b class="fc"><i>44</i>&nbsp;            } else if (embeddedObject.getType().equalsIgnoreCase(&quot;asset&quot;)) {</b>
+<i>45</i>&nbsp;
+<b class="nc"><i>46</i>&nbsp;                boolean available = embedObject.has(&quot;_embedded_assets&quot;);</b>
+<b class="nc"><i>47</i>&nbsp;                if (available) {</b>
+<b class="nc"><i>48</i>&nbsp;                    JSONArray jsonArray = embedObject.optJSONArray(&quot;_embedded_assets&quot;);</b>
+<b class="nc"><i>49</i>&nbsp;                    filteredContent = findEmbeddedAsset(jsonArray, embeddedObject);</b>
+<i>50</i>&nbsp;                }
+<i>51</i>&nbsp;            }
+<i>52</i>&nbsp;
+<i>53</i>&nbsp;            // check if filteredContent is not null
+<b class="fc"><i>54</i>&nbsp;            if (filteredContent.isPresent()) {</b>
+<b class="fc"><i>55</i>&nbsp;                JSONObject contentToPass = filteredContent.get();</b>
+<b class="fc"><i>56</i>&nbsp;                String stringOption = getStringOption(options, embeddedObject, contentToPass);</b>
+<b class="fc"><i>57</i>&nbsp;                sReplaceRTE[0] = html.body().html().toString().replace(embeddedObject.getOuterHTML(), stringOption);</b>
+<i>58</i>&nbsp;            }
+<b class="fc"><i>59</i>&nbsp;        });</b>
+<i>60</i>&nbsp;
+<b class="fc"><i>61</i>&nbsp;        return sReplaceRTE[0];</b>
+<i>62</i>&nbsp;    }
+<i>63</i>&nbsp;
+<i>64</i>&nbsp;
+<i>65</i>&nbsp;    /**
+<i>66</i>&nbsp;     * Take below items to return updated string
+<i>67</i>&nbsp;     *
+<i>68</i>&nbsp;     * @param rteArray    JSONArray of the rte available for the embedding
+<i>69</i>&nbsp;     * @param entryObject JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
+<i>70</i>&nbsp;     * @param options     Options take takes input as (StyleType type, JSONObject embeddedObject)
+<i>71</i>&nbsp;     * @return String of rte with replaced tag
+<i>72</i>&nbsp;     */
+<i>73</i>&nbsp;    public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, Options options) {
+<i>74</i>&nbsp;
+<b class="fc"><i>75</i>&nbsp;        JSONArray jsonArrayRTEContent = new JSONArray();</b>
+<b class="fc"><i>76</i>&nbsp;        for (Object RTE : rteArray) {</b>
+<b class="fc"><i>77</i>&nbsp;            String stringify = (String) RTE;</b>
+<b class="fc"><i>78</i>&nbsp;            String renderContent = renderContent(stringify, entryObject, options);</b>
+<b class="fc"><i>79</i>&nbsp;            jsonArrayRTEContent.put(renderContent);</b>
+<b class="fc"><i>80</i>&nbsp;        }</b>
+<i>81</i>&nbsp;        //System.out.println(&quot;arrayRTE: &quot; + jsonArrayRTEContent);
+<b class="fc"><i>82</i>&nbsp;        logger.info(jsonArrayRTEContent.toString());</b>
+<b class="fc"><i>83</i>&nbsp;        return jsonArrayRTEContent;</b>
+<i>84</i>&nbsp;    }
+<i>85</i>&nbsp;
+<i>86</i>&nbsp;
+<i>87</i>&nbsp;    /**
+<i>88</i>&nbsp;     * Matches the uid and _content_type_uid from the
+<i>89</i>&nbsp;     *
+<i>90</i>&nbsp;     * @param jsonArray      JSONArray: array of the _embedded_entries
+<i>91</i>&nbsp;     * @param embeddedObject EmbeddedObject: contains the model class information
+<i>92</i>&nbsp;     * @return Optional&lt;JSONObject&gt;
+<i>93</i>&nbsp;     */
+<i>94</i>&nbsp;    private static Optional&lt;JSONObject&gt; findEmbeddedEntry(JSONArray jsonArray, EmbeddedObject embeddedObject) {
+<b class="fc"><i>95</i>&nbsp;        Optional&lt;JSONObject&gt; filteredContent = StreamSupport.stream(jsonArray.spliterator(), false)</b>
+<b class="fc"><i>96</i>&nbsp;                .map(val -&gt; (JSONObject) val)</b>
+<b class="fc"><i>97</i>&nbsp;                .filter(val -&gt; val.optString(&quot;uid&quot;).equalsIgnoreCase(embeddedObject.getUid()))</b>
+<b class="fc"><i>98</i>&nbsp;                .filter(val -&gt; val.optString(&quot;_content_type_uid&quot;).equalsIgnoreCase(embeddedObject.getContentTypeUid()))</b>
+<b class="fc"><i>99</i>&nbsp;                .findFirst();</b>
+<b class="fc"><i>100</i>&nbsp;        return filteredContent;</b>
+<i>101</i>&nbsp;    }
+<i>102</i>&nbsp;
+<i>103</i>&nbsp;    private static Optional&lt;JSONObject&gt; findEmbeddedAsset(JSONArray jsonArray, EmbeddedObject embeddedObject) {
+<i>104</i>&nbsp;
+<b class="nc"><i>105</i>&nbsp;        Optional&lt;JSONObject&gt; filteredContent = StreamSupport.stream(jsonArray.spliterator(), false)</b>
+<b class="nc"><i>106</i>&nbsp;                .map(val -&gt; (JSONObject) val)</b>
+<b class="nc"><i>107</i>&nbsp;                .filter(val -&gt; val.optString(&quot;uid&quot;).equalsIgnoreCase(embeddedObject.getUid()))</b>
+<b class="nc"><i>108</i>&nbsp;                .findFirst();</b>
+<b class="nc"><i>109</i>&nbsp;        return filteredContent;</b>
+<i>110</i>&nbsp;    }
+<i>111</i>&nbsp;
+<i>112</i>&nbsp;    private static String getStringOption(Options options, EmbeddedObject embeddedObject, JSONObject contentToPass) {
+<b class="fc"><i>113</i>&nbsp;        String stringOption = options.renderOptions(embeddedObject.getSysStyleType(), contentToPass);</b>
+<b class="fc"><i>114</i>&nbsp;        if (stringOption == null) {</b>
+<b class="fc"><i>115</i>&nbsp;            DefaultOptions defaultOptions = new DefaultOptions();</b>
+<b class="fc"><i>116</i>&nbsp;            stringOption = defaultOptions.renderOptions(embeddedObject.getSysStyleType(), contentToPass);</b>
+<i>117</i>&nbsp;        }
+<b class="fc"><i>118</i>&nbsp;        return stringOption;</b>
+<i>119</i>&nbsp;    }
+<i>120</i>&nbsp;
+<i>121</i>&nbsp;
+<i>122</i>&nbsp;    private static void getEmbeddedObjects(Document html, EmbeddedObjectCallback objectCallback) {
+<i>123</i>&nbsp;
+<b class="fc"><i>124</i>&nbsp;        Elements embeddedEntries = html.body().getElementsByClass(&quot;embedded-entry&quot;);</b>
+<b class="fc"><i>125</i>&nbsp;        Elements embeddedAssets = html.body().getElementsByClass(&quot;embedded-asset&quot;);</b>
+<i>126</i>&nbsp;
+<b class="fc"><i>127</i>&nbsp;        embeddedEntries.forEach((entry) -&gt; {</b>
+<b class="fc"><i>128</i>&nbsp;            String type = entry.attr(&quot;type&quot;);</b>
+<b class="fc"><i>129</i>&nbsp;            String uid = entry.attr(&quot;data-sys-entry-uid&quot;);</b>
+<b class="fc"><i>130</i>&nbsp;            String contentType = entry.attr(&quot;data-sys-content-type-uid&quot;);</b>
+<b class="fc"><i>131</i>&nbsp;            String style = entry.attr(&quot;sys-style-type&quot;);</b>
+<b class="fc"><i>132</i>&nbsp;            String outerHTML = entry.outerHtml();</b>
+<b class="fc"><i>133</i>&nbsp;            EmbeddedObject embeddedEntry = new EmbeddedObject(type, uid, contentType, style, outerHTML);</b>
+<b class="fc"><i>134</i>&nbsp;            objectCallback.embeddedObject(embeddedEntry);</b>
+<b class="fc"><i>135</i>&nbsp;        });</b>
+<i>136</i>&nbsp;
+<b class="fc"><i>137</i>&nbsp;        embeddedAssets.forEach((entry) -&gt; {</b>
+<b class="nc"><i>138</i>&nbsp;            String type = entry.attr(&quot;type&quot;);</b>
+<b class="nc"><i>139</i>&nbsp;            String uid = entry.attr(&quot;data-sys-asset-uid&quot;);</b>
+<b class="nc"><i>140</i>&nbsp;            String style = entry.attr(&quot;sys-style-type&quot;);</b>
+<b class="nc"><i>141</i>&nbsp;            String outerHTML = entry.outerHtml();</b>
+<b class="nc"><i>142</i>&nbsp;            EmbeddedObject embeddedAsset = new EmbeddedObject(type, uid, &quot;asset&quot;, style, outerHTML);</b>
+<b class="nc"><i>143</i>&nbsp;            objectCallback.embeddedObject(embeddedAsset);</b>
+<b class="nc"><i>144</i>&nbsp;        });</b>
+<b class="fc"><i>145</i>&nbsp;    }</b>
+<i>146</i>&nbsp;
+<i>147</i>&nbsp;
+<i>148</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-10-01 12:52</div>
+</div>
+</body>
+</html>
