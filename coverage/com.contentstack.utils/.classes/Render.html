@@ -1,0 +1,169 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: Render</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.contentstack.utils</a> ]
+</div>
+
+<h1>Coverage Summary for Class: Render (com.contentstack.utils)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Render</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (4/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    71.4%
+  </span>
+  <span class="absValue">
+    (10/ 14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.contentstack.utils;
+<i>2</i>&nbsp;import com.contentstack.utils.embedded.Entry;
+<i>3</i>&nbsp;import java.util.logging.Logger;
+<i>4</i>&nbsp;
+<i>5</i>&nbsp;public class Render {
+<i>6</i>&nbsp;
+<b class="fc"><i>7</i>&nbsp;    static final Logger log = Logger.getLogger(Render.class.getName());</b>
+<i>8</i>&nbsp;
+<b class="nc"><i>9</i>&nbsp;    public Render(String rte, Entry options) {</b>
+<i>10</i>&nbsp;
+<b class="nc"><i>11</i>&nbsp;    }</b>
+<i>12</i>&nbsp;
+<b class="fc"><i>13</i>&nbsp;    public Render(String[] rteContent, Entry options) {</b>
+<i>14</i>&nbsp;
+<i>15</i>&nbsp;        // Make sure it has some length of content
+<b class="fc"><i>16</i>&nbsp;        if (rteContent.length&gt;0) for (String s : rteContent) {</b>
+<i>17</i>&nbsp;            // apply Figure tag Regex to the RTE content
+<b class="fc"><i>18</i>&nbsp;            applyFigureRegex(s);</b>
+<i>19</i>&nbsp;        }
+<i>20</i>&nbsp;
+<b class="fc"><i>21</i>&nbsp;        switch (options.name()) {</b>
+<i>22</i>&nbsp;            case &quot;BLOCK&quot;:
+<i>23</i>&nbsp;                // statements of BLOCK
+<i>24</i>&nbsp;                // blockRTE();
+<b class="fc"><i>25</i>&nbsp;                break;</b>
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;            case &quot;INLINE&quot;:
+<i>28</i>&nbsp;                // statements of INLINE
+<i>29</i>&nbsp;                // inlineRTE();
+<b class="nc"><i>30</i>&nbsp;                break;</b>
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;            case &quot;LINKED&quot;:
+<i>33</i>&nbsp;                // statements of LINKED
+<i>34</i>&nbsp;                // linkedRTE();
+<b class="nc"><i>35</i>&nbsp;                break;</b>
+<i>36</i>&nbsp;
+<i>37</i>&nbsp;            default:
+<i>38</i>&nbsp;                // default statements
+<i>39</i>&nbsp;                // show some exception
+<i>40</i>&nbsp;        }
+<i>41</i>&nbsp;
+<b class="fc"><i>42</i>&nbsp;        return;</b>
+<i>43</i>&nbsp;    }
+<i>44</i>&nbsp;
+<i>45</i>&nbsp;//    public Render(String rte, Asset options) {
+<i>46</i>&nbsp;//
+<i>47</i>&nbsp;//
+<i>48</i>&nbsp;//        switch (options.name()) {
+<i>49</i>&nbsp;//            case &quot;DOWNLOADABLE&quot;:
+<i>50</i>&nbsp;//                // statements of BLOCK
+<i>51</i>&nbsp;//                // blockRTE();
+<i>52</i>&nbsp;//                break;
+<i>53</i>&nbsp;//
+<i>54</i>&nbsp;//            case &quot;DISPLAYABLE&quot;:
+<i>55</i>&nbsp;//                // statements of INLINE
+<i>56</i>&nbsp;//                // inlineRTE();
+<i>57</i>&nbsp;//                break;
+<i>58</i>&nbsp;//
+<i>59</i>&nbsp;//            case &quot;DEFAULT&quot;:
+<i>60</i>&nbsp;//                // statements of DEFAULT
+<i>61</i>&nbsp;//                // defaultRTE();
+<i>62</i>&nbsp;//                break;
+<i>63</i>&nbsp;//
+<i>64</i>&nbsp;//            default:
+<i>65</i>&nbsp;//                // default statements
+<i>66</i>&nbsp;//                // show some exception
+<i>67</i>&nbsp;//        }
+<i>68</i>&nbsp;//
+<i>69</i>&nbsp;//    }
+<i>70</i>&nbsp;//
+<i>71</i>&nbsp;//    public Render(String[] rteContent, Asset options) { }
+<i>72</i>&nbsp;
+<i>73</i>&nbsp;    public String getHTML(){
+<i>74</i>&nbsp;
+<b class="fc"><i>75</i>&nbsp;        return &quot;&quot;;</b>
+<i>76</i>&nbsp;    }
+<i>77</i>&nbsp;
+<i>78</i>&nbsp;    private void applyFigureRegex(String rte) {
+<i>79</i>&nbsp;        // apply regex to the rte
+<i>80</i>&nbsp;
+<b class="fc"><i>81</i>&nbsp;        log.fine(rte);</b>
+<b class="fc"><i>82</i>&nbsp;    }</b>
+<i>83</i>&nbsp;
+<i>84</i>&nbsp;
+<i>85</i>&nbsp;
+<i>86</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-09-22 19:35</div>
+</div>
+</body>
+</html>
