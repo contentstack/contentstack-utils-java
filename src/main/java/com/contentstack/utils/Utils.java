@@ -110,10 +110,10 @@ public class Utils {
     }
 
     private static String getStringOption(Options options, EmbeddedObject embeddedObject, JSONObject contentToPass) {
-        String stringOption = options.renderOptions(embeddedObject.getSysStyleType(), contentToPass);
+        String stringOption = options.renderOptions(embeddedObject.getSysStyleType(), contentToPass, "");
         if (stringOption == null) {
             DefaultOptions defaultOptions = new DefaultOptions();
-            stringOption = defaultOptions.renderOptions(embeddedObject.getSysStyleType(), contentToPass);
+            stringOption = defaultOptions.renderOptions(embeddedObject.getSysStyleType(), contentToPass, "");
         }
         return stringOption;
     }

@@ -5,8 +5,7 @@ import org.json.JSONObject;
 public class MockOptions implements Options {
 
     @Override
-    public String renderOptions(StyleType type, JSONObject entryObject) {
+    public String renderOptions(StyleType type, JSONObject embeddedObject, String linkText) {
         return null;
     }
-
 }

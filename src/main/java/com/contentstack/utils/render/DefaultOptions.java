@@ -5,7 +5,7 @@ import org.json.JSONObject;
 public class DefaultOptions implements Options {
 
     @Override
-    public String renderOptions(StyleType type, JSONObject embeddedObject) {
+    public String renderOptions(StyleType type, JSONObject embeddedObject, String linkText) {
         switch (type) {
             case BLOCK:
                 return "<div><p>${entry.title || entry.uid}</p><div>p type: <span>${entry._content_type_uid}</span></p></div>";
