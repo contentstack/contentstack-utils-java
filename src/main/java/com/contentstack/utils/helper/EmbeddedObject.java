@@ -1,5 +1,6 @@
 package com.contentstack.utils.helper;
 import com.contentstack.utils.embedded.StyleType;
+import org.jsoup.nodes.Attributes;
 
 /**
  * POJO for the Embedded Objects, that helps to carry the objects
@@ -17,12 +18,15 @@ public class EmbeddedObject {
     /* Outer HTML of embedded object*/
     String outerHTML;
 
-    public EmbeddedObject(String type, String uid, String contentTypeUid, String sysStyleType, String outerHTML) {
+    Attributes attributes;
+
+    public EmbeddedObject(String type, String uid, String contentTypeUid, String sysStyleType, String outerHTML, Attributes attributes) {
         this.type = type;
         this.uid = uid;
         this.contentTypeUid = contentTypeUid;
         this.sysStyleType = StyleType.valueOf(sysStyleType.toUpperCase());
         this.outerHTML = outerHTML;
+        this.attributes = attributes;
     }
 
     @Override
@@ -33,47 +37,29 @@ public class EmbeddedObject {
                 ", contentTypeUid='" + contentTypeUid + '\'' +
                 ", sysStyleType=" + sysStyleType +
                 ", outerHTML='" + outerHTML + '\'' +
+                ", attributes='" + attributes + '\'' +
                 '}';
     }
 
 
-    public String getType() {
-        return type;
-    }
+    public String getType() { return type; }
 
-    public void setType(String type) {
-        this.type = type;
-    }
+    public Attributes getAttributes() { return attributes; }
 
     public String getUid() {
         return uid;
-    }
-
-    public void setUid(String uid) {
-        this.uid = uid;
     }
 
     public String getContentTypeUid() {
         return contentTypeUid;
     }
 
-    public void setContentTypeUid(String contentTypeUid) {
-        this.contentTypeUid = contentTypeUid;
-    }
-
     public StyleType getSysStyleType() {
         return sysStyleType;
-    }
-
-    public void setSysStyleType(StyleType sysStyleType) {
-        this.sysStyleType = sysStyleType;
     }
 
     public String getOuterHTML() {
         return outerHTML;
     }
 
-    public void setOuterHTML(String outerHTML) {
-        this.outerHTML = outerHTML;
-    }
 }
