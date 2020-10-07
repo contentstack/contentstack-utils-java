@@ -21,18 +21,18 @@ public class Utils {
 
     /**
      * Accepts to render content on the basis of below content
-     * @param rteString   String of the rte available for the embedding
+     * @param rteStringify   String of the rte available for the embedding
      * @param embedObject JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
      * @param options     Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
-    public static String renderContent(String rteString, JSONObject embedObject, Options options) {
+    public static String renderContent(String rteStringify, JSONObject embedObject, Options options) {
 
-        final String[] sReplaceRTE = {rteString};
-        Document html = Jsoup.parse(rteString);
+        final String[] sReplaceRTE = {rteStringify};
+        Document html = Jsoup.parse(rteStringify);
         getEmbeddedObjects(html, embeddedObject -> {
-            Optional<JSONObject> filteredContent = null;
 
+            Optional<JSONObject> filteredContent = Optional.empty();
             // Find the type of _embedded object
             if (embeddedObject.getType().equalsIgnoreCase("entry")) {
 
@@ -65,9 +65,9 @@ public class Utils {
     /**
      * Take below items to return updated string
      *
-     * @param rteArray    JSONArray of the rte available for the embedding
+     * @param rteArray JSONArray of the rte available for the embedding
      * @param entryObject JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
-     * @param options     Options take takes input as (StyleType type, JSONObject embeddedObject)
+     * @param options Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
     public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, Options options) {
@@ -78,7 +78,6 @@ public class Utils {
             String renderContent = renderContent(stringify, entryObject, options);
             jsonArrayRTEContent.put(renderContent);
         }
-        //System.out.println("arrayRTE: " + jsonArrayRTEContent);
         logger.info(jsonArrayRTEContent.toString());
         return jsonArrayRTEContent;
     }
@@ -87,7 +86,7 @@ public class Utils {
     /**
      * Matches the uid and _content_type_uid from the
      *
-     * @param jsonArray      JSONArray: array of the _embedded_entries
+     * @param jsonArray JSONArray: array of the _embedded_entries
      * @param embeddedObject EmbeddedObject: contains the model class information
      * @return Optional<JSONObject>
      */
@@ -100,8 +99,14 @@ public class Utils {
         return filteredContent;
     }
 
+    /**
+     * Matches the uid and _content_type_uid from the
+     *
+     * @param jsonArray JSONArray: array of the _embedded_assets
+     * @param embeddedObject EmbeddedObject: contains the model class information
+     * @return Optional<JSONObject>
+     */
     private static Optional<JSONObject> findEmbeddedAsset(JSONArray jsonArray, EmbeddedObject embeddedObject) {
-
         Optional<JSONObject> filteredContent = StreamSupport.stream(jsonArray.spliterator(), false)
                 .map(val -> (JSONObject) val)
                 .filter(val -> val.optString("uid").equalsIgnoreCase(embeddedObject.getUid()))
@@ -110,10 +115,11 @@ public class Utils {
     }
 
     private static String getStringOption(Options options, EmbeddedObject embeddedObject, JSONObject contentToPass) {
-        String stringOption = options.renderOptions(embeddedObject.getSysStyleType(), contentToPass, "");
+        // TODO: Sending HashMap as HTML Attributes
+        String stringOption = options.renderOptions(embeddedObject.getSysStyleType(), contentToPass, embeddedObject.getAttributes());
         if (stringOption == null) {
             DefaultOptions defaultOptions = new DefaultOptions();
-            stringOption = defaultOptions.renderOptions(embeddedObject.getSysStyleType(), contentToPass, "");
+            stringOption = defaultOptions.renderOptions(embeddedObject.getSysStyleType(), contentToPass, embeddedObject.getAttributes());
         }
         return stringOption;
     }
@@ -130,16 +136,17 @@ public class Utils {
             String contentType = entry.attr("data-sys-content-type-uid");
             String style = entry.attr("sys-style-type");
             String outerHTML = entry.outerHtml();
-            EmbeddedObject embeddedEntry = new EmbeddedObject(type, uid, contentType, style, outerHTML);
+            EmbeddedObject embeddedEntry = new EmbeddedObject(type, uid, contentType, style, outerHTML, entry.attributes());
+            logger.info(embeddedEntry.toString());
             objectCallback.embeddedObject(embeddedEntry);
         });
 
-        embeddedAssets.forEach((entry) -> {
-            String type = entry.attr("type");
-            String uid = entry.attr("data-sys-asset-uid");
-            String style = entry.attr("sys-style-type");
-            String outerHTML = entry.outerHtml();
-            EmbeddedObject embeddedAsset = new EmbeddedObject(type, uid, "asset", style, outerHTML);
+        embeddedAssets.forEach((asset) -> {
+            String type = asset.attr("type");
+            String uid = asset.attr("data-sys-asset-uid");
+            String style = asset.attr("sys-style-type");
+            String outerHTML = asset.outerHtml();
+            EmbeddedObject embeddedAsset = new EmbeddedObject(type, uid, "asset", style, outerHTML, asset.attributes());
             objectCallback.embeddedObject(embeddedAsset);
         });
     }
