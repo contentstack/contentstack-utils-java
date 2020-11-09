@@ -1,6 +1,5 @@
 package com.contentstack.utils.helper;
 import com.contentstack.utils.embedded.StyleType;
-import com.sun.xml.internal.bind.v2.TODO;
 import org.jsoup.nodes.Attributes;
 
 /**
