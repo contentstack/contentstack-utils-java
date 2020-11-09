@@ -1,5 +1,6 @@
 package com.contentstack.utils.render;
 import com.contentstack.utils.embedded.StyleType;
+import com.contentstack.utils.helper.Metadata;
 import org.json.JSONObject;
 import org.jsoup.nodes.Attributes;
 
@@ -15,18 +16,16 @@ public class DefaultOptions implements Options {
      * @return String
      */
     @Override
-    public String renderOptions(StyleType type, JSONObject embeddedObject, Attributes attributes) {
+    public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
 
-        switch (type) {
+        switch (metadata.getStyleType()) {
             case BLOCK:
                 return "<div><p>"+findTitleOrUid(embeddedObject)+"</p><div><p>Content type: <span>"+embeddedObject.optString("_content_type_uid")+"</span></p></div>";
             case INLINE:
                 return "<span>"+findTitleOrUid(embeddedObject)+"</span>";
             case LINKED:
                 return "<a href=\""+embeddedObject.optString("url")+"\">"+findTitleOrUid(embeddedObject)+"</a>";
-            //case DOWNLOADABLE:
-                //return "<a href=\""+embeddedObject.optString("url")+"\">"+findAssetTitle(embeddedObject)+"</a>";
-            case DISPLAYABLE:
+            case DISPLAY:
                 return "<img src=\""+embeddedObject.optString("url")+"\" alt=\""+findAssetTitle(embeddedObject)+"\" />";
             default:
                 return "";
@@ -60,7 +59,6 @@ public class DefaultOptions implements Options {
      * @return String
      */
     private String findAssetTitle(JSONObject embeddedObject) {
-
         String _title = "";
         if (embeddedObject != null) {
             if (embeddedObject.has("title") && !embeddedObject.optString("title").isEmpty()) {

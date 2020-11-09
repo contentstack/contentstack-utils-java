@@ -1,4 +1,4 @@
-import com.contentstack.utils.helper.EmbeddedObject;
+import com.contentstack.utils.helper.Metadata;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -48,8 +48,8 @@ public class EmbeddedModelTests {
             String contentType = entry.attr("data-sys-content-type-uid");
             String style = entry.attr("sys-style-type");
             String outerHTML = entry.outerHtml();
-            EmbeddedObject embeddedEntry = new EmbeddedObject(type, uid, contentType, style, outerHTML, entry.attributes());
-            logger.info(embeddedEntry.toString());
+            Metadata metadata = new Metadata("text", type, uid, contentType, style, outerHTML, entry.attributes());
+            logger.info(metadata.toString());
             Assert.assertEquals("", outerHTML);
         });
 

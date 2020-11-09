@@ -1,30 +1,34 @@
 package com.contentstack.utils.helper;
 import com.contentstack.utils.embedded.StyleType;
+import com.sun.xml.internal.bind.v2.TODO;
 import org.jsoup.nodes.Attributes;
 
 /**
  * POJO for the Embedded Objects, that helps to carry the objects
  */
-public class EmbeddedObject {
+public class Metadata {
 
+    String text ;
     /* type of embedded object*/
-    String type;
-    /* uid of embedded object*/
-    String uid;
+    //TODO: itemType Enum type to be taken ( implementation incomplete)
+    String itemType;
+    /* itemUid of embedded object*/
+    String itemUid;
     /* contentTypeUid of embedded object*/
     String contentTypeUid;
     /* styleTypeUid of embedded object*/
-    StyleType sysStyleType;
+    StyleType styleType;
     /* Outer HTML of embedded object*/
     String outerHTML;
-
+    /* attributes of embedded object*/
     Attributes attributes;
 
-    public EmbeddedObject(String type, String uid, String contentTypeUid, String sysStyleType, String outerHTML, Attributes attributes) {
-        this.type = type;
-        this.uid = uid;
+    public Metadata(String text, String itemType, String itemUid, String contentTypeUid, String styleType, String outerHTML, Attributes attributes) {
+       this.text= text;
+        this.itemType = itemType;
+        this.itemUid = itemUid;
         this.contentTypeUid = contentTypeUid;
-        this.sysStyleType = StyleType.valueOf(sysStyleType.toUpperCase());
+        this.styleType = StyleType.valueOf(styleType.toUpperCase());
         this.outerHTML = outerHTML;
         this.attributes = attributes;
     }
@@ -32,30 +36,32 @@ public class EmbeddedObject {
     @Override
     public String toString() {
         return "EmbeddedObject{" +
-                "type='" + type + '\'' +
-                ", uid='" + uid + '\'' +
+                "text='" + text + '\'' +
+                "type='" + itemType + '\'' +
+                ", uid='" + itemUid + '\'' +
                 ", contentTypeUid='" + contentTypeUid + '\'' +
-                ", sysStyleType=" + sysStyleType +
+                ", sysStyleType=" + styleType +
                 ", outerHTML='" + outerHTML + '\'' +
                 ", attributes='" + attributes + '\'' +
                 '}';
     }
 
+    public String getText() { return text; }
 
-    public String getType() { return type; }
+    public String getItemType() { return itemType; }
 
     public Attributes getAttributes() { return attributes; }
 
-    public String getUid() {
-        return uid;
+    public String getItemUid() {
+        return itemUid;
     }
 
     public String getContentTypeUid() {
         return contentTypeUid;
     }
 
-    public StyleType getSysStyleType() {
-        return sysStyleType;
+    public StyleType getStyleType() {
+        return styleType;
     }
 
     public String getOuterHTML() {
