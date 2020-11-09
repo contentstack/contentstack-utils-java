@@ -3,7 +3,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.*;
 import org.junit.runners.MethodSorters;
-
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -229,7 +228,7 @@ public class UtilTests {
         assert rteArray != null;
         Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
             switch (type) {
-                case DISPLAYABLE:
+                case DISPLAY:
                     // statements of displayable
                     return null;
                 default:

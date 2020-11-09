@@ -87,7 +87,7 @@ public class DefaultOptionsTests {
         JSONArray arrayResp = new ReadResource().readJson(ASSET_DISPLAYABLE);
         JSONObject entryObject = (JSONObject) arrayResp.get(0);
         Attributes attributes = new ReadResource().returnAssetAttributes(entryObject);
-        String result = defaultOptions.renderOptions(StyleType.DISPLAYABLE, entryObject, attributes);
+        String result = defaultOptions.renderOptions(StyleType.DISPLAY, entryObject, attributes);
         log.info(result);
         Assert.assertEquals("<img src=\"/this-is-unique-title\" alt=\"this is unique title\" />", result);
     }
