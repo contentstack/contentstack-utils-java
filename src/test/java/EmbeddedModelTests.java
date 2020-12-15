@@ -11,6 +11,7 @@ import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
 import java.io.IOException;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
@@ -18,6 +19,15 @@ public class EmbeddedModelTests {
 
     private static final Logger logger = Logger.getLogger(UtilTests.class.getName());
     private static JSONArray rteArray = null;
+    private static JSONObject localJsonObj;
+
+    @BeforeClass
+    public static void startDefaultOptionsTests() throws IOException {
+        logger.setLevel(Level.ALL);
+        final String EMBEDDED_ITEMS = "src/test/resources/embedded_items.json";
+        localJsonObj = new ReadResource().readJson(EMBEDDED_ITEMS);
+        logger.info("Reading localJsonObj"+localJsonObj);
+    }
 
     @BeforeClass
     public static void executeOnceBeforeTestStarts() throws IOException {
@@ -29,9 +39,9 @@ public class EmbeddedModelTests {
         // Read an object from the JSONArray
         JSONObject entryObject = (JSONObject) localJson.get(0);
         // Find the rich_text_editor available in the Object
-        boolean available = entryObject.has("rich_text_editor");
+        boolean available = localJsonObj.has("rich_text_editor");
         if (available) {
-            Object RTE = entryObject.get("rich_text_editor");
+            Object RTE = localJsonObj.get("rich_text_editor");
             rteArray = ((JSONArray) RTE);
         }
     }
@@ -52,7 +62,6 @@ public class EmbeddedModelTests {
             logger.info(metadata.toString());
             Assert.assertEquals("", outerHTML);
         });
-
     }
 
 
