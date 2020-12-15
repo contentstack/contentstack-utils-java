@@ -67,9 +67,7 @@ public class Utils {
      * @param renderObject renderObjects
      */
     public void render(JSONArray jsonArray, String[] keyPath, Options renderObject){
-        jsonArray.forEach(jsonObj->{
-            render((JSONObject) jsonObj, keyPath, renderObject);
-        });
+        jsonArray.forEach(jsonObj-> render((JSONObject) jsonObj, keyPath, renderObject));
     }
 
 
@@ -87,16 +85,11 @@ public class Utils {
         getEmbeddedObjects(html, metadata -> {
 
             Optional<JSONObject> filteredContent = Optional.empty();
-            // Find the type of _embedded object
-            //if (metadata.getItemType().equalsIgnoreCase("entry")) {
                 boolean available = embedObject.has("_embedded_items");
                 if (available) {
                     JSONObject jsonArray = embedObject.optJSONObject("_embedded_items");
                     filteredContent = findEmbeddedItems(jsonArray, metadata);
-                    logger.info("so,.");
                 }
-           // }
-            // check if filteredContent is not null
             if (filteredContent.isPresent()) {
                 JSONObject contentToPass = filteredContent.get();
                 String stringOption = getStringOption(options, metadata, contentToPass);
@@ -122,7 +115,6 @@ public class Utils {
             String renderContent = renderContent(stringify, entryObject, options);
             jsonArrayRTEContent.put(renderContent);
         }
-        logger.info(jsonArrayRTEContent.toString());
         return jsonArrayRTEContent;
     }
 
