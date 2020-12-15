@@ -4,7 +4,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Attributes;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -12,7 +11,7 @@ import java.io.IOException;
 
 public class ReadResource {
 
-    public JSONArray readJson(String filename) throws IOException {
+    public JSONObject readJson(String filename) throws IOException {
         File file = new File(filename);
         String absolutePath = file.getAbsolutePath();
         System.out.println(absolutePath);
@@ -25,7 +24,7 @@ public class ReadResource {
         }
         reader.close();
         String response = stringBuilder.toString();
-        return new JSONArray(response);
+        return new JSONObject(response);
     }
 
 

@@ -23,7 +23,7 @@ public class DefaultOptions implements Options {
                 return "<div><p>"+findTitleOrUid(embeddedObject)+"</p><div><p>Content type: <span>"+embeddedObject.optString("_content_type_uid")+"</span></p></div>";
             case INLINE:
                 return "<span>"+findTitleOrUid(embeddedObject)+"</span>";
-            case LINKED:
+            case LINK:
                 return "<a href=\""+embeddedObject.optString("url")+"\">"+findTitleOrUid(embeddedObject)+"</a>";
             case DISPLAY:
                 return "<img src=\""+embeddedObject.optString("url")+"\" alt=\""+findAssetTitle(embeddedObject)+"\" />";

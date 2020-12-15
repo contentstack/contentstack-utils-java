@@ -11,72 +11,41 @@ import java.util.logging.Logger;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UtilTests {
 
+    final static Logger logger = Logger.getLogger(UtilTests.class.getName());
+    private static JSONObject localJsonObj;
 
-    static final Logger log = Logger.getLogger(UtilTests.class.getName());
-
-
-    /**
-     * Executed once, before the start of all tests. It is used to perform time
-     * intensive activities, for example, to connect to a database. Methods marked
-     * with this annotation need to be defined as static to work with JUnit.
-     */
     @BeforeClass
-    public static void executeOnceBeforeTestStarts() {
-        log.setLevel(Level.ALL);
-        log.info("execute Once Before Test Starts");
+    public static void startUtilTests() throws IOException {
+        logger.setLevel(Level.INFO);
+        final String EMBEDDED_ITEMS = "src/test/resources/multiple_rich_text_content.json";
+        localJsonObj = new ReadResource().readJson(EMBEDDED_ITEMS);
+        localJsonObj = (JSONObject) localJsonObj.getJSONArray("entries").get(0);
+        logger.info("Reading Local Json Object"+localJsonObj);
     }
-
-
-    /**
-     * Executed once, after all tests have been finished. It is used to
-     * perform clean-up activities, for example, to disconnect from a database.
-     * Methods annotated with this annotation need to be defined as static to work with JUnit.
-     */
-    @AfterClass
-    public static void executeAfterAllTestFinishes() {
-        // one-time cleanup code
-        log.info("execute After All Test Finishes");
-    }
-
-
-    /**
-     * Executed before each test. It is used to prepare the test environment
-     * (e.g., read input data, initialize the class).
-     */
-    @Before
-    public void executeBeforeEachTest() {
-        log.info("execute Before Each Test");
-
-    }
-
-
-    /**
-     * Executed after each test. It is used to cleanup the test environment
-     * (e.g., delete temporary data, restore defaults).
-     * It can also save memory by cleaning up expensive memory structures
-     */
-    @After
-    public void ExecuteAfterEachTest() {
-        log.info("Execute After Each Test.");
-    }
-
 
     @Test
-    public void test_1_embedded_block_entry() throws IOException {
+    public void test_01_renderFunction() {
+        Options options = new Options() {
+            @Override
+            public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
+                StyleType styleType = metadata.getStyleType();
+                return null;
+            }
+        };
+        String[] keys = new String[2];
+        keys[0] = "global_rich_multiple.group.rich_text_editor";
+        keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
+        Utils.render(localJsonObj, keys, new DefaultOptions());
+        //logger.info("localJson:"+localJsonObj);
+    }
 
-        final String ENTRY_BLOCK = "src/test/resources/response.json";
-
-        // JSONArray from the resource
+    @Test
+    public void test_02_EmbeddedBlockEntry() {
         JSONArray rteArray = null;
-        // Read file from resource by filename
-        //JSONArray arrayResp = readJsonFile("response");
-        JSONArray localJson = new ReadResource().readJson(ENTRY_BLOCK);
-        // Read an object from the JSONArray
-        JSONObject entryObject = (JSONObject) localJson.get(0);
         // Find the rich_text_editor available in the Object
-        boolean available = entryObject.has("rich_text_editor");
+        boolean available = localJsonObj.has("rich_text_editor");
         if (available) {
-            Object RTE = entryObject.get("rich_text_editor");
+            Object RTE = localJsonObj.get("rich_text_editor");
             rteArray = ((JSONArray) RTE);
         }
         assert rteArray != null;
@@ -105,105 +74,63 @@ public class UtilTests {
     }
 
 
-    @Test
-    public void test_2_embedded_inline_entry() throws IOException {
-        final String ENTRY_INLINE = "src/test/resources/entry_inline.json";
-
-        JSONArray rteArray = null;
-        JSONArray arrayResp = new ReadResource().readJson(ENTRY_INLINE);
-        JSONObject entryObject = (JSONObject) arrayResp.get(0);
-        boolean available = entryObject.has("rich_text_editor");
-        if (available) {
-            Object RTE = entryObject.get("rich_text_editor");
-            rteArray = ((JSONArray) RTE);
-        }
-
-        assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
-            switch (type) {
-                case BLOCK:
-                    // statements of BLOCK
-                    String title = embeddedObject.getString("title");
-                    String multi_line = embeddedObject.getString("multi_line");
-                    return "<p>" + title + "</p><span>" + multi_line + "</span>";
-                case INLINE:
-                    // statements of INLINE
-                    return null;
-
-                case LINKED:
-                    // statements of LINKED
-                    return null;
-
-                default:
-                    return null;
-            }
-        });
-    }
-
-
-    @Test
-    public void test_3_embedded_linked_entry() throws IOException {
-        final String ENTRY_LINKED = "src/test/resources/entry_linked.json";
-
-        JSONArray rteArray = null;
-        JSONArray arrayResp = new ReadResource().readJson(ENTRY_LINKED);
-        JSONObject entryObject = (JSONObject) arrayResp.get(0);
-        boolean available = entryObject.has("rich_text_editor");
-        if (available) {
-            Object RTE = entryObject.get("rich_text_editor");
-            rteArray = ((JSONArray) RTE);
-            //System.out.println(rteArray);
-        }
-
-        assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
-            switch (type) {
-                case BLOCK:
-                    // statements of BLOCK
-                    //blockRTE();
-                    String title = embeddedObject.getString("title");
-                    String multi_line = embeddedObject.getString("multi_line");
-                    return "<p>" + title + "</p><span>" + multi_line + "</span>";
-
-                case INLINE:
-                    // statements of INLINE
-                    return null;
-
-                case LINKED:
-                    // statements of LINKED
-                    return null;
-
-                default:
-                    return null;
-            }
-
-        });
-    }
-
-
 //    @Test
-//    public void test_4_embedded_downloadable_asset() throws IOException {
-//        String ASSET_DOWNLOADABLE = "src/test/resources/multiple_objects.json";
+//    public void test_2_embedded_inline_entry() {
 //        JSONArray rteArray = null;
-//        JSONArray arrayResp = new ResourceFile().readJson(ASSET_DOWNLOADABLE);
-//        JSONObject entryObject = (JSONObject) arrayResp.get(0);
-//        boolean available = entryObject.has("rich_text_editor");
+//        boolean available = localJsonObj.has("rich_text_editor");
 //        if (available) {
-//            Object RTE = entryObject.get("rich_text_editor");
+//            Object RTE = localJsonObj.get("rich_text_editor");
 //            rteArray = ((JSONArray) RTE);
-//            //System.out.println(rteArray);
 //        }
-//
 //        assert rteArray != null;
-//        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
-//
-//            switch (type) {
-//
-//                case DOWNLOADABLE:
-//                    // statements of LINKED
+//        Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
+//            switch (metadata.getStyleType()) {
+//                case BLOCK:
+//                    // statements of BLOCK
 //                    String title = embeddedObject.getString("title");
 //                    String multi_line = embeddedObject.getString("multi_line");
 //                    return "<p>" + title + "</p><span>" + multi_line + "</span>";
+//                case INLINE:
+//                    // statements of INLINE
+//                    return null;
+//
+//                case LINKED:
+//                    // statements of LINKED
+//                    return null;
+//
+//                default:
+//                    return null;
+//            }
+//        });
+//    }
+//
+//
+//    @Test
+//    public void test_3_embedded_linked_entry() {
+//        JSONArray rteArray = null;
+//        boolean available = localJsonObj.has("rich_text_editor");
+//        if (available) {
+//            Object RTE = localJsonObj.get("rich_text_editor");
+//            rteArray = ((JSONArray) RTE);
+//            //System.out.println(rteArray);
+//        }
+//        assert rteArray != null;
+//        Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
+//            switch (metadata.getStyleType()) {
+//                case BLOCK:
+//                    // statements of BLOCK
+//                    //blockRTE();
+//                    String title = embeddedObject.getString("title");
+//                    String multi_line = embeddedObject.getString("multi_line");
+//                    return "<p>" + title + "</p><span>" + multi_line + "</span>";
+//
+//                case INLINE:
+//                    // statements of INLINE
+//                    return null;
+//
+//                case LINKED:
+//                    // statements of LINKED
+//                    return null;
 //
 //                default:
 //                    return null;
@@ -211,31 +138,29 @@ public class UtilTests {
 //
 //        });
 //    }
-
-
-    @Test
-    public void test_embedded_displayable_asset() throws IOException {
-        String ASSET_DISPLAYABLE = "src/test/resources/asset_displayable.json";
-        JSONArray rteArray = null;
-        JSONArray arrayResp = new ReadResource().readJson(ASSET_DISPLAYABLE);
-        JSONObject entryObject = (JSONObject) arrayResp.get(0);
-        boolean available = entryObject.has("rich_text_editor");
-        if (available) {
-            Object RTE = entryObject.get("rich_text_editor");
-            rteArray = ((JSONArray) RTE);
-        }
-
-        assert rteArray != null;
-        Utils.renderContents(rteArray, entryObject, (type, embeddedObject, linkText) -> {
-            switch (type) {
-                case DISPLAY:
-                    // statements of displayable
-                    return null;
-                default:
-                    return null;
-            }
-        });
-    }
-
+//
+//
+//    @Test
+//    public void test_embedded_displayable_asset() {
+//        JSONArray rteArray = null;
+//        boolean available = localJsonObj.has("rich_text_editor");
+//        if (available) {
+//            Object RTE = localJsonObj.get("rich_text_editor");
+//            rteArray = ((JSONArray) RTE);
+//        }
+//        assert rteArray != null;
+//        Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
+//            if (metadata.getStyleType() == StyleType.DISPLAY) {// statements of displayable
+//                return null;
+//            }
+//            return null;
+//        });
+//    }
+//
+//    @Test
+//    public void justTest(){
+//        //String[] blankArray = new String[0];
+//        //new Utils().render({}, null, eck);
+//    }
 
 }
