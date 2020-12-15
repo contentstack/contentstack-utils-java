@@ -47,10 +47,8 @@ public class Utils {
                 // if keyPath is not available
                 JSONObject embedKeys = entryObj.getJSONObject("_embedded_items");
                 ArrayList<String> pathKeys = new ArrayList<>(embedKeys.keySet());
-                for (int idx = 0; idx < pathKeys.size(); idx++) {
-                    String path = pathKeys.get(idx);
+                for (String path : pathKeys) {
                     findContent(entryObj, path, callback);
-                    logger.info("");
                 }
             }
         }
@@ -155,19 +153,15 @@ public class Utils {
     private static Optional<JSONObject> findEmbeddedItems(JSONObject jsonObject, Metadata metadata) {
         Set<String> allKeys = jsonObject.keySet();
         for (String key: allKeys) {
-            logger.info("keys---------->"+key);
             JSONArray jsonArray = jsonObject.optJSONArray(key);
             Optional<JSONObject> filteredContent = StreamSupport.stream(jsonArray.spliterator(), false)
                     .map(val -> (JSONObject) val)
-                    .filter(val -> {
-                        logger.info(val.optString("uid")+" ----metadata---"+metadata.getItemUid() );
-                        return val.optString("uid").equalsIgnoreCase(metadata.getItemUid());
-                    }).findFirst();
+                    .filter(val -> val.optString("uid").equalsIgnoreCase(metadata.getItemUid())).findFirst();
             if (filteredContent.isPresent()){
                 return filteredContent;
             }
         }
-        return null;
+        return Optional.empty();
     }
 
     private static String getStringOption(Options options, Metadata metadata, JSONObject contentToPass) {
