@@ -56,9 +56,45 @@ public class Utils {
         }
     }
 
-    private JSONObject findEntryByPath(JSONObject entryObj, String path) {
+    /**
+     * Find dot separated keys
+     * @param entryObj Json Object
+     * @param path keyPath
+     * @param contentCallback content callback
+     */
+    private static void findContent(JSONObject entryObj, String path, ContentCallback contentCallback ) {
+        String [] arrayString = path.split("\\.");
+        getContent(arrayString, entryObj, contentCallback);
+    }
 
-        return null;
+    /**
+     * getContent accepts arrayString
+     * @param arrayString
+     * @param entryObj
+     * @param contentCallback
+     */
+    private static void getContent(String[] arrayString, JSONObject entryObj, ContentCallback contentCallback) {
+        if (arrayString!=null && arrayString.length!=0){
+            String key = arrayString[0];
+            if (arrayString.length == 1) {
+                Object varContent = entryObj.opt(key);
+                if (varContent instanceof String || varContent instanceof JSONArray) {
+                    entryObj.put(key, contentCallback.contentObject(varContent));
+                }
+            } else {
+                List<String> list = new ArrayList<>(Arrays.asList(arrayString));
+                list.remove(key);
+                String[] newArrayString = list.toArray(new String[0]);
+                if (entryObj.opt(key) instanceof JSONObject) {
+                     getContent(newArrayString, entryObj.optJSONObject(key), contentCallback);
+                } else if (entryObj.opt(key) instanceof JSONArray) {
+                    JSONArray  jsonArray = entryObj.optJSONArray(key);
+                    for (int idx = 0; idx < jsonArray.length(); idx++) {
+                        getContent(newArrayString, jsonArray.optJSONObject(idx), contentCallback);
+                    }
+                }
+            }
+        }
     }
 
 

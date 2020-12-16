@@ -3,7 +3,7 @@ import com.contentstack.utils.embedded.StyleType;
 import org.jsoup.nodes.Attributes;
 
 /**
- * POJO for the Embedded Objects, that helps to carry the objects
+ * POJO(Getters and Setters) for the Embedded Objects, that helps to carry the objects
  */
 public class Metadata {
 
