@@ -1,8 +1,10 @@
 package com.contentstack.utils;
 
+import com.contentstack.utils.callbacks.ContentCallback;
+import com.contentstack.utils.callbacks.MetadataCallback;
 import com.contentstack.utils.helper.Metadata;
-import com.contentstack.utils.render.DefaultOptions;
-import com.contentstack.utils.render.Options;
+import com.contentstack.utils.render.DefaultOptionsCallback;
+import com.contentstack.utils.callbacks.OptionsCallback;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -25,8 +27,7 @@ public class Utils {
      * @param keyPath keyPath
      * @param renderObject renderObject
      */
-    public static void  render(JSONObject entryObj, String[] keyPath, Options renderObject){
-
+    public static void  render(JSONObject entryObj, String[] keyPath, OptionsCallback renderObject){
         ContentCallback callback = content -> {
             if (content instanceof JSONArray) {
                 JSONArray contentArray = (JSONArray) content;
@@ -39,12 +40,13 @@ public class Utils {
         };
 
         if (entryObj!=null && entryObj.has("_embedded_items")){
+            // when keyPath is provided by user
             if (keyPath!=null){
                 for (String path : keyPath) {
                     findContent(entryObj, path, callback);
                 }
             }else {
-                // if keyPath is not available
+                // if keyPath is not given, extract all available keyPath from _embedded_items
                 JSONObject embedKeys = entryObj.getJSONObject("_embedded_items");
                 ArrayList<String> pathKeys = new ArrayList<>(embedKeys.keySet());
                 for (String path : pathKeys) {
@@ -66,7 +68,7 @@ public class Utils {
      * @param keyPath String array keyPath
      * @param renderObject renderObjects
      */
-    public void render(JSONArray jsonArray, String[] keyPath, Options renderObject){
+    public void render(JSONArray jsonArray, String[] keyPath, OptionsCallback renderObject){
         jsonArray.forEach(jsonObj-> render((JSONObject) jsonObj, keyPath, renderObject));
     }
 
@@ -92,7 +94,7 @@ public class Utils {
                 }
             if (filteredContent.isPresent()) {
                 JSONObject contentToPass = filteredContent.get();
-                String stringOption = getStringOption(options, metadata, contentToPass);
+                String stringOption = getStringOption(optionsCallback, metadata, contentToPass);
                 sReplaceRTE[0] = html.body().html().replace(metadata.getOuterHTML(), stringOption);
             }
         });
@@ -105,14 +107,14 @@ public class Utils {
      * Take below items to return updated string
      * @param rteArray JSONArray of the rte available for the embedding
      * @param entryObject JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
-     * @param options Options take takes input as (StyleType type, JSONObject embeddedObject)
+     * @param optionsCallback Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
-    public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, Options options) {
+    public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, OptionsCallback optionsCallback) {
         JSONArray jsonArrayRTEContent = new JSONArray();
         for (Object RTE : rteArray) {
             String stringify = (String) RTE;
-            String renderContent = renderContent(stringify, entryObject, options);
+            String renderContent = renderContent(stringify, entryObject, optionsCallback);
             jsonArrayRTEContent.put(renderContent);
         }
         return jsonArrayRTEContent;
@@ -156,7 +158,7 @@ public class Utils {
         return Optional.empty();
     }
 
-    private static String getStringOption(Options options, Metadata metadata, JSONObject contentToPass) {
+    private static String getStringOption(OptionsCallback optionsCallback, Metadata metadata, JSONObject contentToPass) {
         // TODO: Sending HashMap as HTML Attributes
         String stringOption = options.renderOptions(
                 contentToPass, metadata);
@@ -182,7 +184,6 @@ public class Utils {
             String style = entry.attr("sys-style-type");
             String outerHTML = entry.outerHtml();
             Metadata metadata = new Metadata(text, type, uid, contentType, style, outerHTML, entry.attributes());
-            logger.info(metadata.toString());
             metadataCallback.embeddedObject(metadata);
         });
 

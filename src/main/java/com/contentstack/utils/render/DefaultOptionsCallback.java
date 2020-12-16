@@ -1,23 +1,19 @@
 package com.contentstack.utils.render;
-import com.contentstack.utils.embedded.StyleType;
+import com.contentstack.utils.callbacks.OptionsCallback;
 import com.contentstack.utils.helper.Metadata;
 import org.json.JSONObject;
-import org.jsoup.nodes.Attributes;
 
 
-
-public class DefaultOptions implements Options {
+public class DefaultOptionsCallback implements OptionsCallback {
 
     /**
      * Accepts below params to provides defaults options
-     * @param type enum of StyleType, To set what type of operation has to perform
-     * @param embeddedObject JSONObject, Takes entry object
-     * @param attributes KEY Attributes
-     * @return String
+     * @param embeddedObject entry embedded object
+     * @param metadata for of the entry object
+     * @return String as result
      */
     @Override
     public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
-
         switch (metadata.getStyleType()) {
             case BLOCK:
                 return "<div><p>"+findTitleOrUid(embeddedObject)+"</p><div><p>Content type: <span>"+embeddedObject.optString("_content_type_uid")+"</span></p></div>";
@@ -30,9 +26,7 @@ public class DefaultOptions implements Options {
             default:
                 return "";
         }
-
     }
-
 
     /**
      * Returns Title From The Embedded Object of type entry
@@ -51,7 +45,6 @@ public class DefaultOptions implements Options {
         }
         return _title;
     }
-
 
     /**
      * Returns Title From The Embedded Object of type asset
