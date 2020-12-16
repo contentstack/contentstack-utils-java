@@ -18,7 +18,6 @@ import java.util.logging.Logger;
 public class EmbeddedModelTests {
 
     private static final Logger logger = Logger.getLogger(UtilTests.class.getName());
-    private static JSONArray rteArray = null;
     private static JSONObject localJsonObj;
 
     @BeforeClass
@@ -29,39 +28,22 @@ public class EmbeddedModelTests {
         logger.info("Reading localJsonObj"+localJsonObj);
     }
 
-    @BeforeClass
-    public static void executeOnceBeforeTestStarts() throws IOException {
-        // Setting level for the logging.
-        final String ENTRY_BLOCK = "src/test/resources/response.json";
-        // Read file from resource by filename
-        //JSONArray arrayResp = readJsonFile("response");
-        JSONArray localJson = new ReadResource().readJson(ENTRY_BLOCK);
-        // Read an object from the JSONArray
-        JSONObject entryObject = (JSONObject) localJson.get(0);
-        // Find the rich_text_editor available in the Object
-        boolean available = localJsonObj.has("rich_text_editor");
-        if (available) {
-            Object RTE = localJsonObj.get("rich_text_editor");
-            rteArray = ((JSONArray) RTE);
-        }
-    }
-
 
     @Test
-    public void test_embedded_object_model() {
-
-        Document html = Jsoup.parse(rteArray.toString());
-        Elements embeddedEntries = html.body().getElementsByClass("embedded-entry");
-        embeddedEntries.forEach((entry) -> {
-            String type = entry.attr("type");
-            String uid = entry.attr("data-sys-entry-uid");
-            String contentType = entry.attr("data-sys-content-type-uid");
-            String style = entry.attr("sys-style-type");
-            String outerHTML = entry.outerHtml();
-            Metadata metadata = new Metadata("text", type, uid, contentType, style, outerHTML, entry.attributes());
-            logger.info(metadata.toString());
-            Assert.assertEquals("", outerHTML);
-        });
+    public void test_rich_text_Available() {
+        JSONObject entries = (JSONObject) localJsonObj.optJSONArray("entries").get(0);
+        String rich_text_editor = (String) entries.optJSONArray("rich_text_editor").get(0);
+        Assert.assertEquals( "<p>hello</p><img class=\"embedded-asset\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-asset-filelink=\"http://localhost:8000/v3/assets/blte964dd749943a934/blt6ba515fc6c148887/5d0b406eb0ed0f0c3d433115/dp.jpeg\" data-sys-asset-uid=\"bltba476c60baacb442\" data-sys-asset-filename=\"dp.jpeg\" data-sys-asset-contenttype=\"image/jpeg\" type=\"asset\" sys-style-type=\"display\"></img><div class=\"redactor-component embedded-entry block-entry redactor-component-active\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"bltb5a04880fbb74f26\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"samplect\" sys-style-type=\"block\" type=\"entry\"></div>\n" +
+                "<p>hello</p>\n" +
+                "<p></p>", rich_text_editor);
+//        Elements embeddedEntries = html.body().getElementsByClass("_embedded_items");
+//        String uid = entry.attr("data-sys-entry-uid");
+//        String contentType = entry.attr("data-sys-content-type-uid");
+//        String style = entry.attr("sys-style-type");
+//        String outerHTML = entry.outerHtml();
+//        Metadata metadata = new Metadata("text", type, uid, contentType, style, outerHTML, entry.attributes());
+//        logger.info(metadata.toString());
+//        Assert.assertEquals("", outerHTML);
     }
 
 

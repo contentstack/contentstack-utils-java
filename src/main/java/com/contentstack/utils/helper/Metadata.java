@@ -9,7 +9,6 @@ public class Metadata {
 
     String text ;
     /* type of embedded object*/
-    //TODO: itemType Enum type to be taken ( implementation incomplete)
     String itemType;
     /* itemUid of embedded object*/
     String itemUid;

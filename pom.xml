@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.contentstack</groupId>
+    <groupId>com.contentstack.sdk</groupId>
     <artifactId>util</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Contentstack-CMS</name>
+    <name>Contentstack-util</name>
     <url>https://www.***REMOVED***</url>
     <properties>
         <!-- package version -->
@@ -110,8 +110,11 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
+
                 </executions>
             </plugin>
+
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -202,7 +205,7 @@
             Sometimes when you may need to compile a certain project to a different
             version than what you are currently using. The javac can accept such command
             using -source and -target. The Compiler Plugin can also be configured to
-            provide these options during compilation
+            provide these optionsCallback during compilation
             -->
 
             <!--Provides support to access staging functionality in a remote Nexus Professional server.-->
