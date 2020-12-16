@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UtilTests {
 
