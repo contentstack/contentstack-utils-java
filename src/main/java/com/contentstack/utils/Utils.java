@@ -2,9 +2,9 @@ package com.contentstack.utils;
 
 import com.contentstack.utils.callbacks.ContentCallback;
 import com.contentstack.utils.callbacks.MetadataCallback;
+import com.contentstack.utils.callbacks.OptionsCallback;
 import com.contentstack.utils.helper.Metadata;
 import com.contentstack.utils.render.DefaultOptionsCallback;
-import com.contentstack.utils.callbacks.OptionsCallback;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -12,15 +12,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.util.*;
-import java.util.logging.Logger;
 import java.util.stream.StreamSupport;
 
 public class Utils {
-
-    // Interface Metadata Callback
-    private interface MetadataCallback { void embeddedObject(Metadata metadata); }
-
-    private static final Logger logger = Logger.getLogger(Utils.class.getName());
 
     /**
      * @param entryObj: Objects that contains RTE with embedded objects
@@ -68,10 +62,10 @@ public class Utils {
     }
 
     /**
-     * getContent accepts arrayString
-     * @param arrayString
-     * @param entryObj
-     * @param contentCallback
+     *
+     * @param arrayString list of keys available
+     * @param entryObj entry object
+     * @param contentCallback content callback
      */
     private static void getContent(String[] arrayString, JSONObject entryObj, ContentCallback contentCallback) {
         if (arrayString!=null && arrayString.length!=0){
@@ -108,20 +102,17 @@ public class Utils {
         jsonArray.forEach(jsonObj-> render((JSONObject) jsonObj, keyPath, renderObject));
     }
 
-
     /**
      * Accepts to render content on the basis of below content
-     * @param rteStringify   String of the rte available for the embedding
+     * @param rteStringify String of the rte available for the embedding
      * @param embedObject JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
-     * @param options     Options take takes input as (StyleType type, JSONObject embeddedObject)
+     * @param optionsCallback Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
-    public static String renderContent(String rteStringify, JSONObject embedObject, Options options) {
-
+    public static String renderContent(String rteStringify, JSONObject embedObject, OptionsCallback optionsCallback) {
         final String[] sReplaceRTE = {rteStringify};
         Document html = Jsoup.parse(rteStringify);
         getEmbeddedObjects(html, metadata -> {
-
             Optional<JSONObject> filteredContent = Optional.empty();
                 boolean available = embedObject.has("_embedded_items");
                 if (available) {
@@ -134,7 +125,6 @@ public class Utils {
                 sReplaceRTE[0] = html.body().html().replace(metadata.getOuterHTML(), stringOption);
             }
         });
-
         return sReplaceRTE[0];
     }
 
@@ -159,24 +149,7 @@ public class Utils {
 
     /**
      * Matches the uid and _content_type_uid from the
-     *
-     * @param jsonArray JSONArray: array of the _embedded_entries
-     * @param metadata EmbeddedObject: contains the model class information
-     * @return Optional<JSONObject>
-     */
-    private static Optional<JSONObject> findEmbeddedEntry(JSONArray jsonArray, Metadata metadata) {
-        Optional<JSONObject> filteredContent = StreamSupport.stream(jsonArray.spliterator(), false)
-                .map(val -> (JSONObject) val)
-                .filter(val -> val.optString("uid").equalsIgnoreCase(metadata.getItemUid()))
-                .filter(val -> val.optString("_content_type_uid").equalsIgnoreCase(metadata.getContentTypeUid()))
-                .findFirst();
-        return filteredContent;
-    }
-
-    /**
-     * Matches the uid and _content_type_uid from the
-     *
-     * @param jsonArray JSONArray: array of the _embedded_assets
+     * @param jsonObject JSONObject: jsonObject of the _embedded_assets
      * @param metadata EmbeddedObject: contains the model class information
      * @return Optional<JSONObject>
      */
@@ -195,23 +168,18 @@ public class Utils {
     }
 
     private static String getStringOption(OptionsCallback optionsCallback, Metadata metadata, JSONObject contentToPass) {
-        // TODO: Sending HashMap as HTML Attributes
-        String stringOption = options.renderOptions(
-                contentToPass, metadata);
+        String stringOption = optionsCallback.renderOptions(contentToPass, metadata);
         if (stringOption == null) {
-            DefaultOptions defaultOptions = new DefaultOptions();
-            stringOption = defaultOptions.renderOptions(
-                    contentToPass, metadata);
+            DefaultOptionsCallback defaultOptions = new DefaultOptionsCallback();
+            stringOption = defaultOptions.renderOptions(contentToPass, metadata);
         }
         return stringOption;
     }
 
 
     private static void getEmbeddedObjects(Document html, MetadataCallback metadataCallback) {
-
         Elements embeddedEntries = html.body().getElementsByClass("embedded-entry");
         Elements embeddedAssets = html.body().getElementsByClass("embedded-asset");
-
         embeddedEntries.forEach((entry) -> {
             String text = entry.text();
             String type = entry.attr("type");
