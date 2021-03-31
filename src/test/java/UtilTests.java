@@ -1,7 +1,7 @@
 import com.contentstack.utils.Utils;
-import com.contentstack.utils.callbacks.OptionsCallback;
+import com.contentstack.utils.callbacks.Option;
 import com.contentstack.utils.embedded.StyleType;
-import com.contentstack.utils.render.DefaultOptionsCallback;
+import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONObject;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
@@ -29,26 +29,26 @@ public class UtilTests {
 
     @Test
     public void test_01_renderFunction() {
-        OptionsCallback optionsCallback = (embeddedObject, metadata) -> {
+        Option option = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
         String[] keys = new String[2];
         keys[0] = "global_rich_multiple.group.rich_text_editor";
         keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
-        Utils.render(localJsonObj, keys, new DefaultOptionsCallback());
+        Utils.render(localJsonObj, keys, new DefaultOption());
     }
 
     @Test
     public void test_02_WithoutKeyPath() {
-        OptionsCallback optionsCallback = (embeddedObject, metadata) -> {
+        Option option = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
         String[] keys = new String[2];
         keys[0] = "global_rich_multiple.group.rich_text_editor";
         keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
-        Utils.render(localJsonObj, null, new DefaultOptionsCallback());
+        Utils.render(localJsonObj, null, new DefaultOption());
     }
 
 //    @Test
