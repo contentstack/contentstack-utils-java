@@ -37,11 +37,13 @@ public class ReadResource {
         }
 
         Document html = null;
+        assert rteArray != null;
         for (Object RTE : rteArray) {
             String stringify = (String) RTE;
             html = Jsoup.parse(stringify);
         }
 
+        assert html != null;
         Elements embeddedEntries = html.body().getElementsByClass("embedded-entry");
         Attributes attributes = embeddedEntries.get(0).attributes();
         return embeddedEntries.get(0).attributes();
@@ -56,11 +58,13 @@ public class ReadResource {
         }
 
         Document html = null;
+        assert rteArray != null;
         for (Object RTE : rteArray) {
             String stringify = (String) RTE;
             html = Jsoup.parse(stringify);
         }
 
+        assert html != null;
         Elements embeddedEntries = html.body().getElementsByClass("embedded-asset");
         Attributes attributes = embeddedEntries.get(0).attributes();
         return embeddedEntries.get(0).attributes();
