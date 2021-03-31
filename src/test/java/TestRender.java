@@ -1,7 +1,4 @@
-import com.contentstack.utils.Utils;
-import com.contentstack.utils.embedded.ItemType;
 import org.json.JSONObject;
-import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
