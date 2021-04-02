@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.contentstack.sdk</groupId>
-    <artifactId>util</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>utils</artifactId>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
-
-    <name>Contentstack-util</name>
+    <name>Contentstack-utils</name>
+    <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS with an API-first approach</description>
     <url>https://www.contentstack.com</url>
     <properties>
         <!-- package version -->
-        <util.version>0.0.1-SNAPSHOT</util.version>
+        <util.version>0.1.0-SNAPSHOT</util.version>
         <!-- UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.sourceEncoding>UTF-8</project.reporting.sourceEncoding>
@@ -53,6 +53,23 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
+
+    <scm>
+        <url>https://github.com/contentstack/contentstack-utils-java</url>
+        <connection>git@github.com:contentstack/contentstack-utils-java.git</connection>
+        <developerConnection>scm:git:ssh://github.com:contentstack/contentstack-utils-java.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>http://github.com/contentstack/contentstack-utils-java/issues</url>
+    </issueManagement>
+
+    <organization>
+        <name>Contentstack.</name>
+        <url>http://contentstack.com</url>
+    </organization>
 
     <dependencies>
         <dependency>
@@ -131,7 +148,6 @@
             # time-consuming stuff
             mvn surefire-report:report site -DgenerateReports=false
             -->
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
@@ -146,10 +162,8 @@
                 </executions>
             </plugin>
 
-            <!--
-            The Source Plugin creates a jar archive of the source files of
-            the current project. The jar file is, by default, created in the project's target directory.
-            -->
+            <!--The Source Plugin creates a jar archive of the source files of
+            the current project. The jar file is, by default, created in the project's target directory.-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -165,11 +179,37 @@
             </plugin>
 
             <!--The Javadoc Plugin uses the Javadoc tool to generate javadocs for the specified project-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-javadoc-plugin</artifactId>-->
+<!--                <version>${maven-javadoc-plugin.version}</version>-->
+<!--            </plugin>-->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>${maven-javadoc-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <additionalOptions>-Xdoclint:none</additionalOptions>
+                            <use>false</use>
+                            <use>false</use>
+                            <source>1.8</source>
+                            <links>
+                                <link>http://docs.oracle.com/javase/8/docs/api/</link>
+                                <link>http://docs.oracle.com/javase/8/docs/api/</link>
+                            </links>
+                            <doclint>none</doclint>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
+
 
             <!--
             The Site Plugin is used to generate a site for the project.
@@ -238,40 +278,40 @@
             </plugin>
 
 
-            <plugin>
-                <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.5</version>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.jacoco</groupId>-->
+<!--                <artifactId>jacoco-maven-plugin</artifactId>-->
+<!--                <version>0.8.5</version>-->
+<!--            </plugin>-->
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
-                <executions>
-                    <execution>
-                        <id>compile</id>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>testCompile</id>
-                        <phase>test-compile</phase>
-                        <goals>
-                            <goal>testCompile</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <compilerArgument>-Xlint:all</compilerArgument>
-                    <showWarnings>true</showWarnings>
-                    <showDeprecation>true</showDeprecation>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>3.8.0</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>compile</id>-->
+<!--                        <phase>compile</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>compile</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                    <execution>-->
+<!--                        <id>testCompile</id>-->
+<!--                        <phase>test-compile</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>testCompile</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--                <configuration>-->
+<!--                    <source>${java.version}</source>-->
+<!--                    <target>${java.version}</target>-->
+<!--                    <compilerArgument>-Xlint:all</compilerArgument>-->
+<!--                    <showWarnings>true</showWarnings>-->
+<!--                    <showDeprecation>true</showDeprecation>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
 
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
