@@ -7,6 +7,7 @@ import org.jsoup.nodes.Attributes;
  */
 public class Metadata {
 
+    // Metadata text of embedded object
     String text ;
     /* type of embedded object*/
     String itemType;
