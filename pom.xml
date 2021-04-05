@@ -6,27 +6,24 @@
 
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>0.1.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS with an API-first approach</description>
     <url>https://www.contentstack.com</url>
+
     <properties>
-        <!-- package version -->
         <util.version>0.1.0-SNAPSHOT</util.version>
-        <!-- UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.sourceEncoding>UTF-8</project.reporting.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <!-- Compilation -->
         <java.version>1.8</java.version>
-        <!-- Build Dependencies -->
         <build-helper.version>3.0.0</build-helper.version>
         <surefire-report-plugin.version>2.22.0</surefire-report-plugin.version>
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
-        <kotlin.version>1.4.10</kotlin.version>
+        <kotlin-test-junit.version>1.4.10</kotlin-test-junit.version>
         <junit.version>4.13.1</junit.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
         <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
@@ -66,6 +63,13 @@
         <url>http://github.com/contentstack/contentstack-utils-java/issues</url>
     </issueManagement>
 
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
     <organization>
         <name>Contentstack.</name>
         <url>http://contentstack.com</url>
@@ -81,12 +85,12 @@
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
-            <version>${kotlin.version}</version>
+            <version>${kotlin-test-junit.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-test</artifactId>
-            <version>${kotlin.version}</version>
+            <artifactId>kotlin-test-junit</artifactId>
+            <version>${kotlin-test-junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -101,15 +105,9 @@
         </dependency>
     </dependencies>
 
-
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
-            <!--
-            JaCoCo :: Maven Plugin
-            The JaCoCo Maven Plugin provides the JaCoCo runtime agent to your tests and allows basic report creation.
-            mvn clean install -P test-coverage
-            -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -127,10 +125,8 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-
                 </executions>
             </plugin>
-
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -138,15 +134,9 @@
                 <version>3.8.1</version>
             </plugin>
             <!--
-            # Run tests and generate .xml reports
-            mvn test
-
-            # Convert .xml reports into .html report, but without the CSS or images
-            mvn surefire-report:report-only
-
-            # Put the CSS and images where they need to be without the rest of the
-            # time-consuming stuff
-            mvn surefire-report:report site -DgenerateReports=false
+             mvn test
+             mvn surefire-report:report-only
+             mvn surefire-report:report site -DgenerateReports=false
             -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -162,8 +152,6 @@
                 </executions>
             </plugin>
 
-            <!--The Source Plugin creates a jar archive of the source files of
-            the current project. The jar file is, by default, created in the project's target directory.-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -177,13 +165,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-            <!--The Javadoc Plugin uses the Javadoc tool to generate javadocs for the specified project-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-javadoc-plugin</artifactId>-->
-<!--                <version>${maven-javadoc-plugin.version}</version>-->
-<!--            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -210,22 +191,12 @@
                 </executions>
             </plugin>
 
-
-            <!--
-            The Site Plugin is used to generate a site for the project.
-            The generated site also includes the project's reports that were configured in the POM.
-            -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>${maven-site-plugin.version}</version>
             </plugin>
 
-            <!--
-            Signs all of a project's attached artifacts with GnuPG.
-            You need to have previously configured the default key.
-            gpg also needs to be on the search path.
-            -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -241,18 +212,10 @@
                 </executions>
             </plugin>
 
-            <!--
-            Sometimes when you may need to compile a certain project to a different
-            version than what you are currently using. The javac can accept such command
-            using -source and -target. The Compiler Plugin can also be configured to
-            provide these option during compilation
-            -->
-
-            <!--Provides support to access staging functionality in a remote Nexus Professional server.-->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>${nexus-staging-maven-plugin.version}</version>
+                <version>1.6.7</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
@@ -261,10 +224,6 @@
                 </configuration>
             </plugin>
 
-            <!--
-            This plugin is used to release a project with Maven, saving a lot of repetitive, manual work.
-            Releasing a project is made in two steps: prepare and perform.
-            -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
@@ -277,46 +236,10 @@
                 </configuration>
             </plugin>
 
-
-<!--            <plugin>-->
-<!--                <groupId>org.jacoco</groupId>-->
-<!--                <artifactId>jacoco-maven-plugin</artifactId>-->
-<!--                <version>0.8.5</version>-->
-<!--            </plugin>-->
-
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-compiler-plugin</artifactId>-->
-<!--                <version>3.8.0</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>compile</id>-->
-<!--                        <phase>compile</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>compile</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                    <execution>-->
-<!--                        <id>testCompile</id>-->
-<!--                        <phase>test-compile</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>testCompile</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--                <configuration>-->
-<!--                    <source>${java.version}</source>-->
-<!--                    <target>${java.version}</target>-->
-<!--                    <compilerArgument>-Xlint:all</compilerArgument>-->
-<!--                    <showWarnings>true</showWarnings>-->
-<!--                    <showDeprecation>true</showDeprecation>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
-
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
-                <version>${kotlin.version}</version>
+                <version>${kotlin-test-junit.version}</version>
                 <executions>
                     <execution>
                         <id>compile</id>
@@ -327,8 +250,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-
         </plugins>
     </build>
 
