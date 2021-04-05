@@ -40,7 +40,6 @@ To render embedded items on the front-end, use the renderContents function, and 
 
 ```java
 
-
 Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
     
     switch (metadata.getStyleType()) {
@@ -67,6 +66,12 @@ Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
             String titleDiplayable = embeddedObject.getString("title");
             String mlDiplayable = embeddedObject.getString("multi_line");
             return "<p>" + titleDiplayable + "</p><span>" + mlDiplayable + "</span>";
+
+        // in case you have embedded items using “display” option in the RTE
+        case DOWNLOAD:
+            String titleDownload = embeddedObject.getString("title");
+            String mlDownload = embeddedObject.getString("multi_line");
+            return "<p>" + titleDiplayable + "</p><span>" + mlDownload + "</span>";
             
         default:
            return null;
@@ -94,7 +99,12 @@ entry.fetch(new EntryResultCallBack() {
     @Override
     public void onCompletion(ResponseType responseType, Error error) {
         if (error == null) {
-            [Success block]
+            // [Success block]
+            String[] keyPath = {
+            "rich_text_editor", "global_rich_multiple.group.rich_text_editor"
+            };
+            JSONObject jsonObject = entry.toJSON();
+            Utils.render(jsonObject, keyPath, new Option());
         } else {
             [Error block]
         }}
@@ -115,9 +125,16 @@ query.includeEmbeddedItems();
 query.find(new QueryResultsCallBack() {
     @Override
     public void onCompletion(ResponseType responseType, QueryResult queryResult, Error error) {
-    if(error == null){
-        [Success block]
-    }else{
+        if (error == null) {
+            List<Entry> entries = queryresult.getResultObjects();
+            String[] keyPath = {
+            "rich_text_editor", "global_rich_multiple.group.rich_text_editor"
+            };
+            for (Entry entry : entries) {
+                JSONObject jsonObject = entry.toJSON();
+                Utils.render(jsonObject, keyPath, new Option());
+            }
+        }else{
         [Error block]
     }}
 });

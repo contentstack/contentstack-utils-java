@@ -31,14 +31,6 @@ public class EmbeddedModelTests {
         Assert.assertEquals( "<p>hello</p><img class=\"embedded-asset\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-asset-filelink=\"http://localhost:8000/v3/assets/blte964dd749943a934/blt6ba515fc6c148887/5d0b406eb0ed0f0c3d433115/dp.jpeg\" data-sys-asset-uid=\"bltba476c60baacb442\" data-sys-asset-filename=\"dp.jpeg\" data-sys-asset-contenttype=\"image/jpeg\" type=\"asset\" sys-style-type=\"display\"></img><div class=\"redactor-component embedded-entry block-entry redactor-component-active\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"bltb5a04880fbb74f26\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"samplect\" sys-style-type=\"block\" type=\"entry\"></div>\n" +
                 "<p>hello</p>\n" +
                 "<p></p>", rich_text_editor);
-//        Elements embeddedEntries = html.body().getElementsByClass("_embedded_items");
-//        String uid = entry.attr("data-sys-entry-uid");
-//        String contentType = entry.attr("data-sys-content-type-uid");
-//        String style = entry.attr("sys-style-type");
-//        String outerHTML = entry.outerHtml();
-//        Metadata metadata = new Metadata("text", type, uid, contentType, style, outerHTML, entry.attributes());
-//        logger.info(metadata.toString());
-//        Assert.assertEquals("", outerHTML);
     }
 
 
