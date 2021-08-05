@@ -7,7 +7,7 @@ This guide will help you get started with Contentstack Java Utils SDK to build a
 ### Prerequisites
 - JDK 8 or later
 - Contentstack account
-- Latest version of IntelliJ IDEA / Eclipse / VSCode /
+- Latest version of IntelliJ IDEA / Eclipse / VSCode / Spring Tool Suite
 
 ### SDK Installation and Setup
 To setup Utils SDK in your Java project, add the following dependency in the pom.xml file
@@ -151,7 +151,7 @@ query.find(new QueryResultsCallBack() {
 ```
 
 #### Render JSON RTE Contents
-To get multiple entries, you need to provide the stack API key, environment name, delivery token, content type and entry UID. Then, use the Contentstack.Utils.jsonToHTML function as shown below:
+To get multiple entries, you need to provide the stack API key, environment name, delivery token, content type and entry UID. Then, use the Utils.jsonToHTML function as shown below:
 
 ```java
 
