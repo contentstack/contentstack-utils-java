@@ -7,7 +7,7 @@ This guide will help you get started with Contentstack Java Utils SDK to build a
 ### Prerequisites
 - JDK 8 or later
 - Contentstack account
-- Latest version of IntelliJ IDEA / Eclipse / VSCode
+- Latest version of IntelliJ IDEA / Eclipse / VSCode /
 
 ### SDK Installation and Setup
 To setup Utils SDK in your Java project, add the following dependency in the pom.xml file
@@ -16,7 +16,7 @@ To setup Utils SDK in your Java project, add the following dependency in the pom
 <dependency>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>util</artifactId>
-    <version>1.0.0</version>
+    <version>latest</version>
 </dependency>
 ```
 
@@ -27,7 +27,7 @@ If you are using Contentstack Java SDK, then the Utils SDK is already imported i
 <dependency>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>java</artifactId>
-    <version>1.6.0</version> // version 1.6.0 or above
+    <version>latest</version> // version 1.6.0 or above
 </dependency>
 ```
 
@@ -40,44 +40,54 @@ To render embedded items on the front-end, use the renderContents function, and 
 
 ```java
 
-Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
-    
-    switch (metadata.getStyleType()) {
-        // in case you have embedded items using “block” option in the RTE
-        case BLOCK:
-            String title = embeddedObject.getString("title");
-            String multi_line = embeddedObject.getString("multi_line");
-            return "<p>" + title + "</p><span>" + multi_line + "</span>";
-        
-        // in case you have embedded items using “inline” option in the RTE
-        case INLINE:
-            String titleInline = embeddedObject.getString("title");
-            String mlInline = embeddedObject.getString("multi_line");
-            return "<p>" + titleInline + "</p><span>" + mlInline + "</span>";
-        
-        // in case you have embedded items using “link” option in the RTE
-        case LINKED:
-            String titleLinked = embeddedObject.getString("title");
-            String mlLinked = embeddedObject.getString("multi_line");
-            return "<p>" + titleLinked + "</p><span>" + mlLinked + "</span>";
-            
-        // in case you have embedded items using “display” option in the RTE
-        case DISPLAY:
-            String titleDiplayable = embeddedObject.getString("title");
-            String mlDiplayable = embeddedObject.getString("multi_line");
-            return "<p>" + titleDiplayable + "</p><span>" + mlDiplayable + "</span>";
+package com.contentstack.utils;
+import com.contentstack.utils.helper.Metadata;
+import com.contentstack.utils.interfaces.NodeCallback;
+import com.contentstack.utils.interfaces.Option;
+import com.contentstack.utils.node.MarkType;
+import org.json.JSONObject;
 
-        // in case you have embedded items using “display” option in the RTE
-        case DOWNLOAD:
-            String titleDownload = embeddedObject.getString("title");
-            String mlDownload = embeddedObject.getString("multi_line");
-            return "<p>" + titleDiplayable + "</p><span>" + mlDownload + "</span>";
-            
-        default:
-           return null;
+public class DefaultOptionClass implements Option {
+
+    @Override
+    public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
+        switch (metadata.getStyleType()) {
+            case BLOCK:
+                return "<p>" + embeddedObject.getString("title") + "</p><span>" +
+                        embeddedObject.getString("multi") + "</span>";
+            case INLINE:
+                return "<p>" + embeddedObject.getString("title") + "</p><span>" +
+                        embeddedObject.getString("line") + "</span>";
+            case LINK:
+                return "<p>" + embeddedObject.getString("title") + "</p><span>" +
+                        embeddedObject.getString("key") + "</span>";
+            case DISPLAY:
+                return "<p>" + embeddedObject.getString("someTitle") + "</p><span>" +
+                        embeddedObject.getString("multi") + "</span>";
+            default:
+                return null;
+        }
     }
 
-});
+    @Override
+    public String renderMark(MarkType markType, String renderText) {
+        if (markType == MarkType.BOLD) {
+            return "<b>" + renderText + "</b>";
+        }
+        return null;
+    }
+
+    @Override
+    public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
+        if (nodeType.equalsIgnoreCase("paragraph")) {
+            String children = callback.renderChildren(nodeObject.optJSONArray("children"));
+            return "<p class='class-id'>" + children + "</p>";
+        }
+
+        return null;
+    }
+}
+
 ```
 
 
@@ -106,7 +116,7 @@ entry.fetch(new EntryResultCallBack() {
             JSONObject jsonObject = entry.toJSON();
             Utils.render(jsonObject, keyPath, new Option());
         } else {
-            [Error block]
+            [Error block] // handle your error 
         }}
 });
 ```
@@ -135,9 +145,36 @@ query.find(new QueryResultsCallBack() {
                 Utils.render(jsonObject, keyPath, new Option());
             }
         }else{
-        [Error block]
+          [Error block] // handle your error 
     }}
 });
 ```
+
+#### Render JSON RTE Contents
+To get multiple entries, you need to provide the stack API key, environment name, delivery token, content type and entry UID. Then, use the Contentstack.Utils.jsonToHTML function as shown below:
+
+```java
+
+import Contentstack
+Stack stack = Contentstack.stack("apiKey", "deliveryToken", "environment_name");
+Query query = stack.contentType("content_type_uid").query();
+query.includeEmbeddedItems(); // include embedded items
+query.find(new QueryResultsCallBack() {
+    @Override
+    public void onCompletion(ResponseType responseType, QueryResult queryResult, Error error) {
+        if (error == null) {
+            List<Entry> entries = queryresult.getResultObjects();
+            String[] keyPath = {
+            "rte_fieldUid", "group.rteFieldUID"
+            };
+            for (Entry entry : entries) {
+                JSONObject jsonObject = entry.toJSON();
+                Utils.jsonToHTML(jsonObject, keyPath, new Option());
+            }
+        }}
+});
+
+```
+
 
 
