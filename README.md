@@ -27,7 +27,7 @@ If you are using Contentstack Java SDK, then the Utils SDK is already imported i
 <dependency>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>java</artifactId>
-    <version>latest</version> // version 1.6.0 or above
+    <version>latest</version>
 </dependency>
 ```
 
