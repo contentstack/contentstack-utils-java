@@ -16,7 +16,7 @@ To setup Utils SDK in your Java project, add the following dependency in the pom
 <dependency>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>util</artifactId>
-    <version>latest</version>
+    <version>{latest}</version>
 </dependency>
 ```
 
@@ -27,7 +27,7 @@ If you are using Contentstack Java SDK, then the Utils SDK is already imported i
 <dependency>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>java</artifactId>
-    <version>latest</version>
+    <version>{latest}</version>
 </dependency>
 ```
 

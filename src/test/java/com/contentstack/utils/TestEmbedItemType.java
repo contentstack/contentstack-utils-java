@@ -1,3 +1,5 @@
+package com.contentstack.utils;
+
 import com.contentstack.utils.embedded.ItemType;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -20,13 +22,13 @@ public class TestEmbedItemType {
     }
 
     @Test
-    public void testAvailableEntryItemTypes(){
+    public void testAvailableEntryItemTypes() {
         ItemType itemType = ItemType.ENTRY;
         Assert.assertEquals("ENTRY", itemType.name());
     }
 
     @Test
-    public void testAvailableAssetItemTypes(){
+    public void testAvailableAssetItemTypes() {
         ItemType itemType = ItemType.ASSET;
         Assert.assertEquals("ASSET", itemType.name());
     }

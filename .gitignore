@@ -13,6 +13,9 @@ tmp/
 *.bak
 *.swp
 *~.nib
+.env
+.env/
+.talismanrc
 local.properties
 .settings/
 .loadpath
@@ -191,7 +194,7 @@ Icon
 # Thumbnails
 ._*
 
-# ReadResource that might appear in the root of a volume
+# com.contentstack.utils.ReadResource that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
