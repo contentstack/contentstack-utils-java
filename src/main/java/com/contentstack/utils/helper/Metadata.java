@@ -1,29 +1,32 @@
 package com.contentstack.utils.helper;
+
 import com.contentstack.utils.embedded.StyleType;
 import org.jsoup.nodes.Attributes;
 
 /**
- * POJO(Getters and Setters) for the Embedded Objects, that helps to carry the objects
+ * POJO(Getters and Setters) for the Embedded Objects, that helps to carry the
+ * objects
  */
 public class Metadata {
 
     // Metadata text of embedded object
-    String text ;
-    /* type of embedded object*/
+    String text;
+    /* type of embedded object */
     String itemType;
-    /* itemUid of embedded object*/
+    /* itemUid of embedded object */
     String itemUid;
-    /* contentTypeUid of embedded object*/
+    /* contentTypeUid of embedded object */
     String contentTypeUid;
-    /* styleTypeUid of embedded object*/
+    /* styleTypeUid of embedded object */
     StyleType styleType;
-    /* Outer HTML of embedded object*/
+    /* Outer HTML of embedded object */
     String outerHTML;
-    /* attributes of embedded object*/
+    /* attributes of embedded object */
     Attributes attributes;
 
-    public Metadata(String text, String itemType, String itemUid, String contentTypeUid, String styleType, String outerHTML, Attributes attributes) {
-       this.text= text;
+    public Metadata(String text, String itemType, String itemUid, String contentTypeUid, String styleType,
+            String outerHTML, Attributes attributes) {
+        this.text = text;
         this.itemType = itemType;
         this.itemUid = itemUid;
         this.contentTypeUid = contentTypeUid;
@@ -45,11 +48,17 @@ public class Metadata {
                 '}';
     }
 
-    public String getText() { return text; }
+    public String getText() {
+        return text;
+    }
 
-    public String getItemType() { return itemType; }
+    public String getItemType() {
+        return itemType;
+    }
 
-    public Attributes getAttributes() { return attributes; }
+    public Attributes getAttributes() {
+        return attributes;
+    }
 
     public String getItemUid() {
         return itemUid;

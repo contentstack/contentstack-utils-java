@@ -1,3 +1,5 @@
+package com.contentstack.utils;
+
 import org.json.JSONObject;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
@@ -16,11 +18,11 @@ public class TestRender {
     @BeforeClass
     public static void startTestEmbedItemType() {
         logger.setLevel(Level.ALL);
-        logger.info("Initiated TestRender testcases");
+        logger.info("Initiated com.contentstack.utils.TestRender testcases");
     }
 
     @Test
-    public void testAvailableEntryItemTypes(){
+    public void testAvailableEntryItemTypes() {
 
     }
 }

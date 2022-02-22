@@ -1,7 +1,8 @@
 package com.contentstack.utils.embedded;
 
 /**
- * There are 3 ways (BLOCK, INLINE, LINKED) of attaching entries inside the RTE field as mentioned in requirements.
+ * There are 3 ways (BLOCK, INLINE, LINKED) of attaching entries inside the RTE
+ * field as mentioned in requirements.
  * And Two Ways (DOWNLOADABLE, DISPLAYABLE) for assets
  *
  * [`Example`]:

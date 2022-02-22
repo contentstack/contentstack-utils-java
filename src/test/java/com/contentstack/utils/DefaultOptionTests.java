@@ -1,3 +1,5 @@
+package com.contentstack.utils;
+
 import com.contentstack.utils.helper.Metadata;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONObject;
@@ -26,61 +28,60 @@ public class DefaultOptionTests {
     }
 
     @Test
-    public void test_01_test_attributes() {
+    public void testTestAttributes() {
         Attributes attributes = new ReadResource().returnEntryAttributes(localJsonObj);
         Assert.assertEquals("entry", attributes.get("type").toLowerCase());
     }
 
     @Test
-    public void test_02_renderOptions() {
+    public void testRenderOptions() {
         Attributes attributes = new ReadResource().returnEntryAttributes(localJsonObj);
         Assert.assertEquals("entry", attributes.get("type").toLowerCase());
         final DefaultOption defaultOptions = new DefaultOption();
-        Metadata metadata = new Metadata("TextTest", "entry", "blt6723673", "content_type_uid", "block","outerHTMLTet", attributes);
+        Metadata metadata = new Metadata("TextTest", "entry", "6723673", "content_type_uid", "block", "outerHTMLTet",
+                attributes);
         String result = defaultOptions.renderOptions(localJsonObj.optJSONObject("_embedded_items"), metadata);
         Assert.assertEquals("<div><p></p><div><p>Content type: <span></span></p></div>", result);
     }
 
-
     @Test
-    public void test_03_defaultOptions() {
+    public void testDefaultOptions() {
         Attributes attributes = new ReadResource().returnEntryAttributes(localJsonObj);
         final DefaultOption defaultOptions = new DefaultOption();
-        Metadata metadata = new Metadata("TextTest", "entry", "blt6723673", "content_type_uid", "block","outerHTMLTet", attributes);
+        Metadata metadata = new Metadata("TextTest", "entry", "6723673", "content_type_uid", "block", "outerHTMLTet",
+                attributes);
         String result = defaultOptions.renderOptions(localJsonObj.optJSONObject("_embedded_items"), metadata);
         Assert.assertEquals("<div><p></p><div><p>Content type: <span></span></p></div>", result);
     }
 
-
     @Test
-    public void test_04_entryInline() {
+    public void testEntryInline() {
         Attributes attributes = new ReadResource().returnEntryAttributes(localJsonObj);
         final DefaultOption defaultOptions = new DefaultOption();
-        Metadata metadata = new Metadata("TextTest", "entry", "blt6723673", "content_type_uid", "inline","outerHTMLTet", attributes);
+        Metadata metadata = new Metadata("TextTest", "entry", "6723673", "content_type_uid", "inline",
+                "outerHTMLTet", attributes);
         String result = defaultOptions.renderOptions(localJsonObj.optJSONObject("_embedded_items"), metadata);
         Assert.assertEquals("<span></span>", result);
     }
 
-
     @Test
-    public void test_05_embeddedLink() {
+    public void testEmbeddedLink() {
         Attributes attributes = new ReadResource().returnEntryAttributes(localJsonObj);
         final DefaultOption defaultOptions = new DefaultOption();
-        Metadata metadata = new Metadata("TextTest", "entry", "blt6723673", "content_type_uid", "link","outerHTMLTet", attributes);
+        Metadata metadata = new Metadata("TextTest", "entry", "6723673", "content_type_uid", "linked",
+                "outerHTMLTet", attributes);
         String result = defaultOptions.renderOptions(localJsonObj.optJSONObject("_embedded_items"), metadata);
         Assert.assertEquals("<a href=\"\"></a>", result);
     }
 
     @Test
-    public void test_embedded_default_displayable() {
+    public void testEmbeddedDefaultDisplayable() {
         Attributes attributes = new ReadResource().returnEntryAttributes(localJsonObj);
         final DefaultOption defaultOptions = new DefaultOption();
-        Metadata metadata = new Metadata("TextTest", "entry", "blt6723673", "content_type_uid", "display","outerHTMLTet", attributes);
+        Metadata metadata = new Metadata("TextTest", "entry", "6723673", "content_type_uid", "display",
+                "outerHTMLTet", attributes);
         String result = defaultOptions.renderOptions(localJsonObj.optJSONObject("_embedded_items"), metadata);
         Assert.assertEquals("<img src=\"\" alt=\"\" />", result);
     }
-
-
-
 
 }

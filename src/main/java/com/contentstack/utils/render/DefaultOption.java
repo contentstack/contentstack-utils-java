@@ -1,30 +1,34 @@
 package com.contentstack.utils.render;
-import com.contentstack.utils.callbacks.Option;
+
+import com.contentstack.utils.callbacks.OptionsCallback;
 import com.contentstack.utils.helper.Metadata;
 import org.json.JSONObject;
 
 /**
  * DefaultOptionsCallback
  */
-public class DefaultOption implements Option {
+public class DefaultOption implements OptionsCallback {
 
     /**
      * Accepts below params to provides defaults options
+     * 
      * @param embeddedObject entry embedded object
-     * @param metadata for of the entry object
+     * @param metadata       for of the entry object
      * @return String as result
      */
     @Override
     public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
         switch (metadata.getStyleType()) {
             case BLOCK:
-                return "<div><p>"+findTitleOrUid(embeddedObject)+"</p><div><p>Content type: <span>"+embeddedObject.optString("_content_type_uid")+"</span></p></div>";
+                return "<div><p>" + findTitleOrUid(embeddedObject) + "</p><div><p>Content type: <span>"
+                        + embeddedObject.optString("_content_type_uid") + "</span></p></div>";
             case INLINE:
-                return "<span>"+findTitleOrUid(embeddedObject)+"</span>";
-            case LINK:
-                return "<a href=\""+embeddedObject.optString("url")+"\">"+findTitleOrUid(embeddedObject)+"</a>";
+                return "<span>" + findTitleOrUid(embeddedObject) + "</span>";
+            case LINKED:
+                return "<a href=\"" + embeddedObject.optString("url") + "\">" + findTitleOrUid(embeddedObject) + "</a>";
             case DISPLAY:
-                return "<img src=\""+embeddedObject.optString("url")+"\" alt=\""+findAssetTitle(embeddedObject)+"\" />";
+                return "<img src=\"" + embeddedObject.optString("url") + "\" alt=\"" + findAssetTitle(embeddedObject)
+                        + "\" />";
             default:
                 return "";
         }
@@ -32,6 +36,7 @@ public class DefaultOption implements Option {
 
     /**
      * Returns Title From The Embedded Object of type entry
+     * 
      * @param embeddedObject JSONObject
      * @return String
      */
@@ -50,6 +55,7 @@ public class DefaultOption implements Option {
 
     /**
      * Returns Title From The Embedded Object of type asset
+     * 
      * @param embeddedObject JSONObject
      * @return String
      */
@@ -58,7 +64,7 @@ public class DefaultOption implements Option {
         if (embeddedObject != null) {
             if (embeddedObject.has("title") && !embeddedObject.optString("title").isEmpty()) {
                 _title = embeddedObject.optString("title");
-            }else if (embeddedObject.has("filename")) {
+            } else if (embeddedObject.has("filename")) {
                 _title = embeddedObject.optString("filename");
             } else if (embeddedObject.has("uid")) {
                 _title = embeddedObject.optString("uid");

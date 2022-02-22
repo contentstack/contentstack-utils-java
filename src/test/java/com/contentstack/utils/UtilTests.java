@@ -1,7 +1,7 @@
-import com.contentstack.utils.Utils;
-import com.contentstack.utils.callbacks.Option;
+package com.contentstack.utils;
+
+import com.contentstack.utils.callbacks.OptionsCallback;
 import com.contentstack.utils.embedded.StyleType;
-import com.contentstack.utils.helper.Metadata;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -9,6 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
+
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -25,12 +26,11 @@ public class UtilTests {
         final String EMBEDDED_ITEMS = "src/test/resources/multiple_rich_text_content.json";
         localJsonObj = new ReadResource().readJson(EMBEDDED_ITEMS);
         localJsonObj = (JSONObject) localJsonObj.getJSONArray("entries").get(0);
-        logger.info("Reading Local Json Object"+localJsonObj);
     }
 
     @Test
-    public void test_01_renderFunction() {
-        Option option = (embeddedObject, metadata) -> {
+    public void testRenderFunction() {
+        OptionsCallback option = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
@@ -41,8 +41,8 @@ public class UtilTests {
     }
 
     @Test
-    public void test_02_WithoutKeyPath() {
-        Option option = (embeddedObject, metadata) -> {
+    public void testWithoutKeyPath() {
+        OptionsCallback option = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
@@ -53,7 +53,7 @@ public class UtilTests {
     }
 
     @Test
-    public void test_03_EmbeddedBlockEntry() {
+    public void testEmbeddedBlockEntry() {
         JSONArray rteArray = null;
         boolean available = localJsonObj.has("rich_text_editor");
         if (available) {
@@ -81,9 +81,8 @@ public class UtilTests {
         });
     }
 
-
     @Test
-    public void test_2_embedded_inline_entry() {
+    public void testEmbeddedInlineEntry() {
         JSONArray rteArray = null;
         boolean available = localJsonObj.has("rich_text_editor");
         if (available) {
@@ -102,7 +101,7 @@ public class UtilTests {
                     // statements of INLINE
                     return null;
 
-                case LINK:
+                case LINKED:
                     // statements of LINKED
                     return null;
 
@@ -112,9 +111,8 @@ public class UtilTests {
         });
     }
 
-
     @Test
-    public void test_3_embedded_linked_entry() {
+    public void testEmbeddedLinkedEntry() {
         JSONArray rteArray = null;
         boolean available = localJsonObj.has("rich_text_editor");
         if (available) {
@@ -125,8 +123,6 @@ public class UtilTests {
         Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
             switch (metadata.getStyleType()) {
                 case BLOCK:
-                    //Statements of BLOCK
-                    //blockRTE();
                     String title = embeddedObject.getString("title");
                     String multi_line = embeddedObject.getString("multi_line");
                     return "<p>" + title + "</p><span>" + multi_line + "</span>";
@@ -135,7 +131,7 @@ public class UtilTests {
                     // Statements of INLINE
                     return null;
 
-                case LINK:
+                case LINKED:
                     // Statements of LINKED
                     return null;
 
@@ -146,9 +142,8 @@ public class UtilTests {
         });
     }
 
-
     @Test
-    public void test_embedded_displayable_asset() {
+    public void testEmbeddedDisplayableAsset() {
         JSONObject rteObject = null;
         boolean available = localJsonObj.has("rich_text_editor");
         if (available) {
@@ -159,16 +154,12 @@ public class UtilTests {
         String[] keyPath = {
                 "rich_text_editor", "global_rich_multiple.group.rich_text_editor"
         };
-        Utils.render(rteObject, keyPath, new Option() {
-            @Override
-            public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
-                if (metadata.getStyleType()==StyleType.BLOCK){
-                    // Do something
-                }
-                return null;
+        Utils.render(rteObject, keyPath, (embeddedObject, metadata) -> {
+            if (metadata.getStyleType() == StyleType.BLOCK) {
+                // Do something
             }
+            return null;
         });
     }
-
 
 }
