@@ -14,7 +14,6 @@ public class Constant {
         throw new IllegalAccessException("Not allowed");
     }
 
-    // constants
     static final String URL = "url";
     static final String QUALITY = "quality";
     static final String EFFECTS = "effects";
