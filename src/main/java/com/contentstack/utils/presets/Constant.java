@@ -45,23 +45,28 @@ public class Constant {
         if (!asset.containsKey("_metadata")) {
             throwException(asset, "_metadata keys not found");
         }
-        JSONObject localMetadata = (JSONObject) asset.get("_metadata");
-        if (!asset.containsKey("extensions")) {
-            throwException(localMetadata, "extensions not present in the object");
-        }
-        return localMetadata;
+//        JSONObject localMetadata = (JSONObject) asset.get("_metadata");
+//        if (!asset.containsKey("extensions")) {
+//            throwException(localMetadata, "extensions not present in the object");
+//        }
+        return (JSONObject) asset.get("_metadata");
     }
 
     protected static List<JSONObject> extractMetadata(
-            JSONObject extensionUid, String presetName, String random) {
-        JSONObject localMetadata = (JSONObject) extensionUid.get("local_metadata");
-        JSONObject globalMetadata = (JSONObject) extensionUid.get("global_metadata");
-        List<JSONObject> localKeys = returnPresetObject(localMetadata, presetName, random);
-        List<JSONObject> globalKeys = Collections.emptyList();
-        if (localKeys.isEmpty()) {
-            globalKeys = returnPresetObject(globalMetadata, presetName, random);
+            JSONArray extensionArray, String presetName, String random) {
+
+        List<JSONObject> localPresetList = Collections.emptyList();
+        for (Object element : extensionArray) {
+            JSONObject presetObj = (JSONObject) element;
+            if (presetObj.containsKey("is_global")) {
+                boolean isGlobal = (boolean) presetObj.get("is_global");
+                if (!isGlobal)
+                    localPresetList = returnPresetObject(presetObj, presetName, random);
+                if (localPresetList.isEmpty())
+                    localPresetList = returnPresetObject(presetObj, presetName, random);
+            }
         }
-        return globalKeys.isEmpty() ? localKeys : globalKeys;
+        return localPresetList;
     }
 
     protected static List<JSONObject> returnPresetObject(
@@ -75,15 +80,15 @@ public class Constant {
     protected static List<JSONObject> getByPresetName(
             JSONArray presetArray, String presetName, String random) {
         List<JSONObject> listPreset = new ArrayList<>();
-        presetArray.forEach(preset -> {
-            JSONObject presetObj = (JSONObject) preset;
+        for(Object element: presetArray){
+            JSONObject presetObj = (JSONObject) element;
             if (presetObj.containsKey(random)) {
                 String localPresetName = (String) presetObj.get(random);
                 if (localPresetName.equalsIgnoreCase(presetName)) {
                     listPreset.add(presetObj);
                 }
             }
-        });
+        }
         return listPreset;
     }
 }

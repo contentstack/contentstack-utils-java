@@ -31,29 +31,34 @@
     "title": "crop_area.jpeg",
     "_metadata": {
         "extensions": {
-            "theExtensionUid": {
-                "local_metadata": {
+            "theExtensionUid": [
+                {
                     "local_data": "main",
-                    "presets": [{
+                    "presets": [
+                        {
                             "uid": "the_fake_preset_uid",
                             "name": "Local Preset",
                             "options": {
                                 "transform": {
-                                    "height": 500,
-                                    "width": 500,
-                                    "flip-mode": "horiz",
-                                    "rotate": 40
+                                    "height": "412",
+                                    "width": "500",
+                                    "rotate": "0",
+                                    "flip-mode": "none"
                                 },
                                 "focal-point": {
-                                    "x": -0.668935003427432,
-                                    "y": -0.9220385351936531
+                                    "x": 0.20234468098811553,
+                                    "y": 0.12645978269366065
                                 },
-                                "quality": "100",
-                                "image-type": "jpeg"
+                                "quality": "10",
+                                "image-type": "jpeg",
+                                "height": "712",
+                                "width": "864",
+                                "effects": {},
+                                "overlay": {}
                             }
                         },
                         {
-                            "uid": "the_fake_preset_uid_repeat",
+                            "uid": "the_fake_preset_uid_again",
                             "name": "WithCrop",
                             "options": {
                                 "quality": "100",
@@ -71,7 +76,7 @@
                             }
                         },
                         {
-                            "uid": "the_fake_preset_uid_again",
+                            "uid": "global_fake_preset_uid_1",
                             "name": "Filter",
                             "options": {
                                 "quality": "100",
@@ -92,25 +97,69 @@
                                     }
                                 }
                             }
+                        },
+                        {
+                            "uid": "8cfdb398-ad8b-4ce8-952d-e7cdd40acd66",
+                            "name": "Local Preset 2",
+                            "options": {}
+                        },
+                        {
+                            "name": "Local Preset 3",
+                            "uid": "423e058e-6302-4861-80d8-9223f44307c0",
+                            "options": {
+                                "quality": "100",
+                                "image-type": "jpeg",
+                                "transform": {
+                                    "height": "412",
+                                    "width": "607"
+                                }
+                            }
+                        },
+                        {
+                            "name": "Local 4",
+                            "uid": "8f59e2eb-b0b1-4f64-90b2-c6e08fcd725b",
+                            "options": {
+                                "quality": "100",
+                                "image-type": "jpeg",
+                                "transform": {
+                                    "flip-mode": "horiz"
+                                }
+                            }
+                        },
+                        {
+                            "name": "test",
+                            "uid": "7be6c066-2294-4ef1-b748-557e74d71028",
+                            "options": {
+                                "quality": "100",
+                                "image-type": "jpeg",
+                                "transform": {
+                                    "height": "412",
+                                    "width": "607"
+                                }
+                            }
                         }
-                    ]
+                    ],
+                    "is_global": false
                 },
-                "global_metadata": {
-                    "presets": [{
-                        "uid": "global_fake_preset_uid",
-                        "name": "Global Preset",
-                        "options": {
-                            "quality": "100",
-                            "transform": {
-                                "height": "712",
-                                "width": "864",
-                                "flip-mode": "verti"
-                            },
-                            "image-type": "jpeg"
+                {
+                    "presets": [
+                        {
+                            "uid": "global_fake_preset_uid",
+                            "name": "Global Preset",
+                            "options": {
+                                "quality": "100",
+                                "transform": {
+                                    "height": "712",
+                                    "width": "864",
+                                    "flip-mode": "verti"
+                                },
+                                "image-type": "jpeg"
+                            }
                         }
-                    }]
+                    ],
+                    "is_global": true
                 }
-            }
+            ]
         }
     }
 }

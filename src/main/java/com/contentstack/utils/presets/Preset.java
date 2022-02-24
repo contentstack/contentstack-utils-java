@@ -2,6 +2,7 @@ package com.contentstack.utils.presets;
 
 import org.apache.http.client.utils.URIBuilder;
 import org.jetbrains.annotations.NotNull;
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import java.net.MalformedURLException;
@@ -18,7 +19,7 @@ public class Preset {
             @NotNull String extensionUid,
             @NotNull String presetName) {
 
-        final JSONObject localExtensionUid = returnExtensionId(asset, extensionUid);
+        final JSONArray localExtensionUid = returnExtensionId(asset, extensionUid);
         if (presetName.isEmpty()) {
             throw new IllegalArgumentException("Please provide valid Preset Name");
         }
@@ -50,7 +51,7 @@ public class Preset {
             @NotNull String extensionUid,
             @NotNull String presetUid) {
 
-        final JSONObject localExtensionUid = returnExtensionId(asset, extensionUid);
+        final JSONArray localExtensionUid = returnExtensionId(asset, extensionUid);
         List<JSONObject> presetOptionKEYS = extractMetadata(localExtensionUid, presetUid, "uid");
         String assetUrl = (String) asset.get(URL);
         try {
@@ -121,13 +122,13 @@ public class Preset {
         }
     }
 
-    private JSONObject returnExtensionId(JSONObject asset, String extensionUid) {
+    private JSONArray returnExtensionId(JSONObject asset, String extensionUid) {
         JSONObject localMetadata = validator(asset);
         if (extensionUid.isEmpty()) {
             throw new IllegalArgumentException("Please provide valid extension uid");
         }
         JSONObject localExtensions = (JSONObject) localMetadata.get("extensions");
-        return (JSONObject) localExtensions.get(extensionUid);
+        return (JSONArray) localExtensions.get(extensionUid);
     }
 
 }
