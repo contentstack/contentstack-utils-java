@@ -17,7 +17,7 @@ import java.io.IOException;
 public class PresetTest {
 
     Preset preset = new Preset();
-    JSONObject assetFile = readJson("management/asset.json");
+    JSONObject assetFile = readJson("management/demoasset.json");
 
     private static JSONObject readJson(String file) {
         JSONObject mockJsonObject = null;
@@ -86,7 +86,7 @@ public class PresetTest {
     public void testResolvePresetByPresetName() {
         String url = preset.resolvePresetByPresetName(assetFile, "theExtensionUid", "Local Preset");
         Assert.assertEquals(
-                "http://localhost:8000/v3/assets/crop_area.jpeg?height=500&width=500&orient=2&format=jpeg&quality=100",
+                "http://localhost:8000/v3/assets/crop_area.jpeg?height=412&width=500&format=jpeg&quality=10",
                 url);
     }
 
@@ -95,7 +95,7 @@ public class PresetTest {
         JSONObject assetWithQuestionMarkJson = readJson("management/asset_with_question_mark.json");
         String url = preset.resolvePresetByPresetName(assetWithQuestionMarkJson, "theExtensionUid", "Local Preset");
         Assert.assertEquals(
-                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100&height=500&width=500&orient=2&format=jpeg&quality=100",
+                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100&height=412&width=500&format=jpeg&quality=10",
                 url);
     }
 
@@ -103,7 +103,7 @@ public class PresetTest {
     public void testResolvePresetByPresetUID() {
         String url = preset.resolvePresetByPresetUID(assetFile, "theExtensionUid", "the_fake_preset_uid");
         Assert.assertEquals(
-                "http://localhost:8000/v3/assets/crop_area.jpeg?height=500&width=500&orient=2&format=jpeg&quality=100",
+                "http://localhost:8000/v3/assets/crop_area.jpeg?height=412&width=500&format=jpeg&quality=10",
                 url);
     }
 
@@ -113,7 +113,7 @@ public class PresetTest {
         String url = preset.resolvePresetByPresetUID(assetWithQuestionMarkJson, "theExtensionUid",
                 "the_fake_preset_uid");
         Assert.assertEquals(
-                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100&height=500&width=500&orient=2&format=jpeg&quality=100",
+                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100&height=412&width=500&format=jpeg&quality=10",
                 url);
     }
 
@@ -123,7 +123,7 @@ public class PresetTest {
         String url = preset.resolvePresetByPresetUID(assetWithQuestionMarkJson, "theExtensionUid",
                 "the_fake_preset_uid");
         Assert.assertEquals(
-                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100&height=500&width=500&orient=2&format=jpeg&quality=100",
+                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100&height=412&width=500&format=jpeg&quality=10",
                 url);
     }
 
