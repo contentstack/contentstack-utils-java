@@ -45,10 +45,6 @@ public class Constant {
         if (!asset.containsKey("_metadata")) {
             throwException(asset, "_metadata keys not found");
         }
-//        JSONObject localMetadata = (JSONObject) asset.get("_metadata");
-//        if (!asset.containsKey("extensions")) {
-//            throwException(localMetadata, "extensions not present in the object");
-//        }
         return (JSONObject) asset.get("_metadata");
     }
 
