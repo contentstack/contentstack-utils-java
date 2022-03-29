@@ -3,6 +3,7 @@ package com.contentstack.utils;
 import com.contentstack.utils.callbacks.Content;
 import com.contentstack.utils.callbacks.Metadata;
 import com.contentstack.utils.callbacks.OptionsCallback;
+import com.contentstack.utils.presets.Constant;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -32,15 +33,14 @@ public class Utils {
             return null;
         };
 
-        if (entryObj != null && entryObj.has("_embedded_items")) {
-            // when keyPath is provided by user
+        if (entryObj != null && entryObj.has(Constant.EMBEDDED_ITEMS)) {
             if (keyPath != null) {
                 for (String path : keyPath) {
                     findContent(entryObj, path, callback);
                 }
             } else {
-                // if keyPath is not given, extract all available keyPath from _embedded_items
-                JSONObject embedKeys = entryObj.getJSONObject("_embedded_items");
+                // Case when KeyPath is not given by user, Extract all available keyPath from _embedded_items
+                JSONObject embedKeys = entryObj.getJSONObject(Constant.EMBEDDED_ITEMS);
                 ArrayList<String> pathKeys = new ArrayList<>(embedKeys.keySet());
                 for (String path : pathKeys) {
                     findContent(entryObj, path, callback);
@@ -116,9 +116,9 @@ public class Utils {
         Document html = Jsoup.parse(rteStringify);
         getEmbeddedObjects(html, metadata -> {
             Optional<JSONObject> filteredContent = Optional.empty();
-            boolean available = embedObject.has("_embedded_items");
+            boolean available = embedObject.has(Constant.EMBEDDED_ITEMS);
             if (available) {
-                JSONObject jsonArray = embedObject.optJSONObject("_embedded_items");
+                JSONObject jsonArray = embedObject.optJSONObject(Constant.EMBEDDED_ITEMS);
                 filteredContent = findEmbeddedItems(jsonArray, metadata);
             }
             if (filteredContent.isPresent()) {
@@ -163,7 +163,7 @@ public class Utils {
         for (String key : allKeys) {
             JSONArray jsonArray = jsonObject.optJSONArray(key);
             Optional<JSONObject> filteredContent = StreamSupport.stream(jsonArray.spliterator(), false)
-                    .map(val -> (JSONObject) val)
+                    .map(JSONObject.class::cast)
                     .filter(val -> val.optString("uid").equalsIgnoreCase(metadata.getItemUid())).findFirst();
             if (filteredContent.isPresent()) {
                 return filteredContent;
@@ -185,7 +185,7 @@ public class Utils {
     private static void getEmbeddedObjects(Document html, Metadata metadataCallback) {
         Elements embeddedEntries = html.body().getElementsByClass("embedded-entry");
         Elements embeddedAssets = html.body().getElementsByClass("embedded-asset");
-        embeddedEntries.forEach((entry) -> {
+        embeddedEntries.forEach(entry -> {
             String text = entry.text();
             String type = entry.attr("type");
             String uid = entry.attr("data-sys-entry-uid");
@@ -197,7 +197,7 @@ public class Utils {
             metadataCallback.embeddedObject(metadata);
         });
 
-        embeddedAssets.forEach((asset) -> {
+        embeddedAssets.forEach(asset -> {
             String text = asset.text();
             String type = asset.attr("type");
             String uid = asset.attr("data-sys-asset-uid");
