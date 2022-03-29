@@ -10,8 +10,9 @@ import java.util.List;
 
 public class Constant {
 
+
     private Constant() throws IllegalAccessException {
-        throw new IllegalAccessException("Not allowed");
+        throw new IllegalAccessException("Private=Constructor not allowed");
     }
 
     static final String URL = "url";
@@ -28,6 +29,7 @@ public class Constant {
     static final String TRANSFORM = "transform";
     static final String FLIP_MODE = "flip-mode";
     static final String IMAGE_TYPE = "image-type";
+    public static final String EMBEDDED_ITEMS = "_embedded_items";
 
     protected static void throwException(JSONObject jsonAsset, @NotNull String localisedMessage) {
         if (jsonAsset.isEmpty()) {
@@ -53,13 +55,7 @@ public class Constant {
         List<JSONObject> localPresetList = Collections.emptyList();
         for (Object element : extensionArray) {
             JSONObject presetObj = (JSONObject) element;
-            if (presetObj.containsKey("is_global")) {
-                boolean isGlobal = (boolean) presetObj.get("is_global");
-                if (!isGlobal)
-                    localPresetList = returnPresetObject(presetObj, presetName, random);
-                if (localPresetList.isEmpty())
-                    localPresetList = returnPresetObject(presetObj, presetName, random);
-            }
+            localPresetList = returnPresetObject(presetObj, presetName, random);
         }
         return localPresetList;
     }
@@ -73,9 +69,10 @@ public class Constant {
     }
 
     protected static List<JSONObject> getByPresetName(
-            JSONArray presetArray, String presetName, String random) {
+            JSONArray presetArray,
+            String presetName, String random) {
         List<JSONObject> listPreset = new ArrayList<>();
-        for(Object element: presetArray){
+        for (Object element : presetArray) {
             JSONObject presetObj = (JSONObject) element;
             if (presetObj.containsKey(random)) {
                 String localPresetName = (String) presetObj.get(random);

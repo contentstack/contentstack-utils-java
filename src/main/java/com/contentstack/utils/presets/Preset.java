@@ -17,7 +17,7 @@ public class Preset {
     public String resolvePresetByPresetName(
             @NotNull JSONObject asset,
             @NotNull String extensionUid,
-            @NotNull String presetName) {
+            @NotNull String presetName) throws InvalidUrlException {
 
         final JSONArray localExtensionUid = returnExtensionId(asset, extensionUid);
         if (presetName.isEmpty()) {
@@ -27,9 +27,10 @@ public class Preset {
         String assetUrl = (String) asset.get(URL);
         try {
             assetUrl = findPresetOptions(presetOptionKEYS, assetUrl);
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (MalformedURLException | URISyntaxException e) {
+            throw new InvalidUrlException(e.getLocalizedMessage());
         }
+
         return assetUrl;
     }
 

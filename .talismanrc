@@ -15,3 +15,5 @@ fileignoreconfig:
   checksum: cf778f3066be0a0943430b97f1d0c326bd10c0db48bf9cfb1bc242bf1acee24f
 - filename: src/main/java/com/contentstack/utils/Utils.java
   checksum: f9fc6b4e94e645b4befe527abff4a77d5585ff68f07b48ff7bb2c69ea1832b50
+- filename: .dccache
+  checksum: 4d70dde92dca6fa5a550ad1cc47c41cb8c43d35abb3b5f72f472b9f49fdc56e4

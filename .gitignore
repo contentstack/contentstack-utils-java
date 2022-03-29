@@ -20,6 +20,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.dccache/
+.dccache
 
 # External tool builders
 .externalToolBuilders/
