@@ -39,7 +39,8 @@ public class Utils {
                     findContent(entryObj, path, callback);
                 }
             } else {
-                // Case when KeyPath is not given by user, Extract all available keyPath from _embedded_items
+                // Case when KeyPath is not given by user, 
+                // Extract all available keyPath from _embedded_items
                 JSONObject embedKeys = entryObj.getJSONObject(Constant.EMBEDDED_ITEMS);
                 ArrayList<String> pathKeys = new ArrayList<>(embedKeys.keySet());
                 for (String path : pathKeys) {
