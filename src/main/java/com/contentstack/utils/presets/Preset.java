@@ -14,6 +14,7 @@ import static com.contentstack.utils.presets.Constant.*;
 
 public class Preset {
 
+
     public String resolvePresetByPresetName(
             @NotNull JSONObject asset,
             @NotNull String extensionUid,
