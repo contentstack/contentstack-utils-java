@@ -1,12 +1,10 @@
 package com.contentstack.utils.presets;
 
-import org.apache.http.client.utils.URIBuilder;
 import org.jetbrains.annotations.NotNull;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.springframework.web.util.UriComponentsBuilder;
 
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -26,17 +24,12 @@ public class Preset {
         }
         List<JSONObject> presetOptionKEYS = extractMetadata(localExtensionUid, presetName, "name");
         String assetUrl = (String) asset.get(URL);
-        try {
-            assetUrl = findPresetOptions(presetOptionKEYS, assetUrl);
-        } catch (MalformedURLException | URISyntaxException e) {
-            throw new InvalidUrlException(e.getLocalizedMessage());
-        }
+        assetUrl = findPresetOptions(presetOptionKEYS, assetUrl);
 
         return assetUrl;
     }
 
-    String findPresetOptions(List<JSONObject> presetOptionKEYS, String assetUrl)
-            throws MalformedURLException, URISyntaxException {
+    String findPresetOptions(List<JSONObject> presetOptionKEYS, String assetUrl) {
         AtomicReference<JSONObject> optionsJson = new AtomicReference<>();
         if (!presetOptionKEYS.isEmpty()) {
             presetOptionKEYS.forEach(options -> {
@@ -64,63 +57,63 @@ public class Preset {
         return assetUrl;
     }
 
-    private String getImageURL(String assetUrl, JSONObject optionKEYS)
-            throws URISyntaxException, MalformedURLException {
-        URIBuilder uriBuilder = new URIBuilder(assetUrl);
+    private String getImageURL(String assetUrl, @NotNull JSONObject optionKEYS) {
+        UriComponentsBuilder urlBuilder = UriComponentsBuilder
+                .fromUriString(assetUrl);
         if (optionKEYS.containsKey(TRANSFORM)) {
             JSONObject transform = (JSONObject) optionKEYS.get(Constant.TRANSFORM);
-            getTransformParam(uriBuilder, transform);
+            getTransformParam(urlBuilder, transform);
         }
         if (optionKEYS.containsKey(IMAGE_TYPE)) {
             String imageType = (String) optionKEYS.get(Constant.IMAGE_TYPE);
-            uriBuilder.addParameter("format", imageType);
+            urlBuilder.queryParam("format", imageType);
         }
         if (optionKEYS.containsKey(QUALITY)) {
             String quality = (String) optionKEYS.get(Constant.QUALITY);
-            uriBuilder.addParameter(Constant.QUALITY, quality);
+            urlBuilder.queryParam(Constant.QUALITY, quality);
         }
         if (optionKEYS.containsKey(EFFECTS)) {
             JSONObject effects = (JSONObject) optionKEYS.get(Constant.EFFECTS);
-            getEffectsParams(uriBuilder, effects);
+            getEffectsParams(urlBuilder, effects);
         }
-        return uriBuilder.build().toURL().toString();
+        return urlBuilder.build().encode().toUriString();
     }
 
-    private void getTransformParam(URIBuilder uriBuilder, JSONObject transform) {
+    private void getTransformParam(UriComponentsBuilder uriBuilder, JSONObject transform) {
         if (transform.containsKey(HEIGHT)) {
             Object height = transform.get(Constant.HEIGHT);
-            uriBuilder.addParameter(Constant.HEIGHT, height.toString());
+            uriBuilder.queryParam(Constant.HEIGHT, height.toString());
         }
         if (transform.containsKey(WIDTH)) {
             Object width = transform.get(Constant.WIDTH);
-            uriBuilder.addParameter(Constant.WIDTH, width.toString());
+            uriBuilder.queryParam(Constant.WIDTH, width.toString());
         }
         if (transform.containsKey(FLIP_MODE)) {
             String flipMode = (String) transform.get(Constant.FLIP_MODE);
             if (flipMode.equalsIgnoreCase("both")) {
-                uriBuilder.addParameter(ORIENT, "3");
+                uriBuilder.queryParam(ORIENT, "3");
             }
             if (flipMode.equalsIgnoreCase("horiz")) {
-                uriBuilder.addParameter(ORIENT, "2");
+                uriBuilder.queryParam(ORIENT, "2");
             }
             if (flipMode.equalsIgnoreCase("verti")) {
-                uriBuilder.addParameter(ORIENT, "4");
+                uriBuilder.queryParam(ORIENT, "4");
             }
         }
     }
 
-    private void getEffectsParams(URIBuilder uriBuilder, JSONObject effects) {
+    private void getEffectsParams(UriComponentsBuilder uriBuilder, JSONObject effects) {
         if (effects.containsKey(BRIGHTNESS)) {
-            uriBuilder.addParameter(BRIGHTNESS, effects.get(Constant.BRIGHTNESS).toString());
+            uriBuilder.queryParam(BRIGHTNESS, effects.get(Constant.BRIGHTNESS).toString());
         }
         if (effects.containsKey(CONTRAST)) {
-            uriBuilder.addParameter(CONTRAST, effects.get(Constant.CONTRAST).toString());
+            uriBuilder.queryParam(CONTRAST, effects.get(Constant.CONTRAST).toString());
         }
         if (effects.containsKey(SHARPEN)) {
-            uriBuilder.addParameter("saturation", effects.get("saturation").toString());
+            uriBuilder.queryParam("saturation", effects.get("saturation").toString());
         }
         if (effects.containsKey(BLUR)) {
-            uriBuilder.addParameter(BLUR, effects.get(Constant.BLUR).toString());
+            uriBuilder.queryParam(BLUR, effects.get(Constant.BLUR).toString());
         }
     }
 

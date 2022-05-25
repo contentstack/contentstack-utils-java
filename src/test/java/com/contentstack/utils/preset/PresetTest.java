@@ -91,7 +91,7 @@ public class PresetTest {
     }
 
     @Test
-    public void testResolvePresetByPresetNameWithUrlQuestionMark() throws Exception {
+    public void testResolvePresetByPresetNameWithUrlQuestionMark()  {
         JSONObject assetWithQuestionMarkJson = readJson("management/asset_with_question_mark.json");
         String url = preset.resolvePresetByPresetName(assetWithQuestionMarkJson, "theExtensionUid", "Local Preset");
         Assert.assertEquals(
@@ -123,7 +123,7 @@ public class PresetTest {
         String url = preset.resolvePresetByPresetUID(assetWithQuestionMarkJson, "theExtensionUid",
                 "the_fake_preset_uid");
         Assert.assertEquals(
-                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100&height=412&width=500&format=jpeg&quality=10",
+                "http://localhost:8000/v3/assets/crop_area.jpeg?format=jpeg&quality=100",
                 url);
     }
 
