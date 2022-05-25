@@ -16,7 +16,7 @@ public class Preset {
     public String resolvePresetByPresetName(
             @NotNull JSONObject asset,
             @NotNull String extensionUid,
-            @NotNull String presetName) throws InvalidUrlException {
+            @NotNull String presetName) {
 
         final JSONArray localExtensionUid = returnExtensionId(asset, extensionUid);
         if (presetName.isEmpty()) {
