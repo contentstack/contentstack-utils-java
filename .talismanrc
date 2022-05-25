@@ -1,19 +1,19 @@
 threshold: medium
 
 fileignoreconfig:
-- filename: src/test/resources/multiple_objects.json
-  checksum: ed79f28cb208208eb667bc2796e3452a23675788475f697e6e397083c7675820
-- filename: .dccache
-  checksum: eb5805d48728bf7aa6540e51dd6160f6171f108eae911cf575445e71323c1344
-- filename: src/test/resources/multiple_rich_text_content.json
-  checksum: d776089b5453cf3b14153e220e96b2d35e93a5acaa6c1db1edfa365af0dfa17e
-- filename: src/main/java/com/contentstack/utils/presets/Constant.java
-  checksum: 91c73c75cca7c7a84785f6b6e59e0631fbaacc824464b0edf801ceb373725292
-- filename: .idea/intellij-javadocs-4.0.1.xml
-  checksum: 8f0ba8c3fcb3387b71258fdf6c5571b3f8665129751fc2a37a81679e43f83dbf
-- filename: src/main/java/com/contentstack/utils/presets/Preset.java
-  checksum: cf778f3066be0a0943430b97f1d0c326bd10c0db48bf9cfb1bc242bf1acee24f
-- filename: src/main/java/com/contentstack/utils/Utils.java
-  checksum: f9fc6b4e94e645b4befe527abff4a77d5585ff68f07b48ff7bb2c69ea1832b50
-- filename: .dccache
-  checksum: 4d70dde92dca6fa5a550ad1cc47c41cb8c43d35abb3b5f72f472b9f49fdc56e4
+  - filename: src/test/resources/multiple_objects.json
+    checksum: ed79f28cb208208eb667bc2796e3452a23675788475f697e6e397083c7675820
+  - filename: .dccache
+    checksum: eb5805d48728bf7aa6540e51dd6160f6171f108eae911cf575445e71323c1344
+  - filename: src/test/resources/multiple_rich_text_content.json
+    checksum: d776089b5453cf3b14153e220e96b2d35e93a5acaa6c1db1edfa365af0dfa17e
+  - filename: src/main/java/com/contentstack/utils/presets/Constant.java
+    checksum: 91c73c75cca7c7a84785f6b6e59e0631fbaacc824464b0edf801ceb373725292
+  - filename: .idea/intellij-javadocs-4.0.1.xml
+    checksum: 8f0ba8c3fcb3387b71258fdf6c5571b3f8665129751fc2a37a81679e43f83dbf
+  - filename: src/main/java/com/contentstack/utils/presets/Preset.java
+    checksum: cf778f3066be0a0943430b97f1d0c326bd10c0db48bf9cfb1bc242bf1acee24f
+  - filename: src/main/java/com/contentstack/utils/Utils.java
+    checksum: f9fc6b4e94e645b4befe527abff4a77d5585ff68f07b48ff7bb2c69ea1832b50
+  - filename: .dccache
+    checksum: 9661a96afc14326e0142ce9056cf4da170c408c09c446bdd14f1ed5ca4398d56
