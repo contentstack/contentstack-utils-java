@@ -23,7 +23,7 @@
         <surefire-report-plugin.version>2.22.0</surefire-report-plugin.version>
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
-        <kotlin-test-junit.version>1.6.0</kotlin-test-junit.version>
+        <kotlin-test-junit.version>1.6.21</kotlin-test-junit.version>
         <junit.version>4.13.2</junit.version>
         <jsoup.version>1.14.3</jsoup.version>
         <json.simple.version>1.1.1</json.simple.version>
@@ -105,7 +105,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20211205</version>
+            <version>20220320</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -123,7 +123,6 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -251,6 +250,20 @@
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-maven-plugin</artifactId>
+                <version>${kotlin-test-junit.version}</version>
+                <executions>
+                    <execution>
+                        <id>compile</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
         </plugins>
