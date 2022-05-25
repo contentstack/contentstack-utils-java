@@ -1,6 +1,7 @@
 ### Code-Java ###
 # Language Support for Java(TM) by Red Hat extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=redhat.java
 
+.dccache
 .project
 .classpath
 factoryConfiguration.json
@@ -265,3 +266,4 @@ gradle-app.setting
 java.iml
 src/main/resources/
 !/.idea/
+.dccache
