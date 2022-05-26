@@ -1,13 +1,13 @@
 package com.contentstack.utils.render;
 
-import com.contentstack.utils.callbacks.Options;
+import com.contentstack.utils.callbacks.Option;
 import com.contentstack.utils.helper.Metadata;
 import org.json.JSONObject;
 
 /**
  * DefaultOptionsCallback
  */
-public class DefaultOption implements Options {
+public class DefaultOption implements Option {
 
     /**
      * Accepts below params to provides defaults options

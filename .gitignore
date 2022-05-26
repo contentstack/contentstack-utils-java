@@ -5,6 +5,8 @@
 .project
 .classpath
 factoryConfiguration.json
+.vscode
+.vscode/
 
 ### Eclipse ###
 .metadata

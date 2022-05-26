@@ -2,7 +2,7 @@ package com.contentstack.utils;
 
 import com.contentstack.utils.callbacks.Content;
 import com.contentstack.utils.callbacks.Metadata;
-import com.contentstack.utils.callbacks.Options;
+import com.contentstack.utils.callbacks.Option;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -23,7 +23,7 @@ public class Utils {
      * @param renderObject
      *         renderObject
      */
-    public static void render(JSONObject entryObj, String[] keyPath, Options renderObject) {
+    public static void render(JSONObject entryObj, String[] keyPath, Option renderObject) {
         Content callback = content -> {
             if (content instanceof JSONArray) {
                 JSONArray contentArray = (JSONArray) content;
@@ -107,7 +107,7 @@ public class Utils {
      * @param renderObject
      *         renderObjects
      */
-    public void render(JSONArray jsonArray, String[] keyPath, Options renderObject) {
+    public void render(JSONArray jsonArray, String[] keyPath, Option renderObject) {
         jsonArray.forEach(jsonObj -> render((JSONObject) jsonObj, keyPath, renderObject));
     }
 
@@ -118,11 +118,11 @@ public class Utils {
      *         String of the rte available for the embedding
      * @param embedObject
      *         JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
-     * @param options
+     * @param option
      *         Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
-    public static String renderContent(String rteStringify, JSONObject embedObject, Options options) {
+    public static String renderContent(String rteStringify, JSONObject embedObject, Option option) {
         final String[] sReplaceRTE = {rteStringify};
         Document html = Jsoup.parse(rteStringify);
         getEmbeddedObjects(html, metadata -> {
@@ -134,7 +134,7 @@ public class Utils {
             }
             if (filteredContent.isPresent()) {
                 JSONObject contentToPass = filteredContent.get();
-                String stringOption = getStringOption(options, metadata, contentToPass);
+                String stringOption = getStringOption(option, metadata, contentToPass);
                 sReplaceRTE[0] = html.body().html().replace(metadata.getOuterHTML(), stringOption);
             }
         });
@@ -148,15 +148,15 @@ public class Utils {
      *         JSONArray of the rte available for the embedding
      * @param entryObject
      *         JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
-     * @param options
+     * @param option
      *         Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
-    public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, Options options) {
+    public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, Option option) {
         JSONArray jsonArrayRTEContent = new JSONArray();
         for (Object RTE : rteArray) {
             String stringify = (String) RTE;
-            String renderContent = renderContent(stringify, entryObject, options);
+            String renderContent = renderContent(stringify, entryObject, option);
             jsonArrayRTEContent.put(renderContent);
         }
         return jsonArrayRTEContent;
@@ -186,9 +186,9 @@ public class Utils {
         return Optional.empty();
     }
 
-    private static String getStringOption(Options options, com.contentstack.utils.helper.Metadata metadata,
+    private static String getStringOption(Option option, com.contentstack.utils.helper.Metadata metadata,
                                           JSONObject contentToPass) {
-        String stringOption = options.renderOptions(contentToPass, metadata);
+        String stringOption = option.renderOptions(contentToPass, metadata);
         if (stringOption == null) {
             DefaultOption defaultOptions = new DefaultOption();
             stringOption = defaultOptions.renderOptions(contentToPass, metadata);

@@ -68,7 +68,7 @@ public class DefaultOptionTests {
     public void testEmbeddedLink() {
         Attributes attributes = new ReadResource().returnEntryAttributes(localJsonObj);
         final DefaultOption defaultOptions = new DefaultOption();
-        Metadata metadata = new Metadata("TextTest", "entry", "6723673", "content_type_uid", "linked",
+        Metadata metadata = new Metadata("TextTest", "entry", "6723673", "content_type_uid", "link",
                 "outerHTMLTet", attributes);
         String result = defaultOptions.renderOptions(localJsonObj.optJSONObject("_embedded_items"), metadata);
         Assert.assertEquals("<a href=\"\"></a>", result);
