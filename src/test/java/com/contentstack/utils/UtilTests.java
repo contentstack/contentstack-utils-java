@@ -1,6 +1,6 @@
 package com.contentstack.utils;
 
-import com.contentstack.utils.callbacks.OptionsCallback;
+import com.contentstack.utils.callbacks.Options;
 import com.contentstack.utils.embedded.StyleType;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONArray;
@@ -30,7 +30,7 @@ public class UtilTests {
 
     @Test
     public void testRenderFunction() {
-        OptionsCallback option = (embeddedObject, metadata) -> {
+        Options options = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
@@ -42,7 +42,7 @@ public class UtilTests {
 
     @Test
     public void testWithoutKeyPath() {
-        OptionsCallback option = (embeddedObject, metadata) -> {
+        Options options = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
