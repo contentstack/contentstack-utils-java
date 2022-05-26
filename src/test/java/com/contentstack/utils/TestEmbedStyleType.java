@@ -34,8 +34,8 @@ public class TestEmbedStyleType {
 
     @Test
     public void testAvailableStyleTypeLink() {
-        StyleType styleType = StyleType.LINKED;
-        Assert.assertEquals("LINKED", styleType.name());
+        StyleType styleType = StyleType.LINK;
+        Assert.assertEquals("LINK", styleType.name());
     }
 
     @Test

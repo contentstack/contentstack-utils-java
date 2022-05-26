@@ -1,6 +1,6 @@
 package com.contentstack.utils;
 
-import com.contentstack.utils.callbacks.Options;
+import com.contentstack.utils.callbacks.Option;
 import com.contentstack.utils.embedded.StyleType;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONArray;
@@ -30,7 +30,7 @@ public class UtilTests {
 
     @Test
     public void testRenderFunction() {
-        Options options = (embeddedObject, metadata) -> {
+        Option option = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
@@ -42,7 +42,7 @@ public class UtilTests {
 
     @Test
     public void testWithoutKeyPath() {
-        Options options = (embeddedObject, metadata) -> {
+        Option option = (embeddedObject, metadata) -> {
             StyleType styleType = metadata.getStyleType();
             return null;
         };
@@ -101,8 +101,8 @@ public class UtilTests {
                     // statements of INLINE
                     return null;
 
-                case LINKED:
-                    // statements of LINKED
+                case LINK:
+                    // statements of LINK
                     return null;
 
                 default:
@@ -112,7 +112,7 @@ public class UtilTests {
     }
 
     @Test
-    public void testEmbeddedLinkedEntry() {
+    public void testEmbeddedLinkEntry() {
         JSONArray rteArray = null;
         boolean available = localJsonObj.has("rich_text_editor");
         if (available) {
@@ -131,8 +131,8 @@ public class UtilTests {
                     // Statements of INLINE
                     return null;
 
-                case LINKED:
-                    // Statements of LINKED
+                case LINK:
+                    // Statements of LINK
                     return null;
 
                 default:
