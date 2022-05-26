@@ -1,19 +1,21 @@
 package com.contentstack.utils.render;
 
-import com.contentstack.utils.callbacks.OptionsCallback;
+import com.contentstack.utils.callbacks.Options;
 import com.contentstack.utils.helper.Metadata;
 import org.json.JSONObject;
 
 /**
  * DefaultOptionsCallback
  */
-public class DefaultOption implements OptionsCallback {
+public class DefaultOption implements Options {
 
     /**
      * Accepts below params to provides defaults options
-     * 
-     * @param embeddedObject entry embedded object
-     * @param metadata       for of the entry object
+     *
+     * @param embeddedObject
+     *         entry embedded object
+     * @param metadata
+     *         for of the entry object
      * @return String as result
      */
     @Override
@@ -24,7 +26,7 @@ public class DefaultOption implements OptionsCallback {
                         + embeddedObject.optString("_content_type_uid") + "</span></p></div>";
             case INLINE:
                 return "<span>" + findTitleOrUid(embeddedObject) + "</span>";
-            case LINKED:
+            case LINK:
                 return "<a href=\"" + embeddedObject.optString("url") + "\">" + findTitleOrUid(embeddedObject) + "</a>";
             case DISPLAY:
                 return "<img src=\"" + embeddedObject.optString("url") + "\" alt=\"" + findAssetTitle(embeddedObject)
@@ -36,8 +38,9 @@ public class DefaultOption implements OptionsCallback {
 
     /**
      * Returns Title From The Embedded Object of type entry
-     * 
-     * @param embeddedObject JSONObject
+     *
+     * @param embeddedObject
+     *         JSONObject
      * @return String
      */
     private String findTitleOrUid(JSONObject embeddedObject) {
@@ -55,8 +58,9 @@ public class DefaultOption implements OptionsCallback {
 
     /**
      * Returns Title From The Embedded Object of type asset
-     * 
-     * @param embeddedObject JSONObject
+     *
+     * @param embeddedObject
+     *         JSONObject
      * @return String
      */
     private String findAssetTitle(JSONObject embeddedObject) {

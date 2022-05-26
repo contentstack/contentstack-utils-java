@@ -2,8 +2,7 @@ package com.contentstack.utils;
 
 import com.contentstack.utils.callbacks.Content;
 import com.contentstack.utils.callbacks.Metadata;
-import com.contentstack.utils.callbacks.OptionsCallback;
-import com.contentstack.utils.presets.Constant;
+import com.contentstack.utils.callbacks.Options;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -17,11 +16,14 @@ import java.util.stream.StreamSupport;
 public class Utils {
 
     /**
-     * @param entryObj:    Objects that contains RTE with embedded objects
-     * @param keyPath      keyPath
-     * @param renderObject renderObject
+     * @param entryObj:
+     *         Objects that contains RTE with embedded objects
+     * @param keyPath
+     *         keyPath
+     * @param renderObject
+     *         renderObject
      */
-    public static void render(JSONObject entryObj, String[] keyPath, OptionsCallback renderObject) {
+    public static void render(JSONObject entryObj, String[] keyPath, Options renderObject) {
         Content callback = content -> {
             if (content instanceof JSONArray) {
                 JSONArray contentArray = (JSONArray) content;
@@ -33,7 +35,7 @@ public class Utils {
             return null;
         };
 
-        if (entryObj != null && entryObj.has(Constant.EMBEDDED_ITEMS)) {
+        if (entryObj != null && entryObj.has("_embedded_items")) {
             if (keyPath != null) {
                 for (String path : keyPath) {
                     findContent(entryObj, path, callback);
@@ -41,7 +43,7 @@ public class Utils {
             } else {
                 // Case when KeyPath is not given by user, 
                 // Extract all available keyPath from _embedded_items
-                JSONObject embedKeys = entryObj.getJSONObject(Constant.EMBEDDED_ITEMS);
+                JSONObject embedKeys = entryObj.getJSONObject("_embedded_items");
                 ArrayList<String> pathKeys = new ArrayList<>(embedKeys.keySet());
                 for (String path : pathKeys) {
                     findContent(entryObj, path, callback);
@@ -52,10 +54,13 @@ public class Utils {
 
     /**
      * Find dot separated keys
-     * 
-     * @param entryObj Json Object
-     * @param path     keyPath
-     * @param content  content callback
+     *
+     * @param entryObj
+     *         Json Object
+     * @param path
+     *         keyPath
+     * @param content
+     *         content callback
      */
     private static void findContent(JSONObject entryObj, String path, Content content) {
         String[] arrayString = path.split("\\.");
@@ -63,10 +68,12 @@ public class Utils {
     }
 
     /**
-     *
-     * @param arrayString list of keys available
-     * @param entryObj    entry object
-     * @param content     content callback
+     * @param arrayString
+     *         list of keys available
+     * @param entryObj
+     *         entry object
+     * @param content
+     *         content callback
      */
     private static void getContent(String[] arrayString, JSONObject entryObj, Content content) {
         if (arrayString != null && arrayString.length != 0) {
@@ -93,38 +100,41 @@ public class Utils {
     }
 
     /**
-     *
-     * @param jsonArray    Objects that contains RTE with embedded objects
-     * @param keyPath      String array keyPath
-     * @param renderObject renderObjects
+     * @param jsonArray
+     *         Objects that contains RTE with embedded objects
+     * @param keyPath
+     *         String array keyPath
+     * @param renderObject
+     *         renderObjects
      */
-    public void render(JSONArray jsonArray, String[] keyPath, OptionsCallback renderObject) {
+    public void render(JSONArray jsonArray, String[] keyPath, Options renderObject) {
         jsonArray.forEach(jsonObj -> render((JSONObject) jsonObj, keyPath, renderObject));
     }
 
     /**
      * Accepts to render content on the basis of below content
-     * 
-     * @param rteStringify String of the rte available for the embedding
-     * @param embedObject  JSONObject to get the _embedded_object
-     *                     (_embedded_entries/_embedded_assets)
-     * @param option       Options take takes input as (StyleType type, JSONObject
-     *                     embeddedObject)
+     *
+     * @param rteStringify
+     *         String of the rte available for the embedding
+     * @param embedObject
+     *         JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
+     * @param options
+     *         Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
-    public static String renderContent(String rteStringify, JSONObject embedObject, OptionsCallback option) {
-        final String[] sReplaceRTE = { rteStringify };
+    public static String renderContent(String rteStringify, JSONObject embedObject, Options options) {
+        final String[] sReplaceRTE = {rteStringify};
         Document html = Jsoup.parse(rteStringify);
         getEmbeddedObjects(html, metadata -> {
             Optional<JSONObject> filteredContent = Optional.empty();
-            boolean available = embedObject.has(Constant.EMBEDDED_ITEMS);
+            boolean available = embedObject.has("_embedded_items");
             if (available) {
-                JSONObject jsonArray = embedObject.optJSONObject(Constant.EMBEDDED_ITEMS);
+                JSONObject jsonArray = embedObject.optJSONObject("_embedded_items");
                 filteredContent = findEmbeddedItems(jsonArray, metadata);
             }
             if (filteredContent.isPresent()) {
                 JSONObject contentToPass = filteredContent.get();
-                String stringOption = getStringOption(option, metadata, contentToPass);
+                String stringOption = getStringOption(options, metadata, contentToPass);
                 sReplaceRTE[0] = html.body().html().replace(metadata.getOuterHTML(), stringOption);
             }
         });
@@ -133,19 +143,20 @@ public class Utils {
 
     /**
      * Take below items to return updated string
-     * 
-     * @param rteArray    JSONArray of the rte available for the embedding
-     * @param entryObject JSONObject to get the _embedded_object
-     *                    (_embedded_entries/_embedded_assets)
-     * @param option      Options take takes input as (StyleType type, JSONObject
-     *                    embeddedObject)
+     *
+     * @param rteArray
+     *         JSONArray of the rte available for the embedding
+     * @param entryObject
+     *         JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
+     * @param options
+     *         Options take takes input as (StyleType type, JSONObject embeddedObject)
      * @return String of rte with replaced tag
      */
-    public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, OptionsCallback option) {
+    public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, Options options) {
         JSONArray jsonArrayRTEContent = new JSONArray();
         for (Object RTE : rteArray) {
             String stringify = (String) RTE;
-            String renderContent = renderContent(stringify, entryObject, option);
+            String renderContent = renderContent(stringify, entryObject, options);
             jsonArrayRTEContent.put(renderContent);
         }
         return jsonArrayRTEContent;
@@ -153,13 +164,15 @@ public class Utils {
 
     /**
      * Matches the uid and _content_type_uid from the
-     * 
-     * @param jsonObject JSONObject: jsonObject of the _embedded_assets
-     * @param metadata   EmbeddedObject: contains the model class information
+     *
+     * @param jsonObject
+     *         JSONObject: jsonObject of the _embedded_assets
+     * @param metadata
+     *         EmbeddedObject: contains the model class information
      * @return Optional<JSONObject>
      */
     private static Optional<JSONObject> findEmbeddedItems(JSONObject jsonObject,
-            com.contentstack.utils.helper.Metadata metadata) {
+                                                          com.contentstack.utils.helper.Metadata metadata) {
         Set<String> allKeys = jsonObject.keySet();
         for (String key : allKeys) {
             JSONArray jsonArray = jsonObject.optJSONArray(key);
@@ -173,9 +186,9 @@ public class Utils {
         return Optional.empty();
     }
 
-    private static String getStringOption(OptionsCallback option, com.contentstack.utils.helper.Metadata metadata,
-            JSONObject contentToPass) {
-        String stringOption = option.renderOptions(contentToPass, metadata);
+    private static String getStringOption(Options options, com.contentstack.utils.helper.Metadata metadata,
+                                          JSONObject contentToPass) {
+        String stringOption = options.renderOptions(contentToPass, metadata);
         if (stringOption == null) {
             DefaultOption defaultOptions = new DefaultOption();
             stringOption = defaultOptions.renderOptions(contentToPass, metadata);
