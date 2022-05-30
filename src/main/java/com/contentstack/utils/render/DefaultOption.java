@@ -63,11 +63,11 @@ public class DefaultOption implements Option {
             case "p":
                 return "<p>" + children + "</p>";
             case "a":
-                return "<a href=\"" + nodeObject.optJSONObject("attrs").optString("href") + "\">" + children + "</a>";
+                return "<a href=\"" + getNodeStr(nodeObject, "href") + "\">" + children + "</a>";
             case "img":
-                return "<img src=\"" + nodeObject.optJSONObject("attrs").optString("src") + "\" />" + children;
+                return "<img src=\"" + getNodeStr(nodeObject, "src") + "\" />" + children;
             case "embed":
-                return "<iframe src=\"" + nodeObject.optJSONObject("attrs").optString("src") + "\"" + children + "</iframe>";
+                return "<iframe src=\"" + getNodeStr(nodeObject, "src") + "\"" + children + "</iframe>";
             case "h1":
                 return "<h1>" + children + "</h1>";
             case "h2":
@@ -111,6 +111,16 @@ public class DefaultOption implements Option {
             default:
                 return children;
         }
+    }
+
+
+    private String getNodeStr(JSONObject nodeObject, String key) {
+        String herf = nodeObject.optJSONObject("attrs").optString(key);
+        String url = nodeObject.optJSONObject("attrs").optString("url");
+        if (herf == null || herf.isEmpty()) {
+            herf = url;
+        }
+        return herf;
     }
 
     /**
