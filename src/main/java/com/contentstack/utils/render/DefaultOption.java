@@ -12,8 +12,10 @@ public class DefaultOption implements Option {
     /**
      * Accepts below params to provides defaults options
      *
-     * @param embeddedObject entry embedded object
-     * @param metadata       for of the entry object
+     * @param embeddedObject
+     *         entry embedded object
+     * @param metadata
+     *         for of the entry object
      * @return String as result
      */
     @Override
@@ -114,7 +116,8 @@ public class DefaultOption implements Option {
     /**
      * Returns Title From The Embedded Object of type entry
      *
-     * @param embeddedObject JSONObject
+     * @param embeddedObject
+     *         JSONObject
      * @return String
      */
     protected String findTitleOrUid(JSONObject embeddedObject) {
@@ -133,7 +136,8 @@ public class DefaultOption implements Option {
     /**
      * Returns Title From The Embedded Object of type asset
      *
-     * @param embeddedObject JSONObject
+     * @param embeddedObject
+     *         JSONObject
      * @return String
      */
     protected String findAssetTitle(JSONObject embeddedObject) {
