@@ -1,3 +1,5 @@
+package com.contentstack.utils;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -27,8 +29,7 @@ public class ReadResource {
         return new JSONObject(response);
     }
 
-
-    public Attributes returnEntryAttributes(JSONObject entryObject){
+    public Attributes returnEntryAttributes(JSONObject entryObject) {
         boolean available = entryObject.has("rich_text_editor");
         JSONArray rteArray = null;
         if (available) {
@@ -45,11 +46,10 @@ public class ReadResource {
 
         assert html != null;
         Elements embeddedEntries = html.body().getElementsByClass("embedded-entry");
-        Attributes attributes = embeddedEntries.get(0).attributes();
         return embeddedEntries.get(0).attributes();
     }
 
-    public Attributes returnAssetAttributes(JSONObject entryObject){
+    public Attributes returnAssetAttributes(JSONObject entryObject) {
         boolean available = entryObject.has("rich_text_editor");
         JSONArray rteArray = null;
         if (available) {

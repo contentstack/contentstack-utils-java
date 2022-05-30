@@ -1,25 +1,26 @@
 # Contentstack-Utils-Java
 
-### Embedded Objects
+## Embedded Objects
 
 This guide will help you get started with Contentstack Java Utils SDK to build apps powered by Contentstack.
 
 ### Prerequisites
+
 - JDK 8 or later
 - Contentstack account
-- Latest version of IntelliJ IDEA / Eclipse / VSCode / Spring Tool Suite
+- Latest version of IntelliJ IDEA / eclipse / vscode / spring tool suite
 
 ### SDK Installation and Setup
+
 To setup Utils SDK in your Java project, add the following dependency in the pom.xml file
 
 ```java
 <dependency>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>util</artifactId>
-    <version>latest</version>
+    <version>{latest}</version>
 </dependency>
 ```
-
 
 If you are using Contentstack Java SDK, then the Utils SDK is already imported into your project, and the dependency snippet will look as below
 
@@ -27,15 +28,18 @@ If you are using Contentstack Java SDK, then the Utils SDK is already imported i
 <dependency>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>java</artifactId>
-    <version>latest</version>
+    <version>{latest}</version>
 </dependency>
 ```
 
+Download [{latest}](https://search.maven.org/artifact/com.contentstack.sdk/utils) dependency here
 
 ### Usage
+
 Let’s learn how you can use Utils SDK to render embedded items.
 
 ### Create Render Option
+
 To render embedded items on the front-end, use the renderContents function, and define the UI elements you want to show in the front-end of your website, as shown in the example code below:
 
 ```java
@@ -90,12 +94,12 @@ public class DefaultOptionClass implements Option {
 
 ```
 
-
 ### Basic Queries
 
 Contentstack Utils SDK lets you interact with the Content Delivery APIs and retrieve embedded items from the RTE field of an entry.
 
 #### Fetch Embedded Item(s) from a Single Entry
+
 To get an embedded item of a single entry, you need to provide the stack API key, environment name, delivery token, content type’s UID and entry’s UID. Then, use the includeEmbeddedItems function as shown below:
 
 ```java
@@ -116,14 +120,13 @@ entry.fetch(new EntryResultCallBack() {
             JSONObject jsonObject = entry.toJSON();
             Utils.render(jsonObject, keyPath, new Option());
         } else {
-            [Error block] // handle your error 
+            [Error block] // handle your error
         }}
 });
 ```
 
-
-
 #### Fetch Embedded Item(s) from Multiple Entries
+
 To get embedded items from multiple entries, you need to provide the stack API key, environment name, delivery token, and content type’s UID.
 
 ```java
@@ -145,12 +148,13 @@ query.find(new QueryResultsCallBack() {
                 Utils.render(jsonObject, keyPath, new Option());
             }
         }else{
-          [Error block] // handle your error 
+          [Error block] // handle your error
     }}
 });
 ```
 
 #### Render JSON RTE Contents
+
 To get multiple entries, you need to provide the stack API key, environment name, delivery token, content type and entry UID. Then, use the Utils.jsonToHTML function as shown below:
 
 ```java
@@ -175,6 +179,3 @@ query.find(new QueryResultsCallBack() {
 });
 
 ```
-
-
-

@@ -1,4 +1,5 @@
-import com.contentstack.utils.embedded.ItemType;
+package com.contentstack.utils;
+
 import com.contentstack.utils.embedded.StyleType;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -20,25 +21,25 @@ public class TestEmbedStyleType {
     }
 
     @Test
-    public void testAvailableStyleTypeBlock(){
+    public void testAvailableStyleTypeBlock() {
         StyleType styleType = StyleType.BLOCK;
         Assert.assertEquals("BLOCK", styleType.name());
     }
 
     @Test
-    public void testAvailableStyleTypeInline(){
+    public void testAvailableStyleTypeInline() {
         StyleType styleType = StyleType.INLINE;
         Assert.assertEquals("INLINE", styleType.name());
     }
 
     @Test
-    public void testAvailableStyleTypeLink(){
+    public void testAvailableStyleTypeLink() {
         StyleType styleType = StyleType.LINK;
         Assert.assertEquals("LINK", styleType.name());
     }
 
     @Test
-    public void testAvailableStyleTypeDisplay(){
+    public void testAvailableStyleTypeDisplay() {
         StyleType styleType = StyleType.DISPLAY;
         Assert.assertEquals("DISPLAY", styleType.name());
     }

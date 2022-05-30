@@ -1,9 +1,12 @@
 ### Code-Java ###
 # Language Support for Java(TM) by Red Hat extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=redhat.java
 
+.dccache
 .project
 .classpath
 factoryConfiguration.json
+.vscode
+.vscode/
 
 ### Eclipse ###
 .metadata
@@ -13,10 +16,15 @@ tmp/
 *.bak
 *.swp
 *~.nib
+.env
+.env/
+.talismanrc
 local.properties
 .settings/
 .loadpath
 .recommenders
+.dccache/
+.dccache
 
 # External tool builders
 .externalToolBuilders/
@@ -191,7 +199,7 @@ Icon
 # Thumbnails
 ._*
 
-# ReadResource that might appear in the root of a volume
+# com.contentstack.utils.ReadResource that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -260,3 +268,4 @@ gradle-app.setting
 java.iml
 src/main/resources/
 !/.idea/
+.dccache
