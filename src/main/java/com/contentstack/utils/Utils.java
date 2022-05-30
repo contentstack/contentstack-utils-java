@@ -1,30 +1,43 @@
 package com.contentstack.utils;
 
-import com.contentstack.utils.callbacks.Content;
-import com.contentstack.utils.callbacks.Metadata;
-import com.contentstack.utils.callbacks.Option;
-import com.contentstack.utils.render.DefaultOption;
+import com.contentstack.utils.helper.Metadata;
+import com.contentstack.utils.interfaces.ContentCallback;
+import com.contentstack.utils.interfaces.MetaToEmbedCallback;
+import com.contentstack.utils.interfaces.Option;
+import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Optional;
+import java.util.Set;
+import java.util.logging.Logger;
 import java.util.stream.StreamSupport;
 
+import static com.contentstack.utils.AutomateCommon.*;
+
+
+/**
+ * The Utils Class enables few functions like render, renderContent,
+ * jsonToHtml, RTE and SRTE to process the entry data and converts in html format.
+ */
 public class Utils {
 
+
+    final private static Logger logger = Logger.getLogger(Utils.class.getName());
+
     /**
-     * @param entryObj:
-     *         Objects that contains RTE with embedded objects
-     * @param keyPath
-     *         keyPath
-     * @param renderObject
-     *         renderObject
+     * Render.
+     *
+     * @param entryObj     the entry obj
+     * @param pathString      the key path
+     * @param renderObject the render object
      */
-    public static void render(JSONObject entryObj, String[] keyPath, Option renderObject) {
-        Content callback = content -> {
+    public static void render(JSONObject entryObj, String[] pathString, Option renderObject) {
+
+        ContentCallback callback = content -> {
             if (content instanceof JSONArray) {
                 JSONArray contentArray = (JSONArray) content;
                 return renderContents(contentArray, entryObj, renderObject);
@@ -36,13 +49,13 @@ public class Utils {
         };
 
         if (entryObj != null && entryObj.has("_embedded_items")) {
-            if (keyPath != null) {
-                for (String path : keyPath) {
+            // when pathString is provided by user
+            if (pathString != null && pathString.length>0) {
+                for (String path : pathString) {
                     findContent(entryObj, path, callback);
                 }
             } else {
-                // Case when KeyPath is not given by user, 
-                // Extract all available keyPath from _embedded_items
+                // if pathString is not given, extract all available pathString from _embedded_items
                 JSONObject embedKeys = entryObj.getJSONObject("_embedded_items");
                 ArrayList<String> pathKeys = new ArrayList<>(embedKeys.keySet());
                 for (String path : pathKeys) {
@@ -52,75 +65,14 @@ public class Utils {
         }
     }
 
+
     /**
-     * Find dot separated keys
+     * Render content string.
      *
-     * @param entryObj
-     *         Json Object
-     * @param path
-     *         keyPath
-     * @param content
-     *         content callback
-     */
-    private static void findContent(JSONObject entryObj, String path, Content content) {
-        String[] arrayString = path.split("\\.");
-        getContent(arrayString, entryObj, content);
-    }
-
-    /**
-     * @param arrayString
-     *         list of keys available
-     * @param entryObj
-     *         entry object
-     * @param content
-     *         content callback
-     */
-    private static void getContent(String[] arrayString, JSONObject entryObj, Content content) {
-        if (arrayString != null && arrayString.length != 0) {
-            String key = arrayString[0];
-            if (arrayString.length == 1) {
-                Object varContent = entryObj.opt(key);
-                if (varContent instanceof String || varContent instanceof JSONArray) {
-                    entryObj.put(key, content.contentObject(varContent));
-                }
-            } else {
-                List<String> list = new ArrayList<>(Arrays.asList(arrayString));
-                list.remove(key);
-                String[] newArrayString = list.toArray(new String[0]);
-                if (entryObj.opt(key) instanceof JSONObject) {
-                    getContent(newArrayString, entryObj.optJSONObject(key), content);
-                } else if (entryObj.opt(key) instanceof JSONArray) {
-                    JSONArray jsonArray = entryObj.optJSONArray(key);
-                    for (int idx = 0; idx < jsonArray.length(); idx++) {
-                        getContent(newArrayString, jsonArray.optJSONObject(idx), content);
-                    }
-                }
-            }
-        }
-    }
-
-    /**
-     * @param jsonArray
-     *         Objects that contains RTE with embedded objects
-     * @param keyPath
-     *         String array keyPath
-     * @param renderObject
-     *         renderObjects
-     */
-    public void render(JSONArray jsonArray, String[] keyPath, Option renderObject) {
-        jsonArray.forEach(jsonObj -> render((JSONObject) jsonObj, keyPath, renderObject));
-    }
-
-    /**
-     * Accepts to render content on the basis of below content
-     *
-     * @param rteStringify
-     *         String of the rte available for the embedding
-     * @param embedObject
-     *         JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
-     * @param option
-     *         Options take takes input as (StyleType type, JSONObject embeddedObject)
-     * @return String of rte with replaced tag
+     * @param rteStringify the rte stringify
+     * @param embedObject  the embed object
+     * @param option       the option
+     * @return the string
      */
     public static String renderContent(String rteStringify, JSONObject embedObject, Option option) {
         final String[] sReplaceRTE = {rteStringify};
@@ -141,17 +93,6 @@ public class Utils {
         return sReplaceRTE[0];
     }
 
-    /**
-     * Take below items to return updated string
-     *
-     * @param rteArray
-     *         JSONArray of the rte available for the embedding
-     * @param entryObject
-     *         JSONObject to get the _embedded_object (_embedded_entries/_embedded_assets)
-     * @param option
-     *         Options take takes input as (StyleType type, JSONObject embeddedObject)
-     * @return String of rte with replaced tag
-     */
     public static JSONArray renderContents(JSONArray rteArray, JSONObject entryObject, Option option) {
         JSONArray jsonArrayRTEContent = new JSONArray();
         for (Object RTE : rteArray) {
@@ -162,22 +103,12 @@ public class Utils {
         return jsonArrayRTEContent;
     }
 
-    /**
-     * Matches the uid and _content_type_uid from the
-     *
-     * @param jsonObject
-     *         JSONObject: jsonObject of the _embedded_assets
-     * @param metadata
-     *         EmbeddedObject: contains the model class information
-     * @return Optional<JSONObject>
-     */
-    private static Optional<JSONObject> findEmbeddedItems(JSONObject jsonObject,
-                                                          com.contentstack.utils.helper.Metadata metadata) {
+    private static Optional<JSONObject> findEmbeddedItems(JSONObject jsonObject, Metadata metadata) {
         Set<String> allKeys = jsonObject.keySet();
         for (String key : allKeys) {
             JSONArray jsonArray = jsonObject.optJSONArray(key);
             Optional<JSONObject> filteredContent = StreamSupport.stream(jsonArray.spliterator(), false)
-                    .map(JSONObject.class::cast)
+                    .map(val -> (JSONObject) val)
                     .filter(val -> val.optString("uid").equalsIgnoreCase(metadata.getItemUid())).findFirst();
             if (filteredContent.isPresent()) {
                 return filteredContent;
@@ -186,41 +117,69 @@ public class Utils {
         return Optional.empty();
     }
 
-    private static String getStringOption(Option option, com.contentstack.utils.helper.Metadata metadata,
-                                          JSONObject contentToPass) {
-        String stringOption = option.renderOptions(contentToPass, metadata);
-        if (stringOption == null) {
-            DefaultOption defaultOptions = new DefaultOption();
-            stringOption = defaultOptions.renderOptions(contentToPass, metadata);
+    /**
+     * Json to html.
+     *
+     * @param entryArray the entry array
+     * @param keyPath    the key path
+     * @param option     the render option
+     */
+    public static void jsonToHTML(@NotNull JSONArray entryArray, @NotNull String[] keyPath, @NotNull Option option) {
+        entryArray.forEach(jsonObj -> jsonToHTML((JSONObject) jsonObj, keyPath, option));
+    }
+
+
+    /**
+     * Json to html.
+     *
+     * @param entry        the entry
+     * @param keyPath      the key path
+     * @param renderOption the render object
+     */
+    public static void jsonToHTML(@NotNull JSONObject entry, @NotNull String[] keyPath, Option renderOption) {
+
+        MetaToEmbedCallback converter = metadata -> {
+            boolean available = entry.has("_embedded_items");
+            if (available) {
+                JSONObject jsonArray = entry.optJSONObject("_embedded_items");
+                return findEmbeddedItems(jsonArray, metadata);
+            }
+            return Optional.empty();
+        };
+
+
+        ContentCallback callback = content -> {
+            if (content instanceof JSONArray) {
+                JSONArray contentArray = (JSONArray) content;
+
+                return enumerateContents(contentArray, renderOption, converter);
+            } else if (content instanceof JSONObject) {
+                JSONObject jsonObject = (JSONObject) content;
+                return enumerateContent(jsonObject, renderOption, converter);
+            }
+            return null;
+        };
+
+        if (keyPath.length > 0) {
+            for (String path : keyPath) {
+                findContent(entry, path, callback);
+            }
         }
-        return stringOption;
     }
 
-    private static void getEmbeddedObjects(Document html, Metadata metadataCallback) {
-        Elements embeddedEntries = html.body().getElementsByClass("embedded-entry");
-        Elements embeddedAssets = html.body().getElementsByClass("embedded-asset");
-        embeddedEntries.forEach(entry -> {
-            String text = entry.text();
-            String type = entry.attr("type");
-            String uid = entry.attr("data-sys-entry-uid");
-            String contentType = entry.attr("data-sys-content-type-uid");
-            String style = entry.attr("sys-style-type");
-            String outerHTML = entry.outerHtml();
-            com.contentstack.utils.helper.Metadata metadata = new com.contentstack.utils.helper.Metadata(text, type,
-                    uid, contentType, style, outerHTML, entry.attributes());
-            metadataCallback.embeddedObject(metadata);
-        });
 
-        embeddedAssets.forEach(asset -> {
-            String text = asset.text();
-            String type = asset.attr("type");
-            String uid = asset.attr("data-sys-asset-uid");
-            String style = asset.attr("sys-style-type");
-            String outerHTML = asset.outerHtml();
-            com.contentstack.utils.helper.Metadata metadata = new com.contentstack.utils.helper.Metadata(text, type,
-                    uid, "asset", style, outerHTML, asset.attributes());
-            metadataCallback.embeddedObject(metadata);
-        });
+    /**
+     * Render.
+     *
+     * @param jsonArray    the json array
+     * @param keyPath      the key path
+     * @param renderObject the render object
+     */
+    public void render(@NotNull JSONArray jsonArray, @NotNull String[] keyPath, @NotNull Option renderObject) {
+        jsonArray.forEach(jsonObj -> render((JSONObject) jsonObj, keyPath, renderObject));
     }
+
 
 }
+
+
