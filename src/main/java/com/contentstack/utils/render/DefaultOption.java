@@ -115,7 +115,7 @@ public class DefaultOption implements Option {
 
 
     private String getNodeStr(JSONObject nodeObject, String key) {
-        String herf = nodeObject.optJSONObject("attrs").optString(key);
+        String herf = nodeObject.optJSONObject("attrs").optString(key); // key might be [href/src]
         String url = nodeObject.optJSONObject("attrs").optString("url");
         if (herf == null || herf.isEmpty()) {
             herf = url;
