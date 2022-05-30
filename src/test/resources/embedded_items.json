@@ -1,126 +1,121 @@
-
 {
-  "entries": [
-    {
-      "title": "Entry one",
-      "rich_text_editor": [
-        "<p>hello</p><img class=\"embedded-asset\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-asset-filelink=\"http://localhost:8000/v3/assets/blte964dd749943a934/blt6ba515fc6c148887/5d0b406eb0ed0f0c3d433115/dp.jpeg\" data-sys-asset-uid=\"bltba476c60baacb442\" data-sys-asset-filename=\"dp.jpeg\" data-sys-asset-contenttype=\"image/jpeg\" type=\"asset\" sys-style-type=\"display\"></img><div class=\"redactor-component embedded-entry block-entry redactor-component-active\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"bltb5a04880fbb74f26\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"samplect\" sys-style-type=\"block\" type=\"entry\"></div>\n<p>hello</p>\n<p></p>",
-        "<p>hello</p><img class=\"embedded-asset\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-asset-filelink=\"http://localhost:8000/v3/assets/blte964dd749943a934/blt6ba515fc6c148887/5d0b406eb0ed0f0c3d433115/dp.jpeg\" data-sys-asset-uid=\"bltba476c60baacb442\" data-sys-asset-filename=\"dp.jpeg\" data-sys-asset-contenttype=\"image/jpeg\" type=\"asset\" sys-style-type=\"display\"></img><div class=\"redactor-component embedded-entry block-entry redactor-component-active\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"bltb5a04880fbb74f26\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"samplect\" sys-style-type=\"block\" type=\"entry\"></div>\n<p>hello</p>\n<p></p>"
-      ],
-      "tags": [],
-      "locale": "en-us",
-      "uid": "blt11e3068b000b3475",
-      "created_by": "blt02b1ac581c14ff2f",
-      "updated_by": "blt02b1ac581c14ff2f",
-      "created_at": "2020-12-04T07:05:14.087Z",
-      "updated_at": "2020-12-04T07:57:30.492Z",
-      "ACL": {},
-      "_version": 8,
-      "_in_progress": false,
-      "_embedded_items": {
+    "entries": [{
+        "title": "Entry one",
         "rich_text_editor": [
-          {
-            "title": "Hi sample entry for embedding",
-            "url": "/sample-entry-one",
-            "rich_text_editor": [
-              "<p>Simple text</p>"
-            ],
-            "tags": [],
-            "locale": "en-us",
-            "uid": "bltb5a04880fbb74f26",
-            "created_by": "blt02b1ac581c14ff2f",
-            "updated_by": "blt02b1ac581c14ff2f",
-            "created_at": "2020-10-20T12:37:00.061Z",
-            "updated_at": "2020-10-20T12:37:00.061Z",
-            "_content_type_uid": "samplect",
-            "ACL": [],
-            "_version": 1,
-            "_workflow": {
-              "uid": "blt2d58dc5a06eed07f",
-              "updated_at": "2020-10-20T12:37:00.060Z",
-              "updated_by": "blt02b1ac581c14ff2f",
-              "version": 1
-            },
-            "_in_progress": false
-          },
-          {
-            "uid": "bltba476c60baacb442",
-            "created_at": "2020-10-06T13:23:54.459Z",
-            "updated_at": "2020-10-30T06:33:24.861Z",
-            "created_by": "blt02b1ac581c14ff2f",
-            "updated_by": "blt02b1ac581c14ff2f",
-            "content_type": "image/jpeg",
-            "file_size": "10126",
-            "tags": [],
-            "filename": "mickey.jpg",
-            "url": "http://localhost:8000/v3/assets/blt1ba712ff53d8a34c/bltba476c60baacb442/5f7c6feaf2715f6d2ffe9c45/mickey.jpg",
-            "ACL": [
-              {
-                "k": "others",
-                "v": {
-                  "read": false,
-                  "create": false,
-                  "update": false,
-                  "delete": false,
-                  "sub_acl": {
-                    "read": false,
-                    "create": false,
-                    "update": false,
-                    "delete": false,
-                    "publish": false
-                  }
+            "<p>hello</p><img class=\"embedded-asset\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-asset-filelink=\"http://localhost:8000/v3/assets/dp.jpeg\" data-sys-asset-uid=\"the_fake_uid\" data-sys-asset-filename=\"dp.jpeg\" data-sys-asset-contenttype=\"image/jpeg\" type=\"asset\" sys-style-type=\"display\"></img><div class=\"redactor-component embedded-entry block-entry redactor-component-active\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"the_fake_entry_uid\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"samplect\" sys-style-type=\"block\" type=\"entry\"></div>\n<p>hello</p>\n<p></p>",
+            "<p>hello</p><img class=\"embedded-asset\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-asset-filelink=\"http://localhost:8000/v3/assets/dp.jpeg\" data-sys-asset-uid=\"the_fake_uid\" data-sys-asset-filename=\"dp.jpeg\" data-sys-asset-contenttype=\"image/jpeg\" type=\"asset\" sys-style-type=\"display\"></img><div class=\"redactor-component embedded-entry block-entry redactor-component-active\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"the_fake_entry_uid\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"samplect\" sys-style-type=\"block\" type=\"entry\"></div>\n<p>hello</p>\n<p></p>"
+        ],
+        "tags": [],
+        "locale": "en-us",
+        "uid": "TheFakeUid",
+        "created_by": "createdByFakeCreatedBy",
+        "updated_by": "createdByFakeUpdatedBy",
+        "created_at": "2020-12-04T07:05:14.087Z",
+        "updated_at": "2020-12-04T07:57:30.492Z",
+        "ACL": {},
+        "_version": 8,
+        "_in_progress": false,
+        "_embedded_items": {
+            "rich_text_editor": [{
+                    "title": "Hi sample entry for embedding",
+                    "url": "/sample-entry-one",
+                    "rich_text_editor": [
+                        "<p>Simple text</p>"
+                    ],
+                    "tags": [],
+                    "locale": "en-us",
+                    "uid": "The_Fake_Uid",
+                    "created_by": "createdByFakeCreatedBy",
+                    "updated_by": "createdByFakeUpdatedBy",
+                    "created_at": "2020-10-20T12:37:00.061Z",
+                    "updated_at": "2020-10-20T12:37:00.061Z",
+                    "_content_type_uid": "samplect",
+                    "ACL": [],
+                    "_version": 1,
+                    "_workflow": {
+                        "uid": "The_WorkFlow_Fake_uid",
+                        "updated_at": "2020-10-20T12:37:00.060Z",
+                        "updated_by": "The_updatedBy_fake_updatedBy",
+                        "version": 1
+                    },
+                    "_in_progress": false
+                },
+                {
+                    "uid": "FaKe_Uid",
+                    "created_at": "2020-10-06T13:23:54.459Z",
+                    "updated_at": "2020-10-30T06:33:24.861Z",
+                    "created_by": "createdByFakeCreatedBy",
+                    "updated_by": "createdByFakeUpdatedBy",
+                    "content_type": "image/jpeg",
+                    "file_size": "10126",
+                    "tags": [],
+                    "filename": "mickey.jpg",
+                    "url": "http://localhost:8000/v3/assets/mickey.jpg",
+                    "ACL": [{
+                            "k": "others",
+                            "v": {
+                                "read": false,
+                                "create": false,
+                                "update": false,
+                                "delete": false,
+                                "sub_acl": {
+                                    "read": false,
+                                    "create": false,
+                                    "update": false,
+                                    "delete": false,
+                                    "publish": false
+                                }
+                            }
+                        },
+                        {
+                            "k": "roles.",
+                            "v": {
+                                "k": "others",
+                                "v": {
+                                    "read": false,
+                                    "create": false,
+                                    "update": false,
+                                    "delete": false,
+                                    "sub_acl": {
+                                        "read": false,
+                                        "create": false,
+                                        "update": false,
+                                        "delete": false,
+                                        "publish": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "k": "roles.",
+                            "v": {
+                                "k": "roles.",
+                                "v": {
+                                    "k": "others",
+                                    "v": {
+                                        "read": false,
+                                        "create": false,
+                                        "update": false,
+                                        "delete": false,
+                                        "sub_acl": {
+                                            "read": false,
+                                            "create": false,
+                                            "update": false,
+                                            "delete": false,
+                                            "publish": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "parent_uid": null,
+                    "_version": 6,
+                    "title": "mickey.jpg",
+                    "description": "",
+                    "_content_type_uid": "sys_assets"
                 }
-              },
-              {
-                "k": "roles.",
-                "v": {
-                  "k": "others",
-                  "v": {
-                    "read": false,
-                    "create": false,
-                    "update": false,
-                    "delete": false,
-                    "sub_acl": {
-                      "read": false,
-                      "create": false,
-                      "update": false,
-                      "delete": false,
-                      "publish": false
-                    }
-                  }
-                }
-              },
-              {
-                "k": "roles.",
-                "v": {
-                  "k": "roles.",
-                  "v": {
-                    "k": "others",
-                    "v": {
-                      "read": false,
-                      "create": false,
-                      "update": false,
-                      "delete": false,
-                      "sub_acl": {
-                        "read": false,
-                        "create": false,
-                        "update": false,
-                        "delete": false,
-                        "publish": false
-                      }
-                    }
-                  }
-                }
-              }
-            ],
-            "parent_uid": null,
-            "_version": 6,
-            "title": "mickey.jpg",
-            "description": "",
-            "_content_type_uid": "sys_assets"
-          }
-        ]
-      }
-    }
-  ]
+            ]
+        }
+    }]
 }

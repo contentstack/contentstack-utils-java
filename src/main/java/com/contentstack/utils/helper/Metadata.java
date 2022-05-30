@@ -1,29 +1,33 @@
 package com.contentstack.utils.helper;
+
 import com.contentstack.utils.embedded.StyleType;
 import org.jsoup.nodes.Attributes;
 
-/**
- * POJO(Getters and Setters) for the Embedded Objects, that helps to carry the objects
- */
+
 public class Metadata {
 
-    // Metadata text of embedded object
-    String text ;
-    /* type of embedded object*/
+    String text;
     String itemType;
-    /* itemUid of embedded object*/
     String itemUid;
-    /* contentTypeUid of embedded object*/
     String contentTypeUid;
-    /* styleTypeUid of embedded object*/
     StyleType styleType;
-    /* Outer HTML of embedded object*/
     String outerHTML;
-    /* attributes of embedded object*/
     Attributes attributes;
 
-    public Metadata(String text, String itemType, String itemUid, String contentTypeUid, String styleType, String outerHTML, Attributes attributes) {
-       this.text= text;
+    /**
+     * Instantiates a new Metadata.
+     *
+     * @param text           the text
+     * @param itemType       the item type
+     * @param itemUid        the item uid
+     * @param contentTypeUid the content type uid
+     * @param styleType      the style type
+     * @param outerHTML      the outer html
+     * @param attributes     the attributes
+     */
+    public Metadata(String text, String itemType, String itemUid, String contentTypeUid,
+                    String styleType, String outerHTML, Attributes attributes) {
+        this.text = text;
         this.itemType = itemType;
         this.itemUid = itemUid;
         this.contentTypeUid = contentTypeUid;
@@ -45,11 +49,17 @@ public class Metadata {
                 '}';
     }
 
-    public String getText() { return text; }
+    public String getText() {
+        return text;
+    }
 
-    public String getItemType() { return itemType; }
+    public String getItemType() {
+        return itemType;
+    }
 
-    public Attributes getAttributes() { return attributes; }
+    public Attributes getAttributes() {
+        return attributes;
+    }
 
     public String getItemUid() {
         return itemUid;

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS with an API-first approach</description>
     <url>https://www.contentstack.com</url>
 
     <properties>
-        <util.version>1.0.0-SNAPSHOT</util.version>
+        <util.version>1.1.1-SNAPSHOT</util.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.sourceEncoding>UTF-8</project.reporting.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -23,8 +21,10 @@
         <surefire-report-plugin.version>2.22.0</surefire-report-plugin.version>
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
-        <kotlin-test-junit.version>1.4.10</kotlin-test-junit.version>
-        <junit.version>4.13.1</junit.version>
+        <kotlin-test-junit.version>1.6.21</kotlin-test-junit.version>
+        <junit.version>4.13.2</junit.version>
+        <jsoup.version>1.14.3</jsoup.version>
+        <json.simple.version>1.1.1</json.simple.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
         <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
@@ -86,6 +86,7 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
             <version>${kotlin-test-junit.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -96,17 +97,30 @@
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.14.2</version>
+            <version>${jsoup.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20180130</version>
+            <version>20220320</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>${json.simple.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.20</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
     <build>
-        <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -235,13 +249,13 @@
                     <goals>deploy</goals>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <version>${kotlin-test-junit.version}</version>
                 <executions>
                     <execution>
+                        <?m2e execute onConfiguration,onIncremental?>
                         <id>compile</id>
                         <phase>process-sources</phase>
                         <goals>
@@ -250,6 +264,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 
