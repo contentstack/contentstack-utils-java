@@ -1,6 +1,5 @@
 package com.contentstack.utils;
 
-import com.contentstack.utils.callbacks.Option;
 import com.contentstack.utils.embedded.StyleType;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONArray;
