@@ -3,10 +3,10 @@ package com.contentstack.utils;
 import com.contentstack.utils.interfaces.ContentCallback;
 import com.contentstack.utils.interfaces.MetaToEmbedCallback;
 import com.contentstack.utils.render.DefaultOption;
-import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import javax.validation.constraints.NotNull;
 import java.util.Optional;
 import java.util.stream.StreamSupport;
 
@@ -22,9 +22,12 @@ public class GQL {
     /**
      * Json to html.
      *
-     * @param gqlEntry     the gql entry is entry @{@link JSONObject}
-     * @param path         the path is array of @{@link String}
-     * @param renderOption the render option is instance of @{@link DefaultOption}
+     * @param gqlEntry
+     *         the gql entry is entry @{@link JSONObject}
+     * @param path
+     *         the path is array of @{@link String}
+     * @param renderOption
+     *         the render option is instance of @{@link DefaultOption}
      */
     public static void jsonToHTML(@NotNull JSONObject gqlEntry, @NotNull String[] path, @NotNull DefaultOption renderOption) {
 
