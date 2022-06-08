@@ -5,7 +5,7 @@
 
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>{$utils.version}</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS with an API-first
@@ -86,7 +86,7 @@
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
-            <version>1.0.0.GA</version>
+            <version>2.0.1.Final</version>
         </dependency>
         <dependency>
             <groupId>org.jsoup</groupId>
