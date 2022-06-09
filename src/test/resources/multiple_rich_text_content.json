@@ -23,7 +23,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-10-28T12:11:09.538Z",
-                    "user": "702565fb0d35107f"
+                    "user": "userId"
                 }
             }],
             "global_rich_multiple.group.rich_text_editor": [{
@@ -44,7 +44,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-10-28T12:11:09.538Z",
-                    "user": "702565fb0d35107f"
+                    "user": "theUserId"
                 }
             }],
             "global_rich_multiple.group.rich_text_editor_multiple": [{
@@ -65,7 +65,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-10-28T12:11:09.538Z",
-                    "user": "702565fb0d35107f"
+                    "user": "theUserId"
                 }
             }],
             "modular_blocks.rich_text_inmodular.rich_text_editor_multiple": [{
@@ -86,7 +86,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-10-28T12:11:09.538Z",
-                    "user": "702565fb0d35107f"
+                    "user": "theUserId"
                 }
             }],
             "rich_text_editor": [{
@@ -128,7 +128,7 @@
                     "locale": "en-us",
                     "uid": "41a3bf40728446c3",
                     "created_by": "7cf74ca069442cc6",
-                    "updated_by": "e75599b1e529fa3a",
+                    "updated_by": "theUserId",
                     "created_at": "2020-01-08T05:58:32.735Z",
                     "updated_at": "2020-09-30T06:15:31.196Z",
                     "_content_type_uid": "00_suraj",
@@ -139,15 +139,15 @@
                         "environment": "be240fa93baafa15",
                         "locale": "en-us",
                         "time": "2020-09-30T06:27:30.470Z",
-                        "user": "e75599b1e529fa3a"
+                        "user": "theUserId"
                     }
                 },
                 {
                     "uid": "120a5a04d91c9466",
                     "created_at": "2020-05-13T05:33:10.496Z",
                     "updated_at": "2020-05-13T05:33:10.496Z",
-                    "created_by": "10ead621ea074461",
-                    "updated_by": "10ead621ea074461",
+                    "created_by": "theCreatedby",
+                    "updated_by": "theCreatedby",
                     "content_type": "image/png",
                     "file_size": "59014",
                     "_content_type_uid": "0_solve",
@@ -182,7 +182,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-10-28T12:11:09.538Z",
-                    "user": "702565fb0d35107f"
+                    "user": "theUserId"
                 }
             }],
             "global_rich.rich_text_editor": [{
@@ -224,7 +224,7 @@
                 "locale": "en-us",
                 "uid": "41a3bf40728446c3",
                 "created_by": "7cf74ca069442cc6",
-                "updated_by": "e75599b1e529fa3a",
+                "updated_by": "theUserId",
                 "created_at": "2020-01-08T05:58:32.735Z",
                 "updated_at": "2020-09-30T06:15:31.196Z",
                 "_content_type_uid": "00_suraj",
@@ -234,7 +234,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-09-30T06:27:30.470Z",
-                    "user": "e75599b1e529fa3a"
+                    "user": "user_id"
                 }
             }],
             "global_rich.group.rich_text_editor": [{
@@ -301,7 +301,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-10-14T15:41:23.760Z",
-                    "user": "e75599b1e529fa3a"
+                    "user": "theUserId"
                 },
                 "_content_type_uid": "00_suraj_final"
             }],
@@ -362,7 +362,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-05-04T08:43:36.476Z",
-                    "user": "10ead621ea074461"
+                    "user": "theCreatedby"
                 }
             }],
             "global_rich.rich_text_editor_multiple": [{
@@ -410,7 +410,7 @@
                 "locale": "en-us",
                 "uid": "41a3bf40728446c3",
                 "created_by": "7cf74ca069442cc6",
-                "updated_by": "e75599b1e529fa3a",
+                "updated_by": "theUserId",
                 "created_at": "2020-01-08T05:58:32.735Z",
                 "updated_at": "2020-09-30T06:15:31.196Z",
                 "_content_type_uid": "00_suraj",
@@ -421,7 +421,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-09-30T06:27:30.470Z",
-                    "user": "e75599b1e529fa3a"
+                    "user": "theUserId"
                 }
             }],
             "global_rich.group.rich_text_editor_multiple": [{
@@ -496,7 +496,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-04-01T08:14:35.247Z",
-                    "user": "10ead621ea074461"
+                    "user": "theCreatedby"
                 },
                 "_content_type_uid": "00_suraj"
             }],
@@ -537,7 +537,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-05-04T08:43:36.476Z",
-                    "user": "10ead621ea074461"
+                    "user": "theCreatedby"
                 }
             }],
             "global_rich_multiple.modular_blocks.rich_in_modular.rich_text_editor": [{
@@ -605,7 +605,7 @@
                     "environment": "be240fa93baafa15",
                     "locale": "en-us",
                     "time": "2020-10-14T15:41:23.760Z",
-                    "user": "e75599b1e529fa3a"
+                    "user": "theUserId"
                 },
                 "_content_type_uid": "00_suraj_final"
             }],
@@ -616,7 +616,7 @@
         },
         "_in_progress": false,
         "created_at": "2020-10-06T08:17:56.955Z",
-        "created_by": "314a5d5a52d022c1",
+        "created_by": "theCreatedBy",
         "global_rich": {
             "rich_text_editor": "<p><a data-sys-entry-uid=\"41a3bf40728446c3\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"00_suraj\" sys-style-type=\"link\" data-sys-can-edit=\"true\" class=\"embedded-entry\" type=\"entry\" href=\"/suraj-123-entry\" title=\"Manish New entry\">Global</a></p>",
             "rich_text_editor_multiple": [
@@ -723,13 +723,13 @@
 
         "title": "Test Rich Text",
         "updated_at": "2020-11-05T08:26:14.590Z",
-        "updated_by": "314a5d5a52d022c1",
+        "updated_by": "theCreatedBy",
         "url": "/test-rich-text",
         "publish_details": {
             "environment": "be240fa93baafa15",
             "locale": "en-us",
             "time": "2020-11-05T08:26:24.826Z",
-            "user": "314a5d5a52d022c1"
+            "user": "theCreatedBy"
         }
     }]
 }
