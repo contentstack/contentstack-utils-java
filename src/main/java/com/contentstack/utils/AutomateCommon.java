@@ -7,7 +7,7 @@ import com.contentstack.utils.interfaces.MetadataCallback;
 import com.contentstack.utils.interfaces.Option;
 import com.contentstack.utils.node.NodeToHTML;
 import com.contentstack.utils.render.DefaultOption;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.nodes.Attributes;

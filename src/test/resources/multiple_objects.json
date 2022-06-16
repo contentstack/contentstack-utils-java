@@ -7,8 +7,8 @@
             "uid": "120a5a04d91c9466",
             "created_at": "2020-05-13T05:33:10.496Z",
             "updated_at": "2020-05-13T05:33:10.496Z",
-            "created_by": "10ead621ea074461",
-            "updated_by": "10ead621ea074461",
+            "created_by": "theCreatedby",
+            "updated_by": "theCreatedby",
             "content_type": "image/png",
             "file_size": "59014",
             "tags": [],
@@ -21,7 +21,7 @@
                 "environment": "be240fa93baafa15",
                 "locale": "en-us",
                 "time": "2020-09-30T08:59:20.990Z",
-                "user": "e75599b1e529fa3a"
+                "user": "theUserId"
             }
         }],
         "_embedded_entries": [{
@@ -35,20 +35,20 @@
             }],
             "_in_progress": false,
             "created_at": "2020-10-05T06:20:12.914Z",
-            "created_by": "63f37893b70ec00f",
+            "created_by": "theUserId",
             "rich_text_editor": [
                 "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/77263d300aee3e6b/120a5a04d91c9466/5ebb86965a68ad069038b729/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
             ],
             "tags": [],
             "title": "Alaukik assets",
             "updated_at": "2020-10-05T06:20:42.286Z",
-            "updated_by": "63f37893b70ec00f",
+            "updated_by": "theUserId",
             "url": "/untitled",
             "publish_details": {
                 "environment": "be240fa93baafa15",
                 "locale": "en-us",
                 "time": "2020-10-05T06:25:33.173Z",
-                "user": "63f37893b70ec00f"
+                "user": "theUserId"
             },
             "_publish_environment": "be240fa93baafa15",
             "_publish_locale": "en-us",
@@ -56,20 +56,20 @@
         }],
         "_in_progress": false,
         "created_at": "2020-10-05T07:28:48.062Z",
-        "created_by": "63f37893b70ec00f",
+        "created_by": "theUserId",
         "rich_text_editor": [
             "<p><a data-sys-entry-uid=\"712998525c052ff0\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"alaukik_assets\" sys-style-type=\"link\" class=\"embedded-entry\" type=\"entry\" href=\"/untitled\">test example</a>&nbsp;<span class=\"redactor-component embedded-entry inline-entry\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"712998525c052ff0\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"alaukik_assets\" sys-style-type=\"inline\" type=\"entry\"></span>Hey how are you&nbsp;</p>\n<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/77263d300aee3e6b/120a5a04d91c9466/5ebb86965a68ad069038b729/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"hey this is tag\" data-sys-asset-link=\"https://pbs.twimg.com/profile_images/944044690185134080/dxAswGWd_400x400.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
         ],
         "tags": [],
         "title": "this is unique title",
         "updated_at": "2020-10-05T07:28:48.062Z",
-        "updated_by": "63f37893b70ec00f",
+        "updated_by": "theUserId",
         "url": "/this-is-unique-title",
         "publish_details": {
             "environment": "be240fa93baafa15",
             "locale": "en-us",
             "time": "2020-10-05T07:29:03.066Z",
-            "user": "63f37893b70ec00f"
+            "user": "theUserId"
         }
     },
     {
@@ -88,20 +88,20 @@
             }],
             "_in_progress": false,
             "created_at": "2020-10-05T06:20:12.914Z",
-            "created_by": "63f37893b70ec00f",
+            "created_by": "theUserId",
             "rich_text_editor": [
                 "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
             ],
             "tags": [],
             "title": "Alaukik assets",
             "updated_at": "2020-10-05T06:20:42.286Z",
-            "updated_by": "63f37893b70ec00f",
+            "updated_by": "theUserId",
             "url": "/untitled",
             "publish_details": {
                 "environment": "be240fa93baafa15",
                 "locale": "en-us",
                 "time": "2020-10-05T06:25:33.173Z",
-                "user": "63f37893b70ec00f"
+                "user": "theUserId"
             },
             "_publish_environment": "be240fa93baafa15",
             "_publish_locale": "en-us",
@@ -109,20 +109,20 @@
         }],
         "_in_progress": false,
         "created_at": "2020-10-05T06:24:49.490Z",
-        "created_by": "63f37893b70ec00f",
+        "created_by": "theUserId",
         "rich_text_editor": [
             "<p><span class=\"redactor-component embedded-entry inline-entry\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"712998525c052ff0\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"alaukik_assets\" sys-style-type=\"inline\" type=\"entry\"></span>Alaukik embedded entry example.</p>"
         ],
         "tags": [],
         "title": "Untitled",
         "updated_at": "2020-10-05T06:24:49.490Z",
-        "updated_by": "63f37893b70ec00f",
+        "updated_by": "theUserId",
         "url": "/untitled",
         "publish_details": {
             "environment": "be240fa93baafa15",
             "locale": "en-us",
             "time": "2020-10-05T06:25:47.939Z",
-            "user": "63f37893b70ec00f"
+            "user": "theUserId"
         }
     },
     {
@@ -134,8 +134,8 @@
             "uid": "120a5a04d91c9466",
             "created_at": "2020-05-13T05:33:10.496Z",
             "updated_at": "2020-05-13T05:33:10.496Z",
-            "created_by": "10ead621ea074461",
-            "updated_by": "10ead621ea074461",
+            "created_by": "theCreatedby",
+            "updated_by": "theCreatedby",
             "content_type": "image/png",
             "file_size": "59014",
             "tags": [],
@@ -148,25 +148,25 @@
                 "environment": "be240fa93baafa15",
                 "locale": "en-us",
                 "time": "2020-09-30T08:59:20.990Z",
-                "user": "e75599b1e529fa3a"
+                "user": "theUserId"
             }
         }],
         "_in_progress": false,
         "created_at": "2020-10-05T06:20:12.914Z",
-        "created_by": "63f37893b70ec00f",
+        "created_by": "theUserId",
         "rich_text_editor": [
             "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
         ],
         "tags": [],
         "title": "Alaukik assets",
         "updated_at": "2020-10-05T06:20:42.286Z",
-        "updated_by": "63f37893b70ec00f",
+        "updated_by": "theUserId",
         "url": "/untitled",
         "publish_details": {
             "environment": "be240fa93baafa15",
             "locale": "en-us",
             "time": "2020-10-05T06:25:33.173Z",
-            "user": "63f37893b70ec00f"
+            "user": "theUserId"
         }
     }
 ]
