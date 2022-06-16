@@ -4,12 +4,12 @@ import com.contentstack.utils.helper.Metadata;
 import com.contentstack.utils.interfaces.ContentCallback;
 import com.contentstack.utils.interfaces.MetaToEmbedCallback;
 import com.contentstack.utils.interfaces.Option;
-import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Set;
@@ -20,20 +20,23 @@ import static com.contentstack.utils.AutomateCommon.*;
 
 
 /**
- * The Utils Class enables few functions like render, renderContent,
- * jsonToHtml, RTE and SRTE to process the entry data and converts in html format.
+ * The Utils Class enables few functions like render, renderContent, jsonToHtml, RTE and SRTE to process the entry data
+ * and converts in html format.
  */
 public class Utils {
 
 
-    final private static Logger logger = Logger.getLogger(Utils.class.getName());
+    static final Logger logger = Logger.getLogger(Utils.class.getName());
 
     /**
      * Render.
      *
-     * @param entryObj     the entry obj
-     * @param pathString      the key path
-     * @param renderObject the render object
+     * @param entryObj
+     *         the entry obj
+     * @param pathString
+     *         the key path
+     * @param renderObject
+     *         the render object
      */
     public static void render(JSONObject entryObj, String[] pathString, Option renderObject) {
 
@@ -50,7 +53,7 @@ public class Utils {
 
         if (entryObj != null && entryObj.has("_embedded_items")) {
             // when pathString is provided by user
-            if (pathString != null && pathString.length>0) {
+            if (pathString != null && pathString.length > 0) {
                 for (String path : pathString) {
                     findContent(entryObj, path, callback);
                 }
@@ -69,9 +72,12 @@ public class Utils {
     /**
      * Render content string.
      *
-     * @param rteStringify the rte stringify
-     * @param embedObject  the embed object
-     * @param option       the option
+     * @param rteStringify
+     *         the rte stringify
+     * @param embedObject
+     *         the embed object
+     * @param option
+     *         the option
      * @return the string
      */
     public static String renderContent(String rteStringify, JSONObject embedObject, Option option) {
@@ -120,9 +126,12 @@ public class Utils {
     /**
      * Json to html.
      *
-     * @param entryArray the entry array
-     * @param keyPath    the key path
-     * @param option     the render option
+     * @param entryArray
+     *         the entry array
+     * @param keyPath
+     *         the key path
+     * @param option
+     *         the render option
      */
     public static void jsonToHTML(@NotNull JSONArray entryArray, @NotNull String[] keyPath, @NotNull Option option) {
         entryArray.forEach(jsonObj -> jsonToHTML((JSONObject) jsonObj, keyPath, option));
@@ -132,9 +141,12 @@ public class Utils {
     /**
      * Json to html.
      *
-     * @param entry        the entry
-     * @param keyPath      the key path
-     * @param renderOption the render object
+     * @param entry
+     *         the entry
+     * @param keyPath
+     *         the key path
+     * @param renderOption
+     *         the render object
      */
     public static void jsonToHTML(@NotNull JSONObject entry, @NotNull String[] keyPath, Option renderOption) {
 
@@ -162,6 +174,7 @@ public class Utils {
 
         if (keyPath.length > 0) {
             for (String path : keyPath) {
+                logger.info(path);
                 findContent(entry, path, callback);
             }
         }
@@ -171,9 +184,12 @@ public class Utils {
     /**
      * Render.
      *
-     * @param jsonArray    the json array
-     * @param keyPath      the key path
-     * @param renderObject the render object
+     * @param jsonArray
+     *         the json array
+     * @param keyPath
+     *         the key path
+     * @param renderObject
+     *         the render object
      */
     public void render(@NotNull JSONArray jsonArray, @NotNull String[] keyPath, @NotNull Option renderObject) {
         jsonArray.forEach(jsonObj -> render((JSONObject) jsonObj, keyPath, renderObject));
