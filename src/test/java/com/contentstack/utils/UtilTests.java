@@ -1,13 +1,8 @@
 package com.contentstack.utils;
 
-import com.contentstack.utils.embedded.StyleType;
-import com.contentstack.utils.interfaces.Option;
-import com.contentstack.utils.render.DefaultOption;
-import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
-import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
 import java.io.IOException;
