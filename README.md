@@ -32,7 +32,7 @@ If you are using Contentstack Java SDK, then the Utils SDK is already imported i
 </dependency>
 ```
 
-Download [{latest}](https://search.maven.org/artifact/com.contentstack.sdk/utils) dependency here
+Download [Latest](https://central.sonatype.dev/artifact/com.contentstack.sdk/utils/) dependency here
 
 ### Usage
 
