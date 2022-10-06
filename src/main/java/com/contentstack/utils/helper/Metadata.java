@@ -17,13 +17,20 @@ public class Metadata {
     /**
      * Instantiates a new Metadata.
      *
-     * @param text           the text
-     * @param itemType       the item type
-     * @param itemUid        the item uid
-     * @param contentTypeUid the content type uid
-     * @param styleType      the style type
-     * @param outerHTML      the outer html
-     * @param attributes     the attributes
+     * @param text
+     *         the text
+     * @param itemType
+     *         the item type
+     * @param itemUid
+     *         the item uid
+     * @param contentTypeUid
+     *         the content type uid
+     * @param styleType
+     *         the style type
+     * @param outerHTML
+     *         the outer html
+     * @param attributes
+     *         the attributes
      */
     public Metadata(String text, String itemType, String itemUid, String contentTypeUid,
                     String styleType, String outerHTML, Attributes attributes) {
