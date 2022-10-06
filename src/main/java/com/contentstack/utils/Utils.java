@@ -182,6 +182,47 @@ public class Utils {
 
 
     /**
+     * Converts jsonRTE to String
+     *
+     * @param jsonRTE
+     *         The JsonRTE object {@link JSONObject}
+     * @param renderOption
+     *         The Option Interface
+     * @param embeddeditems
+     *         The Embedded Objects {@link JSONObject}
+     * @return String
+     */
+    public static String jsonToHTML(@NotNull JSONObject jsonRTE, Option renderOption, JSONObject embeddeditems) {
+        MetaToEmbedCallback converter = metadata -> {
+            if (embeddeditems != null && !embeddeditems.isEmpty()) {
+                return findEmbeddedItems(embeddeditems, metadata);
+            }
+            return Optional.empty();
+        };
+        return enumerateContent(jsonRTE, renderOption, converter);
+    }
+
+    /**
+     * @param jsonRTE
+     *         The JsonRTE Array {@link JSONArray}
+     * @param renderOption
+     *         The Option Interface
+     * @param embeddeditems
+     *         The Embedded Objects {@link JSONObject}
+     * @return String
+     */
+    public static Object jsonToHTML(@NotNull JSONArray jsonRTE, Option renderOption, JSONObject embeddeditems) {
+        MetaToEmbedCallback converter = metadata -> {
+            if (embeddeditems != null && !embeddeditems.isEmpty()) {
+                return findEmbeddedItems(embeddeditems, metadata);
+            }
+            return Optional.empty();
+        };
+        return enumerateContents(jsonRTE, renderOption, converter);
+    }
+
+
+    /**
      * Render.
      *
      * @param jsonArray

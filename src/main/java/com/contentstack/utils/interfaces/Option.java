@@ -12,8 +12,10 @@ public interface Option {
     /**
      * Render options string.
      *
-     * @param embeddedObject the embedded object
-     * @param metadata       the metadata
+     * @param embeddedObject
+     *         the embedded object
+     * @param metadata
+     *         the metadata
      * @return the string
      */
     String renderOptions(JSONObject embeddedObject, Metadata metadata);
@@ -21,8 +23,10 @@ public interface Option {
     /**
      * Render mark string.
      *
-     * @param markType   the mark type
-     * @param renderText the render text
+     * @param markType
+     *         the mark type
+     * @param renderText
+     *         the render text
      * @return the string
      */
     String renderMark(MarkType markType, String renderText);
@@ -30,9 +34,12 @@ public interface Option {
     /**
      * Render node string.
      *
-     * @param nodeType   the node type
-     * @param nodeObject the node object
-     * @param callback   the callback
+     * @param nodeType
+     *         the node type
+     * @param nodeObject
+     *         the node object
+     * @param callback
+     *         the callback
      * @return the string
      */
     String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback);

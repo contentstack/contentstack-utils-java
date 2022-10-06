@@ -1,10 +1,9 @@
 package com.contentstack.utils;
 
 import com.contentstack.utils.embedded.StyleType;
-import com.contentstack.utils.interfaces.Option;
 import com.contentstack.utils.render.DefaultOption;
-import org.json.JSONArray;
 import org.json.JSONObject;
+import org.json.simple.JSONArray;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -13,6 +12,8 @@ import org.junit.runners.MethodSorters;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import static com.contentstack.utils.embedded.StyleType.*;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UtilTests {
@@ -28,30 +29,26 @@ public class UtilTests {
         localJsonObj = (JSONObject) localJsonObj.getJSONArray("entries").get(0);
     }
 
-//    @Test
-//    public void testRenderFunction() {
+    @Test
+    public void testRenderFunction() {
 //        DefaultOption option = (embeddedObject, metadata) -> {
 //            StyleType styleType = metadata.getStyleType();
 //            return null;
 //        };
-//        String[] keys = new String[2];
-//        keys[0] = "global_rich_multiple.group.rich_text_editor";
-//        keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
-//        Utils.render(localJsonObj, keys, new DefaultOption());
-//    }
-//
-//    @Test
-//    public void testWithoutKeyPath() {
-//        Option option = (embeddedObject, metadata) -> {
-//            StyleType styleType = metadata.getStyleType();
-//            return null;
-//        };
-//        String[] keys = new String[2];
-//        keys[0] = "global_rich_multiple.group.rich_text_editor";
-//        keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
-//        Utils.render(localJsonObj, null, new DefaultOption());
-//    }
-//
+        String[] keys = new String[2];
+        keys[0] = "global_rich_multiple.group.rich_text_editor";
+        keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
+        Utils.render(localJsonObj, keys, new DefaultOption());
+    }
+
+    @Test
+    public void testWithoutKeyPath() {
+        String[] keys = new String[2];
+        keys[0] = "global_rich_multiple.group.rich_text_editor";
+        keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
+        Utils.render(localJsonObj, null, new DefaultOption());
+    }
+
 //    @Test
 //    public void testEmbeddedBlockEntry() {
 //        JSONArray rteArray = null;
@@ -63,7 +60,7 @@ public class UtilTests {
 //        assert rteArray != null;
 //        Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
 //            StyleType type = metadata.getStyleType();
-//            if (type == StyleType.BLOCK) {
+//            if (type == BLOCK) {
 //                String title = embeddedObject.getString("title");
 //                String multi_line = embeddedObject.getString("multi_line");
 //                return "<p>" + title + "</p><span>" + multi_line + "</span>";
@@ -72,7 +69,7 @@ public class UtilTests {
 //        });
 //
 //        Utils.renderContents(rteArray, localJsonObj, (embeddedObject, metadata) -> {
-//            if (metadata.getStyleType() == StyleType.BLOCK) {
+//            if (metadata.getStyleType() == BLOCK) {
 //                String title = embeddedObject.getString("title");
 //                String multi_line = embeddedObject.getString("multi_line");
 //                return "<p>" + title + "</p><span>" + multi_line + "</span>";
@@ -154,8 +151,8 @@ public class UtilTests {
 //        String[] keyPath = {
 //                "rich_text_editor", "global_rich_multiple.group.rich_text_editor"
 //        };
-//        Utils.render(rteObject, keyPath, (embeddedObject, metadata) -> {
-//            if (metadata.getStyleType() == StyleType.BLOCK) {
+//        Utils.renderContents(rteObject, keyPath, (embeddedObject, metadata) -> {
+//            if (metadata.getStyleType == BLOCK) {
 //                // Do something
 //            }
 //            return null;
