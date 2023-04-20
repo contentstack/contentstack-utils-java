@@ -13,7 +13,8 @@ public interface MetaToEmbedCallback {
     /**
      * To embed optional.
      *
-     * @param metadata the metadata
+     * @param metadata
+     *         the metadata
      * @return the optional
      */
     Optional<JSONObject> toEmbed(Metadata metadata);

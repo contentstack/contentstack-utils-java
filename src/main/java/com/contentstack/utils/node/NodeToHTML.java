@@ -8,11 +8,18 @@ import org.json.JSONObject;
  */
 public class NodeToHTML {
 
+
+    private NodeToHTML() {
+        throw new IllegalStateException("Could not create instance of NodeToHTML");
+    }
+
     /**
      * Text node to html string.
      *
-     * @param nodeText     the node text
-     * @param renderOption the render option
+     * @param nodeText
+     *         the node text
+     * @param renderOption
+     *         the render option
      * @return the string
      */
     public static String textNodeToHTML(JSONObject nodeText, Option renderOption) {

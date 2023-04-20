@@ -12,10 +12,11 @@ import static com.contentstack.utils.RTEResult.*;
 import static com.contentstack.utils.RTEString.*;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class RteJsonToString {
+public class TestRte {
 
     @BeforeClass
-    public static void startTestEmbedItemType() {}
+    public static void startTestEmbedItemType() {
+    }
 
     @Test
     public void testkBlankDocument() {
