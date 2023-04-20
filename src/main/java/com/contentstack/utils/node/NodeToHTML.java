@@ -47,6 +47,9 @@ public class NodeToHTML {
         if (nodeText.has("bold")) {
             text = renderOption.renderMark(MarkType.BOLD, text);
         }
+        if (nodeText.has("break")) {
+            text = renderOption.renderMark(MarkType.BREAK, text);
+        }
         return text;
     }
 
