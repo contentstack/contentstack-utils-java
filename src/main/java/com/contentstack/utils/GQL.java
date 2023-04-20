@@ -17,6 +17,12 @@ import static com.contentstack.utils.AutomateCommon.*;
  */
 public class GQL {
 
+
+    private GQL() throws IllegalAccessException {
+        throw new IllegalAccessException("Invalid Access! Could not create instance of GQL");
+    }
+
+
     private static JSONArray embeddedItems = null;
 
     /**
@@ -44,7 +50,7 @@ public class GQL {
                 MetaToEmbedCallback converter = metadata -> {
                     if (embeddedItems != null) {
                         Optional<JSONObject> filteredContent = StreamSupport.stream(embeddedItems.spliterator(), false)
-                                .map(val -> (JSONObject) val)
+                                .map(JSONObject.class::cast)
                                 .filter(itemDict -> {
                                     JSONObject nodeObject = itemDict.optJSONObject("node");
                                     if (nodeObject.has("uid")) {
@@ -70,11 +76,8 @@ public class GQL {
             }
             return null;
         };
-
-        if (path.length > 0) {
-            for (String pathKey : path) {
-                findContent(gqlEntry, pathKey, callback);
-            }
+        for (String pathKey : path) {
+            findContent(gqlEntry, pathKey, callback);
         }
     }
 }

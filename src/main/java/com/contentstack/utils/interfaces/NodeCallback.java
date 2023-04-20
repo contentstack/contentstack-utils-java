@@ -9,7 +9,8 @@ public interface NodeCallback {
     /**
      * Render children string.
      *
-     * @param nodeJsonArray the node json array
+     * @param nodeJsonArray
+     *         the node json array
      * @return the string
      */
     String renderChildren(JSONArray nodeJsonArray);
