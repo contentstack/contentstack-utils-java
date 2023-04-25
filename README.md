@@ -12,7 +12,7 @@ This guide will help you get started with Contentstack Java Utils SDK to build a
 
 ### SDK Installation and Setup
 
-To setup Utils SDK in your Java project, add the following dependency in the pom.xml file
+To setup [Utils SDK](https://mvnrepository.com/artifact/com.contentstack.sdk/utils) in your Java project, add the following dependency in the pom.xml file
 
 ```java
 <dependency>
