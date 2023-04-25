@@ -6,6 +6,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Attributes;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -63,10 +64,8 @@ public class ReadResource {
             String stringify = (String) RTE;
             html = Jsoup.parse(stringify);
         }
-
         assert html != null;
         Elements embeddedEntries = html.body().getElementsByClass("embedded-asset");
-        Attributes attributes = embeddedEntries.get(0).attributes();
         return embeddedEntries.get(0).attributes();
     }
 

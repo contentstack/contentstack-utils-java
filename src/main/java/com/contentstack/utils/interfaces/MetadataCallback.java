@@ -10,7 +10,8 @@ public interface MetadataCallback {
     /**
      * Embedded object.
      *
-     * @param metadata the metadata
+     * @param metadata
+     *         the metadata
      */
     void embeddedObject(Metadata metadata);
 }
