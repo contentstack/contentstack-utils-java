@@ -176,8 +176,8 @@ public class AutomateCommon {
                     JSONObject contentToPass = filteredContent.get();
                     return getStringOption(renderObject, metadata, contentToPass);
                 } else {
-                    if (attrType.equalsIgnoreCase("asset")) {
-                        return renderObject.renderNode("img", jsonNode, nodeJsonArray -> _doRawProcessing(nodeJsonArray, renderObject, embedItem));
+                    if (attrType.equalsIgnoreCase(ASSET)) {
+                        return renderObject.renderNode("img", jsonNode, nodeJsonArray -> doRawProcessing(nodeJsonArray, renderObject, embedItem));
                     }
                 }
 
