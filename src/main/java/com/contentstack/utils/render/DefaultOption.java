@@ -10,13 +10,13 @@ import org.json.JSONObject;
 public class DefaultOption implements Option {
 
     /**
-     * Accepts below params to provides defaults options
+     * Accepts below params to provide defaults options
      *
      * @param embeddedObject
      *         entry embedded object
      * @param metadata
      *         for of the entry object
-     * @return String as result
+     * @return String as a result
      */
     @Override
     public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
@@ -51,6 +51,8 @@ public class DefaultOption implements Option {
                 return "<em>" + text + "</em>";
             case BOLD:
                 return "<strong>" + text + "</strong>";
+            case BREAK:
+                return "<br />" + text;
             default:
                 return text;
         }
