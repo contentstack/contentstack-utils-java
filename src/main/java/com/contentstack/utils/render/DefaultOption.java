@@ -67,6 +67,10 @@ public class DefaultOption implements Option {
             case "a":
                 return "<a href=\"" + getNodeStr(nodeObject, "href") + "\">" + children + "</a>";
             case "img":
+                String assetLink = getNodeStr(nodeObject, "asset-link");
+                if (!assetLink.isEmpty()) {
+                    return "<img src=\"" + assetLink + "\" />" + children;
+                }
                 return "<img src=\"" + getNodeStr(nodeObject, "src") + "\" />" + children;
             case "embed":
                 return "<iframe src=\"" + getNodeStr(nodeObject, "src") + "\"" + children + "</iframe>";
@@ -123,6 +127,7 @@ public class DefaultOption implements Option {
         }
         return herf;
     }
+
 
     /**
      * Returns Title From The Embedded Object of type entry
