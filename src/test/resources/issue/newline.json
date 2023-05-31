@@ -1,0 +1,182 @@
+{
+  "uid": "4e52e62e39844184b139c812a94b275f",
+  "children": [
+    {
+      "uid": "5c3cc441f6394f019a33632feff4c5b5",
+      "children": [
+        {
+          "text": "First Heading"
+        }
+      ],
+      "type": "p",
+      "attrs": {}
+    },
+    {
+      "uid": "3c5625fac71c42a7b22b82f7d2370b77",
+      "children": [
+        {
+          "text": "This is the article text"
+        }
+      ],
+      "type": "p",
+      "attrs": {}
+    },
+    {
+      "uid": "8e9ad7b9df3c48329e8d4b06aa49ccf0",
+      "children": [
+        {
+          "break": true,
+          "text": "n"
+        },
+        {
+          "text": "Heading one"
+        }
+      ],
+      "type": "p",
+      "attrs": {}
+    },
+    {
+      "uid": "033c2b49fe834457aa2bd0dc96d2b350",
+      "children": [
+        {
+          "uid": "4d919c74603245c68493bd017ae9c608",
+          "children": [
+            {
+              "text": "New line of text"
+            }
+          ],
+          "type": "li",
+          "attrs": {}
+        },
+        {
+          "uid": "4d04733ae9994ec28f675a487970f62e",
+          "children": [
+            {
+              "uid": "a4baf76597ff48c2a76e4c66e62bc900",
+              "children": [
+                {
+                  "text": "subheading a"
+                }
+              ],
+              "type": "li",
+              "attrs": {}
+            },
+            {
+              "uid": "8cead2c9a4b8456298e46983d960ef9a",
+              "children": [
+                {
+                  "text": "subheading b"
+                }
+              ],
+              "type": "li",
+              "attrs": {}
+            }
+          ],
+          "type": "ol",
+          "attrs": {}
+        },
+        {
+          "uid": "0a8c5cfd07c24f67b9a96425da5bb4cb",
+          "children": [
+            {
+              "text": "Another new line of text"
+            },
+            {
+              "break": true,
+              "text": "nn"
+            },
+            {
+              "text": "Bold line for other lines of text",
+              "bold": true
+            }
+          ],
+          "type": "li",
+          "attrs": {}
+        },
+        {
+          "uid": "0f7c312e0ef6480ba9407d94b3ab8106",
+          "children": [
+            {
+              "text": "The third line of text"
+            }
+          ],
+          "type": "li",
+          "attrs": {}
+        },
+        {
+          "uid": "7c31fbbedc1b454ab245f8613de65591",
+          "children": [
+            {
+              "text": "Fourth text line"
+            }
+          ],
+          "type": "li",
+          "attrs": {}
+        },
+        {
+          "uid": "27b3973cd1004edf8d65f25e9d693ba8",
+          "children": [
+            {
+              "uid": "75466bd357054aa1a6487ce45d65cecc",
+              "children": [
+                {
+                  "text": "subheading a for 4"
+                }
+              ],
+              "type": "li",
+              "attrs": {}
+            },
+            {
+              "uid": "0a9e7c91000d42419e9e31371c358cc3",
+              "children": [
+                {
+                  "text": "subheading b for 4"
+                }
+              ],
+              "type": "li",
+              "attrs": {}
+            }
+          ],
+          "type": "ol",
+          "attrs": {}
+        },
+        {
+          "uid": "9717d376b39a4c899e620e32c6b61322",
+          "children": [
+            {
+              "text": "The fifth and last line"
+            }
+          ],
+          "type": "li",
+          "attrs": {}
+        }
+      ],
+      "id": "f85064d50c1b40a7a2f04d6f8b927736",
+      "type": "ol",
+      "attrs": {}
+    },
+    {
+      "uid": "53f4b8157193426d8830d77c2205f46d",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "type": "p",
+      "attrs": {}
+    },
+    {
+      "uid": "3bb399aff2da4e649c8330965a70b034",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "type": "p",
+      "attrs": {}
+    }
+  ],
+  "type": "doc",
+  "_version": 2,
+  "attrs": {}
+}

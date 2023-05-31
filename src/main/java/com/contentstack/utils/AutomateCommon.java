@@ -164,6 +164,10 @@ public class AutomateCommon {
                 if (filteredContent.isPresent()) {
                     JSONObject contentToPass = filteredContent.get();
                     return getStringOption(renderObject, metadata, contentToPass);
+                } else {
+                    if (attrType.equalsIgnoreCase(ASSET)) {
+                        return renderObject.renderNode("img", jsonNode, nodeJsonArray -> doRawProcessing(nodeJsonArray, renderObject, embedItem));
+                    }
                 }
 
             } else {
