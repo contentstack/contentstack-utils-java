@@ -65,32 +65,15 @@ public class DefaultOption implements Option {
             case "p":
                 return "<p>" + children + "</p>";
             case "a":
-                if (nodeObject.has("url")) {
-                    return "<a href=\"" + getNodeStr(nodeObject, "url") + "\">" + children + "</a>";
-                }
-                if (nodeObject.has("href")) {
-                    return "<a href=\"" + getNodeStr(nodeObject, "href") + "\">" + children + "</a>";
-                }
-                return children;
+                return "<a href=\"" + getNodeStr(nodeObject, "href") + "\">" + children + "</a>";
             case "img":
-                if (nodeObject.has("src")) {
-                    return "<img src=\"" + getNodeStr(nodeObject, "src") + "\" />" + children;
+                String assetLink = getNodeStr(nodeObject, "asset-link");
+                if (!assetLink.isEmpty()) {
+                    return "<img src=\"" + assetLink + "\" />" + children;
                 }
-                if (nodeObject.has("url")) {
-                    return "<img src=\"" + getNodeStr(nodeObject, "url") + "\" />" + children;
-                }
-                if (nodeObject.has("asset-link")) {
-                    return "<img src=\"" + getNodeStr(nodeObject, "asset-link") + "\" />" + children;
-                }
-                return children;
+                return "<img src=\"" + getNodeStr(nodeObject, "src") + "\" />" + children;
             case "embed":
-                if (nodeObject.has("src")) {
-                    return "<iframe src=\"" + getNodeStr(nodeObject, "src") + "\"" + children + "</iframe>";
-                }
-                if (nodeObject.has("url")) {
-                    return "<iframe src=\"" + getNodeStr(nodeObject, "url") + "\"" + children + "</iframe>";
-                }
-                return children;
+                return "<iframe src=\"" + getNodeStr(nodeObject, "src") + "\"" + children + "</iframe>";
             case "h1":
                 return "<h1>" + children + "</h1>";
             case "h2":
@@ -144,6 +127,7 @@ public class DefaultOption implements Option {
         }
         return herf;
     }
+
 
     /**
      * Returns Title From The Embedded Object of type entry

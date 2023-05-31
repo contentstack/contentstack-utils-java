@@ -2,6 +2,7 @@ threshold: medium
 
 fileignoreconfig:
 
-- filename: src/test/resources/issue/newline.json
-  checksum: eb075c30d3769a4ac08871d8f4affca55abb21e816726a083141e0e2b94417e6
+- filename: src/test/resources/issue/jsonfile.json
+  checksum: d67cd6db0795f8c5a5f5edf34a457720191e8894889e9f9bb4b8106c23b40799
+
 
