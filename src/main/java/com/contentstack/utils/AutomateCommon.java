@@ -21,7 +21,7 @@ import java.util.Optional;
 
 public class AutomateCommon {
 
-    private static final String ASSET = "asset";
+    private static final String ASSET = AutomateCommon.class.getSimpleName();
 
     private AutomateCommon() {
         throw new IllegalStateException("Not allowed to create instance of AutomateCommon");
@@ -176,7 +176,7 @@ public class AutomateCommon {
                     JSONObject contentToPass = filteredContent.get();
                     return getStringOption(renderObject, metadata, contentToPass);
                 } else {
-                    if (attrType.equalsIgnoreCase(ASSET)) {
+                    if (attrType.equalsIgnoreCase("asset")) {
                         return renderObject.renderNode("img", jsonNode, nodeJsonArray -> doRawProcessing(nodeJsonArray, renderObject, embedItem));
                     }
                 }

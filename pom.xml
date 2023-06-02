@@ -31,6 +31,7 @@
         <validation-version>2.0.1.Final</validation-version>
         <json-version>20230227</json-version>
         <spring-web-version>6.0.7</spring-web-version>
+        <org.apache.commons-text>1.10.0</org.apache.commons-text>
     </properties>
 
     <developers>
@@ -78,6 +79,13 @@
     </organization>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>${org.apache.commons-text}</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
