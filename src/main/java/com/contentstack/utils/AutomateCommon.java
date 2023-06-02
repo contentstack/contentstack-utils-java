@@ -21,6 +21,7 @@ import java.util.Optional;
 
 public class AutomateCommon {
 
+
     private static final String ASSET = "asset";
 
     private AutomateCommon() {
