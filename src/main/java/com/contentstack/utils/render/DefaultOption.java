@@ -4,6 +4,7 @@ import com.contentstack.utils.helper.Metadata;
 import com.contentstack.utils.interfaces.NodeCallback;
 import com.contentstack.utils.interfaces.Option;
 import com.contentstack.utils.node.MarkType;
+import org.apache.commons.text.StringEscapeUtils;
 import org.json.JSONObject;
 
 
@@ -58,6 +59,11 @@ public class DefaultOption implements Option {
         }
     }
 
+    private String escapeInjectHtml(JSONObject nodeObj, String nodeType) {
+        String injectedHtml = getNodeStr(nodeObj, nodeType);
+        return StringEscapeUtils.escapeHtml4(injectedHtml);
+    }
+
     @Override
     public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
         String children = callback.renderChildren(nodeObject.optJSONArray("children"));
@@ -65,15 +71,15 @@ public class DefaultOption implements Option {
             case "p":
                 return "<p>" + children + "</p>";
             case "a":
-                return "<a href=\"" + getNodeStr(nodeObject, "href") + "\">" + children + "</a>";
+                return "<a href=\"" + escapeInjectHtml(nodeObject, "href") + "\">" + children + "</a>";
             case "img":
                 String assetLink = getNodeStr(nodeObject, "asset-link");
                 if (!assetLink.isEmpty()) {
-                    return "<img src=\"" + assetLink + "\" />" + children;
+                    return "<img src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children;
                 }
-                return "<img src=\"" + getNodeStr(nodeObject, "src") + "\" />" + children;
+                return "<img src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + children;
             case "embed":
-                return "<iframe src=\"" + getNodeStr(nodeObject, "src") + "\"" + children + "</iframe>";
+                return "<iframe src=\"" + escapeInjectHtml(nodeObject, "src") + "\"" + children + "</iframe>";
             case "h1":
                 return "<h1>" + children + "</h1>";
             case "h2":
