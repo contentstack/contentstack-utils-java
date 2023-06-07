@@ -2,5 +2,7 @@ threshold: medium
 
 fileignoreconfig:
 
-- filename: .dccache
-  checksum: 140eb49c2bad3edadf62c926625f3bb304e904c38f2a9a5a57e9f6dc7163f61e
+- filename: src/test/resources/issue/jsonfile.json
+  checksum: d67cd6db0795f8c5a5f5edf34a457720191e8894889e9f9bb4b8106c23b40799
+
+
