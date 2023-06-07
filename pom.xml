@@ -5,7 +5,7 @@
 
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS
@@ -22,7 +22,7 @@
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <junit.version>4.13.2</junit.version>
-        <jsoup.version>1.15.4</jsoup.version>
+        <jsoup.version>1.16.1</jsoup.version>
         <json.simple.version>1.1.1</json.simple.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
         <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
@@ -30,7 +30,8 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <validation-version>2.0.1.Final</validation-version>
         <json-version>20230227</json-version>
-        <spring-web-version>6.0.4</spring-web-version>
+        <spring-web-version>6.0.7</spring-web-version>
+        <org.apache.commons-text>1.10.0</org.apache.commons-text>
     </properties>
 
     <developers>
@@ -78,6 +79,13 @@
     </organization>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>${org.apache.commons-text}</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

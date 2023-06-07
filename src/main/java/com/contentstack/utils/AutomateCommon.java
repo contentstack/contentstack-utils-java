@@ -21,6 +21,7 @@ import java.util.Optional;
 
 public class AutomateCommon {
 
+
     private static final String ASSET = "asset";
 
     private AutomateCommon() {
@@ -175,6 +176,10 @@ public class AutomateCommon {
                 if (filteredContent.isPresent()) {
                     JSONObject contentToPass = filteredContent.get();
                     return getStringOption(renderObject, metadata, contentToPass);
+                } else {
+                    if (attrType.equalsIgnoreCase(ASSET)) {
+                        return renderObject.renderNode("img", jsonNode, nodeJsonArray -> doRawProcessing(nodeJsonArray, renderObject, embedItem));
+                    }
                 }
 
             } else {
