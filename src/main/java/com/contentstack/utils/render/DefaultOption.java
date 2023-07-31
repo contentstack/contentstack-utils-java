@@ -7,6 +7,9 @@ import com.contentstack.utils.node.MarkType;
 import org.apache.commons.text.StringEscapeUtils;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 
 public class DefaultOption implements Option {
 
@@ -66,63 +69,95 @@ public class DefaultOption implements Option {
 
     @Override
     public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
+
+        // Get attributes from the nodeObject and render/stringfy using for look by extracting the attributes using key-value pair
+        // Like below
+        // attributes = <type>
+        // <type key="value" key="value"> </type>
+        // <type key="value" key="value"> </type>
+        // </type>
+
+        // output nodeObject =  attributes
+
+        String strAttrs = strAttrs(nodeObject);
+
+
         String children = callback.renderChildren(nodeObject.optJSONArray("children"));
         switch (nodeType) {
             case "p":
-                return "<p>" + children + "</p>";
+                return "<p" + strAttrs + ">" + children + "</p>";
             case "a":
-                return "<a href=\"" + escapeInjectHtml(nodeObject, "href") + "\">" + children + "</a>";
+                return "<a" + strAttrs + "href=\"" + escapeInjectHtml(nodeObject, "href") + "\">" + children + "</a>";
             case "img":
                 String assetLink = getNodeStr(nodeObject, "asset-link");
                 if (!assetLink.isEmpty()) {
-                    return "<img src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children;
+                    return "<img" + strAttrs + "src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children;
                 }
-                return "<img src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + children;
+                return "<img" + strAttrs + "src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + children;
             case "embed":
-                return "<iframe src=\"" + escapeInjectHtml(nodeObject, "src") + "\"" + children + "</iframe>";
+                return "<iframe" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\"" + children + "</iframe>";
             case "h1":
-                return "<h1>" + children + "</h1>";
+                return "<h1" + strAttrs + ">" + children + "</h1>";
             case "h2":
-                return "<h2>" + children + "</h2>";
+                return "<h2" + strAttrs + ">" + children + "</h2>";
             case "h3":
-                return "<h3>" + children + "</h3>";
+                return "<h3" + strAttrs + ">" + children + "</h3>";
             case "h4":
-                return "<h4>" + children + "</h4>";
+                return "<h4" + strAttrs + ">" + children + "</h4>";
             case "h5":
-                return "<h5>" + children + "</h5>";
+                return "<h5" + strAttrs + ">" + children + "</h5>";
             case "h6":
-                return "<h6>" + children + "</h6>";
+                return "<h6" + strAttrs + ">" + children + "</h6>";
             case "ol":
-                return "<ol>" + children + "</ol>";
+                return "<ol" + strAttrs + ">" + children + "</ol>";
             case "ul":
-                return "<ul>" + children + "</ul>";
+                return "<ul" + strAttrs + ">" + children + "</ul>";
             case "li":
-                return "<li>" + children + "</li>";
+                return "<li" + strAttrs + ">" + children + "</li>";
             case "hr":
-                return "<hr />";
+                return "<hr" + strAttrs + " />";
             case "table":
-                return "<table>" + children + "</table>";
+                return "<table " + strAttrs + ">" + children + "</table>";
             case "thead":
-                return "<thead>" + children + "</thead>";
+                return "<thead " + strAttrs + ">" + children + "</thead>";
             case "tbody":
-                return "<tbody>" + children + "</tbody>";
+                return "<tbody" + strAttrs + ">" + children + "</tbody>";
             case "tfoot":
-                return "<tfoot>" + children + "</tfoot>";
+                return "<tfoot" + strAttrs + ">" + children + "</tfoot>";
             case "tr":
-                return "<tr>" + children + "</tr>";
+                return "<tr" + strAttrs + ">" + children + "</tr>";
             case "th":
-                return "<th>" + children + "</th>";
+                return "<th" + strAttrs + ">" + children + "</th>";
             case "td":
-                return "<td>" + children + "</td>";
+                return "<td" + strAttrs + ">" + children + "</td>";
             case "blockquote":
-                return "<blockquote>" + children + "</blockquote>";
+                return "<blockquote" + strAttrs + ">" + children + "</blockquote>";
             case "code":
-                return "<code>" + children + "</code>";
+                return "<code" + strAttrs + ">" + children + "</code>";
             case "reference":
                 return "";
             default:
                 return children;
         }
+    }
+
+
+    String strAttrs(JSONObject nodeObject) {
+        StringBuilder result = new StringBuilder();
+        if (nodeObject.has("attrs")) {
+            JSONObject attrsObject = nodeObject.optJSONObject("attrs");
+            if (attrsObject != null && attrsObject.length() > 0) {
+                for (String key : attrsObject.keySet()) {
+                    String value = attrsObject.getString(key);
+                    String[] ignoreKeys = {"href", "asset-link", "src", "url"};
+                    ArrayList<String> ignoreKeysList = new ArrayList<>(Arrays.asList(ignoreKeys));
+                    if (!ignoreKeysList.contains(key)) {
+                        result.append(" ").append(key).append("=\"").append(value).append("\"");
+                    }
+                }
+            }
+        }
+        return result.toString();
     }
 
 
@@ -143,7 +178,6 @@ public class DefaultOption implements Option {
      * @return String
      */
     protected String findTitleOrUid(JSONObject embeddedObject) {
-
         String _title = "";
         if (embeddedObject != null) {
             if (embeddedObject.has("title") && !embeddedObject.optString("title").isEmpty()) {

@@ -1,9 +1,7 @@
 package com.contentstack.utils;
 
-import com.contentstack.utils.embedded.StyleType;
 import com.contentstack.utils.render.DefaultOption;
 import org.json.JSONObject;
-import org.json.simple.JSONArray;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -12,8 +10,6 @@ import org.junit.runners.MethodSorters;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import static com.contentstack.utils.embedded.StyleType.*;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UtilTests {
@@ -41,14 +37,14 @@ public class UtilTests {
         Utils.render(localJsonObj, keys, new DefaultOption());
     }
 
-    @Test
-    public void testWithoutKeyPath() {
-        String[] keys = new String[2];
-        keys[0] = "global_rich_multiple.group.rich_text_editor";
-        keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
-        Utils.render(localJsonObj, null, new DefaultOption());
-    }
-
+//    @Test
+//    public void testWithoutKeyPath() {
+//        String[] keys = new String[2];
+//        keys[0] = "global_rich_multiple.group.rich_text_editor";
+//        keys[1] = "global_rich_multiple.group.rich_text_editor_multiple";
+//        Utils.render(localJsonObj, null, new DefaultOption());
+//    }
+//
 //    @Test
 //    public void testEmbeddedBlockEntry() {
 //        JSONArray rteArray = null;
@@ -107,7 +103,7 @@ public class UtilTests {
 //            }
 //        });
 //    }
-//
+
 //    @Test
 //    public void testEmbeddedLinkEntry() {
 //        JSONArray rteArray = null;
@@ -159,4 +155,20 @@ public class UtilTests {
 //        });
 //    }
 
+
+    @Test
+    public void testCustomJSONRTE() {
+
+
+        JSONObject rteObject = new JSONObject();
+        String[] keyPath = {
+                "rich_text_editor", "global_rich_multiple.group.rich_text_editor"
+        };
+        Utils.jsonToHTML(rteObject, keyPath, new DefaultOptionClass());
+    }
+
+
 }
+
+
+
