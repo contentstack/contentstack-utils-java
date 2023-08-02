@@ -70,15 +70,6 @@ public class DefaultOption implements Option {
     @Override
     public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
 
-        // Get attributes from the nodeObject and render/stringfy using for look by extracting the attributes using key-value pair
-        // Like below
-        // attributes = <type>
-        // <type key="value" key="value"> </type>
-        // <type key="value" key="value"> </type>
-        // </type>
-
-        // output nodeObject =  attributes
-
         String strAttrs = strAttrs(nodeObject);
 
 
@@ -146,7 +137,7 @@ public class DefaultOption implements Option {
         StringBuilder result = new StringBuilder();
         if (nodeObject.has("attrs")) {
             JSONObject attrsObject = nodeObject.optJSONObject("attrs");
-            if (attrsObject != null && attrsObject.length() > 0) {
+            if (attrsObject != null && !attrsObject.isEmpty()) {
                 for (String key : attrsObject.keySet()) {
                     String value = attrsObject.getString(key);
                     String[] ignoreKeys = {"href", "asset-link", "src", "url"};
