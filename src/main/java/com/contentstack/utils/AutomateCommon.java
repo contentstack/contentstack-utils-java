@@ -31,12 +31,9 @@ public class AutomateCommon {
     /**
      * Find dot separated keys
      *
-     * @param entryObj
-     *         Json Object
-     * @param path
-     *         keyPath
-     * @param contentCallback
-     *         content callback
+     * @param entryObj        Json Object
+     * @param path            keyPath
+     * @param contentCallback content callback
      */
     protected static void findContent(JSONObject entryObj, String path, ContentCallback contentCallback) {
         String[] arrayString = path.split("\\.");
@@ -45,12 +42,9 @@ public class AutomateCommon {
 
 
     /**
-     * @param arrayString
-     *         list of keys available
-     * @param entryObj
-     *         entry object
-     * @param contentCallback
-     *         content callback
+     * @param arrayString     list of keys available
+     * @param entryObj        entry object
+     * @param contentCallback content callback
      */
     private static void getContent(String[] arrayString, JSONObject entryObj, ContentCallback contentCallback) {
         if (arrayString != null && arrayString.length != 0) {
