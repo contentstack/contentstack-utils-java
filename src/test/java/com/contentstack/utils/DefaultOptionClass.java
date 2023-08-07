@@ -42,7 +42,6 @@ public class DefaultOptionClass extends DefaultOption {
             String children = callback.renderChildren(nodeObject.optJSONArray("children"));
             return "<p class='class-id'>" + children + "</p>";
         }
-
         return super.renderNode(nodeType, nodeObject, callback);
     }
 }

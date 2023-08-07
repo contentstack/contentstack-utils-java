@@ -3,8 +3,10 @@ package com.contentstack.utils.node;
 import com.contentstack.utils.interfaces.Option;
 import org.json.JSONObject;
 
+
 /**
- * The type Node to html.
+ * The NodeToHTML class provides a method to convert a text node in JSON format to an HTML string,
+ * applying various rendering options.
  */
 public class NodeToHTML {
 
@@ -13,14 +15,17 @@ public class NodeToHTML {
         throw new IllegalStateException("Could not create instance of NodeToHTML");
     }
 
+
     /**
-     * Text node to html string.
+     * The function converts a JSON object representing a text node into HTML, applying various
+     * formatting options based on the provided renderOption.
      *
-     * @param nodeText
-     *         the node text
-     * @param renderOption
-     *         the render option
-     * @return the string
+     * @param nodeText     The `nodeText` parameter is a JSONObject that represents a text node. It
+     *                     contains various options for rendering the text, such as superscript, subscript, inline code,
+     *                     strikethrough, underline, italic, bold, and line break.
+     * @param renderOption The renderOption parameter is an object of type Option. It is used to
+     *                     specify the rendering options for the text node.
+     * @return The method returns the modified text after applying the specified rendering options.
      */
     public static String textNodeToHTML(JSONObject nodeText, Option renderOption) {
         String text = nodeText.optString("text");

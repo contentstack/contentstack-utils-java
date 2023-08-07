@@ -15,8 +15,8 @@ package com.contentstack.utils.embedded;
  * <p>
  * [`Example`]:
  * <p>
- * For `Entry`: StyleType.BLOCK, StyleType.INLINE, StyleType.LINKED, For `Assets`: StyleType. DISPLAY and StyleType.
- * DOWNLOAD
+ * For `Entry`: StyleType.BLOCK, StyleType.INLINE, StyleType.LINKED,
+ * For `Assets`: StyleType. DISPLAY and StyleType.DOWNLOAD
  */
 public enum StyleType {
     BLOCK, INLINE, LINK, DISPLAY, DOWNLOAD,

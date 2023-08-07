@@ -10,9 +10,7 @@ import java.io.IOException;
 
 public class AssetLinkTest {
 
-
     private static JSONObject assetLink = null;
-
 
     @BeforeClass
     public static void startUtilTests() throws IOException {
