@@ -14,13 +14,16 @@ import java.util.Arrays;
 public class DefaultOption implements Option {
 
     /**
-     * Accepts below params to provide defaults options
+     * The function `renderOptions` takes in a JSON object and metadata and returns a string based on the
+     * style type of the metadata.
      *
-     * @param embeddedObject
-     *         entry embedded object
-     * @param metadata
-     *         for of the entry object
-     * @return String as a result
+     * @param embeddedObject The embeddedObject parameter is a JSONObject that contains the data of the
+     *                       embedded object. It may have different properties depending on the type of object being embedded.
+     * @param metadata       The `metadata` parameter is an object of type `Metadata` which contains information
+     *                       about the style type of the embedded object. It has a method `getStyleType()` which returns the
+     *                       style type of the embedded object.
+     * @return The method is returning a string based on the value of the `metadata.getStyleType()`
+     * parameter. The returned string depends on the style type and the content of the `embeddedObject`.
      */
     @Override
     public String renderOptions(JSONObject embeddedObject, Metadata metadata) {
@@ -38,6 +41,18 @@ public class DefaultOption implements Option {
         }
     }
 
+    /**
+     * The function takes a mark type and text as input and returns the text wrapped in HTML tags based on
+     * the mark type.
+     *
+     * @param markType The `markType` parameter is of type `MarkType` and represents the type of formatting
+     *                 to be applied to the `text` parameter. The `MarkType` enum contains the following values:
+     * @param text     The `text` parameter is a string that represents the content that needs to be rendered
+     *                 with the specified mark type.
+     * @return The method returns a string that represents the given text with the specified mark type
+     * applied. If the mark type is not recognized, the method returns the original text without any
+     * modifications.
+     */
     @Override
     public String renderMark(MarkType markType, String text) {
         switch (markType) {
@@ -67,6 +82,23 @@ public class DefaultOption implements Option {
         return StringEscapeUtils.escapeHtml4(injectedHtml);
     }
 
+    /**
+     * The function takes in a node type and a JSON object representing a node, and returns the
+     * corresponding HTML string representation of the node.
+     *
+     * @param nodeType   The `nodeType` parameter is a String that represents the type of HTML element to
+     *                   be rendered. It can have values such as "p", "a", "img", "embed", "h1", "h2", "h3", "h4", "h5",
+     *                   "h
+     * @param nodeObject The `nodeObject` parameter is a JSONObject that contains the properties and
+     *                   values of a node in a tree structure. It represents a specific node in the tree that needs to be
+     *                   rendered.
+     * @param callback   The `callback` parameter is an instance of the `NodeCallback` interface. It is
+     *                   used to render the children of the current node. The `renderChildren` method of the `callback`
+     *                   is called with the `children` JSON array of the current node as the argument. The
+     *                   `renderChildren
+     * @return The method `renderNode` returns a string representation of an HTML element based on the
+     * given `nodeType` and `nodeObject`.
+     */
     @Override
     public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
 
@@ -133,6 +165,14 @@ public class DefaultOption implements Option {
     }
 
 
+    /**
+     * The function takes a JSONObject as input and returns a string containing the attributes and
+     * their values, excluding certain keys.
+     *
+     * @param nodeObject A JSONObject representing a node in a tree structure.
+     * @return The method is returning a string representation of the attributes (key-value pairs) in
+     * the given JSONObject, excluding certain keys specified in the ignoreKeys array.
+     */
     String strAttrs(JSONObject nodeObject) {
         StringBuilder result = new StringBuilder();
         if (nodeObject.has("attrs")) {
@@ -152,6 +192,17 @@ public class DefaultOption implements Option {
     }
 
 
+    /**
+     * The function retrieves the value of a specified key from a JSONObject, and if it is empty or
+     * null, it retrieves the value of the "url" key instead.
+     *
+     * @param nodeObject A JSONObject representing a node in a data structure.
+     * @param key        The "key" parameter is a string that represents the key to be used to retrieve a
+     *                   value from the "attrs" JSONObject. It could be either "href" or "src".
+     * @return The method is returning the value of the "href" or "src" key from the "attrs" JSONObject
+     * of the given "nodeObject". If the value is null or empty, it will return the value of the "url"
+     * key from the "attrs" JSONObject.
+     */
     private String getNodeStr(JSONObject nodeObject, String key) {
         String herf = nodeObject.optJSONObject("attrs").optString(key); // key might be [href/src]
         if (herf == null || herf.isEmpty()) {
@@ -162,11 +213,12 @@ public class DefaultOption implements Option {
 
 
     /**
-     * Returns Title From The Embedded Object of type entry
+     * The function finds the title or uid value from a given JSONObject.
      *
-     * @param embeddedObject
-     *         JSONObject
-     * @return String
+     * @param embeddedObject The embeddedObject parameter is a JSONObject that contains data.
+     * @return The method is returning a String value, which is either the value of the "title" key in
+     * the embeddedObject JSONObject, or the value of the "uid" key if the "title" key is not present
+     * or is empty.
      */
     protected String findTitleOrUid(JSONObject embeddedObject) {
         String _title = "";
@@ -180,12 +232,13 @@ public class DefaultOption implements Option {
         return _title;
     }
 
+
     /**
-     * Returns Title From The Embedded Object of type asset
+     * The function finds the title of an asset from a given JSON object.
      *
-     * @param embeddedObject
-     *         JSONObject
-     * @return String
+     * @param embeddedObject The embeddedObject parameter is a JSONObject that contains information
+     *                       about an asset.
+     * @return The method is returning a String value, which is the title of the asset.
      */
     protected String findAssetTitle(JSONObject embeddedObject) {
         String _title = "";
