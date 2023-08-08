@@ -19,56 +19,56 @@ public class TestRte {
     }
 
     @Test
-    public void testkBlankDocument() {
+    public void testsBlankDocument() {
         JSONObject rteObject = new JSONObject(kPlainTextJson);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kPlainTextHtml, result);
     }
 
     @Test
-    public void testkH1Json() {
+    public void testsH1Json() {
         JSONObject rteObject = new JSONObject(kH1Json);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kH1Html, result);
     }
 
     @Test
-    public void testkH2Json() {
+    public void testsH2Json() {
         JSONObject rteObject = new JSONObject(kH2Json);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kH2Html, result);
     }
 
     @Test
-    public void testkH3Json() {
+    public void testsH3Json() {
         JSONObject rteObject = new JSONObject(kH3Json);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kH3Html, result);
     }
 
     @Test
-    public void testkH4Json() {
+    public void testH4Json() {
         JSONObject rteObject = new JSONObject(kH4Json);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kH4Html, result);
     }
 
     @Test
-    public void testkH5Json() {
+    public void testsH5Json() {
         JSONObject rteObject = new JSONObject(kH5Json);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kH5Html, result);
     }
 
     @Test
-    public void testkH6Json() {
+    public void testH6Json() {
         JSONObject rteObject = new JSONObject(kH6Json);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kH6Html, result);
     }
 
     @Test
-    public void testkOrderListJson() {
+    public void testOrderListJson() {
         JSONObject rteObject = new JSONObject(kOrderListJson);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kOrderListHtml, result);
@@ -82,7 +82,7 @@ public class TestRte {
     }
 
     @Test
-    public void testkImgJson() {
+    public void testsImgJson() {
         JSONObject rteObject = new JSONObject(kImgJson);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kImgHtml, result);
