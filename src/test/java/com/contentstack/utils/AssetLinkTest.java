@@ -24,6 +24,6 @@ public class AssetLinkTest {
         keys[0] = "assetlink";
         Utils.jsonToHTML(assetLink, keys, new DefaultOption());
         System.out.println(assetLink);
-        Assert.assertEquals("<img src=\"https://image.url/11.jpg\" />", assetLink.opt("assetlink").toString());
+        Assert.assertEquals("<img display-type=\"display\" asset-name=\"11.jpg\" asset-type=\"image/jpeg\" asset-uid=\"asset_uid_1\" width=\"25.16914749661705\" className=\"dsd\" id=\"sdf\" type=\"asset\" content-type-uid=\"sys_assets\" class-name=\"embedded-asset\" src=\"https://image.url/11.jpg\" />", assetLink.opt("assetlink").toString());
     }
 }

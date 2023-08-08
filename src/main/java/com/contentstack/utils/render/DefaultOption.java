@@ -104,7 +104,6 @@ public class DefaultOption implements Option {
 
         String strAttrs = strAttrs(nodeObject);
 
-
         String children = callback.renderChildren(nodeObject.optJSONArray("children"));
         switch (nodeType) {
             case "p":
@@ -114,9 +113,9 @@ public class DefaultOption implements Option {
             case "img":
                 String assetLink = getNodeStr(nodeObject, "asset-link");
                 if (!assetLink.isEmpty()) {
-                    return "<img" + strAttrs + "src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children;
+                    return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children;
                 }
-                return "<img" + strAttrs + "src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + children;
+                return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + children;
             case "embed":
                 return "<iframe" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\"" + children + "</iframe>";
             case "h1":
@@ -179,7 +178,8 @@ public class DefaultOption implements Option {
             JSONObject attrsObject = nodeObject.optJSONObject("attrs");
             if (attrsObject != null && !attrsObject.isEmpty()) {
                 for (String key : attrsObject.keySet()) {
-                    String value = attrsObject.getString(key);
+                    Object objValue =  attrsObject.opt(key);
+                    String value = objValue.toString();
                     String[] ignoreKeys = {"href", "asset-link", "src", "url"};
                     ArrayList<String> ignoreKeysList = new ArrayList<>(Arrays.asList(ignoreKeys));
                     if (!ignoreKeysList.contains(key)) {
