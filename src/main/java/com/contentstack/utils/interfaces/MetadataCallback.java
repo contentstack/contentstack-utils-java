@@ -7,11 +7,12 @@ import com.contentstack.utils.helper.Metadata;
  * The interface Metadata callback.
  */
 public interface MetadataCallback {
+
     /**
-     * Embedded object.
+     * The function "embeddedObject" takes a Metadata object as a parameter.
      *
-     * @param metadata
-     *         the metadata
+     * @param metadata The metadata parameter is an object of type Metadata. It is used to pass
+     *                 additional information or data to the embeddedObject function.
      */
     void embeddedObject(Metadata metadata);
 }

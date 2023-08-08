@@ -16,7 +16,6 @@ import java.util.logging.Logger;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class DefaultOptionTests {
-
     private static final Logger logger = Logger.getLogger(UtilTests.class.getName());
     private static JSONObject localJsonObj;
 

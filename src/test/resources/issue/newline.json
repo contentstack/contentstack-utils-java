@@ -8,8 +8,10 @@
           "text": "First Heading"
         }
       ],
-      "type": "p",
-      "attrs": {}
+      "type": "hangout-chat",
+      "attrs": {
+        "from": "Paul, Addy"
+      }
     },
     {
       "uid": "3c5625fac71c42a7b22b82f7d2370b77",
@@ -18,7 +20,7 @@
           "text": "This is the article text"
         }
       ],
-      "type": "p",
+      "type": "hangout-discussion",
       "attrs": {}
     },
     {
