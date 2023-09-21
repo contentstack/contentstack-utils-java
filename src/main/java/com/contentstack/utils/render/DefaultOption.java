@@ -203,7 +203,7 @@ public class DefaultOption implements Option {
                 for (String key : attrsObject.keySet()) {
                     Object objValue = attrsObject.opt(key);
                     String value = objValue.toString();
-                    // TODO: If style is available, do styling calculations
+                    // If style is available, do styling calculations
                     if (Objects.equals(key, "style")) {
                         String resultStyle = stringifyStyles(attrsObject.optJSONObject("style"));
                         result.append(" ").append(key).append("=\"").append(resultStyle).append("\"");
