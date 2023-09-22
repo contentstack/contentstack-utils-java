@@ -1,0 +1,1341 @@
+{
+    "entry": {
+        "title": "Add a New User to My Seller Center Account",
+        "overview": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "57c5853214d347748aa4cdb99a6a5c0f",
+            "children": [
+                {
+                    "uid": "ac748ce05a934e268545dc110f7e56a3",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "In this article:",
+                            "bold": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "7188fc5e70bf425cb45dead1127c39fb",
+                    "type": "fragment",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "a88b290ec89f4e0788b0ccddf3d6c25e"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "a8f34447d3664a3ba550a254837994fa",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#Overview",
+                                "target": "_self"
+                            },
+                            "children": [
+                                {
+                                    "text": "Overview"
+                                }
+                            ],
+                            "uid": "2e2bcc925af541029c09279c6110eb42"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "191693463aaf477b87c4c16208df828b",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "890100f1893347f2935f227c15d9863c",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#User_Roles",
+                                "target": "_self"
+                            },
+                            "children": [
+                                {
+                                    "text": "User Roles"
+                                }
+                            ],
+                            "uid": "5d8c889e7fae4f5b94ff2918d31dec0f"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "e29de02ad1ca4201b5fe9be01405a1c8",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "a1f4c1a497004ca29f4fb3c81d9e023d",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#Add_a_New_User",
+                                "target": "_self"
+                            },
+                            "children": [
+                                {
+                                    "text": "Add a New User"
+                                }
+                            ],
+                            "uid": "280b38301cdb49a29ffd92bc2b2723f1"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "3a40ecf02a424065a94d07005a91a6b0",
+                    "type": "fragment",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "2fcdea9dcbb24150b46e81826f4fa0ab",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#FAQs",
+                                "target": "_self"
+                            },
+                            "children": [
+                                {
+                                    "text": "Frequently Asked Questions"
+                                }
+                            ],
+                            "uid": "fc424a30c4cd4a1d97880eb7ac0c015d"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "07da06c63a214ca4a46e1bad0743055f",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "a0a2309ebda14ba8bb4725085110ef35",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#Helpful_Resources",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Helpful Resources"
+                                }
+                            ],
+                            "uid": "ae964dd73a7a4f299dd55d2467ec6529"
+                        },
+                        {
+                            "text": "\n",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "97f880b24bb241b8a0fafe6c3fbd63f9",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "type": "fragment",
+                            "attrs": {},
+                            "uid": "3121387fc27841eea07cbcea0dfe6bf7",
+                            "children": [
+                                {
+                                    "text": "Overview"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uid": "e0b9467d093e4e9ba83dcb52e51e48b2",
+                    "type": "p",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "As a Walmart Marketplace seller, you may need to add a new user to your Seller Center account for various reasons, such as granting access to another member of your organization. Only sellers with admin level access can add users within Seller Center. The process is quick and easy; this guide will show you how to do it. "
+                        }
+                    ]
+                },
+                {
+                    "uid": "2a1a3a7e7ea2460d8a9e60bd26cf83d8",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\n",
+                            "break": true
+                        },
+                        {
+                            "text": "**NOTE:",
+                            "bold": true,
+                            "italic": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " ",
+                                    "italic": true
+                                }
+                            ],
+                            "uid": "1b919030db2f429ca63b2fd063b681d1"
+                        },
+                        {
+                            "text": "If you do not have admin level access, reach out to your account administrator for help. ",
+                            "italic": true
+                        }
+                    ]
+                }
+            ],
+            "_version": 6
+        },
+        "body": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "00627db942464d749bc36d46ab103743",
+            "children": [
+                {
+                    "uid": "6a92317c0cff4eae8d726d9bac2cca80",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "User Roles"
+                        }
+                    ]
+                },
+                {
+                    "uid": "1fcbbdf207634dc38cc9341dc2466013",
+                    "type": "ul",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Admin:",
+                                    "bold": true
+                                },
+                                {
+                                    "uid": "37f7dbce54804f34b2a5410fd9cab8ed",
+                                    "type": "span",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "children": [
+                                        {
+                                            "text": ""
+                                        },
+                                        {
+                                            "type": "span",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "text": " "
+                                                }
+                                            ],
+                                            "uid": "d4be6a6c8c234666baba3f8c3f1fbce4"
+                                        },
+                                        {
+                                            "text": "Admin access gives the user the ability to manage and make updates to all areas in Seller Center including:  "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "af0492cf4a9f408e83b29929e5b31271"
+                        },
+                        {
+                            "uid": "6f5e411542fa4773aa92405410ed2b31",
+                            "type": "ul",
+                            "attrs": {
+                                "style": {}
+                            },
+                            "children": [
+                                {
+                                    "type": "li",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "uid": "60b9445d3a93491a811a74589a240204",
+                                    "children": [
+                                        {
+                                            "text": ""
+                                        },
+                                        {
+                                            "uid": "e964cefca35145f6a92390eec939df9f",
+                                            "type": "span",
+                                            "attrs": {
+                                                "style": {},
+                                                "redactor-attributes": {},
+                                                "dir": "ltr"
+                                            },
+                                            "children": [
+                                                {
+                                                    "text": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": ""
+                                        },
+                                        {
+                                            "uid": "73ae7834c3e3443b8ef2b8e3fc37e585",
+                                            "type": "span",
+                                            "attrs": {
+                                                "style": {},
+                                                "redactor-attributes": {},
+                                                "dir": "ltr"
+                                            },
+                                            "children": [
+                                                {
+                                                    "text": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": ""
+                                        },
+                                        {
+                                            "uid": "0d92f292b0a44b20bed62c48d92c3591",
+                                            "type": "span",
+                                            "attrs": {
+                                                "style": {},
+                                                "redactor-attributes": {},
+                                                "dir": "ltr"
+                                            },
+                                            "children": [
+                                                {
+                                                    "text": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Generating credentials to access Walmart's Rest APIs. "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "li",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "uid": "231d870a468a4d50ad1235eb308aada8",
+                                    "children": [
+                                        {
+                                            "text": "Requesting access to sell in special approval categories.  "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "li",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "uid": "6d5c38994f6641da8d209f9d639c40ae",
+                                    "children": [
+                                        {
+                                            "text": "Creating new user accounts to provide Seller Center access to members of your company.  "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "li",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "uid": "a14fd515f5b14e7e851fabd45b0d8904",
+                                    "children": [
+                                        {
+                                            "text": "Reviewing, signing and accepting binding legal agreements in Seller Center on behalf of the seller.  "
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uid": "f10ed28f028a4aa4be6b6b869cf43071",
+                    "type": "ul",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Read and Write: ",
+                                    "bold": true
+                                },
+                                {
+                                    "uid": "02609338d3324e8583eb771e7a5f8a68",
+                                    "type": "span",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "children": [
+                                        {
+                                            "text": "Read and Write access gives the user the ability to perform operational tasks in Seller Center such as setting up items or viewing reports.  "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "adc275badeef46858eae19e47ba0f40d"
+                        },
+                        {
+                            "type": "li",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": "Read Only: ",
+                                    "bold": true
+                                },
+                                {
+                                    "uid": "d8dbde8e556d488e8f60be9d85e04c14",
+                                    "type": "span",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "text": "Read Only access gives the user the ability to view data or create and download reports. Users with Read Only access cannot update or modify existing data.  "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "5faa0e7ade324b12b88f4accf8fb40df"
+                        }
+                    ]
+                },
+                {
+                    "uid": "878d3da271a342f0916ff077d716cd70",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "**NOTE:",
+                            "bold": true,
+                            "italic": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": " ",
+                                    "italic": true
+                                }
+                            ],
+                            "uid": "f7bb6913dddf45a08b0bb645a7b8c824"
+                        },
+                        {
+                            "text": "Marketplace sellers are responsible for their user's actions. Designate your user permissions carefully and limit Admin access to individuals in your company who can accept binding terms on behalf of your company. ",
+                            "italic": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "42e38b1a5fc045d1b59bab2412608137",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "61222e4a1fd049c0a63c658eee23c5a4",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Add a New User"
+                        }
+                    ]
+                },
+                {
+                    "uid": "2f371b89b90d487e93f42b7105fe979e",
+                    "type": "h3",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "Step 1 – Navigate to User Management Settings"
+                        }
+                    ]
+                },
+                {
+                    "uid": "27098170e3de4b3fa15793a56cb97c94",
+                    "type": "p",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "Log in to your"
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "e967624d2f2b4e2a8c70db9f2ce4c5d3"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://seller.walmart.com/home"
+                            },
+                            "children": [
+                                {
+                                    "text": "Seller Center"
+                                }
+                            ],
+                            "uid": "a0648d6208f14695ad469c19c28acb0f"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "1885e36e1d0d4761888d6f5c7e969846"
+                        },
+                        {
+                            "text": "account. Navigate to the"
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "d7e61f2e70b34d8283e1c797c64c675c"
+                        },
+                        {
+                            "text": "Settings",
+                            "bold": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "2d782b7e37294535abbde45d61919b60"
+                        },
+                        {
+                            "text": "tab and choose"
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "7c04bea0dfe6474bb54d92da2fda30d4"
+                        },
+                        {
+                            "text": "User Management",
+                            "italic": true
+                        },
+                        {
+                            "text": ". "
+                        }
+                    ]
+                },
+                {
+                    "uid": "599f87af697945cd9ff09daa5a7e93a0",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "3b629ad9d03d46568bf762888b465fee",
+                    "type": "reference",
+                    "attrs": {
+                        "display-type": "display",
+                        "asset-uid": "blt759bd3ebb372f518",
+                        "content-type-uid": "sys_assets",
+                        "asset-link": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt759bd3ebb372f518/6500d116a39049000db76491/Image_1.jpeg",
+                        "asset-name": "Image_1.jpeg",
+                        "asset-type": "image/jpeg",
+                        "type": "asset",
+                        "class-name": "embedded-asset",
+                        "inline": false,
+                        "style": {
+                            "text-align": "center"
+                        },
+                        "redactor-attributes": {
+                            "position": "left"
+                        },
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "9c4a462e479a4060b6deec2fcd0b92fc",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "e5334bdd07a848deb48f3b69c57734d5",
+                    "type": "h3",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "Step 2 – Add User "
+                        }
+                    ]
+                },
+                {
+                    "uid": "97c4750cc43c48fabedd3c323c15d1e6",
+                    "type": "p",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "Select"
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "8050846b73b842819f5913eae9b60fb3"
+                        },
+                        {
+                            "text": "Add User",
+                            "italic": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "41124a2f61bb46ab87e6d13b5955a970"
+                        },
+                        {
+                            "text": "at the top right. "
+                        }
+                    ]
+                },
+                {
+                    "uid": "b2552bb87f0146d5b53f2051b6b80adf",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "7094893b1dab4e938e242ad76d4b314c",
+                    "type": "reference",
+                    "attrs": {
+                        "display-type": "display",
+                        "asset-uid": "blta55d379a7c380155",
+                        "content-type-uid": "sys_assets",
+                        "asset-link": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blta55d379a7c380155/6500d116a39049000db7648d/Image_2.jpeg",
+                        "asset-name": "Image_2.jpeg",
+                        "asset-type": "image/jpeg",
+                        "type": "asset",
+                        "class-name": "embedded-asset",
+                        "inline": false,
+                        "style": {
+                            "text-align": "center"
+                        },
+                        "redactor-attributes": {
+                            "position": "left"
+                        },
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "4ecd09e45a7a4946abc416f2871bca21",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "9150b071f11e4952af2b43ab4eafc298",
+                    "type": "h3",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Step 3 – Add User Info "
+                        }
+                    ]
+                },
+                {
+                    "uid": "43be4132c6234701bc74dcb37128b507",
+                    "type": "p",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "Enter the new user’s information, including their name, email address and their role. Select"
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "923abe503670471189a9c8ab2f088011"
+                        },
+                        {
+                            "text": "Add",
+                            "italic": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "dcf89cc17be1463fae819dc6ea2aa275"
+                        },
+                        {
+                            "text": "to send an email invitation to the new user. The email will include a link that the new user can use to create their account and set their password. "
+                        }
+                    ]
+                },
+                {
+                    "uid": "f50526dda03c48edaf5353ccddb32ca7",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "3d4574bc77404dafafbb6b6b91196188",
+                    "type": "reference",
+                    "attrs": {
+                        "display-type": "display",
+                        "asset-uid": "blt691bf4de7736a124",
+                        "content-type-uid": "sys_assets",
+                        "asset-link": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt691bf4de7736a124/6500d117103154000dae6bd7/Image_3.jpeg",
+                        "asset-name": "Image_3.jpeg",
+                        "asset-type": "image/jpeg",
+                        "type": "asset",
+                        "class-name": "embedded-asset",
+                        "inline": false,
+                        "style": {
+                            "text-align": "center"
+                        },
+                        "redactor-attributes": {
+                            "position": "left"
+                        },
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "e9bcdd02c07f4d07b0f2ae1c0b761dd0",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ],
+            "_version": 6
+        },
+        "frequently_asked_questions": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "499152c31adc4cf88a75fd17d0134113",
+            "children": [
+                {
+                    "uid": "a2e00ff7938b4802a909922bb01616af",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Frequently Asked Questions"
+                        }
+                    ]
+                },
+                {
+                    "uid": "05dfe30722f04731a7408ce3b5af6a22",
+                    "type": "p",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "Q: Can I edit or remove users once they’ve been added to my Seller Center account? ",
+                            "bold": true
+                        },
+                        {
+                            "text": "\n",
+                            "break": true
+                        },
+                        {
+                            "text": "A: Yes. Edit or remove users from your list by selecting the three vertical dots menu, and then choosing the option you want. You can find more information in"
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "uid": "097864ad8cac487d97ea3c04faa2cd29"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011072&language=en_US"
+                            },
+                            "children": [
+                                {
+                                    "text": "this guide"
+                                }
+                            ],
+                            "uid": "f2d59ca0f1ce4675bda4b08a3cc9240d"
+                        },
+                        {
+                            "text": ". "
+                        }
+                    ]
+                },
+                {
+                    "uid": "fcc5dd60b7c14b16813253412cfc92ad",
+                    "type": "fragment",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": "\n",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "1ad060cc4b6f49f99b09d1c3156f3edc",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ],
+            "_version": 6
+        },
+        "resource": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a560686e88904eb08a5504f4543bb8b5",
+            "children": [
+                {
+                    "uid": "29de25f3cb6c49f6a12897176d059e88",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Helpful Resources"
+                        }
+                    ]
+                },
+                {
+                    "uid": "b44fd4ce0aff4d4ebe83494ee626d3b7",
+                    "type": "h4",
+                    "attrs": {
+                        "style": {
+                            "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Watch the Seller Academy tutorial below for guidance on using Administrator Options to manage your Walmart Marketplace account:"
+                        }
+                    ]
+                },
+                {
+                    "uid": "1c1eb24674a84530864fdcbc1d1d27df",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ],
+            "_version": 6
+        },
+        "modular_blocks": [
+            {
+                "vimeo": {
+                    "vimeo_1": {
+                        "items": [
+                            {
+                                "uri": "/videos/848178033",
+                                "name": "Administrator Options",
+                                "description": "Managing your administrator options is an important part of staying on top of your Walmart Marketplace account. In this video, we’ll show you how to use the Administrator Options dashboard in Seller Center to manage users and roles for your account, setup email notifications and create message templates. We’ll also take a look at where you can view your agreements, verify account details and link your other accounts if you sell on multiple marketplaces.",
+                                "embed": {
+                                    "html": "<iframe src=\"https://player.vimeo.com/video/848178033?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;airplay=0&amp;audio_tracks=0&amp;chapters=0&amp;chromecast=0&amp;closed_captions=0&amp;transcript=0&amp;player_id=0&amp;app_id=275298\" width=\"1920\" height=\"1068\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" title=\"Administrator Options\"></iframe>"
+                                },
+                                "created_time": "2023-07-24T22:44:13+00:00",
+                                "pictures": {
+                                    "sizes": [
+                                        {
+                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_100x75?r=pad"
+                                        },
+                                        {
+                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_200x150?r=pad"
+                                        },
+                                        {
+                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_295x166?r=pad"
+                                        },
+                                        {
+                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_640x360?r=pad"
+                                        },
+                                        {
+                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_960x540?r=pad"
+                                        },
+                                        {
+                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_1280x720?r=pad"
+                                        },
+                                        {
+                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_1920x1080?r=pad"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "_metadata": {
+                        "uid": "csbbecbdf00eadcb55"
+                    }
+                }
+            }
+        ],
+        "rate_this_article": null,
+        "publishing_date": "2023-09-12",
+        "seo": {
+            "meta_title": "",
+            "meta_description": "",
+            "meta_keywords": "",
+            "enable_search_indexing": true
+        },
+        "meta_data": {
+            "article_id": "000011074",
+            "salesforce_summary": "This quick and easy guide walks you through the steps you can take to add a user to your Seller Center account.",
+            "category_id_b": [
+                "Getting Started: Account Settings"
+            ],
+            "url_name": "Add-a-New-User-to-My-Seller-Center-Account",
+            "is_archived_": false,
+            "is_authenticated_": false,
+            "is_visible_to_customer_": true,
+            "partner_channel": [
+                "U.S. Marketplace"
+            ]
+        },
+        "tags": [
+            "marketplace"
+        ],
+        "locale": "en-us",
+        "uid": "blt259dd094a740fe08",
+        "created_by": "blt8332711a8c4f4b17",
+        "updated_by": "blt65544800d5984791",
+        "created_at": "2023-09-12T21:02:53.030Z",
+        "updated_at": "2023-09-20T20:49:51.545Z",
+        "ACL": {},
+        "_version": 6,
+        "_workflow": {
+            "uid": "bltfba38c479586e6b2",
+            "updated_at": "2023-09-12T21:02:53.029Z",
+            "updated_by": "blt8332711a8c4f4b17",
+            "version": 1,
+            "name": "Draft",
+            "color": "#3d9cb2"
+        },
+        "_embedded_items": {
+            "overview": [],
+            "body": [
+                {
+                    "uid": "blt759bd3ebb372f518",
+                    "created_at": "2023-09-12T20:59:02.480Z",
+                    "updated_at": "2023-09-12T20:59:02.480Z",
+                    "created_by": "blt8332711a8c4f4b17",
+                    "updated_by": "blt8332711a8c4f4b17",
+                    "content_type": "image/jpeg",
+                    "file_size": "370751",
+                    "tags": [],
+                    "filename": "Image_1.jpeg",
+                    "url": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt759bd3ebb372f518/6500d116a39049000db76491/Image_1.jpeg",
+                    "ACL": [],
+                    "parent_uid": "bltecb4c7ac7cba49cf",
+                    "_version": 1,
+                    "title": "Image_1.jpeg",
+                    "_content_type_uid": "sys_assets",
+                    "publish_details": [
+                        {
+                            "environment": "blt4543a83bd3e45e97",
+                            "locale": "en-us",
+                            "time": "2023-09-12T21:05:35.137Z",
+                            "user": "blt8332711a8c4f4b17",
+                            "version": 1
+                        }
+                    ]
+                },
+                {
+                    "uid": "blta55d379a7c380155",
+                    "created_at": "2023-09-12T20:59:02.420Z",
+                    "updated_at": "2023-09-12T20:59:02.420Z",
+                    "created_by": "blt8332711a8c4f4b17",
+                    "updated_by": "blt8332711a8c4f4b17",
+                    "content_type": "image/jpeg",
+                    "file_size": "432469",
+                    "tags": [],
+                    "filename": "Image_2.jpeg",
+                    "url": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blta55d379a7c380155/6500d116a39049000db7648d/Image_2.jpeg",
+                    "ACL": [],
+                    "parent_uid": "bltecb4c7ac7cba49cf",
+                    "_version": 1,
+                    "title": "Image_2.jpeg",
+                    "_content_type_uid": "sys_assets",
+                    "publish_details": [
+                        {
+                            "environment": "blt4543a83bd3e45e97",
+                            "locale": "en-us",
+                            "time": "2023-09-12T21:05:35.121Z",
+                            "user": "blt8332711a8c4f4b17",
+                            "version": 1
+                        }
+                    ]
+                },
+                {
+                    "uid": "blt691bf4de7736a124",
+                    "created_at": "2023-09-12T20:59:03.127Z",
+                    "updated_at": "2023-09-12T20:59:03.127Z",
+                    "created_by": "blt8332711a8c4f4b17",
+                    "updated_by": "blt8332711a8c4f4b17",
+                    "content_type": "image/jpeg",
+                    "file_size": "178058",
+                    "tags": [],
+                    "filename": "Image_3.jpeg",
+                    "url": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt691bf4de7736a124/6500d117103154000dae6bd7/Image_3.jpeg",
+                    "ACL": [],
+                    "parent_uid": "bltecb4c7ac7cba49cf",
+                    "_version": 1,
+                    "title": "Image_3.jpeg",
+                    "_content_type_uid": "sys_assets",
+                    "publish_details": [
+                        {
+                            "environment": "blt4543a83bd3e45e97",
+                            "locale": "en-us",
+                            "time": "2023-09-12T21:05:35.138Z",
+                            "user": "blt8332711a8c4f4b17",
+                            "version": 1
+                        }
+                    ]
+                }
+            ],
+            "frequently_asked_questions": [],
+            "resource": []
+        },
+        "publish_details": [
+            {
+                "environment": "blt4543a83bd3e45e97",
+                "locale": "en-us",
+                "time": "2023-09-20T20:49:55.437Z",
+                "user": "blt65544800d5984791",
+                "version": 6
+            }
+        ]
+    }
+}
