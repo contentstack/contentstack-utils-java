@@ -1,7 +1,8 @@
-[{
+[
+  {
     "title": "New entry with figure tag",
     "rich_text_editor": [
-        "<p> Block embedded entry </p><p><figure type=\"entry\" class=\"embedded-entry block-entry\" data-sys-entry-uid=\"55f6d8cbd7e03a1f\" data-sys-content-type-uid=\"article\" style=\"display:block;\" sys-style-type=\"block\"><span>{{title}}</span></figure></p>"
+      "<p> Block embedded entry </p><p><figure type=\"entry\" class=\"embedded-entry block-entry\" data-sys-entry-uid=\"55f6d8cbd7e03a1f\" data-sys-content-type-uid=\"article\" style=\"display:block;\" sys-style-type=\"block\"><span>{{title}}</span></figure></p>"
     ],
     "tags": [],
     "locale": "en-us",
@@ -13,20 +14,25 @@
     "ACL": {},
     "_version": 1,
     "_in_progress": false,
-    "_embedded_entries": [{
+    "_embedded_entries": [
+      {
         "title": "Why are Indian rating agency heads being sent on 'leave'?",
         "multi_line": "If you have watched the film The Big Short, you might remember a scene in which Mark Baum, the fund manager, asks the lady at the ratings agency, “Why did you rate this?” And she says, otherwise they will go to another agency two blocks down the road.\n\nDid rating agencies in India fall for the same logic? Only time will tell.\n\nFor now, the heads of two Indian rating agencies, CARE Ltd and ICRA Ltd, have been sent on leave. On Wednesday evening, CARE Ratings Ltd announced to the stock exchanges that it has sent its managing director and CEO, Rajesh Mokashi on leave with immediate effect. It comes on the back of an anonymous complaint that was sent to the markets regulator, which was then forwarded to CARE, and the ratings firm is now examining the complaint.\n\nJust a fortnight ago, the same pattern followed when concerns were raised in an anonymous representation to the securities and exchange board of India (Sebi) regarding another agency, ICRA Ltd. The markets regulator had promptly sent it forward to ICRA which then sent its managing director, Naresh Takkar, on immediate leave, until further notice.\n\nThese are two incidents just this month, and more heads are expected to roll. Ratings agencies have come under the scanner since the debacle of shadow banking firm IL&FS Ltd. Three agencies that rated the company include India Ratings & Research, ICRA and CARE. The markets regulator in December last year had said it will investigate the matter.\n\nIn fact, one look at ICRA’s website shows that on August 6, 2018, the firm had given an A+ rating to IL&FS Financial Services Ltd’s (IFIN’s) commercial paper, worth Rs 4,000 crore. Interestingly, a closer look at the document showcases problems galore.",
-        "header_ref": [{
+        "header_ref": [
+          {
             "uid": "dd96bf9df1e109cd",
             "_content_type_uid": "header"
-        }],
-        "footer_ref": [
-            "a8d1c04adeca1cd1"
+          }
         ],
-        "reference": [{
+        "footer_ref": [
+          "a8d1c04adeca1cd1"
+        ],
+        "reference": [
+          {
             "uid": "35f57d9211b3d430",
             "_content_type_uid": "author"
-        }],
+          }
+        ],
         "tags": [],
         "locale": "en-us",
         "uid": "55f6d8cbd7e03a1f",
@@ -41,5 +47,7 @@
         "number": null,
         "url": "/why-are-indian-rating-agency-heads-being-sent-on-leave-",
         "_in_progress": false
-    }]
-}]
+      }
+    ]
+  }
+]
