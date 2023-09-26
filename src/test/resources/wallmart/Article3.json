@@ -1,0 +1,1968 @@
+{
+    "entry": {
+        "title": "WFS Big and Bulky Items",
+        "overview": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "01c9a9fe8e6544f78423f2a645488d15",
+            "children": [
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "0f341d1e64c3413a8e0cb9587e4cee8e",
+                    "children": [
+                        {
+                            "text": "In this article:",
+                            "bold": true
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "bd2db142d1c5439ca8a1af5c12cbc60b",
+                    "children": [
+                        {
+                            "bold": true,
+                            "text": "\t"
+                        },
+                        {
+                            "uid": "7cf9ff933bc9451db91f7640a7abe795",
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#Overview"
+                            },
+                            "children": [
+                                {
+                                    "text": "Overview"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "da6f05ad84da4d15b0a6070040c2d6dc",
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "uid": "5b1d825c49d2497d8be8da44aef1e1b8",
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#Criteria"
+                            },
+                            "children": [
+                                {
+                                    "text": "What Counts as Big and Bulky?"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " ​​​​​​​"
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "d95f5edf4512459cba11e5832655e0cd",
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "uid": "56bca13f60af4b1685d999d0467e668f",
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#Fees"
+                            },
+                            "children": [
+                                {
+                                    "text": "Fees"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " ​​​​"
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "8b1420ede37e417fb24d9af751dff7f0",
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "uid": "f8a82c9c8ade4e9b9bfecbfbac0de7f3",
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#SendInventory"
+                            },
+                            "children": [
+                                {
+                                    "text": "Send Inventory to WFS"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "98b4353e104b4518b7113080b8787d20",
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "uid": "e71b1ac38f844596a8580c731d6f8e97",
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#ShippingSpeeds"
+                            },
+                            "children": [
+                                {
+                                    "text": "Shipping Speeds"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " ​​​​​​​"
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "10edbc439ee84f39a830f139df6123c2",
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "uid": "f70c0eee069b4e03b0024fb484da832c",
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#CustomerReturns"
+                            },
+                            "children": [
+                                {
+                                    "text": "Customer Returns"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " ​​​​​​​"
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "68cdff714a9c4fd39cfa25804603ad7c",
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "uid": "066e64424c094d44813d16cd133c064a",
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#FAQ"
+                            },
+                            "children": [
+                                {
+                                    "text": "Frequently Asked Questions"
+                                }
+                            ]
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "3dfb2282192c4d2f9234ea59eca13c48",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "f82659d67e514b6bad78f243404a6c5c",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Overview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "4e99df709dd04643b2d0569de919dd55",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Unlock more of your WFS catalog with big and bulky items. If you’ve sent standard items to WFS before, the item setup, packaging and inbounding processes are all the same. Send inventory to WFS facilities through freight shipping, and we’ll take care of delivering big and bulky items to customers in a reliable and timely manner. Here are just some examples of big and bulky items: "
+                                }
+                            ],
+                            "uid": "d2515730328b4f3c9a54792141497b1e"
+                        },
+                        {
+                            "text": "",
+                            "break": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "a9c1be97511942cca16bfa88516ffb15"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "cad092a8b22c4f14b7d95b5e891c50d8",
+                    "type": "ul",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "type": "li",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": "Home appliances (e.g., big screen TVs, refrigerators)"
+                                }
+                            ],
+                            "uid": "1416b0e968ff460081c41849adb63071"
+                        },
+                        {
+                            "type": "li",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": "Sporting and recreation equipment (e.g., kayaks, bikes, home gyms, pool tables)"
+                                }
+                            ],
+                            "uid": "2abf76b52f0b47ad9e36289ee8bcbacc"
+                        },
+                        {
+                            "type": "li",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": "Outdoor items (e.g., pools, trampolines, patio furniture)"
+                                }
+                            ],
+                            "uid": "bf4fed38cafa46b789d3bbda0d7afed4"
+                        },
+                        {
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Home goods (e.g., furniture, desks, chairs)"
+                                }
+                            ],
+                            "uid": "71fa112c43104372bbbca8a3f3486182"
+                        }
+                    ]
+                }
+            ],
+            "_version": 8
+        },
+        "body": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a53f2392964241a99ea56d09448400c3",
+            "children": [
+                {
+                    "uid": "04d75cb326864155aaf33a65ee925714",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "What Counts as Big and Bulky?"
+                        }
+                    ]
+                },
+                {
+                    "uid": "176c051c645e44838790e987dcaf8247",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": "Your item is considered big and bulky if it meets"
+                                },
+                                {
+                                    "type": "span",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "text": " "
+                                        }
+                                    ],
+                                    "uid": "9e55e97d7d834ed7a951f733d8885240"
+                                },
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "afcd4e7695b143d99335c078d1dca094"
+                        },
+                        {
+                            "text": "at least one ",
+                            "bold": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "type": "span",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "children": [
+                                        {
+                                            "text": ""
+                                        }
+                                    ],
+                                    "uid": "ff5d1d41fa6b405a8460000e0bc0bd64"
+                                },
+                                {
+                                    "text": "of these criteria:"
+                                }
+                            ],
+                            "uid": "793c7cad86ad4d4497638e468b9983ee"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "eb4b42a4a04f4faa9f2520d841b71837",
+                    "type": "ul",
+                    "children": [
+                        {
+                            "uid": "3266bde2c1dd40178262863c3c243a8c",
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "type": "span",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "uid": "45bea67ec0bb4222b5e270432381f606",
+                                    "children": [
+                                        {
+                                            "text": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Unit weight is between 150 lb. and up to 500 lb."
+                                }
+                            ]
+                        },
+                        {
+                            "uid": "c6148460eacc4365aef4d3a384da781c",
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Longest side is between 108 in. and up to 120 in."
+                                }
+                            ]
+                        },
+                        {
+                            "uid": "e4ec991a4684458882ebef5d5e434f58",
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Longest side + girth* is greater than 165 in."
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "1261bb047d7d46139af5d5a37ce598b0",
+                    "attrs": {
+                        "style": {}
+                    }
+                },
+                {
+                    "uid": "9bf110d6ba4147d7ba2673e847db84e6",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "38b7ab982cd84abea1b17b2eeae9fed5",
+                    "type": "reference",
+                    "attrs": {
+                        "display-type": "display",
+                        "asset-uid": "blt80fc6f2ccca9406a",
+                        "content-type-uid": "sys_assets",
+                        "asset-link": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt80fc6f2ccca9406a/64fa50d5b979ea000d97a176/Big_and_Bulky.png",
+                        "asset-name": "Big_and_Bulky.png",
+                        "asset-type": "image/png",
+                        "type": "asset",
+                        "class-name": "embedded-asset",
+                        "redactor-attributes": {
+                            "position": "center"
+                        },
+                        "style": {
+                            "text-align": "center"
+                        },
+                        "position": "center",
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "b173d4c8d22f43a1a0a6c069b12a9553",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "c77409f9f47d46228768de72e458573b",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Your big and bulky item must also be able to fit through a trailer door. Make sure it follows these limits: "
+                                }
+                            ],
+                            "uid": "79018d7a97d34626b012956fa66e4d53"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "ccb4a5f587be4ea7a539bdc7f90956e1",
+                    "type": "ul",
+                    "children": [
+                        {
+                            "uid": "e38d4ef793254e71b2d1208e038ecfc2",
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "type": "span",
+                                    "attrs": {
+                                        "style": {},
+                                        "redactor-attributes": {},
+                                        "dir": "ltr"
+                                    },
+                                    "uid": "8b39852c7959489b95463801dfa90ccf",
+                                    "children": [
+                                        {
+                                            "text": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Median side less than 105 in."
+                                }
+                            ]
+                        },
+                        {
+                            "uid": "8a9fd43f35c841dda5efb7c60418a055",
+                            "type": "li",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Shortest side is less than 93 in."
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "519556dfcf8b494aa8015f12b5d0ea69",
+                    "attrs": {
+                        "style": {}
+                    }
+                },
+                {
+                    "uid": "4ee544eeb7784602a06d4bba36728048",
+                    "type": "p",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "505c75f0071048e496cc3f7bddab56c9",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "text": "Imagine Bentonville Sporting Goods sells kayaks. Each one weighs 36 lb. and is 120\" x 28\" x 14.\" To determine if it’s eligible for the Big and Bulky tier:"
+                                }
+                            ],
+                            "uid": "8b0d26466c3b4a1a9d88d344a3eb016b"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "69e0683bb244437e984f9ac1f7974bdb",
+                    "type": "table",
+                    "attrs": {
+                        "rows": 3,
+                        "cols": 2,
+                        "colWidths": [
+                            250,
+                            250
+                        ]
+                    },
+                    "children": [
+                        {
+                            "type": "tbody",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a63e0950e6fd4c0a998242f51609e344",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Unit weight",
+                                                            "bold": true,
+                                                            "attrs": {}
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "54d27b744bde430d99c18e810c94060c"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "0122f500c3284e38886dcefc01daeca5",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "36 lb."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "002c979c17ce4380ad4480cba04155d7"
+                                        }
+                                    ],
+                                    "uid": "6434687b19a1426d8a901fe016474860"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "4cc775b9111b45c194949f9800586821",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Longest side",
+                                                            "bold": true,
+                                                            "attrs": {}
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "f285b159d1de41fa90630084b533ebf9"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "31a472b67b4a4719812c0becd9124c94",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "120\""
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "a9db2ba84e954eb0b9b94651b3bd6130"
+                                        }
+                                    ],
+                                    "uid": "391a0cffb38d4f669d6353602ecdafcc"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "0066758139a84630ac5ddfdf2cc1a568",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Longest side + girth",
+                                                            "bold": true,
+                                                            "attrs": {}
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "11dce4b5695b4d73ac9320ba7ba0972d"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a99c32b914bf443fbfb3239a0155e39b",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "120\" + 2*(28\" + 14\") = 204\""
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "eb5d98d1ff934d9388c9d5a7406beac6"
+                                        }
+                                    ],
+                                    "uid": "dfd78b500c0745f5928551cc4761f52c"
+                                }
+                            ],
+                            "uid": "99e1be8ff2d640ccaf974917a5ebb029"
+                        }
+                    ]
+                },
+                {
+                    "uid": "2e6e4a2fa9c0496b80b79d6e2ce6c7df",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "5f4db7863ed043ed8f5a8d75bead9b0a",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "This kayak is a big and bulky item because its longest side and longest side + girth meet the criteria. Its dimensions are also within a trailer’s limits."
+                                }
+                            ],
+                            "uid": "855b48e6c8e14ab0b28ea657cfcc380e"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "207db45b73674ca7a092d6834ab9b30d",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "uid": "35d7754001f7468580c44e6a527ae81e",
+                            "type": "hr",
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            }
+                        },
+                        {
+                            "type": "fragment",
+                            "attrs": {},
+                            "uid": "cd5ed56fdff842cb8a97eee8866201b2",
+                            "children": [
+                                {
+                                    "text": "Fees"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uid": "6fa84fd8b82f4c2d966fb5166a54c96f",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "The simplest way to preview fulfillment and storage fees is through the "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "8c1922a8714b41d183d4e5d63610c218"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://marketplace.walmart.com/walmart-fulfillment-services-pricing/",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "WFS Calculator"
+                                }
+                            ],
+                            "uid": "7e47dadc92484530aea674e442a55760"
+                        },
+                        {
+                            "text": ". Just tell us the item dimensions and weight, and we’ll automatically calculate estimated fees. Big and bulky fees are based only on unit weight. We do not charge for packaging or pallet weight."
+                        }
+                    ]
+                },
+                {
+                    "uid": "f96416e892a84debae8f63e6b76ab179",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\n",
+                            "break": true
+                        },
+                        {
+                            "text": "For a complete breakdown of fees, including storage and return shipping, see the "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "5adcd1ad9095403db12769ae532db990"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009215",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "WFS Fees"
+                                }
+                            ],
+                            "uid": "5783f55694624da3a0da2294043f14a7"
+                        },
+                        {
+                            "text": " "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "34d993e9a11e48279be569157a9cf26c"
+                        },
+                        {
+                            "text": "article."
+                        }
+                    ]
+                },
+                {
+                    "uid": "12560be47b3f4556a4bc247fe92ef31d",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "uid": "4f1d5e415c5340e8b9d002e42b04a993",
+                            "type": "hr",
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "attrs": {}
+                        },
+                        {
+                            "type": "fragment",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "uid": "3c413ba8a8f3401ba36cf7155b7fdb19",
+                            "children": [
+                                {
+                                    "text": "Sending Inventory to WFS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uid": "c759cbab908c40ea8709a94998e5d987",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "No matter the size and shape of your items, you’ll use the same processes to "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "194173edbca942949b3eb6440fb111d2"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009495",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "set up items"
+                                }
+                            ],
+                            "uid": "c55c4e7772264050aef36a55e8f6c9a0"
+                        },
+                        {
+                            "text": " "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "4959e0c666e34db1b840d9fa883ea8c1"
+                        },
+                        {
+                            "text": "and "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "e6d9b00ff0db452a952d2ce4a9cc86bb"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009163",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "send inventory"
+                                }
+                            ],
+                            "uid": "e4957d3756cd4dd4b84be5659f2fb504"
+                        },
+                        {
+                            "text": " "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "9d3ae86dc6ef41c68b80f602ec40fcdb"
+                        },
+                        {
+                            "text": "to a WFS facility. See the "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "180110f651a4415c8fe60277c122ba83"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://gecrm.my.salesforce.com/sfc/p/#61000000ZKTc/a/4M0000000Osv/jOvZtC6FccRf50_edQMkxZRBo9oZ5hq8QKZMsaaRKi4",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "WFS Routing Guide"
+                                }
+                            ],
+                            "uid": "e5673a3b3bcd4d4eb8e58bdb3960227d"
+                        },
+                        {
+                            "text": " for labeling and packaging details."
+                        }
+                    ]
+                },
+                {
+                    "uid": "296777546d90465786988a81ad39863d",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\n",
+                            "break": true
+                        },
+                        {
+                            "text": "If you choose a "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "2f29562d830b4e37b3d3ceb1df66c4f3"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009514",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Walmart preferred carrier"
+                                }
+                            ],
+                            "uid": "438484945beb44608d43038ebd574fce"
+                        },
+                        {
+                            "text": ", we can only accept 48” x 40” pallets for freight at this time. For non-standard pallet sizes, please use a different carrier. "
+                        }
+                    ]
+                },
+                {
+                    "uid": "22bb8b49b91a41fdb000d0d6eb602829",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "7b72e9ab788f45238ded1fa8188d03f8",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Big and bulky items that have been properly packed and labeled will be checked in within 2 business days. However, items that require unplanned prep work, arrive during peak (October 1–December 31), or other circumstances may take up to ten days to process."
+                        }
+                    ]
+                },
+                {
+                    "uid": "963b7342def64793939128680de657b1",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "uid": "4977661eb776406187a4f98525d5e810",
+                            "type": "hr",
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            }
+                        },
+                        {
+                            "type": "fragment",
+                            "attrs": {},
+                            "uid": "96569dc9b3b34570a0390f30fa52181b",
+                            "children": [
+                                {
+                                    "text": "Shipping Speeds"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uid": "f7fad4d1c38c4dceb786839ce4a95c61",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Big and bulky items are shipped using ground transportation and may require more than 2 days for delivery. The shipping speed will depend on your assigned fulfillment center and the customer’s location. On Walmart.com, items will have a 3+day shipping tag but customers will see a more accurate estimate in the listing’s details."
+                        }
+                    ]
+                },
+                {
+                    "uid": "db4b099064d042c188ac25a84e5afcbf",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "uid": "e40346e7d12c497dbdfaf588a225cf94",
+                            "type": "hr",
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            }
+                        },
+                        {
+                            "type": "fragment",
+                            "attrs": {},
+                            "uid": "19e4f26b637841aa87cf5bed53fca8be",
+                            "children": [
+                                {
+                                    "text": "Customer Returns"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uid": "5fd6fd510c144ed4b50a5eb60ab7348f",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Big and bulky items "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "4c688fb8f6e94ab6bc8cc48854c2db0a"
+                        },
+                        {
+                            "text": "cannot ",
+                            "italic": true
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "38dcd5490a4f485e908e92d956eb57bf"
+                        },
+                        {
+                            "text": "be returned in stores. Instead, customers can return big and bulky items by scheduling a pickup. The customer will get instructions on how to do so, including placing the item outside their home’s door. They do not need to repackage the item as the carrier will take care of it and transport items directly from a customer’s home to a WFS return center."
+                        }
+                    ]
+                },
+                {
+                    "uid": "2ae557c8d3d24341a6a43a247bc30e3c",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "7212f8f20906402ead57f2813402c7ab",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "We’ll then follow the "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "420cd77d7a00436dabecc311ce0e59d5"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009158",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "WFS returns process"
+                                }
+                            ],
+                            "uid": "3ba0782f246344d5979613f9f73cc15e"
+                        },
+                        {
+                            "text": " "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "1b4fe6f42b634a009627474945192884"
+                        },
+                        {
+                            "text": "to assess the returned item. If it’s in a sellable condition, we’ll put the item back in inventory. However, customers may return big and bulky items already assembled or with damaged packaging. If the item is unsellable, we’ll send it back to you or dispose of it. Note that for any returns identified as "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "4c9b8b48099d4f8f919f48e12447ad09"
+                        },
+                        {
+                            "text": "Walmart at fault",
+                            "italic": true
+                        },
+                        {
+                            "text": ", Walmart will keep the inventory regardless of your "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "e31e606a33124d8f9868382e27106974"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009493",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "return preferences"
+                                }
+                            ],
+                            "uid": "4bf60d72cd884edaafe16858d603042d"
+                        },
+                        {
+                            "text": "."
+                        }
+                    ]
+                },
+                {
+                    "uid": "5e581237079c475abe08101e637f7a5b",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": " "
+                        }
+                    ]
+                }
+            ],
+            "_version": 8
+        },
+        "frequently_asked_questions": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "23c03b2e8c9d407c91cf6cbb49a91d45",
+            "children": [
+                {
+                    "uid": "e2991a1418d042be8e0e2a26c2a729ce",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Frequently Asked Questions"
+                        }
+                    ]
+                },
+                {
+                    "uid": "f312106918644698acb608e12458cc97",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "bold": true,
+                            "text": "Q: What fulfillment centers will I ship to?"
+                        }
+                    ]
+                },
+                {
+                    "uid": "2dcfd36e4742446fb927d9f1e3675378",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "A: Our non-sort facilities are distributed throughout the US. You’ll be assigned a WFS facility once you create an inbound order in Seller Center. We determine the ship-to location based on geographic sales demand and available capacity.  "
+                        }
+                    ]
+                },
+                {
+                    "uid": "c2f4093fcf3446c487606a9b4da0129c",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "5315507d023745c2a7577d165a86fda9",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Q: Can I send an item that has multiple boxes?",
+                            "bold": true
+                        },
+                        {
+                            "text": "\n",
+                            "break": true
+                        },
+                        {
+                            "text": "A: Yes, you can send "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "e11ca2164ff34472b2c51f9614754710"
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000010431",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "multi-box items"
+                                }
+                            ],
+                            "uid": "82e75a6d0f0f46b7b0dac9db71468c84"
+                        },
+                        {
+                            "text": " "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "7141cd846a13477284a927b7be11f2ca"
+                        },
+                        {
+                            "text": "to WFS fulfillment centers. You’ll need set up the item in your catalog as a sellable set made up of multiple boxes (e.g., trampoline shipped as a safety net, jump mat and legs)."
+                        }
+                    ]
+                },
+                {
+                    "uid": "e95da6bf10a84c13ba809ef90954b09d",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\n",
+                            "break": true
+                        },
+                        {
+                            "text": "Q: Are big and bulky items part of Walmart+ assortment?",
+                            "bold": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "1f3ac5ae088f416b8772879a952d6592",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "A: Yes, big and bulky items are included in Walmart+. Walmart+ members will get free shipping on those items."
+                        }
+                    ]
+                },
+                {
+                    "uid": "2f2e0cbfc8eb4124b901fda5607d4985",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "0a60da4751ca43768d6cd164377ba353",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Q: Can I have big and bulky items returned to me?",
+                            "bold": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "dbed405eebdf40d583547b1fac08343e",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "A. Yes, you can have your big and bulky items sent back to you rather than being restocked or disposed of. Make sure to set your return preferences in Seller Center. Removal fees will apply."
+                        }
+                    ]
+                },
+                {
+                    "uid": "fcc23ed641d64b5cb25b77d9ffe782c4",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\n",
+                            "break": true
+                        },
+                        {
+                            "text": "Q: Can I apply discounts to big and bulky item fulfillment?",
+                            "bold": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "90828d1dc89a4915853d164f975110f7",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "A: Promotional discounts are not eligible for big and bulky items."
+                        }
+                    ]
+                }
+            ],
+            "_version": 8
+        },
+        "resource": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c2bd27ed39914702ac7e2438b8e4e8fa",
+            "children": [
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "uid": "abdf4f0f3d384df7b66c3bfc1a92f9dc",
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ],
+            "_version": 8
+        },
+        "modular_blocks": [],
+        "rate_this_article": null,
+        "publishing_date": "2023-09-07",
+        "seo": {
+            "meta_title": "",
+            "meta_description": "",
+            "meta_keywords": "",
+            "enable_search_indexing": true
+        },
+        "meta_data": {
+            "article_id": "000011223",
+            "salesforce_summary": "Fulfill large, heavy items with Walmart, up to 500 lb. and longest side of 120 in.",
+            "category_id_b": [
+                "Walmart Fulfillment Services (WFS): Shipping to WFS",
+                "Walmart Fulfillment Services (WFS): WFS Programs & Services"
+            ],
+            "url_name": "WFS-Big-Bulky-Items",
+            "is_archived_": false,
+            "is_authenticated_": false,
+            "is_visible_to_customer_": true,
+            "partner_channel": [
+                "U.S. Marketplace"
+            ]
+        },
+        "tags": [
+            "wfs"
+        ],
+        "locale": "en-us",
+        "uid": "blt433626de8c265391",
+        "created_by": "blt7b041efb32e2ad9a",
+        "updated_by": "blt3be17f68eb4cb0eb",
+        "created_at": "2023-09-07T22:36:42.773Z",
+        "updated_at": "2023-09-20T23:15:08.152Z",
+        "ACL": {},
+        "_version": 8,
+        "_workflow": {
+            "uid": "bltfba38c479586e6b2",
+            "updated_at": "2023-09-07T22:36:42.771Z",
+            "updated_by": "blt7b041efb32e2ad9a",
+            "version": 1,
+            "name": "Draft",
+            "color": "#3d9cb2"
+        },
+        "_embedded_items": {
+            "overview": [],
+            "body": [
+                {
+                    "uid": "blt80fc6f2ccca9406a",
+                    "created_at": "2023-09-07T22:38:13.938Z",
+                    "updated_at": "2023-09-07T22:38:13.938Z",
+                    "created_by": "blt7b041efb32e2ad9a",
+                    "updated_by": "blt7b041efb32e2ad9a",
+                    "content_type": "image/png",
+                    "file_size": "136896",
+                    "tags": [],
+                    "filename": "Big_and_Bulky.png",
+                    "url": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt80fc6f2ccca9406a/64fa50d5b979ea000d97a176/Big_and_Bulky.png",
+                    "ACL": [],
+                    "parent_uid": "blt7fdffe41992d7f16",
+                    "_version": 1,
+                    "title": "Big_and_Bulky.png",
+                    "_content_type_uid": "sys_assets",
+                    "publish_details": [
+                        {
+                            "environment": "blt4543a83bd3e45e97",
+                            "locale": "en-us",
+                            "time": "2023-09-13T13:02:02.299Z",
+                            "user": "blt82640d9b4f700dd0",
+                            "version": 1
+                        }
+                    ]
+                }
+            ],
+            "frequently_asked_questions": [],
+            "resource": []
+        },
+        "publish_details": [
+            {
+                "environment": "blt4543a83bd3e45e97",
+                "locale": "en-us",
+                "time": "2023-09-20T23:15:12.237Z",
+                "user": "blt3be17f68eb4cb0eb",
+                "version": 8
+            }
+        ]
+    }
+}
