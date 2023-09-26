@@ -1,44 +1,65 @@
-
 # Changelog
 
 A brief description of what changes project contains
 
 ## Aug 8, 2023
-#### v1.2.3 
+
+#### v1.2.4
+
+- Style Attribute support added
+- Issue fixes for missing center alignment
+- \n support added using br tag to support new lines
+
+## Aug 8, 2023
+
+#### v1.2.3
+
 - Attribute support added
 
-
 ## Jun 7un 26, 2023
-#### v1.2.2 
+
+#### v1.2.2
+
 - Added Support For Nested Assets
 - General Code Improvement
 
 ## Jun 26, 2023
-#### v1.2.1 
+
+#### v1.2.1
+
 - New Line Issues while rendering Json object To HTML
 
 ## Updated Jsoup vulnerable dependency
-#### v1.2.0 
+
+#### v1.2.0
+
 - Updated Jsoup vulnerable dependency
 - jsonToHTML function support added
 
-
 ## Fixed compile Issue
-#### v1.1.2 
+
+#### v1.1.2
+
 - Fixed compile Issue
 
 ## Transitive dependencies updated
-#### v1.1.1 
+
+#### v1.1.1
+
 - Updated transitive dependencies to pom.xml
 
-
 ## JSON RTE Feature Support
-#### v1.1.0 
+
+#### v1.1.0
+
 - JSON RTE Feature Support
 
 ## Introducing Release Of Java Utils SDK
-#### v1.0.0 
+
+#### v1.0.0
+
 - Initial release for Utils SDK
+
 ## Support
 
 - For support, email fake@fake.com or join our Slack channel.
