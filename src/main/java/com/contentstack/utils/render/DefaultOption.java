@@ -7,8 +7,7 @@ import com.contentstack.utils.node.MarkType;
 import org.apache.commons.text.StringEscapeUtils;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 
 public class DefaultOption implements Option {
@@ -55,6 +54,8 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderMark(MarkType markType, String text) {
+        // Replace "\n" with "<br/>" tags
+        text = renderHtmlWithLineBreaks(text);
         switch (markType) {
             case SUPERSCRIPT:
                 return "<sup>" + text + "</sup>";
@@ -94,8 +95,7 @@ public class DefaultOption implements Option {
      *                   rendered.
      * @param callback   The `callback` parameter is an instance of the `NodeCallback` interface. It is
      *                   used to render the children of the current node. The `renderChildren` method of the `callback`
-     *                   is called with the `children` JSON array of the current node as the argument. The
-     *                   `renderChildren
+     *                   is called with the `children` JSON array of the current node as the argument. The `renderChildren
      * @return The method `renderNode` returns a string representation of an HTML element based on the
      * given `nodeType` and `nodeObject`.
      */
@@ -105,11 +105,12 @@ public class DefaultOption implements Option {
         String strAttrs = strAttrs(nodeObject);
 
         String children = callback.renderChildren(nodeObject.optJSONArray("children"));
+
         switch (nodeType) {
             case "p":
                 return "<p" + strAttrs + ">" + children + "</p>";
             case "a":
-                return "<a" + strAttrs + "href=\"" + escapeInjectHtml(nodeObject, "href") + "\">" + children + "</a>";
+                return "<a" + strAttrs + " href=\"" + escapeInjectHtml(nodeObject, "href") + "\">" + children + "</a>";
             case "img":
                 String assetLink = getNodeStr(nodeObject, "asset-link");
                 if (!assetLink.isEmpty()) {
@@ -165,6 +166,28 @@ public class DefaultOption implements Option {
 
 
     /**
+     * Returns the string replacing </n> is with the <br/> tags
+     *
+     * @param content the content
+     * @return string with br tags
+     * @apiNote the support for the br tags are included
+     * @since v1.3.0
+     */
+    private String renderHtmlWithLineBreaks(String content) {
+        // Replace "\n" with "<br/>" tags
+        String htmlContent = content.replaceAll("\\n", "<br />");
+
+        // Now, you can render the HTML content
+        // (You can use your rendering method here, e.g., send it to a WebView or display it in a GUI component)
+
+        // For demonstration purposes, let's just print it
+        System.out.println(htmlContent);
+
+        return htmlContent;
+    }
+
+
+    /**
      * The function takes a JSONObject as input and returns a string containing the attributes and
      * their values, excluding certain keys.
      *
@@ -178,17 +201,47 @@ public class DefaultOption implements Option {
             JSONObject attrsObject = nodeObject.optJSONObject("attrs");
             if (attrsObject != null && !attrsObject.isEmpty()) {
                 for (String key : attrsObject.keySet()) {
-                    Object objValue =  attrsObject.opt(key);
+                    Object objValue = attrsObject.opt(key);
                     String value = objValue.toString();
-                    String[] ignoreKeys = {"href", "asset-link", "src", "url"};
-                    ArrayList<String> ignoreKeysList = new ArrayList<>(Arrays.asList(ignoreKeys));
-                    if (!ignoreKeysList.contains(key)) {
-                        result.append(" ").append(key).append("=\"").append(value).append("\"");
+                    // If style is available, do styling calculations
+                    if (Objects.equals(key, "style")) {
+                        String resultStyle = stringifyStyles(attrsObject.optJSONObject("style"));
+                        result.append(" ").append(key).append("=\"").append(resultStyle).append("\"");
+                    } else {
+                        String[] ignoreKeys = {"href", "asset-link", "src", "url"};
+                        ArrayList<String> ignoreKeysList = new ArrayList<>(Arrays.asList(ignoreKeys));
+                        if (!ignoreKeysList.contains(key)) {
+                            result.append(" ").append(key).append("=\"").append(value).append("\"");
+                        }
                     }
                 }
             }
         }
         return result.toString();
+    }
+
+
+    private String stringifyStyles(JSONObject style) {
+        Map<String, String> styleMap = new HashMap<>();
+
+        // Convert JSONObject to a Map
+        Iterator<String> keys = style.keys();
+        while (keys.hasNext()) {
+            String key = keys.next();
+            String value = style.getString(key);
+            styleMap.put(key, value);
+        }
+
+        StringBuilder styleString = new StringBuilder();
+
+        for (Map.Entry<String, String> entry : styleMap.entrySet()) {
+            String property = entry.getKey();
+            String value = entry.getValue();
+
+            styleString.append(property).append(": ").append(value).append("; ");
+        }
+
+        return styleString.toString();
     }
 
 

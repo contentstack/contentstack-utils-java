@@ -196,7 +196,7 @@ public class Utils {
      * @param jsonRTE       A JSONObject representing the JSON data to be converted to HTML.
      * @param renderOption  The `renderOption` parameter is an option that determines how the JSON content
      *                      should be rendered as HTML. It could be an enum or a class that defines different rendering options.
-     * @param embeddeditems The `embeddeditems` parameter is a `JSONObject` that contains embedded items.
+     * @param embeddeditems The `embedded-items` parameter is a `JSONObject` that contains embedded items.
      *                      It is used to find and retrieve embedded items based on their metadata.
      * @return The method is returning a String.
      */
@@ -219,7 +219,7 @@ public class Utils {
      * @param renderOption  The `renderOption` parameter is an option that determines how the JSON data
      *                      should be rendered as HTML. It could be an enum or a custom class that defines different rendering
      *                      options.
-     * @param embeddeditems The `embeddeditems` parameter is a `JSONObject` that contains embedded items.
+     * @param embeddeditems The `embedded-items` parameter is a `JSONObject` that contains embedded items.
      *                      It is used to find and retrieve embedded items based on the metadata provided.
      * @return The method is returning an Object.
      */
