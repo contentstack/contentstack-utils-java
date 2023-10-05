@@ -54,27 +54,26 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderMark(MarkType markType, String text) {
-        // Replace "\n" with "<br/>" tags
-        text = renderHtmlWithLineBreaks(text);
+        String textContainsBreak = renderHtmlWithLineBreaks(text); // Replace "\n" with "<br/>" tags
         switch (markType) {
             case SUPERSCRIPT:
-                return "<sup>" + text + "</sup>";
+                return "<sup>" + textContainsBreak + "</sup>";
             case SUBSCRIPT:
-                return "<sub>" + text + "</sub>";
+                return "<sub>" + textContainsBreak + "</sub>";
             case INLINECODE:
-                return "<span>" + text + "</span>";
+                return "<span>" + textContainsBreak + "</span>";
             case STRIKETHROUGH:
-                return "<strike>" + text + "</strike>";
+                return "<strike>" + textContainsBreak + "</strike>";
             case UNDERLINE:
-                return "<u>" + text + "</u>";
+                return "<u>" + textContainsBreak + "</u>";
             case ITALIC:
-                return "<em>" + text + "</em>";
+                return "<em>" + textContainsBreak + "</em>";
             case BOLD:
-                return "<strong>" + text + "</strong>";
+                return "<strong>" + textContainsBreak + "</strong>";
             case BREAK:
-                return "<br />" + text;
+                return "<br />"+text;
             default:
-                return text;
+                return textContainsBreak;
         }
     }
 
@@ -101,11 +100,8 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
-
         String strAttrs = strAttrs(nodeObject);
-
         String children = callback.renderChildren(nodeObject.optJSONArray("children"));
-
         switch (nodeType) {
             case "p":
                 return "<p" + strAttrs + ">" + children + "</p>";
@@ -175,15 +171,12 @@ public class DefaultOption implements Option {
      */
     private String renderHtmlWithLineBreaks(String content) {
         // Replace "\n" with "<br/>" tags
-        String htmlContent = content.replaceAll("\\n", "<br />");
-
+        return content.replaceAll("\\n", "<br />");
         // Now, you can render the HTML content
         // (You can use your rendering method here, e.g., send it to a WebView or display it in a GUI component)
-
         // For demonstration purposes, let's just print it
-        System.out.println(htmlContent);
-
-        return htmlContent;
+        // System.out.println(htmlContent);
+        // return htmlContent;
     }
 
 
