@@ -54,7 +54,7 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderMark(MarkType markType, String text) {
-        String textContainsBreak = renderHtmlWithLineBreaks(text); // Replace "\n" with "<br/>" tags
+        String textContainsBreak = renderHtmlWithLineBreaks(text); // v1.2.5
         switch (markType) {
             case SUPERSCRIPT:
                 return "<sup>" + textContainsBreak + "</sup>";
@@ -71,7 +71,7 @@ public class DefaultOption implements Option {
             case BOLD:
                 return "<strong>" + textContainsBreak + "</strong>";
             case BREAK:
-                return "<br />"+text;
+                return "<br />"+text; // v1.2.5
             default:
                 return textContainsBreak;
         }
