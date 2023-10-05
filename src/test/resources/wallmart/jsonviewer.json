@@ -19,7 +19,8 @@
         },
         {
           "text": "\n",
-          "break": true
+          "break": true,
+          "bold" : true
         },
         {
           "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
