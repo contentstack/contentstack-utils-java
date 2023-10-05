@@ -54,26 +54,26 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderMark(MarkType markType, String text) {
-        String textContainsBreak = renderHtmlWithLineBreaks(text); // v1.2.5
+        //String textContainsBreak = renderHtmlWithLineBreaks(text); // v1.2.5
         switch (markType) {
             case SUPERSCRIPT:
-                return "<sup>" + textContainsBreak + "</sup>";
+                return "<sup>" + text + "</sup>";
             case SUBSCRIPT:
-                return "<sub>" + textContainsBreak + "</sub>";
+                return "<sub>" + text + "</sub>";
             case INLINECODE:
-                return "<span>" + textContainsBreak + "</span>";
+                return "<span>" + text + "</span>";
             case STRIKETHROUGH:
-                return "<strike>" + textContainsBreak + "</strike>";
+                return "<strike>" + text + "</strike>";
             case UNDERLINE:
-                return "<u>" + textContainsBreak + "</u>";
+                return "<u>" + text + "</u>";
             case ITALIC:
-                return "<em>" + textContainsBreak + "</em>";
+                return "<em>" + text + "</em>";
             case BOLD:
-                return "<strong>" + textContainsBreak + "</strong>";
+                return "<strong>" + text + "</strong>";
             case BREAK:
-                return "<br />"+text; // v1.2.5
+                return "<br />" + text; // v1.2.5
             default:
-                return textContainsBreak;
+                return text;
         }
     }
 
