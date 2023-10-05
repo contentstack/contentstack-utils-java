@@ -54,7 +54,6 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderMark(MarkType markType, String text) {
-        //String textContainsBreak = renderHtmlWithLineBreaks(text); // v1.2.5
         switch (markType) {
             case SUPERSCRIPT:
                 return "<sup>" + text + "</sup>";
@@ -158,25 +157,6 @@ public class DefaultOption implements Option {
             default:
                 return children;
         }
-    }
-
-
-    /**
-     * Returns the string replacing </n> is with the <br/> tags
-     *
-     * @param content the content
-     * @return string with br tags
-     * @apiNote the support for the br tags are included
-     * @since v1.3.0
-     */
-    private String renderHtmlWithLineBreaks(String content) {
-        // Replace "\n" with "<br/>" tags
-        return content.replaceAll("\\n", "<br />");
-        // Now, you can render the HTML content
-        // (You can use your rendering method here, e.g., send it to a WebView or display it in a GUI component)
-        // For demonstration purposes, let's just print it
-        // System.out.println(htmlContent);
-        // return htmlContent;
     }
 
 
