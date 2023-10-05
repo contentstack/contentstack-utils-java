@@ -158,8 +158,6 @@ public class UtilTests {
 
     @Test
     public void testCustomJSONRTE() {
-
-
         JSONObject rteObject = new JSONObject();
         String[] keyPath = {
                 "rich_text_editor", "global_rich_multiple.group.rich_text_editor"

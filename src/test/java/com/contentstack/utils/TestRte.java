@@ -8,6 +8,8 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import java.io.IOException;
+
 import static com.contentstack.utils.RTEResult.*;
 import static com.contentstack.utils.RTEString.*;
 
@@ -93,5 +95,13 @@ public class TestRte {
         JSONObject rteObject = new JSONObject(kParagraphJson);
         String result = Utils.jsonToHTML(rteObject, new DefaultOption(), null);
         Assert.assertEquals(kParagraphHtml, result);
+    }
+
+    @Test
+    public void testHERFID() throws IOException {
+        final String rte = "src/test/resources/wallmart/lessthanequalto.json";
+        JSONObject theRTE = new ReadResource().readJson(rte);
+        String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
+        System.out.println(result);
     }
 }
