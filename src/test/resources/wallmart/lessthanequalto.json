@@ -1,0 +1,312 @@
+{"uid": "a59f9108e99747d4b3358d9e22b7c685",
+  "type": "doc",
+  "attrs": {
+    "dirty": true
+  },
+  "children": [{
+    "uid": "98b219ede27b4eb6a35eb6e9c66c1e01",
+    "type": "table",
+    "attrs": {
+      "rows": 3,
+      "cols": 3,
+      "colWidths": [
+        250,
+        250,
+        250
+      ],
+      "style": {
+        "text-align": "center"
+      },
+      "redactor-attributes": {},
+      "dir": "ltr"
+    },
+    "children": [
+      {
+        "type": "thead",
+        "attrs": {
+          "style": {
+            "text-align": "center"
+          },
+          "redactor-attributes": {}
+        },
+        "children": [
+          {
+            "type": "tr",
+            "attrs": {
+              "style": {
+                "text-align": "center"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "type": "td",
+                "attrs": {
+                  "style": {
+                    "text-align": "center"
+                  },
+                  "redactor-attributes": {}
+                },
+                "children": [
+                  {
+                    "text": "",
+                    "bold": true
+                  },
+                  {
+                    "type": "span",
+                    "attrs": {
+                      "style": {
+                        "text-align": "center"
+                      },
+                      "redactor-attributes": {}
+                    },
+                    "children": [
+                      {
+                        "text": "Unit Weight",
+                        "bold": true
+                      }
+                    ],
+                    "uid": "1e27a697f7644a95bc8daaecb552b685"
+                  },
+                  {
+                    "text": "",
+                    "bold": true
+                  }
+                ],
+                "uid": "4c1719a47c724d1fb0ca7fc841688991"
+              },
+              {
+                "type": "td",
+                "attrs": {
+                  "style": {
+                    "text-align": "center"
+                  },
+                  "redactor-attributes": {}
+                },
+                "children": [
+                  {
+                    "text": "",
+                    "bold": true
+                  },
+                  {
+                    "type": "span",
+                    "attrs": {
+                      "style": {
+                        "text-align": "center"
+                      },
+                      "redactor-attributes": {}
+                    },
+                    "children": [
+                      {
+                        "text": "Disposal Fee Per Unit",
+                        "bold": true
+                      }
+                    ],
+                    "uid": "75dda0d145804a6dbbacaa6ff521ef9e"
+                  },
+                  {
+                    "text": "",
+                    "bold": true
+                  }
+                ],
+                "uid": "4328a7a20d5b47368830dfa55a955ef9"
+              },
+              {
+                "type": "td",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "bold": true
+                  },
+                  {
+                    "type": "span",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "Removal Fee Per Unit",
+                        "bold": true
+                      }
+                    ],
+                    "uid": "a8302129adef434e9b268985d7870ead"
+                  },
+                  {
+                    "text": ""
+                  }
+                ],
+                "uid": "4590072bdaea424593bc7ff222a91932"
+              }
+            ],
+            "uid": "0ae78b42040e4807a451b3e173bb8cd3"
+          }
+        ],
+        "uid": "12d41164166e41b890c87326ff65cdda"
+      },
+      {
+        "type": "tbody",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "type": "tr",
+            "attrs": {},
+            "children": [
+              {
+                "type": "td",
+                "attrs": {},
+                "children": [
+                  {
+                    "uid": "80dc3945a1f449a78b8c80a0fb102e5f",
+                    "type": "p",
+                    "children": [
+                      {
+                        "text": "≤ 2 lb."
+                      }
+                    ],
+                    "attrs": {}
+                  }
+                ],
+                "uid": "fdca6a4b02744ade95b809401b2b4d20"
+              },
+              {
+                "type": "td",
+                "attrs": {},
+                "children": [
+                  {
+                    "uid": "1ab694568f69454ebb5212b00e747bf2",
+                    "type": "p",
+                    "children": [
+                      {
+                        "text": "$0.35"
+                      }
+                    ],
+                    "attrs": {}
+                  }
+                ],
+                "uid": "f8c227ca3cbd4c5dad90e838e317fbd8"
+              },
+              {
+                "type": "td",
+                "attrs": {},
+                "children": [
+                  {
+                    "uid": "71f28351d606455e8cc7ea97a91247eb",
+                    "type": "p",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "uid": "c0a74d86cb6f47f0a299af39ce9822cf",
+                        "type": "span",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Disposal fee + $0.40 per lb. shipping cost"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attrs": {}
+                  }
+                ],
+                "uid": "799efa80b761476294bce34f28b92931"
+              }
+            ],
+            "uid": "489f18554ef847d7878a6f3ee3ae7f46"
+          },
+          {
+            "type": "tr",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "children": [
+              {
+                "type": "td",
+                "attrs": {},
+                "children": [
+                  {
+                    "uid": "473b5f39d3764fe4ae961a14b78e072a",
+                    "type": "p",
+                    "children": [
+                      {
+                        "text": "3–500 lb."
+                      }
+                    ],
+                    "attrs": {}
+                  }
+                ],
+                "uid": "77deafba6c1c48d8b6d373ccda600665"
+              },
+              {
+                "type": "td",
+                "attrs": {},
+                "children": [
+                  {
+                    "uid": "39b132d9375d44fcb42e2d39990abe7a",
+                    "type": "p",
+                    "children": [
+                      {
+                        "text": "$0.35 + $0.20 for each lb. > 2 lb."
+                      }
+                    ],
+                    "attrs": {}
+                  }
+                ],
+                "uid": "569c8ce8b09645ae829c0164b831958b"
+              },
+              {
+                "type": "td",
+                "attrs": {
+                  "style": {},
+                  "redactor-attributes": {},
+                  "dir": "ltr"
+                },
+                "children": [
+                  {
+                    "uid": "0a480e2f084c4b3ea13a45326537304f",
+                    "type": "p",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "uid": "cab90124f4c949938e67bfb2490fb7f8",
+                        "type": "span",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Disposal fee + $0.40 per lb. shipping cost"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attrs": {
+                      "style": {},
+                      "redactor-attributes": {},
+                      "dir": "ltr"
+                    }
+                  }
+                ],
+                "uid": "61dacb2e8a5c499bb9627595f2f95bdc"
+              }
+            ],
+            "uid": "11d64fa8181e4d1b983a271d2440c764"
+          }
+        ],
+        "uid": "11ce40d6b50b4440b1b0286974f84a33"
+      }
+    ]
+  }]
+}

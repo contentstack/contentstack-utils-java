@@ -29,8 +29,6 @@ public class NodeToHTML {
      */
     public static String textNodeToHTML(JSONObject nodeText, Option renderOption) {
         String text = nodeText.optString("text");
-
-        // compare with the nodeText options
         if (nodeText.has("superscript")) {
             text = renderOption.renderMark(MarkType.SUPERSCRIPT, text);
         }
