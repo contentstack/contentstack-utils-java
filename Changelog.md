@@ -2,7 +2,13 @@
 
 A brief description of what changes project contains
 
-## Aug 8, 2023
+## Oct 5, 2023
+
+#### v1.2.5
+
+- The issue of adding an extra <br/> tag in breaks has been fixed
+
+## Sep 26, 2023
 
 #### v1.2.4
 
