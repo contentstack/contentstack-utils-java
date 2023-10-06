@@ -1,1762 +1,1762 @@
 {
-    "_version": 37,
-    "locale": "en-us",
-    "uid": "blta01da423bfa01307",
-    "body": {
-        "type": "doc",
-        "attrs": {},
-        "uid": "57904b126caa400c9d4363f71bb68c76",
+  "_version": 37,
+  "locale": "en-us",
+  "uid": "blta01da423bfa01307",
+  "body": {
+    "type": "doc",
+    "attrs": {},
+    "uid": "57904b126caa400c9d4363f71bb68c76",
+    "children": [
+      {
+        "uid": "535c181d6fda49b288f1f3060d6a3d50",
+        "type": "h2",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
         "children": [
-            {
-                "uid": "535c181d6fda49b288f1f3060d6a3d50",
-                "type": "h2",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Eligibility "
-                    }
-                ]
-            },
-            {
-                "uid": "fce3bb25e11e444ba5b57a1b88a1661a",
-                "type": "p",
-                "attrs": {},
-                "children": [
-                    {
-                        "text": "Some customer returns or refunds initiated through the Marketplace Returns Shipping Service (RSS) can be disputed.  Refer to "
-                    },
-                    {
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://gecrm.my.salesforce.com/sfc/p/61000000ZKTc/a/8Y000002Ankd/G1HbvlwMxDanH_tabP_gsQvgqYIgxTZDq5CpfN..PZQ"
-                        },
-                        "children": [
-                            {
-                                "text": "this table"
-                            }
-                        ],
-                        "uid": "43850d7c79ee42dba491cac58b321a88"
-                    },
-                    {
-                        "text": ""
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "9c6aecd8ab374e46b24cd13f24a72e0e"
-                    },
-                    {
-                        "text": "for a comprehensive list of reasons why customer returns may be disputed. All disputes must be filed within 45 days from the date the return or refund was issued. Disputes filed outside the 45-day period will be denied, and that denial will be final.  "
-                    }
-                ]
-            },
-            {
-                "uid": "48460b6cb9cd47818e2e63b6129fffa5",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "",
-                        "break": true
-                    }
-                ]
-            },
-            {
-                "uid": "efcc3bfc11ca418ca6b74a6b1b0b33c5",
-                "type": "p",
-                "attrs": {},
-                "children": [
-                    {
-                        "type": "fragment",
-                        "attrs": {},
-                        "uid": "9bffb57b97484fb58db421578ac1df2f",
-                        "children": [
-                            {
-                                "text": "HIGH-VALUE ITEMS",
-                                "bold": true
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "uid": "6ab598e48da44b9da4b039c87b9e183b",
-                "type": "p",
-                "attrs": {},
-                "children": [
-                    {
-                        "text": "After receiving a high-value return, you’ll have 48 hours to evaluate it. If you determine an unsuccessful or erroneous return has taken place, you may file a dispute with the appropriate dispute reason.  "
-                    }
-                ]
-            },
-            {
-                "uid": "6d883ceb5f844d0abebbc41063994dd5",
-                "type": "p",
-                "attrs": {},
-                "children": [
-                    {
-                        "text": " "
-                    }
-                ]
-            },
-            {
-                "uid": "6e07ed8974fb4904af770e639bd143dd",
-                "type": "p",
-                "attrs": {},
-                "children": [
-                    {
-                        "text": "Pro Tip: High-value items must be over $100 each. This includes all luxury items, such as Fine Art, Loose Gems & Gemstones, Jewelry & Watches above $300 and Collectibles, e.g., Coins, Stamps, Memorabilia and Precious Metals. ",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "uid": "f0e299767afa47acab9a5abce9d5da0c",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "",
-                        "break": true
-                    }
-                ]
-            },
-            {
-                "uid": "05adf2ea23454bf38cccd7b3b8b1b40f",
-                "type": "p",
-                "attrs": {},
-                "children": [
-                    {
-                        "type": "fragment",
-                        "attrs": {},
-                        "uid": "ace0c16af4b84319bc045970845509c0",
-                        "children": [
-                            {
-                                "text": "ELECTRONICS",
-                                "bold": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "fragment",
-                        "attrs": {},
-                        "uid": "2ca8d0dda2ef4f709a5bac7474460673",
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "uid": "364d0675a26a41b7a5567deaf7d71f88",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "If you select"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "01d07398f1fb41c5a4c6648b16101039"
-                    },
-                    {
-                        "text": "Return is different from the original item",
-                        "bold": true,
-                        "italic": true
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "9bda0673ef5a4d139ed3c124512b4dab"
-                    },
-                    {
-                        "text": "as your dispute reason for an electronic product, you need to provide the serial numbers of the original item you sent and the item you received. We recommend taking photos of all serial numbers on items to keep for your records. This allows you to easily provide a photo as an attachment in case the need for a dispute arises.  For more generalized guidelines and dispute eligibility, see"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "c98f0d63806e4f1b88b61d2ed1942b82"
-                    },
-                    {
-                        "text": ""
-                    },
-                    {
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US"
-                        },
-                        "children": [
-                            {
-                                "text": "Marketplace Disputes Standards",
-                                "italic": true
-                            }
-                        ],
-                        "uid": "577855513ac446d29eb12105f616dd7f"
-                    },
-                    {
-                        "text": ". ",
-                        "italic": true
-                    }
-                ]
-            },
-            {
-                "uid": "a251e5629f4447e49e48e99c152968f8",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "uid": "d64efe6a4b2948c5adedcf660f4915e9",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "text": "**NOTE:",
-                        "italic": true
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " ",
-                                "italic": true
-                            }
-                        ],
-                        "uid": "6d5427fac5194283875daa4cb26a07cc"
-                    },
-                    {
-                        "text": "Choosing the wrong dispute type can delay the review process and negatively impact the resolution. ",
-                        "italic": true
-                    }
-                ]
-            },
-            {
-                "uid": "eee92eee8f444908842ee7c7eb9531e6",
-                "type": "h2",
-                "attrs": {
-                    "style": {
-                        "text-align": "left"
-                    },
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": ""
-                    }
-                ]
-            },
-            {
-                "uid": "dddf0c03282a4418a945531a6b6f6f5f",
-                "type": "h2",
-                "attrs": {
-                    "style": {
-                        "text-align": "left"
-                    },
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "File a Dispute"
-                    }
-                ]
-            },
-            {
-                "uid": "118e58a3abcc415a98070f91fa8c905e",
-                "type": "h3",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Step 1 – Access the Returns & Refunds Dashboard"
-                    }
-                ]
-            },
-            {
-                "uid": "1402b971fc5d4a3e8737e2e6fb4dfb5e",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Select"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "78c1097844374396a8032939b9b7c427"
-                    },
-                    {
-                        "text": "Returns & Refunds",
-                        "italic": true
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "875e9867e3d4405c9e810345df435239"
-                    },
-                    {
-                        "text": "under"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "1850d3eb00824a4c81d0ee68b91aecd7"
-                    },
-                    {
-                        "text": "Order Management",
-                        "bold": true
-                    },
-                    {
-                        "text": ". Search for a return by the Purchase Order number or the Return Merchandise Authorization (RMA) number. Select the"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "0eca2858aaca4294b730b76f23da32ac"
-                    },
-                    {
-                        "text": "arrow",
-                        "italic": true
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "d81c52c4c926445db3189211802bc815"
-                    },
-                    {
-                        "text": "beside the return you’re looking for to see more details. "
-                    }
-                ]
-            },
-            {
-                "uid": "2b6caf5b7aee45398ad3cd2354c25759",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": ""
-                    }
-                ]
-            },
-            {
-                "uid": "9ebee416bc744c7b92197220ba661640",
-                "type": "h2",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Step 2 – Initiate the Dispute "
-                    }
-                ]
-            },
-            {
-                "uid": "3666dec684874c36b1c7d4c94de0b63f",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Initiate a dispute by selecting the"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "dfe6d53950744b498bb8c212c889e58c"
-                    },
-                    {
-                        "text": "Dispute this return",
-                        "italic": true
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "830781ad81de43418a8f6ae4caa48211"
-                    },
-                    {
-                        "text": "button, which will open the dispute wizard. If an order has more than one of the same items, you can submit a dispute for one of the items or the entire order. Select the quantity, then select a dispute reason from the dropdown that best describes your issue. Certain dispute reasons will prompt you to select a subcategory. "
-                    }
-                ]
-            },
-            {
-                "uid": "f686a50390794cea9dd23a6761a72ad3",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "",
-                        "bold": true,
-                        "italic": true
-                    }
-                ]
-            },
-            {
-                "uid": "d6662445b7e44430a12ebd960755a744",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "italic": true,
-                        "text": "**NOTE:"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "text": " ",
-                                "italic": true
-                            }
-                        ],
-                        "uid": "ccd038e6344a41ae98ee4edaeafce6b7"
-                    },
-                    {
-                        "text": "If you don’t see the dispute button, it’s because the refund has not been issued, the dispute window has passed for that return, or the return has already been disputed.",
-                        "italic": true
-                    }
-                ]
-            },
-            {
-                "uid": "7347be32b82b4d21a273c65305b763cc",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": ""
-                    }
-                ]
-            },
-            {
-                "uid": "417d52ef19ec40d7bc5b64588ce2a021",
-                "type": "h2",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Step 3 – Upload Documentation "
-                    }
-                ]
-            },
-            {
-                "uid": "8e4cefd420f04a67b57b8237531e39c0",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Upload supporting photos or documentation when you create your dispute. Documentation, including an image of the return label with tracking and images of the product showing the problem with the return is required for the following dispute reasons: "
-                    }
-                ]
-            },
-            {
-                "uid": "59b07da915034caca6f5df8dbd3a784a",
-                "type": "h2",
-                "attrs": {
-                    "style": {
-                        "text-align": "left"
-                    },
-                    "redactor-attributes": {},
-                    "dir": "ltr",
-                    "class-name": "note",
-                    "id": "p"
-                },
-                "children": [
-                    {
-                        "uid": "3918004cc141408eb48b8da5475ef135",
-                        "type": "ul",
-                        "attrs": {
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "type": "li",
-                                "attrs": {
-                                    "style": {
-                                        "text-align": "left"
-                                    },
-                                    "redactor-attributes": {}
-                                },
-                                "children": [
-                                    {
-                                        "text": "I received an incorrect return "
-                                    }
-                                ],
-                                "uid": "1be5800c9b68455f9f60bdb48dc91d35"
-                            },
-                            {
-                                "type": "li",
-                                "attrs": {
-                                    "style": {
-                                        "text-align": "left"
-                                    },
-                                    "redactor-attributes": {}
-                                },
-                                "children": [
-                                    {
-                                        "text": "Item has missing parts/accessories "
-                                    }
-                                ],
-                                "uid": "bf5cb071bf244e1390c922e0d27ba5e0"
-                            },
-                            {
-                                "type": "li",
-                                "attrs": {
-                                    "style": {
-                                        "text-align": "left"
-                                    },
-                                    "redactor-attributes": {}
-                                },
-                                "children": [
-                                    {
-                                        "text": "Item is in unacceptable condition "
-                                    }
-                                ],
-                                "uid": "7436249503de466885efbb3a0133e8ad"
-                            }
-                        ]
-                    },
-                    {
-                        "uid": "a16abf338f484d5183e95f07c728a2cc",
-                        "type": "ul",
-                        "attrs": {
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "type": "li",
-                                "attrs": {
-                                    "style": {
-                                        "text-align": "left"
-                                    },
-                                    "redactor-attributes": {}
-                                },
-                                "children": [
-                                    {
-                                        "text": "I sent the customer a replacement "
-                                    }
-                                ],
-                                "uid": "0044f1e8db7e4c89bcde9b2fa530d907"
-                            }
-                        ]
-                    },
-                    {
-                        "uid": "6f49d4c22582405895b6193536a7ff9d",
-                        "type": "p",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ]
-                    },
-                    {
-                        "uid": "2e73c20a11114fce84963064baf3505d",
-                        "type": "p",
-                        "attrs": {
-                            "class-name": "Note",
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "text": "When ready, select the"
-                            },
-                            {
-                                "type": "span",
-                                "attrs": {
-                                    "style": {
-                                        "text-align": "left"
-                                    },
-                                    "redactor-attributes": {}
-                                },
-                                "children": [
-                                    {
-                                        "text": " "
-                                    }
-                                ],
-                                "uid": "19a5fe0c099445a6a75f073386c9c1aa"
-                            },
-                            {
-                                "text": "Submit Dispute",
-                                "italic": true
-                            },
-                            {
-                                "type": "span",
-                                "attrs": {
-                                    "style": {
-                                        "text-align": "left"
-                                    },
-                                    "redactor-attributes": {}
-                                },
-                                "children": [
-                                    {
-                                        "text": " "
-                                    }
-                                ],
-                                "uid": "82c4a42e59b9429993d09edee0691015"
-                            },
-                            {
-                                "text": "button. You’ll receive an email confirmation with the case number. "
-                            }
-                        ]
-                    },
-                    {
-                        "uid": "bfe990359bcf4e2e91228ab157adeed2",
-                        "type": "p",
-                        "attrs": {
-                            "class-name": "Note",
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "text": ""
-                            }
-                        ]
-                    },
-                    {
-                        "uid": "ae1482f9e6814483a75827242b9689df",
-                        "type": "p",
-                        "attrs": {
-                            "class-name": "Note",
-                            "style": {
-                                "text-align": "left"
-                            },
-                            "redactor-attributes": {}
-                        },
-                        "children": [
-                            {
-                                "text": ""
-                            }
-                        ]
-                    },
-                    {
-                        "uid": "a18a70bb002448478ba0f8534d815558",
-                        "type": "reference",
-                        "attrs": {
-                            "display-type": "display",
-                            "asset-uid": "blt8e8dc3e053abc753",
-                            "content-type-uid": "sys_assets",
-                            "asset-link": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt8e8dc3e053abc753/64f87ea26517c0000dfc9145/2023-08-10_09-21-21_(1)_(1).gif",
-                            "asset-name": "2023-08-10_09-21-21_(1)_(1).gif",
-                            "asset-type": "image/gif",
-                            "type": "asset",
-                            "class-name": "embedded-asset",
-                            "inline": false,
-                            "style": {
-                                "text-align": "center",
-                                "max-width": "740px",
-                                "width": "740px",
-                                "max-height": "409px",
-                                "height": "409px"
-                            },
-                            "redactor-attributes": {
-                                "position": "center",
-                                "height": "409"
-                            },
-                            "width": "740",
-                            "max-width": "740",
-                            "max-height": "409",
-                            "height": "409"
-                        },
-                        "children": [
-                            {
-                                "text": ""
-                            }
-                        ]
-                    },
-                    {
-                        "uid": "c1ee69c65955459aba33d92d3c146502",
-                        "type": "p",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": ""
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "uid": "ec1923824bbd4acab02b4dae3f12c66c",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": ""
-                    }
-                ]
-            }
-        ],
-        "_version": 37
-    },
-    "created_at": "2023-09-05T19:30:02.127Z",
-    "created_by": "blt65544800d5984791",
-    "frequently_asked_questions": {
-        "type": "doc",
-        "attrs": {},
-        "uid": "d7d3171819d24c6b89e18bb315b89aee",
-        "children": [
-            {
-                "uid": "6ad644bb198f4239ae209523ec1c7e70",
-                "type": "h2",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Frequently Asked Questions "
-                    }
-                ]
-            },
-            {
-                "uid": "99eb0663cf4748ef938582741ee08c66",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "uid": "de9a9325af054a5c9e41c055c9f804c3",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "text": "Q: How long will it take for my dispute to be reviewed and resolved?"
-                    },
-                    {
-                        "text": "\n",
-                        "break": true
-                    },
-                    {
-                        "text": "A: Typically, it can take up to 72 hours. However, in some instances the timeframe could be extended. "
-                    }
-                ]
-            },
-            {
-                "uid": "6a808651d53b4df0abcc7e41c63b30df",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "text": ""
-                    }
-                ]
-            },
-            {
-                "uid": "5d5aa858814b4f0b9533a628ebc5d438",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "text": "Q: What happens to the customer refund during this process?"
-                    },
-                    {
-                        "text": "\n",
-                        "break": true
-                    },
-                    {
-                        "text": "A: The customer refund will be put on hold for 72 hours while Walmart reviews your dispute. Customer refund holds will be automatically released after 72 hours. If the dispute is approved within that time frame, the customer will not be refunded and their return will be canceled. "
-                    }
-                ]
-            },
-            {
-                "uid": "e249426ff2724e3c9fe26d41d20df7c3",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "uid": "57e37003edf74593a6a579ca416148c2",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "text": "Q: What happens if my dispute is denied? Can I appeal the decision? "
-                    },
-                    {
-                        "text": "\n",
-                        "break": true
-                    },
-                    {
-                        "text": "A: Yes. If you're not satisfied with the resolution of your dispute provided by Walmart, you can submit an appeal. You can only appeal a decision once, and it must be submitted within 30 days of receiving the denial or decision.   "
-                    },
-                    {
-                        "text": "\n",
-                        "break": true
-                    },
-                    {
-                        "text": " "
-                    },
-                    {
-                        "text": "\n",
-                        "break": true
-                    },
-                    {
-                        "text": "To submit an appeal,"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "d27449a3501b4b448f709cbb0863506a"
-                    },
-                    {
-                        "text": ""
-                    },
-                    {
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US#:~:text=submit%20an%20appeal%2C-,create%20a%20case,-with%20Partner%20Support"
-                        },
-                        "children": [
-                            {
-                                "text": "create a case"
-                            }
-                        ],
-                        "uid": "89e9c937c1524e8bb99fba5dd309580e"
-                    },
-                    {
-                        "text": ""
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "322c84ca7df6420cb6d5bd5bb5edf433"
-                    },
-                    {
-                        "text": "with Seller Support through the following path:"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "30e8f00a62b34a68a415d95b8feb333c"
-                    },
-                    {
-                        "text": "Dispute",
-                        "italic": true
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "772178b758344523a8bad766e8e8af2c"
-                    },
-                    {
-                        "text": ">"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "41bcd3fb3f5942248c37fe5ec1523d72"
-                    },
-                    {
-                        "text": "Disputes Resolution Appeals",
-                        "italic": true
-                    },
-                    {
-                        "text": ". For more information, see"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "24bb1d132898469cb490f5c91dfdd1c7"
-                    },
-                    {
-                        "text": "",
-                        "italic": true
-                    },
-                    {
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US"
-                        },
-                        "children": [
-                            {
-                                "text": "Marketplace Dispute Standards",
-                                "italic": true
-                            }
-                        ],
-                        "uid": "e93c810daa7d49a197e7d66ae0cdbfc9"
-                    },
-                    {
-                        "text": ". "
-                    }
-                ]
-            },
-            {
-                "uid": "1246518d04a1485eb126aa0609e253cb",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "text": ""
-                    }
-                ]
-            },
-            {
-                "uid": "e1e01da156eb4574aa82b199e1f70c8f",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "bold": true,
-                        "text": "Q: Can I track the status of my dispute? "
-                    },
-                    {
-                        "text": "\n",
-                        "break": true
-                    },
-                    {
-                        "text": "A: Yes, you can track the status of a dispute through the"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "5d82baa770dd4097979ac81950221319"
-                    },
-                    {
-                        "text": ""
-                    },
-                    {
-                        "type": "a",
-                        "attrs": {
-                            "url": "http://seller.walmart.com/"
-                        },
-                        "children": [
-                            {
-                                "text": "Dispute",
-                                "bold": true
-                            }
-                        ],
-                        "uid": "87f4836738004bbe8a0c80df7af1c32e"
-                    },
-                    {
-                        "text": ""
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "72bf1859e4844eca8eac0c89c182d599"
-                    },
-                    {
-                        "text": "dashboard within Seller Center.  "
-                    }
-                ]
-            }
-        ],
-        "_version": 37
-    },
-    "meta_data": {
-        "article_id": "000009068",
-        "salesforce_summary": "Learn how to file a dispute for a customer return.",
-        "category_id_b": [
-            "Order Management: Troubleshooting"
-        ],
-        "url_name": "Marketplace-Disputes-Customer-Returns",
-        "is_archived_": false,
-        "is_authenticated_": false,
-        "is_visible_to_customer_": true,
-        "partner_channel": [
-            "U.S. Marketplace"
+          {
+            "text": "Eligibility "
+          }
         ]
-    },
-    "modular_blocks": [
-        {
-            "vimeo": {
-                "vimeo_1": {
-                    "items": [
-                        {
-                            "uri": "/videos/851090171",
-                            "name": "Returns and Disputes",
-                            "description": "Returns happen, but – depending on the situation – you may need to file a dispute for a customer return. Keep watching to learn how to file a returns-related dispute for your items–including items of high-value. We'll also go over how to track the approval status in Seller Center.",
-                            "embed": {
-                                "html": "<iframe src=\"https://player.vimeo.com/video/851090171?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;airplay=0&amp;audio_tracks=0&amp;chapters=0&amp;chromecast=0&amp;closed_captions=0&amp;transcript=0&amp;player_id=0&amp;app_id=275298\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" title=\"Returns and Disputes\"></iframe>"
-                            },
-                            "created_time": "2023-08-02T22:23:03+00:00",
-                            "pictures": {
-                                "sizes": [
-                                    {
-                                        "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_100x75?r=pad"
-                                    },
-                                    {
-                                        "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_200x150?r=pad"
-                                    },
-                                    {
-                                        "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_295x166?r=pad"
-                                    },
-                                    {
-                                        "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_640x360?r=pad"
-                                    },
-                                    {
-                                        "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_960x540?r=pad"
-                                    },
-                                    {
-                                        "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_1280x720?r=pad"
-                                    },
-                                    {
-                                        "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_1920x1080?r=pad"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+      },
+      {
+        "uid": "fce3bb25e11e444ba5b57a1b88a1661a",
+        "type": "p",
+        "attrs": {},
+        "children": [
+          {
+            "text": "Some customer returns or refunds initiated through the Marketplace Returns Shipping Service (RSS) can be disputed.  Refer to "
+          },
+          {
+            "type": "a",
+            "attrs": {
+              "url": "https://gecrm.my.salesforce.com/sfc/p/61000000ZKTc/a/8Y000002Ankd/G1HbvlwMxDanH_tabP_gsQvgqYIgxTZDq5CpfN..PZQ"
+            },
+            "children": [
+              {
+                "text": "this table"
+              }
+            ],
+            "uid": "43850d7c79ee42dba491cac58b321a88"
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "9c6aecd8ab374e46b24cd13f24a72e0e"
+          },
+          {
+            "text": "for a comprehensive list of reasons why customer returns may be disputed. All disputes must be filed within 45 days from the date the return or refund was issued. Disputes filed outside the 45-day period will be denied, and that denial will be final.  "
+          }
+        ]
+      },
+      {
+        "uid": "48460b6cb9cd47818e2e63b6129fffa5",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "",
+            "break": true
+          }
+        ]
+      },
+      {
+        "uid": "efcc3bfc11ca418ca6b74a6b1b0b33c5",
+        "type": "p",
+        "attrs": {},
+        "children": [
+          {
+            "type": "fragment",
+            "attrs": {},
+            "uid": "9bffb57b97484fb58db421578ac1df2f",
+            "children": [
+              {
+                "text": "HIGH-VALUE ITEMS",
+                "bold": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uid": "6ab598e48da44b9da4b039c87b9e183b",
+        "type": "p",
+        "attrs": {},
+        "children": [
+          {
+            "text": "After receiving a high-value return, you’ll have 48 hours to evaluate it. If you determine an unsuccessful or erroneous return has taken place, you may file a dispute with the appropriate dispute reason.  "
+          }
+        ]
+      },
+      {
+        "uid": "6d883ceb5f844d0abebbc41063994dd5",
+        "type": "p",
+        "attrs": {},
+        "children": [
+          {
+            "text": " "
+          }
+        ]
+      },
+      {
+        "uid": "6e07ed8974fb4904af770e639bd143dd",
+        "type": "p",
+        "attrs": {},
+        "children": [
+          {
+            "text": "Pro Tip: High-value items must be over $100 each. This includes all luxury items, such as Fine Art, Loose Gems & Gemstones, Jewelry & Watches above $300 and Collectibles, e.g., Coins, Stamps, Memorabilia and Precious Metals. ",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "uid": "f0e299767afa47acab9a5abce9d5da0c",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "",
+            "break": true
+          }
+        ]
+      },
+      {
+        "uid": "05adf2ea23454bf38cccd7b3b8b1b40f",
+        "type": "p",
+        "attrs": {},
+        "children": [
+          {
+            "type": "fragment",
+            "attrs": {},
+            "uid": "ace0c16af4b84319bc045970845509c0",
+            "children": [
+              {
+                "text": "ELECTRONICS",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "fragment",
+            "attrs": {},
+            "uid": "2ca8d0dda2ef4f709a5bac7474460673",
+            "children": [
+              {
+                "text": " "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uid": "364d0675a26a41b7a5567deaf7d71f88",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "If you select"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "01d07398f1fb41c5a4c6648b16101039"
+          },
+          {
+            "text": "Return is different from the original item",
+            "bold": true,
+            "italic": true
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "9bda0673ef5a4d139ed3c124512b4dab"
+          },
+          {
+            "text": "as your dispute reason for an electronic product, you need to provide the serial numbers of the original item you sent and the item you received. We recommend taking photos of all serial numbers on items to keep for your records. This allows you to easily provide a photo as an attachment in case the need for a dispute arises.  For more generalized guidelines and dispute eligibility, see"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "c98f0d63806e4f1b88b61d2ed1942b82"
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US"
+            },
+            "children": [
+              {
+                "text": "Marketplace Disputes Standards",
+                "italic": true
+              }
+            ],
+            "uid": "577855513ac446d29eb12105f616dd7f"
+          },
+          {
+            "text": ". ",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "uid": "a251e5629f4447e49e48e99c152968f8",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "uid": "d64efe6a4b2948c5adedcf660f4915e9",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "text": "**NOTE:",
+            "italic": true
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " ",
+                "italic": true
+              }
+            ],
+            "uid": "6d5427fac5194283875daa4cb26a07cc"
+          },
+          {
+            "text": "Choosing the wrong dispute type can delay the review process and negatively impact the resolution. ",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "uid": "eee92eee8f444908842ee7c7eb9531e6",
+        "type": "h2",
+        "attrs": {
+          "style": {
+            "text-align": "left"
+          },
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "uid": "dddf0c03282a4418a945531a6b6f6f5f",
+        "type": "h2",
+        "attrs": {
+          "style": {
+            "text-align": "left"
+          },
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "File a Dispute"
+          }
+        ]
+      },
+      {
+        "uid": "118e58a3abcc415a98070f91fa8c905e",
+        "type": "h3",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Step 1 – Access the Returns & Refunds Dashboard"
+          }
+        ]
+      },
+      {
+        "uid": "1402b971fc5d4a3e8737e2e6fb4dfb5e",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Select"
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "78c1097844374396a8032939b9b7c427"
+          },
+          {
+            "text": "Returns & Refunds",
+            "italic": true
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "875e9867e3d4405c9e810345df435239"
+          },
+          {
+            "text": "under"
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "1850d3eb00824a4c81d0ee68b91aecd7"
+          },
+          {
+            "text": "Order Management",
+            "bold": true
+          },
+          {
+            "text": ". Search for a return by the Purchase Order number or the Return Merchandise Authorization (RMA) number. Select the"
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "0eca2858aaca4294b730b76f23da32ac"
+          },
+          {
+            "text": "arrow",
+            "italic": true
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "d81c52c4c926445db3189211802bc815"
+          },
+          {
+            "text": "beside the return you’re looking for to see more details. "
+          }
+        ]
+      },
+      {
+        "uid": "2b6caf5b7aee45398ad3cd2354c25759",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "uid": "9ebee416bc744c7b92197220ba661640",
+        "type": "h2",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Step 2 – Initiate the Dispute "
+          }
+        ]
+      },
+      {
+        "uid": "3666dec684874c36b1c7d4c94de0b63f",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Initiate a dispute by selecting the"
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "dfe6d53950744b498bb8c212c889e58c"
+          },
+          {
+            "text": "Dispute this return",
+            "italic": true
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "830781ad81de43418a8f6ae4caa48211"
+          },
+          {
+            "text": "button, which will open the dispute wizard. If an order has more than one of the same items, you can submit a dispute for one of the items or the entire order. Select the quantity, then select a dispute reason from the dropdown that best describes your issue. Certain dispute reasons will prompt you to select a subcategory. "
+          }
+        ]
+      },
+      {
+        "uid": "f686a50390794cea9dd23a6761a72ad3",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "",
+            "bold": true,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "uid": "d6662445b7e44430a12ebd960755a744",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "italic": true,
+            "text": "**NOTE:"
+          },
+          {
+            "type": "span",
+            "attrs": {
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "text": " ",
+                "italic": true
+              }
+            ],
+            "uid": "ccd038e6344a41ae98ee4edaeafce6b7"
+          },
+          {
+            "text": "If you don’t see the dispute button, it’s because the refund has not been issued, the dispute window has passed for that return, or the return has already been disputed.",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "uid": "7347be32b82b4d21a273c65305b763cc",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "uid": "417d52ef19ec40d7bc5b64588ce2a021",
+        "type": "h2",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Step 3 – Upload Documentation "
+          }
+        ]
+      },
+      {
+        "uid": "8e4cefd420f04a67b57b8237531e39c0",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Upload supporting photos or documentation when you create your dispute. Documentation, including an image of the return label with tracking and images of the product showing the problem with the return is required for the following dispute reasons: "
+          }
+        ]
+      },
+      {
+        "uid": "59b07da915034caca6f5df8dbd3a784a",
+        "type": "h2",
+        "attrs": {
+          "style": {
+            "text-align": "left"
+          },
+          "redactor-attributes": {},
+          "dir": "ltr",
+          "class-name": "note",
+          "id": "p"
+        },
+        "children": [
+          {
+            "uid": "3918004cc141408eb48b8da5475ef135",
+            "type": "ul",
+            "attrs": {
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "type": "li",
+                "attrs": {
+                  "style": {
+                    "text-align": "left"
+                  },
+                  "redactor-attributes": {}
                 },
-                "_metadata": {
-                    "uid": "cs3312776dd313a319"
-                }
+                "children": [
+                  {
+                    "text": "I received an incorrect return "
+                  }
+                ],
+                "uid": "1be5800c9b68455f9f60bdb48dc91d35"
+              },
+              {
+                "type": "li",
+                "attrs": {
+                  "style": {
+                    "text-align": "left"
+                  },
+                  "redactor-attributes": {}
+                },
+                "children": [
+                  {
+                    "text": "Item has missing parts/accessories "
+                  }
+                ],
+                "uid": "bf5cb071bf244e1390c922e0d27ba5e0"
+              },
+              {
+                "type": "li",
+                "attrs": {
+                  "style": {
+                    "text-align": "left"
+                  },
+                  "redactor-attributes": {}
+                },
+                "children": [
+                  {
+                    "text": "Item is in unacceptable condition "
+                  }
+                ],
+                "uid": "7436249503de466885efbb3a0133e8ad"
+              }
+            ]
+          },
+          {
+            "uid": "a16abf338f484d5183e95f07c728a2cc",
+            "type": "ul",
+            "attrs": {
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "type": "li",
+                "attrs": {
+                  "style": {
+                    "text-align": "left"
+                  },
+                  "redactor-attributes": {}
+                },
+                "children": [
+                  {
+                    "text": "I sent the customer a replacement "
+                  }
+                ],
+                "uid": "0044f1e8db7e4c89bcde9b2fa530d907"
+              }
+            ]
+          },
+          {
+            "uid": "6f49d4c22582405895b6193536a7ff9d",
+            "type": "p",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "uid": "2e73c20a11114fce84963064baf3505d",
+            "type": "p",
+            "attrs": {
+              "class-name": "Note",
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "text": "When ready, select the"
+              },
+              {
+                "type": "span",
+                "attrs": {
+                  "style": {
+                    "text-align": "left"
+                  },
+                  "redactor-attributes": {}
+                },
+                "children": [
+                  {
+                    "text": " "
+                  }
+                ],
+                "uid": "19a5fe0c099445a6a75f073386c9c1aa"
+              },
+              {
+                "text": "Submit Dispute",
+                "italic": true
+              },
+              {
+                "type": "span",
+                "attrs": {
+                  "style": {
+                    "text-align": "left"
+                  },
+                  "redactor-attributes": {}
+                },
+                "children": [
+                  {
+                    "text": " "
+                  }
+                ],
+                "uid": "82c4a42e59b9429993d09edee0691015"
+              },
+              {
+                "text": "button. You’ll receive an email confirmation with the case number. "
+              }
+            ]
+          },
+          {
+            "uid": "bfe990359bcf4e2e91228ab157adeed2",
+            "type": "p",
+            "attrs": {
+              "class-name": "Note",
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "uid": "ae1482f9e6814483a75827242b9689df",
+            "type": "p",
+            "attrs": {
+              "class-name": "Note",
+              "style": {
+                "text-align": "left"
+              },
+              "redactor-attributes": {}
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "uid": "a18a70bb002448478ba0f8534d815558",
+            "type": "reference",
+            "attrs": {
+              "display-type": "display",
+              "asset-uid": "blt8e8dc3e053abc753",
+              "content-type-uid": "sys_assets",
+              "asset-link": "https://azure-na-images.contentstack.com/v3/assets/blta7903c6b840b702d/blt8e8dc3e053abc753/64f87ea26517c0000dfc9145/2023-08-10_09-21-21_(1)_(1).gif",
+              "asset-name": "2023-08-10_09-21-21_(1)_(1).gif",
+              "asset-type": "image/gif",
+              "type": "asset",
+              "class-name": "embedded-asset",
+              "inline": false,
+              "style": {
+                "text-align": "center",
+                "max-width": "740px",
+                "width": "740px",
+                "max-height": "409px",
+                "height": "409px"
+              },
+              "redactor-attributes": {
+                "position": "center",
+                "height": "409"
+              },
+              "width": "740",
+              "max-width": "740",
+              "max-height": "409",
+              "height": "409"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "uid": "c1ee69c65955459aba33d92d3c146502",
+            "type": "p",
+            "attrs": {},
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uid": "ec1923824bbd4acab02b4dae3f12c66c",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "_version": 37
+  },
+  "created_at": "2023-09-05T19:30:02.127Z",
+  "created_by": "blt65544800d5984791",
+  "frequently_asked_questions": {
+    "type": "doc",
+    "attrs": {},
+    "uid": "d7d3171819d24c6b89e18bb315b89aee",
+    "children": [
+      {
+        "uid": "6ad644bb198f4239ae209523ec1c7e70",
+        "type": "h2",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Frequently Asked Questions "
+          }
+        ]
+      },
+      {
+        "uid": "99eb0663cf4748ef938582741ee08c66",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "uid": "de9a9325af054a5c9e41c055c9f804c3",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "text": "Q: How long will it take for my dispute to be reviewed and resolved?"
+          },
+          {
+            "text": "\n",
+            "break": true
+          },
+          {
+            "text": "A: Typically, it can take up to 72 hours. However, in some instances the timeframe could be extended. "
+          }
+        ]
+      },
+      {
+        "uid": "6a808651d53b4df0abcc7e41c63b30df",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "uid": "5d5aa858814b4f0b9533a628ebc5d438",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "text": "Q: What happens to the customer refund during this process?"
+          },
+          {
+            "text": "\n",
+            "break": true
+          },
+          {
+            "text": "A: The customer refund will be put on hold for 72 hours while Walmart reviews your dispute. Customer refund holds will be automatically released after 72 hours. If the dispute is approved within that time frame, the customer will not be refunded and their return will be canceled. "
+          }
+        ]
+      },
+      {
+        "uid": "e249426ff2724e3c9fe26d41d20df7c3",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "uid": "57e37003edf74593a6a579ca416148c2",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "text": "Q: What happens if my dispute is denied? Can I appeal the decision? "
+          },
+          {
+            "text": "\n",
+            "break": true
+          },
+          {
+            "text": "A: Yes. If you're not satisfied with the resolution of your dispute provided by Walmart, you can submit an appeal. You can only appeal a decision once, and it must be submitted within 30 days of receiving the denial or decision.   "
+          },
+          {
+            "text": "\n",
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "\n",
+            "break": true
+          },
+          {
+            "text": "To submit an appeal,"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "d27449a3501b4b448f709cbb0863506a"
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US#:~:text=submit%20an%20appeal%2C-,create%20a%20case,-with%20Partner%20Support"
+            },
+            "children": [
+              {
+                "text": "create a case"
+              }
+            ],
+            "uid": "89e9c937c1524e8bb99fba5dd309580e"
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "322c84ca7df6420cb6d5bd5bb5edf433"
+          },
+          {
+            "text": "with Seller Support through the following path:"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "30e8f00a62b34a68a415d95b8feb333c"
+          },
+          {
+            "text": "Dispute",
+            "italic": true
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "772178b758344523a8bad766e8e8af2c"
+          },
+          {
+            "text": ">"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "41bcd3fb3f5942248c37fe5ec1523d72"
+          },
+          {
+            "text": "Disputes Resolution Appeals",
+            "italic": true
+          },
+          {
+            "text": ". For more information, see"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "24bb1d132898469cb490f5c91dfdd1c7"
+          },
+          {
+            "text": "",
+            "italic": true
+          },
+          {
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US"
+            },
+            "children": [
+              {
+                "text": "Marketplace Dispute Standards",
+                "italic": true
+              }
+            ],
+            "uid": "e93c810daa7d49a197e7d66ae0cdbfc9"
+          },
+          {
+            "text": ". "
+          }
+        ]
+      },
+      {
+        "uid": "1246518d04a1485eb126aa0609e253cb",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "uid": "e1e01da156eb4574aa82b199e1f70c8f",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "bold": true,
+            "text": "Q: Can I track the status of my dispute? "
+          },
+          {
+            "text": "\n",
+            "break": true
+          },
+          {
+            "text": "A: Yes, you can track the status of a dispute through the"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "5d82baa770dd4097979ac81950221319"
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "attrs": {
+              "url": "http://seller.walmart.com/"
+            },
+            "children": [
+              {
+                "text": "Dispute",
+                "bold": true
+              }
+            ],
+            "uid": "87f4836738004bbe8a0c80df7af1c32e"
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "72bf1859e4844eca8eac0c89c182d599"
+          },
+          {
+            "text": "dashboard within Seller Center.  "
+          }
+        ]
+      }
+    ],
+    "_version": 37
+  },
+  "meta_data": {
+    "article_id": "000009068",
+    "salesforce_summary": "Learn how to file a dispute for a customer return.",
+    "category_id_b": [
+      "Order Management: Troubleshooting"
+    ],
+    "url_name": "Marketplace-Disputes-Customer-Returns",
+    "is_archived_": false,
+    "is_authenticated_": false,
+    "is_visible_to_customer_": true,
+    "partner_channel": [
+      "U.S. Marketplace"
+    ]
+  },
+  "modular_blocks": [
+    {
+      "vimeo": {
+        "vimeo_1": {
+          "items": [
+            {
+              "uri": "/videos/851090171",
+              "name": "Returns and Disputes",
+              "description": "Returns happen, but – depending on the situation – you may need to file a dispute for a customer return. Keep watching to learn how to file a returns-related dispute for your items–including items of high-value. We'll also go over how to track the approval status in Seller Center.",
+              "embed": {
+                "html": "<iframe src=\"https://player.vimeo.com/video/851090171?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;airplay=0&amp;audio_tracks=0&amp;chapters=0&amp;chromecast=0&amp;closed_captions=0&amp;transcript=0&amp;player_id=0&amp;app_id=275298\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" title=\"Returns and Disputes\"></iframe>"
+              },
+              "created_time": "2023-08-02T22:23:03+00:00",
+              "pictures": {
+                "sizes": [
+                  {
+                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_100x75?r=pad"
+                  },
+                  {
+                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_200x150?r=pad"
+                  },
+                  {
+                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_295x166?r=pad"
+                  },
+                  {
+                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_640x360?r=pad"
+                  },
+                  {
+                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_960x540?r=pad"
+                  },
+                  {
+                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_1280x720?r=pad"
+                  },
+                  {
+                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_1920x1080?r=pad"
+                  }
+                ]
+              }
             }
+          ]
+        },
+        "_metadata": {
+          "uid": "cs3312776dd313a319"
         }
-    ],
-    "overview": {
-        "type": "doc",
-        "attrs": {},
-        "uid": "800a0748e2ee45feaf94783d9714c1fb",
+      }
+    }
+  ],
+  "overview": {
+    "type": "doc",
+    "attrs": {},
+    "uid": "800a0748e2ee45feaf94783d9714c1fb",
+    "children": [
+      {
+        "uid": "c14b1a50c8cf4635a8b5234e584b5978",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
         "children": [
-            {
-                "uid": "c14b1a50c8cf4635a8b5234e584b5978",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "In this article: ",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "uid": "365a45c025344b8ab0518044bf7abeb3",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "\t"
-                    },
-                    {
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#overview"
-                        },
-                        "children": [
-                            {
-                                "text": "Overview"
-                            }
-                        ],
-                        "uid": "fe572408baaf45df81995417f85c8514"
-                    },
-                    {
-                        "text": " "
-                    }
-                ]
-            },
-            {
-                "uid": "816575ea22624eaa8435868c7b8908e3",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "\t"
-                    },
-                    {
-                        "uid": "d23727f697e04525bf1bd60301bc26af",
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#eligibility"
-                        },
-                        "children": [
-                            {
-                                "text": "Eligibility"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "\t "
-                    }
-                ]
-            },
-            {
-                "uid": "633173432e654ec1995bb734e32550f2",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "\t"
-                    },
-                    {
-                        "uid": "47df7ccf6037427c98c5a01beab8373c",
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#highvalue"
-                        },
-                        "children": [
-                            {
-                                "text": "High-Value Items"
-                            }
-                        ]
-                    },
-                    {
-                        "text": " "
-                    }
-                ]
-            },
-            {
-                "uid": "a4d0f6b963c344d6909ad01f4640b3cf",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "\t"
-                    },
-                    {
-                        "uid": "02ef37a4bdce4203a398c8853b8d7c45",
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#electronic"
-                        },
-                        "children": [
-                            {
-                                "text": "Electronics"
-                            }
-                        ]
-                    },
-                    {
-                        "text": " "
-                    }
-                ]
-            },
-            {
-                "uid": "e1095bf1d3cf4824b4abe7708ddf52f4",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "\t"
-                    },
-                    {
-                        "uid": "ccdf371de3084c26a3a5cc324513adb8",
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#fileadispute"
-                        },
-                        "children": [
-                            {
-                                "text": "File a Dispute"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "",
-                        "break": true
-                    }
-                ]
-            },
-            {
-                "uid": "18f48c40589b4bcdbc3d82cc3fb5e869",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "\t"
-                    },
-                    {
-                        "uid": "015ca8f0a6ef497a9f96ad0d397af813",
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#faq"
-                        },
-                        "children": [
-                            {
-                                "text": "Frequently Asked Questions"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "\t"
-                    }
-                ]
-            },
-            {
-                "uid": "240af7eccfab4195a7a8445d5b8513bf",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "\t"
-                    },
-                    {
-                        "uid": "c030eee9ad004497857b6b41ebee79fd",
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#helpful"
-                        },
-                        "children": [
-                            {
-                                "text": "Helpful Resources"
-                            }
-                        ]
-                    },
-                    {
-                        "text": ""
-                    }
-                ]
-            },
-            {
-                "uid": "1398843f00b34b579307185cfb431ab2",
-                "type": "h2",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "type": "fragment",
-                        "attrs": {
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "uid": "f10b389067d44830b22e958f3c1b0d88",
-                        "children": [
-                            {
-                                "text": "Overview "
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "uid": "d5818fd9489b4c6ebfbe78ad8fa8bdf1",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "type": "fragment",
-                        "attrs": {},
-                        "uid": "eb0b2af4dfb0470e9217e85b919b3b2e",
-                        "children": [
-                            {
-                                "text": "While returns are a natural part of the post-purchase experience, you may encounter instances when the returned item is damaged, or missing parts or accessories. Keep reading to determine if you’re eligible to dispute a customer return with Walmart, and find out how to file the dispute via the"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "fragment",
-                        "attrs": {
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "uid": "bd0bec1f95594e30afd8be10c2781089",
-                        "children": [
-                            {
-                                "text": ""
-                            },
-                            {
-                                "type": "span",
-                                "attrs": {
-                                    "style": {},
-                                    "redactor-attributes": {},
-                                    "dir": "ltr"
-                                },
-                                "children": [
-                                    {
-                                        "text": " "
-                                    }
-                                ],
-                                "uid": "3d7befde7672439980466f00959c2eef"
-                            },
-                            {
-                                "text": ""
-                            },
-                            {
-                                "type": "a",
-                                "attrs": {
-                                    "url": "https://seller.walmart.com/order-management/returns"
-                                },
-                                "children": [
-                                    {
-                                        "text": "Returns & Refunds",
-                                        "bold": true
-                                    }
-                                ],
-                                "uid": "eacf4841f45c47a1b5fcabcec14eb0bf"
-                            },
-                            {
-                                "text": ""
-                            }
-                        ]
-                    },
-                    {
-                        "type": "fragment",
-                        "attrs": {},
-                        "uid": "6cb853f3abac412a8d0e468dfc0fc9b9",
-                        "children": [
-                            {
-                                "text": ""
-                            },
-                            {
-                                "type": "span",
-                                "attrs": {},
-                                "children": [
-                                    {
-                                        "text": " "
-                                    }
-                                ],
-                                "uid": "283f688ded4b47d78684a8eeb68fb6c1"
-                            },
-                            {
-                                "text": "dashboard in Seller Center."
-                            },
-                            {
-                                "text": "\n",
-                                "break": true
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "uid": "6d4e9998e59a41c39220233b24a94249",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": " For more generalized guidelines that Marketplace sellers must follow when filing a dispute, see"
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " "
-                            }
-                        ],
-                        "uid": "78f3ceaaa9a042d190cd158d74038266"
-                    },
-                    {
-                        "text": ""
-                    },
-                    {
-                        "type": "a",
-                        "attrs": {
-                            "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US",
-                            "style": {},
-                            "redactor-attributes": {},
-                            "dir": "ltr"
-                        },
-                        "children": [
-                            {
-                                "text": "Marketplace Disputes Standards",
-                                "italic": true
-                            }
-                        ],
-                        "uid": "972a665e763d4588a3ab47b5f0c1dafe"
-                    },
-                    {
-                        "text": ". ",
-                        "italic": true
-                    }
-                ]
-            },
-            {
-                "uid": "2b2624d8fb5949398bbe65a45686842c",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": " "
-                    }
-                ]
-            },
-            {
-                "uid": "3354d14af15748d896a713adccd252e4",
-                "type": "p",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "**NOTE:",
-                        "bold": true,
-                        "italic": true
-                    },
-                    {
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                            {
-                                "text": " ",
-                                "italic": true
-                            }
-                        ],
-                        "uid": "86f5d2ebf9f54be1a33eb80fec1e0f6b"
-                    },
-                    {
-                        "text": "Dispute eligibility and policies vary for high-value and electronic items. More information on this below. ",
-                        "italic": true
-                    }
-                ]
-            }
-        ],
-        "_version": 37
-    },
-    "publishing_date": "2023-09-05",
-    "rate_this_article": null,
-    "resource": {
-        "type": "doc",
-        "attrs": {},
-        "uid": "02901b91629a4931abf5eab3d6e81c88",
+          {
+            "text": "In this article: ",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "uid": "365a45c025344b8ab0518044bf7abeb3",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
         "children": [
-            {
-                "uid": "a1181c248ef042de9e025557adf8a5d1",
-                "type": "h2",
-                "attrs": {
-                    "style": {},
-                    "redactor-attributes": {},
-                    "dir": "ltr"
-                },
-                "children": [
-                    {
-                        "text": "Helpful Resources  "
-                    }
-                ]
+          {
+            "text": "\t"
+          },
+          {
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#overview"
             },
-            {
-                "uid": "310d15afbd3942619fe7d8b3b86eeeaf",
-                "type": "h4",
+            "children": [
+              {
+                "text": "Overview"
+              }
+            ],
+            "uid": "fe572408baaf45df81995417f85c8514"
+          },
+          {
+            "text": " "
+          }
+        ]
+      },
+      {
+        "uid": "816575ea22624eaa8435868c7b8908e3",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "\t"
+          },
+          {
+            "uid": "d23727f697e04525bf1bd60301bc26af",
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#eligibility"
+            },
+            "children": [
+              {
+                "text": "Eligibility"
+              }
+            ]
+          },
+          {
+            "text": "\t "
+          }
+        ]
+      },
+      {
+        "uid": "633173432e654ec1995bb734e32550f2",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "\t"
+          },
+          {
+            "uid": "47df7ccf6037427c98c5a01beab8373c",
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#highvalue"
+            },
+            "children": [
+              {
+                "text": "High-Value Items"
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ]
+      },
+      {
+        "uid": "a4d0f6b963c344d6909ad01f4640b3cf",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "\t"
+          },
+          {
+            "uid": "02ef37a4bdce4203a398c8853b8d7c45",
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#electronic"
+            },
+            "children": [
+              {
+                "text": "Electronics"
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ]
+      },
+      {
+        "uid": "e1095bf1d3cf4824b4abe7708ddf52f4",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "\t"
+          },
+          {
+            "uid": "ccdf371de3084c26a3a5cc324513adb8",
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#fileadispute"
+            },
+            "children": [
+              {
+                "text": "File a Dispute"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "break": true
+          }
+        ]
+      },
+      {
+        "uid": "18f48c40589b4bcdbc3d82cc3fb5e869",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "\t"
+          },
+          {
+            "uid": "015ca8f0a6ef497a9f96ad0d397af813",
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#faq"
+            },
+            "children": [
+              {
+                "text": "Frequently Asked Questions"
+              }
+            ]
+          },
+          {
+            "text": "\t"
+          }
+        ]
+      },
+      {
+        "uid": "240af7eccfab4195a7a8445d5b8513bf",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "\t"
+          },
+          {
+            "uid": "c030eee9ad004497857b6b41ebee79fd",
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#helpful"
+            },
+            "children": [
+              {
+                "text": "Helpful Resources"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "uid": "1398843f00b34b579307185cfb431ab2",
+        "type": "h2",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "type": "fragment",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "uid": "f10b389067d44830b22e958f3c1b0d88",
+            "children": [
+              {
+                "text": "Overview "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uid": "d5818fd9489b4c6ebfbe78ad8fa8bdf1",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "type": "fragment",
+            "attrs": {},
+            "uid": "eb0b2af4dfb0470e9217e85b919b3b2e",
+            "children": [
+              {
+                "text": "While returns are a natural part of the post-purchase experience, you may encounter instances when the returned item is damaged, or missing parts or accessories. Keep reading to determine if you’re eligible to dispute a customer return with Walmart, and find out how to file the dispute via the"
+              }
+            ]
+          },
+          {
+            "type": "fragment",
+            "attrs": {
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "uid": "bd0bec1f95594e30afd8be10c2781089",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "span",
                 "attrs": {
-                    "style": {
-                        "text-align": "center"
-                    },
-                    "redactor-attributes": {},
-                    "dir": "ltr"
+                  "style": {},
+                  "redactor-attributes": {},
+                  "dir": "ltr"
                 },
                 "children": [
-                    {
-                        "text": "Watch the Seller Academy tutorial below for more information: "
-                    }
-                ]
-            }
-        ],
-        "_version": 37
-    },
-    "seo": {
-        "meta_title": "",
-        "meta_description": "",
-        "meta_keywords": "",
-        "enable_search_indexing": true
-    },
-    "tags": [
-        "marketplace"
+                  {
+                    "text": " "
+                  }
+                ],
+                "uid": "3d7befde7672439980466f00959c2eef"
+              },
+              {
+                "text": ""
+              },
+              {
+                "type": "a",
+                "attrs": {
+                  "url": "https://seller.walmart.com/order-management/returns"
+                },
+                "children": [
+                  {
+                    "text": "Returns & Refunds",
+                    "bold": true
+                  }
+                ],
+                "uid": "eacf4841f45c47a1b5fcabcec14eb0bf"
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "fragment",
+            "attrs": {},
+            "uid": "6cb853f3abac412a8d0e468dfc0fc9b9",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "span",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": " "
+                  }
+                ],
+                "uid": "283f688ded4b47d78684a8eeb68fb6c1"
+              },
+              {
+                "text": "dashboard in Seller Center."
+              },
+              {
+                "text": "\n",
+                "break": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uid": "6d4e9998e59a41c39220233b24a94249",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": " For more generalized guidelines that Marketplace sellers must follow when filing a dispute, see"
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " "
+              }
+            ],
+            "uid": "78f3ceaaa9a042d190cd158d74038266"
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "attrs": {
+              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US",
+              "style": {},
+              "redactor-attributes": {},
+              "dir": "ltr"
+            },
+            "children": [
+              {
+                "text": "Marketplace Disputes Standards",
+                "italic": true
+              }
+            ],
+            "uid": "972a665e763d4588a3ab47b5f0c1dafe"
+          },
+          {
+            "text": ". ",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "uid": "2b2624d8fb5949398bbe65a45686842c",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": " "
+          }
+        ]
+      },
+      {
+        "uid": "3354d14af15748d896a713adccd252e4",
+        "type": "p",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "**NOTE:",
+            "bold": true,
+            "italic": true
+          },
+          {
+            "type": "span",
+            "attrs": {},
+            "children": [
+              {
+                "text": " ",
+                "italic": true
+              }
+            ],
+            "uid": "86f5d2ebf9f54be1a33eb80fec1e0f6b"
+          },
+          {
+            "text": "Dispute eligibility and policies vary for high-value and electronic items. More information on this below. ",
+            "italic": true
+          }
+        ]
+      }
     ],
-    "title": "Dispute a Customer Return in Seller Center",
-    "updated_at": "2023-09-21T10:21:00.220Z",
-    "updated_by": "bltfc2d734248e262ea"
+    "_version": 37
+  },
+  "publishing_date": "2023-09-05",
+  "rate_this_article": null,
+  "resource": {
+    "type": "doc",
+    "attrs": {},
+    "uid": "02901b91629a4931abf5eab3d6e81c88",
+    "children": [
+      {
+        "uid": "a1181c248ef042de9e025557adf8a5d1",
+        "type": "h2",
+        "attrs": {
+          "style": {},
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Helpful Resources  "
+          }
+        ]
+      },
+      {
+        "uid": "310d15afbd3942619fe7d8b3b86eeeaf",
+        "type": "h4",
+        "attrs": {
+          "style": {
+            "text-align": "center"
+          },
+          "redactor-attributes": {},
+          "dir": "ltr"
+        },
+        "children": [
+          {
+            "text": "Watch the Seller Academy tutorial below for more information: "
+          }
+        ]
+      }
+    ],
+    "_version": 37
+  },
+  "seo": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": "",
+    "enable_search_indexing": true
+  },
+  "tags": [
+    "marketplace"
+  ],
+  "title": "Dispute a Customer Return in Seller Center",
+  "updated_at": "2023-09-21T10:21:00.220Z",
+  "updated_by": "bltfc2d734248e262ea"
 }
