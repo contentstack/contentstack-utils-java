@@ -1,0 +1,1630 @@
+{
+    "entry": {
+        "title": "Troubleshoot WFS Inbound Order Issues",
+        "overview": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3391c219aec54b4bb15706d1f21dc0d0",
+            "children": [
+                {
+                    "uid": "ca076a4b4c004d50a863a81074a7f13b",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "In this article:",
+                            "bold": true
+                        }
+                    ]
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009239&language=en_US#Overview"
+                            },
+                            "children": [
+                                {
+                                    "text": "Overview"
+                                }
+                            ],
+                            "uid": "4e240a930ae44d369a8255da684b6df2"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "uid": "7b3f60ba2e23498bbe5031c605284adf"
+                },
+                {
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\t"
+                        },
+                        {
+                            "type": "a",
+                            "attrs": {
+                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009239&language=en_US#ErrorMessages",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": "Error Messages and Action Items"
+                                }
+                            ],
+                            "uid": "6c4de8913bb04243a20a829e3fcec8a1"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "uid": "a412c8dbede64004bece10efe761d433"
+                },
+                {
+                    "uid": "106e31d792f44486b99098a21340b00a",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "type": "fragment",
+                            "attrs": {},
+                            "uid": "40cc2c476aa04dae9e163ffa9b4418c9",
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "fragment",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "uid": "2e04e1a087524eabb9dfc69a1ca363a2",
+                            "children": [
+                                {
+                                    "text": "Overview "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uid": "35252877d9d24bc78892cbbe2915a69b",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "You might have issues submitting an inbound order due to incorrect information or a system error. Here are common errors and ways to resolve them."
+                        }
+                    ]
+                }
+            ],
+            "_version": 2
+        },
+        "body": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a738fdc1f32348958f94e33fd1bbf003",
+            "children": [
+                {
+                    "uid": "8ad4b33ae4224fceb4a82ae7a5835d63",
+                    "type": "h2",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "Error Messages and Action Items "
+                        }
+                    ]
+                },
+                {
+                    "uid": "c838b1ba7f1a4088a9644e363e45e4df",
+                    "type": "table",
+                    "attrs": {
+                        "rows": 29,
+                        "cols": 2,
+                        "colWidths": [
+                            250,
+                            250
+                        ]
+                    },
+                    "children": [
+                        {
+                            "type": "tbody",
+                            "attrs": {},
+                            "children": [
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "text": ""
+                                                },
+                                                {
+                                                    "type": "span",
+                                                    "attrs": {},
+                                                    "children": [
+                                                        {
+                                                            "text": "Error Message",
+                                                            "bold": true
+                                                        }
+                                                    ],
+                                                    "uid": "8678e838b278479483b6229080578781"
+                                                },
+                                                {
+                                                    "text": ""
+                                                }
+                                            ],
+                                            "uid": "793bce4f5cc5442ca0f0cea02ff47d1e"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "text": ""
+                                                },
+                                                {
+                                                    "type": "span",
+                                                    "attrs": {},
+                                                    "children": [
+                                                        {
+                                                            "text": "Next Steps",
+                                                            "bold": true
+                                                        }
+                                                    ],
+                                                    "uid": "fc4782fd73424d1e91c6582815eeaaef"
+                                                },
+                                                {
+                                                    "text": ""
+                                                }
+                                            ],
+                                            "uid": "693a30e1753a44638d677eb43046075c"
+                                        }
+                                    ],
+                                    "uid": "06bad5c15c8346f6b7e9d40545d8622f"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "83496ea6a1674fc2a49f90d77bac66a6",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Expected Delivery Date should be of future and not the past"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "04be58a36b0f4fcdb4c742a493675991"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "d435ecd171764130928edfc72790dda0",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Reset the expected delivery date so it's set in the future."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "0f01e5a4c5b943b09f34bc2de9bec88f"
+                                        }
+                                    ],
+                                    "uid": "e731a68359b44ec082c9dbdaf11779ed"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "e6f05d6139474fe9a7f139e63b8274ac",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "expectedDeliveryDate cannot be null/empty"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "df28074d8b994fd0888f3eaecc748ba7"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a944d2ce8bfb4fe2a14866a2dc75dfc6",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter an expected delivery date."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "d8df43cce2d6458b9f9adace2e7426c3"
+                                        }
+                                    ],
+                                    "uid": "ab6aca8361aa40738e9d80b981dea3f6"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "3d26400df46341e08d8722cc5302b1dd",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "itemQty should be product of innerPack Qty and vendorPackQty"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "25cdc9c22a0e44b9bdddc533abc39117"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a04cfb9210864e37b2fc0e99e6223cfb",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "The item quantity must equal the product of the vendor pack and inner pack quantities."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "a86af0f172eb4a80b85af38b4cd2f4bb"
+                                        }
+                                    ],
+                                    "uid": "c8f3d8411e6545618d79e24e82c823e8"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "5de4c07575a54936b136ede15c4c3c9d",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "postalCode cannot be null/empty"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "7a7d6a1eb6754a989aca19003bc3e0e1"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "ae47c3b3493e470eb8bf10fa8e712b95",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter a zip code."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "22516ba7606f4670a2a3083927df8968"
+                                        }
+                                    ],
+                                    "uid": "93d123bbade34adeb0123f0fdce20add"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "5b172557a837465da9c675193736a8a8",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Shipment Plan is already created for this inbound order"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "e1b3e4f6f46a4f008501cfc8ccf7761d"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "ad39fca6fe1b422b890fe6a907840cbc",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "This inbound order ID already exists. Enter a new one."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "de45b88a8360458a8c2ae3dc442ef8e2"
+                                        }
+                                    ],
+                                    "uid": "3f1a9414632d4136b920244eec8ecc11"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "aa56d13c4bb74b8690cb835ed20f0df6",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "innerPackQty should be great then zero"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "b0c3faf49fb646bb94f2a6bd7e114d54"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "8bb75bda624141db8fad84242e8c13c1",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter an inner pack quantity greater than 0."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "ecc3d04861d64b2cb5c082715ffc78c2"
+                                        }
+                                    ],
+                                    "uid": "3de3b6a79930486094a90b42f556e21a"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a397db2ea04543e29e579ef89d1c32f1",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "vendorPackQty should be great then zero"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "7bcbb68c811349268cd2879e088239da"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "73d5e433056145e396faada0a4ccaf93",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter a vendor pack quantity greater than 0."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "8eeed9b8dad84490a6c8eaa468c47623"
+                                        }
+                                    ],
+                                    "uid": "55723868487f4215afdea049e50dafe0"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "47becc43a182428cb5f77644fd1e1d5f",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "sellerId and inboundOrderId is mandatory"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "7a18b126cc68417889eb11e957722427"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "1d0d024a679348e0a2fc0b3f198d9c6c",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Row 1 with Inbound Order ID is missing. If it was deleted, add it back or download a new template."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "cb78c6fb472043a18c69fb4273cf19b3"
+                                        }
+                                    ],
+                                    "uid": "923ffca034ba4e38abdfb3c1d34edc0b"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "174240dd4de94854be37a05096c392de",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "addressLine1 is invalid .enter valid addressLine1 String in english language characters"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "528fcdc8a3d64e67be4f2aee20cb395e"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a3bda7d40cc84fc091b9b31e94daf3a6",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Address must be in English."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "eda26dc7ee8b43b2981ea7159a3dbab3"
+                                        }
+                                    ],
+                                    "uid": "02753c1e070d4dbb994f45dde1bcd12e"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "fe0dea7990944bcf8e01645cea02ad29",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Error parsing json input"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "c5275c34632a4616a24e91654d4e1504"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a11143947ae840a7843f720d039cc574",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "The template is missing required rows or columns. If they were deleted, add them back or download a new template."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "2c9f21fd80154e9dbd730ece833e3501"
+                                        }
+                                    ],
+                                    "uid": "0a1c2872fdfb47d69642c76ff7ab0085"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a646d91549c9410e860c2853263d2056",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Items Dimensions are not suitable for creating po for sku"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "535c50864d27473b92a6259f855c8325"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "355fe32530b542c3a411ca36c6524638",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Item dimensions aren't eligible for Walmart-fulfilled. Check the dimensions."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "6f1944587a6944f6b1b7f7b81678d54a"
+                                        }
+                                    ],
+                                    "uid": "d0001ac53b9b4044b2007b6d7ef97c62"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a1471d1b984b47508699ce134a4c0292",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "itemQty should be great then zero"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "f86fa24748f34e499034fd6fffada31d"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "32d798102c964d00813e98dd74eedaf1",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter an item quantity greater than 0."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "3d7064fca90f46deb2013902270a48bb"
+                                        }
+                                    ],
+                                    "uid": "edbb916de29d4784b3f2cc327ab30e5e"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "a8b780d5fbd14251998bfa5f641b85d1",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "OrderItem in create Shipment request is repeated more than once"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "8834bd24d6134a3d93d4f92f7053ca56"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "d26028fb5fd74d45b8adacdcb0a32a36",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Make sure items are only entered once."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "433af56b5fd84ff39fc51eb77316b85b"
+                                        }
+                                    ],
+                                    "uid": "6cd4eab4a6b041b6995152f211073e6b"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "2d736b4ee4204ff386ca6673416394d5",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "productType is invalid"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "67c91c2a545146d0bb057a90dfbbc34a"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "ab9c3cfc3cf34b7786d2962ece2bd4d0",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Product type ID must be GTIN, UPC, or EAN."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "8531e8cf1da84d6091e0318cc5bf35c6"
+                                        }
+                                    ],
+                                    "uid": "921a4eec22864ad9851680b664583aa2"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "ad120461f75a429fb59e30740bbf6746",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "productId with productType GTIN should be 14 digit"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "201d40fdaa2248299844073c454ff624"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "017219cc35674d5787bab7aefaf8b3da",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "GTIN must be 14 digits. If your GTIN is correct but shorter than 14 digits, add zeros in front."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "ba167130a68e461c8f762b9a3ac26716"
+                                        }
+                                    ],
+                                    "uid": "4204e700411f44be824d20bfb4fb183d"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "69158902a5344c34be4ec834f4033cdb",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Product ID with Product Type UPC should be 12 digit"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "fc71bd0559c844338f684e55eff32d91"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "4b248abf24d24d50bbaec4cfffcb00cd",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "UPC must be 12 digits. "
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "c3c6bde17b8d4802863fc20d499a2ca8"
+                                        }
+                                    ],
+                                    "uid": "169281d793ed4d488350df6d26ec43dd"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "f4b5da00588a4b41ac9444ed7c639311",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Item is not WFS Eligible for sku"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "2d2b5b83609e47fc989bb22c995cae57"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "2627914cc4034c8488561128a1ef27dc",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "The following items are prohibited. See our Prohibited Products Policy or contact Seller Support for more details."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "02415cc9b8c84d51b716ef624842b23b"
+                                        }
+                                    ],
+                                    "uid": "e197013e95f84f35ad1684fa94418080"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "52872aa85bc94562bd9fdeaefbbbbb7d",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Products in the same Inbound Order template cannot have different Expected Delivery Date."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "c4ed9b0ef89743b589f97f8dd51cd726"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "ed9d9859e894439ab46a0cf483086601",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "All items must have the same expected delivery date."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "9fd95c797d4d40cb9d9524415ccc13e0"
+                                        }
+                                    ],
+                                    "uid": "573cd0c44d71412daf284fab49a3c9ac"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "b559b55831924504b237af0223eaae67",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "inboundOrderId is invalid .enter valid inboundOrderId String in english language and without '?','/','|','\\','+','#' characters"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "a2666ebcc1754c9d9a05c52b7c07689f"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "75837ca134594d9fbe3641fd7e03667d",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Inbound Order ID is invalid. Use only English letters, numbers, or these special characters: -, _ "
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "6a1f3103111a46c8be7672454c6a22cd"
+                                        }
+                                    ],
+                                    "uid": "713b1dccec19477c96c342fa85df4dc3"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "1e826ad3afa54e3fa23a682dc88d94bd",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Item information is not present for sku, Please set it up as Walmart Fulfilled item in the Seller Center."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "cd507c3a6c2c47f6851accc671a43954"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "5bd2d76d4dde499199e66d49063cb076",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "We couldn't verify the item information. Make sure it's set to Walmart-fulfilled."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "265e795b829244eaabe559a67b2de844"
+                                        }
+                                    ],
+                                    "uid": "c35bf01e3aeb4c25a44e9bd79286164d"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "33362875f66f427d8555775001450d95",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "itemDesc length cannot be greater than 450 chars"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "de33693f5561434b83dfcbae0a4e491e"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "c8df9ce34169492f88433799c61c4e2b",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Item description must be shorter than 450 characters."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "85e604f28f474e73a43aaeb45a3a5208"
+                                        }
+                                    ],
+                                    "uid": "1e5c98cbb9df4a799abc439ec585c24b"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "7efb7080efb240e285cd5a5cb6ea361d",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "itemDesc cannot be null/empty"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "b76963f4c0874e23bcb77a557fb38780"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "827466db1c54456092b7806b58279717",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter an item description."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "0034ffcfc5294dfc8330b4b983e8b296"
+                                        }
+                                    ],
+                                    "uid": "05b1a1cc539448489ebc8d624dc13084"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "1dff5b8a8da84f128773228e1f238936",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "addressLine1 cannot be null/empty"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "508808658ab44a8a85600c35aead6c22"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "4490bfc493794467bd43ffc8906f5ac4",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter an address."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "6fd6d954c14f4973aabae6b0e9ff57cd"
+                                        }
+                                    ],
+                                    "uid": "e79fe0e5979e4e7f8bbacbd3875f23a1"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "6bd5df2fca0b4e41bd8e07ce3219d71c",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "countryCode cannot be null/empty"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "5a9e2c65de694a759301a6236919be03"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "162cc85823cc4559b3c0235af794470c",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Enter a country code."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "d5a27f1b91174af9a01367d3f4f76a53"
+                                        }
+                                    ],
+                                    "uid": "55ac11039d4b478099c9366a3a8c9282"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "4f74117d39434fceb27db794dca78941",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "stateCode code cannot be more then 10 chars"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "af42cbdb9c1c4ff8916e61a005c3208d"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "483e20999bd94cfa90ae74911b9edae6",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "State code must be 2 letters only."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "8f6ecc259a154539b5560964dc1115db"
+                                        }
+                                    ],
+                                    "uid": "63fc2aafce73478eb39ae554d95d895f"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "507034463195407384cbeafb50c9949d",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "city is invalid .enter valid city String in english language characters"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "de49f176ec6c460e865c78003c5b3976"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "3ed3e834052c4871a0a678d36d0263b2",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "City must be in English."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "9675f02677034af7a1569bd9488cebbd"
+                                        }
+                                    ],
+                                    "uid": "0742230bf0af4c2d9c9eaa1a35eb831d"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "855af3e10aa447f78852117ebdbb66cc",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "postalCode is invalid .enter valid postalCode"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "0c9c9ccfc7db43cf9b637036b5c67ede"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "0fd7f61db47042d591d1820b78e1852d",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Zip code is invalid. Check for errors and try again."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "f1861605739b44a797f0a8467e685cbc"
+                                        }
+                                    ],
+                                    "uid": "e45976e622bc45ccb8ea0abe327bcd94"
+                                },
+                                {
+                                    "type": "tr",
+                                    "attrs": {},
+                                    "children": [
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "28c5e453fa184d7189b0f7439257f4e6",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "number of items should be more then one and less then five thousand"
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "61107c50838a434682811c52b79ee7f2"
+                                        },
+                                        {
+                                            "type": "td",
+                                            "attrs": {},
+                                            "children": [
+                                                {
+                                                    "uid": "37f3f9ba93c4485d82b8eb19376588ef",
+                                                    "type": "p",
+                                                    "children": [
+                                                        {
+                                                            "text": "Check that you've added at least 1 item and no more than 5,000."
+                                                        }
+                                                    ],
+                                                    "attrs": {}
+                                                }
+                                            ],
+                                            "uid": "a5fb1f8c314247c3a12ba4f9275795c4"
+                                        }
+                                    ],
+                                    "uid": "0a2fcad585f745e892d33deb8e061aad"
+                                }
+                            ],
+                            "uid": "d52cf71d77a743a59cd182e148fb30fc"
+                        }
+                    ]
+                },
+                {
+                    "uid": "3d72e687438b4a61b6b153f20f340fc0",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "f1cb082429f640cb8ad86add33daaac7",
+                    "type": "p",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "If you submitted an inbound order template, our system will automatically check it and create an error report that will appear in a pop-up window. Select "
+                        },
+                        {
+                            "type": "span",
+                            "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                            },
+                            "children": [
+                                {
+                                    "text": ""
+                                }
+                            ],
+                            "uid": "57a4ef0b49ab48099da4088b731556ef"
+                        },
+                        {
+                            "text": "Download errors ",
+                            "bold": true
+                        },
+                        {
+                            "text": "to download the error report. Make corrections and then resubmit the template."
+                        }
+                    ]
+                },
+                {
+                    "uid": "873e4322031f4e92aff61af7b6adfbf9",
+                    "type": "fragment",
+                    "attrs": {},
+                    "children": [
+                        {
+                            "text": " "
+                        }
+                    ]
+                },
+                {
+                    "uid": "7ee11d4c43174483a829772dc345747b",
+                    "type": "reference",
+                    "attrs": {
+                        "display-type": "display",
+                        "asset-uid": "blt1e8458b798a67cf5",
+                        "content-type-uid": "sys_assets",
+                        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt1e8458b798a67cf5/650b78874f22f8000d8c82e5/couldnt_submit_shipment.png",
+                        "asset-name": "couldnt_submit_shipment.png",
+                        "asset-type": "image/png",
+                        "type": "asset",
+                        "class-name": "embedded-asset",
+                        "inline": false,
+                        "style": {
+                            "text-align": "center",
+                            "max-width": "438px",
+                            "width": "438px",
+                            "max-height": "287px",
+                            "height": "287px"
+                        },
+                        "redactor-attributes": {
+                            "position": "center",
+                            "height": "287"
+                        },
+                        "dir": "ltr",
+                        "width": "438",
+                        "max-width": "438",
+                        "max-height": "287",
+                        "height": "287"
+                    },
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "uid": "8d49eea252a145c2a9a39385037460c7",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "\n",
+                            "break": true
+                        }
+                    ]
+                },
+                {
+                    "uid": "4684fe3d6e9249249244eb012d240af2",
+                    "type": "fragment",
+                    "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                    },
+                    "children": [
+                        {
+                            "text": "",
+                            "break": true
+                        }
+                    ]
+                }
+            ],
+            "_version": 2
+        },
+        "frequently_asked_questions": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3e56cb6fe45e427898e76fdb31198dad",
+            "children": [
+                {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c0880ed6ab6d48b3be54dd17fe79699a",
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ],
+            "_version": 2
+        },
+        "resource": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a0a611e140344321be8f844f117f082e",
+            "children": [
+                {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "56c65af24df34f49ace940889fc26d7e",
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ],
+            "_version": 2
+        },
+        "modular_blocks": [],
+        "rate_this_article": null,
+        "publishing_date": "2023-09-20",
+        "seo": {
+            "meta_title": "",
+            "meta_description": "",
+            "meta_keywords": "",
+            "enable_search_indexing": true
+        },
+        "meta_data": {
+            "article_id": "000009239",
+            "salesforce_summary": "Find solutions to common errors after uploading an inbound order template.",
+            "category_id_b": [
+                "Walmart Fulfillment Services (WFS): Troubleshooting"
+            ],
+            "url_name": "WFS-Inbound-Order-Issue-Troubleshooting",
+            "is_archived_": false,
+            "is_authenticated_": false,
+            "is_visible_to_customer_": true,
+            "partner_channel": [
+                "U.S. Marketplace"
+            ]
+        },
+        "tags": [
+            "wfs"
+        ],
+        "locale": "en-us",
+        "uid": "bltfc188f24d1b7910f",
+        "created_by": "blt82640d9b4f700dd0",
+        "updated_by": "blt3be17f68eb4cb0eb",
+        "created_at": "2023-09-08T14:42:03.973Z",
+        "updated_at": "2023-09-20T22:56:38.813Z",
+        "ACL": {},
+        "_version": 2,
+        "_workflow": {
+            "uid": "bltfba38c479586e6b2",
+            "updated_at": "2023-09-08T14:42:03.968Z",
+            "updated_by": "blt82640d9b4f700dd0",
+            "version": 1,
+            "name": "Draft",
+            "color": "#3d9cb2"
+        },
+        "_embedded_items": {
+            "overview": [],
+            "body": [
+                {
+                    "uid": "blt1e8458b798a67cf5",
+                    "created_at": "2023-09-20T22:56:07.831Z",
+                    "updated_at": "2023-09-20T22:56:07.831Z",
+                    "created_by": "blt3be17f68eb4cb0eb",
+                    "updated_by": "blt3be17f68eb4cb0eb",
+                    "content_type": "image/png",
+                    "file_size": "97657",
+                    "tags": [],
+                    "filename": "couldnt_submit_shipment.png",
+                    "url": "***REMOVED***/v3/assets/***REMOVED***/blt1e8458b798a67cf5/650b78874f22f8000d8c82e5/couldnt_submit_shipment.png",
+                    "ACL": [],
+                    "parent_uid": "blt7c541342b35c3564",
+                    "_version": 1,
+                    "title": "couldnt_submit_shipment.png",
+                    "_content_type_uid": "sys_assets",
+                    "publish_details": [
+                        {
+                            "environment": "blt4543a83bd3e45e97",
+                            "locale": "en-us",
+                            "time": "2023-09-20T22:57:01.878Z",
+                            "user": "blt3be17f68eb4cb0eb",
+                            "version": 1
+                        }
+                    ]
+                }
+            ],
+            "frequently_asked_questions": [],
+            "resource": []
+        },
+        "publish_details": [
+            {
+                "environment": "blt4543a83bd3e45e97",
+                "locale": "en-us",
+                "time": "2023-09-20T22:57:01.939Z",
+                "user": "blt3be17f68eb4cb0eb",
+                "version": 2
+            }
+        ]
+    }
+}

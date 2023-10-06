@@ -1,0 +1,46 @@
+{
+  "uid": "a59f9108e99747d4b3358d9e22b7c685",
+  "type": "doc",
+  "attrs": {
+    "dirty": true
+  },
+  "children": [
+    {
+      "type": "p",
+      "uid": "a3c0687b2f694bd68ec290fd92a62330",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        },
+        {
+          "text": "\n",
+          "break": true,
+          "bold" : true
+        },
+        {
+          "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ],
+  "_version": 2
+}
