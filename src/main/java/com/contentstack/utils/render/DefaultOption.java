@@ -54,8 +54,6 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderMark(MarkType markType, String text) {
-        // Replace "\n" with "<br/>" tags
-        text = renderHtmlWithLineBreaks(text);
         switch (markType) {
             case SUPERSCRIPT:
                 return "<sup>" + text + "</sup>";
@@ -72,7 +70,7 @@ public class DefaultOption implements Option {
             case BOLD:
                 return "<strong>" + text + "</strong>";
             case BREAK:
-                return "<br />" + text;
+                return "<br />" + text; // v1.2.5
             default:
                 return text;
         }
@@ -101,11 +99,8 @@ public class DefaultOption implements Option {
      */
     @Override
     public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
-
         String strAttrs = strAttrs(nodeObject);
-
         String children = callback.renderChildren(nodeObject.optJSONArray("children"));
-
         switch (nodeType) {
             case "p":
                 return "<p" + strAttrs + ">" + children + "</p>";
@@ -162,28 +157,6 @@ public class DefaultOption implements Option {
             default:
                 return children;
         }
-    }
-
-
-    /**
-     * Returns the string replacing </n> is with the <br/> tags
-     *
-     * @param content the content
-     * @return string with br tags
-     * @apiNote the support for the br tags are included
-     * @since v1.3.0
-     */
-    private String renderHtmlWithLineBreaks(String content) {
-        // Replace "\n" with "<br/>" tags
-        String htmlContent = content.replaceAll("\\n", "<br />");
-
-        // Now, you can render the HTML content
-        // (You can use your rendering method here, e.g., send it to a WebView or display it in a GUI component)
-
-        // For demonstration purposes, let's just print it
-        System.out.println(htmlContent);
-
-        return htmlContent;
     }
 
 
