@@ -99,7 +99,7 @@ public class TestRte {
 
     @Test
     public void testHERFID() throws IOException {
-        final String rte = "src/test/resources/reports/jsonviewer.json";
+        final String rte = "src/test/resources/reports/wfs_fees.json";
         JSONObject theRTE = new ReadResource().readJson(rte);
         String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
         System.out.println(result);

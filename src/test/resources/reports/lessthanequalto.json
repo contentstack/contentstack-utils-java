@@ -1,312 +1,5642 @@
-{"uid": "a59f9108e99747d4b3358d9e22b7c685",
+{
   "type": "doc",
-  "attrs": {
-    "dirty": true
-  },
-  "children": [{
-    "uid": "98b219ede27b4eb6a35eb6e9c66c1e01",
-    "type": "table",
-    "attrs": {
-      "rows": 3,
-      "cols": 3,
-      "colWidths": [
-        250,
-        250,
-        250
-      ],
-      "style": {
-        "text-align": "center"
+  "attrs": {},
+  "uid": "fa16c0fb10514152bce32f821e8fc309",
+  "children": [
+    {
+      "uid": "130fda52f021444ca59a06c3137b026a",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "Fulfillment"
       },
-      "redactor-attributes": {},
-      "dir": "ltr"
+      "children": [
+        {
+          "text": "Standard Fulfillment",
+          "id": ""
+        }
+      ]
     },
-    "children": [
-      {
-        "type": "thead",
-        "attrs": {
-          "style": {
-            "text-align": "center"
-          },
-          "redactor-attributes": {}
+    {
+      "uid": "a2edcef6c7414443bf285762fc4565c6",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "The fulfillment fee for standard items includes a base fee, plus"
         },
-        "children": [
-          {
-            "type": "tr",
-            "attrs": {
-              "style": {
-                "text-align": "center"
-              },
-              "redactor-attributes": {}
-            },
-            "children": [
-              {
-                "type": "td",
-                "attrs": {
-                  "style": {
-                    "text-align": "center"
-                  },
-                  "redactor-attributes": {}
-                },
-                "children": [
-                  {
-                    "text": "",
-                    "bold": true
-                  },
-                  {
-                    "type": "span",
-                    "attrs": {
-                      "style": {
-                        "text-align": "center"
-                      },
-                      "redactor-attributes": {}
-                    },
-                    "children": [
-                      {
-                        "text": "Unit Weight",
-                        "bold": true
-                      }
-                    ],
-                    "uid": "1e27a697f7644a95bc8daaecb552b685"
-                  },
-                  {
-                    "text": "",
-                    "bold": true
-                  }
-                ],
-                "uid": "4c1719a47c724d1fb0ca7fc841688991"
-              },
-              {
-                "type": "td",
-                "attrs": {
-                  "style": {
-                    "text-align": "center"
-                  },
-                  "redactor-attributes": {}
-                },
-                "children": [
-                  {
-                    "text": "",
-                    "bold": true
-                  },
-                  {
-                    "type": "span",
-                    "attrs": {
-                      "style": {
-                        "text-align": "center"
-                      },
-                      "redactor-attributes": {}
-                    },
-                    "children": [
-                      {
-                        "text": "Disposal Fee Per Unit",
-                        "bold": true
-                      }
-                    ],
-                    "uid": "75dda0d145804a6dbbacaa6ff521ef9e"
-                  },
-                  {
-                    "text": "",
-                    "bold": true
-                  }
-                ],
-                "uid": "4328a7a20d5b47368830dfa55a955ef9"
-              },
-              {
-                "type": "td",
-                "attrs": {},
-                "children": [
-                  {
-                    "text": "",
-                    "bold": true
-                  },
-                  {
-                    "type": "span",
-                    "attrs": {},
-                    "children": [
-                      {
-                        "text": "Removal Fee Per Unit",
-                        "bold": true
-                      }
-                    ],
-                    "uid": "a8302129adef434e9b268985d7870ead"
-                  },
-                  {
-                    "text": ""
-                  }
-                ],
-                "uid": "4590072bdaea424593bc7ff222a91932"
-              }
-            ],
-            "uid": "0ae78b42040e4807a451b3e173bb8cd3"
-          }
-        ],
-        "uid": "12d41164166e41b890c87326ff65cdda"
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "de83fc6ca0ff44a789d7fd9cf9f6faf0"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000009215&language=en_US#AdditionalFees"
+          },
+          "children": [
+            {
+              "text": "additional fees"
+            }
+          ],
+          "uid": "0a9014addcc74b7fa718648ec075b29d"
+        },
+        {
+          "text": " for apparel, hazardous materials, items with low retail prices and oversize items. Standard items are shipped by small parcel."
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "fdcf66e1857943aaa703679e90470315"
+        },
+        {
+          "text": "An item is considered standard when it meets these criteria:",
+          "bold": true
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "dd154cd345a8469d827d2f7076de7b7d",
+      "type": "ul",
+      "attrs": {},
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Unit weight is less than or equal to 150 lb."
+            }
+          ],
+          "uid": "bffc785cdf3042f194189de26b954c84"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Longest side is less than or equal to 108 inches."
+            }
+          ],
+          "uid": "ade36bf253a34c1fbb8906c6cec15f72"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Longest side + girth* is less than or equal to 165 inches."
+            }
+          ],
+          "uid": "68b19ca3cd014b5b9799072ca97590e2"
+        }
+      ]
+    },
+    {
+      "uid": "e9e8c0b3e61648c6a80c7e1542b38a2a",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
       },
-      {
-        "type": "tbody",
-        "attrs": {
-          "style": {},
-          "redactor-attributes": {},
-          "dir": "ltr"
+      "children": [
+        {
+          "text": "",
+          "subscript": true
         },
-        "children": [
-          {
-            "type": "tr",
-            "attrs": {},
-            "children": [
-              {
-                "type": "td",
-                "attrs": {},
-                "children": [
-                  {
-                    "uid": "80dc3945a1f449a78b8c80a0fb102e5f",
-                    "type": "p",
-                    "children": [
-                      {
-                        "text": "≤ 2 lb."
-                      }
-                    ],
-                    "attrs": {}
-                  }
-                ],
-                "uid": "fdca6a4b02744ade95b809401b2b4d20"
-              },
-              {
-                "type": "td",
-                "attrs": {},
-                "children": [
-                  {
-                    "uid": "1ab694568f69454ebb5212b00e747bf2",
-                    "type": "p",
-                    "children": [
-                      {
-                        "text": "$0.35"
-                      }
-                    ],
-                    "attrs": {}
-                  }
-                ],
-                "uid": "f8c227ca3cbd4c5dad90e838e317fbd8"
-              },
-              {
-                "type": "td",
-                "attrs": {},
-                "children": [
-                  {
-                    "uid": "71f28351d606455e8cc7ea97a91247eb",
-                    "type": "p",
-                    "children": [
-                      {
-                        "text": ""
-                      },
-                      {
-                        "uid": "c0a74d86cb6f47f0a299af39ce9822cf",
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                          {
-                            "text": "Disposal fee + $0.40 per lb. shipping cost"
-                          }
-                        ]
-                      },
-                      {
-                        "text": ""
-                      }
-                    ],
-                    "attrs": {}
-                  }
-                ],
-                "uid": "799efa80b761476294bce34f28b92931"
-              }
-            ],
-            "uid": "489f18554ef847d7878a6f3ee3ae7f46"
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": "* Girth = 2*(width + height in inches)",
+              "subscript": true
+            }
+          ],
+          "uid": "341634920e134903b53de39da7a5579c"
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "If your item exceeds",
+          "bold": true
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "e736e89ce30d4a2ea879e3fd3729f583"
+        },
+        {
+          "text": "any",
+          "italic": true
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "9879700f6d50442dba4488b791b7fca5"
+        },
+        {
+          "text": "of these criteria,",
+          "bold": true
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "56fa04788aef45609de4960dbb3a039d"
+        },
+        {
+          "text": "it’s considered a"
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "5fb042de961546aeb99d77ae71443e78"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000009215&language=en_US#BigBulkyFulfillment"
           },
-          {
-            "type": "tr",
-            "attrs": {
-              "style": {},
-              "redactor-attributes": {},
-              "dir": "ltr"
-            },
-            "children": [
-              {
-                "type": "td",
-                "attrs": {},
-                "children": [
-                  {
-                    "uid": "473b5f39d3764fe4ae961a14b78e072a",
-                    "type": "p",
-                    "children": [
-                      {
-                        "text": "3–500 lb."
-                      }
-                    ],
-                    "attrs": {}
-                  }
-                ],
-                "uid": "77deafba6c1c48d8b6d373ccda600665"
-              },
-              {
-                "type": "td",
-                "attrs": {},
-                "children": [
-                  {
-                    "uid": "39b132d9375d44fcb42e2d39990abe7a",
-                    "type": "p",
-                    "children": [
-                      {
-                        "text": "$0.35 + $0.20 for each lb. > 2 lb."
-                      }
-                    ],
-                    "attrs": {}
-                  }
-                ],
-                "uid": "569c8ce8b09645ae829c0164b831958b"
-              },
-              {
-                "type": "td",
-                "attrs": {
-                  "style": {},
-                  "redactor-attributes": {},
-                  "dir": "ltr"
-                },
-                "children": [
-                  {
-                    "uid": "0a480e2f084c4b3ea13a45326537304f",
-                    "type": "p",
-                    "children": [
-                      {
-                        "text": ""
-                      },
-                      {
-                        "uid": "cab90124f4c949938e67bfb2490fb7f8",
-                        "type": "span",
-                        "attrs": {},
-                        "children": [
-                          {
-                            "text": "Disposal fee + $0.40 per lb. shipping cost"
-                          }
-                        ]
-                      },
-                      {
-                        "text": ""
-                      }
-                    ],
-                    "attrs": {
-                      "style": {},
-                      "redactor-attributes": {},
-                      "dir": "ltr"
-                    }
-                  }
-                ],
-                "uid": "61dacb2e8a5c499bb9627595f2f95bdc"
-              }
-            ],
-            "uid": "11d64fa8181e4d1b983a271d2440c764"
-          }
+          "children": [
+            {
+              "text": "big and bulky item"
+            }
+          ],
+          "uid": "c71213d03c694c6f8e7bc72db78c8633"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "9f40a4ae3d02450083f2d6fe05b68495"
+        },
+        {
+          "text": "and must be shipped by freight. The big and bulky fulfillment fee will apply."
+        }
+      ]
+    },
+    {
+      "uid": "1e0c17a6d29444d988140f7876a1dfe2",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "6af2f653394842feb9db59d79b5511ff",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Calculate the Base Fee for Standard Items"
+        }
+      ]
+    },
+    {
+      "uid": "b9bec783f4ca401ab0d8a81cfe00def6",
+      "type": "h4",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Step 1 – Measure your item’s dimensions."
+        }
+      ]
+    },
+    {
+      "uid": "f61f3305a85a491e813d5d5a55c826f0",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "You’ll need these to calculate dimensional weight. If your item is"
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "b00d59fc220e46caa20b7a7b99a8d267"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000009215&language=en_US#AdditionalFees"
+          },
+          "children": [
+            {
+              "text": "oversize"
+            }
+          ],
+          "uid": "32d889bca7d64cd7ab855db9e6e83c16"
+        },
+        {
+          "text": ", it may determine the starting unit weight and have an additional fee."
+        }
+      ]
+    },
+    {
+      "uid": "be114026deaf4ade922c7ff6edccf107",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "5ee901ea809b436299fea21276d06a4c",
+      "type": "h4",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Step 2 – Determine your item’s shipping weight."
+        }
+      ]
+    },
+    {
+      "uid": "672aadd413334bb8b2f527297506575f",
+      "type": "table",
+      "attrs": {
+        "rows": 3,
+        "cols": 4,
+        "colWidths": [
+          250,
+          250,
+          250,
+          250
         ],
-        "uid": "11ce40d6b50b4440b1b0286974f84a33"
-      }
-    ]
-  }]
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "disabledCols": [
+          2
+        ]
+      },
+      "children": [
+        {
+          "uid": "a72474638f7348769588d5c71051e4df",
+          "type": "thead",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "uid": "ee00a4ef23bb4bf6a2fb5d0ece64327b",
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "3db9155140fc4ef684456541f955c229",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "If your item is . . .",
+                          "bold": true,
+                          "attrs": {}
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ]
+                },
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "5089a6be2c1a4fdaa609f0bda1d411f7",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Use . . .",
+                          "bold": true,
+                          "attrs": {}
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "cd526dce99bf4f97a2d36f6f28083db6"
+                },
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "To get final shipping weight . . ."
+                        }
+                      ],
+                      "uid": "94d14600065c4d559e7d195d4f1d38f5"
+                    }
+                  ],
+                  "uid": "a1b6c6ff63e64f638d248b237b358f13"
+                }
+              ],
+              "uid": "4ede45bbdaf447b2a712097df817997c"
+            }
+          ]
+        },
+        {
+          "type": "tbody",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "uid": "edfaa92f04f7428ca2348cc8b4670268",
+              "type": "trgrp",
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "69fac5de430546eb8aa4b9ca8ecb70eb",
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "32faf9eff79142829ea98e74711bade7",
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "< 1 lb."
+                            }
+                          ],
+                          "attrs": {}
+                        }
+                      ]
+                    },
+                    {
+                      "uid": "e09b0007ccbd4edb88fbcb33d4cef89f",
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "94c059c515654ec69f06c77262263cc5",
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "Unit weight"
+                            }
+                          ],
+                          "attrs": {}
+                        }
+                      ]
+                    },
+                    {
+                      "uid": "2c7b792c2b694104b67435cd8bf389ec",
+                      "type": "td",
+                      "attrs": {
+                        "rowSpan": 2,
+                        "redactor-attributes": {
+                          "rowspan": 2
+                        }
+                      },
+                      "children": [
+                        {
+                          "uid": "3af65ba1c6d54e6a9ff5e3cd3bc3a1ef",
+                          "type": "ul",
+                          "children": [
+                            {
+                              "uid": "4672b3ddf1a74189900eda82a7104abc",
+                              "type": "li",
+                              "children": [
+                                {
+                                  "text": "Add 0.25 lb. for packaging materials"
+                                }
+                              ],
+                              "attrs": {}
+                            },
+                            {
+                              "uid": "9ef790291344415abb4b8726432b747b",
+                              "type": "li",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "uid": "c39946f78f334d7e93c9f9d0c51be23e",
+                                  "type": "p",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "text": "Then round up to the nearest pound."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "id": "f36243e3b1874745b65d68d00d8310dd",
+                          "attrs": {}
+                        }
+                      ]
+                    }
+                  ],
+                  "uid": "82ee3197af0f41c59fa7610ee1211404"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "e82c70dfaeda450ebe7b0ed18f497cd9",
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "4ac5641320a4407abfbaf2e10c2ded2e",
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "Between 1 lb. and up to 150 lb."
+                            }
+                          ],
+                          "attrs": {}
+                        }
+                      ]
+                    },
+                    {
+                      "uid": "3f09d51aa9604aee8ddb38208e215256",
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "The greater of unit or dimensional weight"
+                            },
+                            {
+                              "text": "\n\n",
+                              "break": true
+                            },
+                            {
+                              "text": "Dimensional weight = (length x width x height in inches) / 139"
+                            }
+                          ],
+                          "uid": "003c6fd3c561470090e533c63b84bff9"
+                        }
+                      ]
+                    }
+                  ],
+                  "uid": "ea452a3bdfc346b09713aed55aa68ed1"
+                }
+              ],
+              "attrs": {}
+            }
+          ],
+          "uid": "caaaf70372104c86b4b509de46c41b1c"
+        }
+      ]
+    },
+    {
+      "uid": "eb8f372f45364a0eb5ce5c30354112e3",
+      "type": "h4",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "3f68fae9fa81476399fed46ffe94535d",
+      "type": "h4",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Step 3 – Use this table to find your base fulfillment fee for standard items."
+        }
+      ]
+    },
+    {
+      "uid": "847f0a1de8b4493f85529914762dd1e7",
+      "type": "h4",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "3e6987a10a2d4756844b29df44715697",
+      "type": "table",
+      "attrs": {
+        "rows": 8,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Shipping Weight"
+                            }
+                          ],
+                          "uid": "972be8f852354bfd9e53f856040da8dd"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "f1ac154ad19c46cdbd7df9962066e63b"
+                    }
+                  ],
+                  "uid": "51c9d78ce7c54433a4ead29af867edb4"
+                },
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Standard Base Fee Per Unit "
+                            }
+                          ],
+                          "uid": "1f80640b82dc4ddcb1669a1d9fe5cdc9"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "ab5829fe2b754f4eb0879d932bf57999"
+                    }
+                  ],
+                  "uid": "11b0938a70f147dd90fbe7e229a07399"
+                }
+              ],
+              "uid": "e06414eb37a143c7b5e3db9ec47c7226"
+            }
+          ],
+          "uid": "b47f64a443514bc4a562191bb4e27168"
+        },
+        {
+          "type": "tbody",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "≤ 1 lb."
+                        }
+                      ],
+                      "uid": "1fd3f0d65182483ab90194dda5e0f8e7"
+                    }
+                  ],
+                  "uid": "4788ef70db584d66b2ce6967b5cc810d"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "$3.45"
+                        }
+                      ],
+                      "uid": "d9d7553026f84ea6af8b6a79a06d0562"
+                    }
+                  ],
+                  "uid": "6ddbd6a6322e4438985ae0f76b3fc701"
+                }
+              ],
+              "uid": "b69cbd71ebe94873ade5887af0b0c0b7"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "35784e89b0eb4ce499c926f388aa7b15",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "2 lb."
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "d5fa15dbeace48888fa1932b0f5a651e"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "9464e73d2b2d4aef816e1479d014c7d9",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "\n",
+                          "break": true,
+                          "attrs": {}
+                        },
+                        {
+                          "text": "$4.95"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "e74cf85458e34889a1f13cb8d4464ab3"
+                }
+              ],
+              "uid": "d3d41685cc3148e68c04b0f3dcce7e1c"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "5aff61627d534293a8ed0505e450fa67",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "3 lb."
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "d93850e937aa465cb21ee91c1e497dc0"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "1d379fd453c8442eaac329d11ed0eb6e",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "$5.45"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "688175ada7d14af1ae0a26e8c5ff8b0f"
+                }
+              ],
+              "uid": "f9426d85952d456a84e469f0365dbf7a"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "49d8ffe0b33c4f69be1b70ca408088d6",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "4–20 lb."
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "764cd277def443788b872ff1c09412a1"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "$5.75 + $0.40 for each lb. > 4 lb."
+                        }
+                      ],
+                      "uid": "3d63098ba8c74a838d70119a3b80f009"
+                    }
+                  ],
+                  "uid": "4db1c6aa81d14a1f83a64b71a5455444"
+                }
+              ],
+              "uid": "5e066b6cdc5e4cc3b841cb958d047ea2"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "21–30 lb."
+                        }
+                      ],
+                      "uid": "0b981606684d4e2aae3af96b7ff194ed"
+                    }
+                  ],
+                  "uid": "60417c6707e14dc1a8afaa786782ad5b"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "$15.55 + $0.40 for each lb. > 21 lb."
+                        }
+                      ],
+                      "uid": "0d5c633adc0642569adb857a8f7af3bb"
+                    }
+                  ],
+                  "uid": "de39d8ab983f481880bf5291d377c67b"
+                }
+              ],
+              "uid": "eb35e960f68147c4a73387043f754768"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "31–50 lb.*"
+                        }
+                      ],
+                      "uid": "125c761328eb419780bd2c3fd0bc9a12"
+                    }
+                  ],
+                  "uid": "67de3ff469784411803340b2cdd40b3c"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "$14.55 + $0.40 for each lb. > 31 lb."
+                        }
+                      ],
+                      "uid": "8f011884bfb6482e90fd5296eea33263"
+                    }
+                  ],
+                  "uid": "33758b4a796c47fda88f8449d715b6b3"
+                }
+              ],
+              "uid": "38f5d81df52a45c5a3807ebfb4c87b57"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "≥ 51 lb.*"
+                        }
+                      ],
+                      "uid": "3b335cff759c4a7d9e0ea0165a64ef55"
+                    }
+                  ],
+                  "uid": "40b1f6423fb34df9a2d72941b237c551"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "$17.55 + $0.40 for each lb. > 51 lb."
+                        }
+                      ],
+                      "uid": "fd78e239b8de4e9690a35b697156c5ec"
+                    }
+                  ],
+                  "uid": "407e393b9a1f46769261a1802e8bc755"
+                }
+              ],
+              "uid": "fcc7fabb0845471ab43d790c85dde0f2"
+            }
+          ],
+          "uid": "619091ab80c34293b46971029aa743f2"
+        }
+      ]
+    },
+    {
+      "uid": "8213542455dc4b449c238aed055ce06d",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "99ceaafee5cf4957bd87315866b7def8",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": "*Heavier items may require more than two days for delivery because they're shipped using ground transportation."
+            }
+          ],
+          "uid": "c69ff491f85d41beae578c56170ba42d"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "uid": "e3448634a96c4e469be828751657bbcf",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "uid": "0939891a5a83489f972fa247ef7e6c5e",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "AdditionalFees"
+      },
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "AdditionalFees"
+          },
+          "uid": "d25e966f634c455ca5950ab772491a83",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "text": "Additional Fulfillment Fees",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "uid": "8d3f766023fd4cc68cea4d30a33c5990",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "For standard items only, add the following fees to the base fulfillment fee if your item applies. (These additional fees do"
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "b02c92065966452f8c6500730e8b8ae8"
+        },
+        {
+          "text": "not",
+          "italic": true
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "09d562e175bc4c20b0b37a311dc52b0f"
+        },
+        {
+          "text": "apply to big and bulky items.)"
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "94af10605d814335b880b58b16a28775",
+      "type": "table",
+      "attrs": {
+        "rows": 6,
+        "cols": 3,
+        "colWidths": [
+          250,
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "disabledCols": [
+          0
+        ]
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Type of Fee"
+                            }
+                          ],
+                          "uid": "ce5999e65eac4f78bf8605033dcd6aab"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "9115b5ac7ced498b9eab80bc13ed650f"
+                    }
+                  ],
+                  "uid": "d6fb1034bfce47758bea2bd916381ad9"
+                },
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Criteria"
+                            }
+                          ],
+                          "uid": "ff568ce4db234ac99b8adc5c88555a3e"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "11e7d879f67d4d3293a572156cb98235"
+                    }
+                  ],
+                  "uid": "c8cf60231c6f45baa1bca79c1f1a0324"
+                },
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "Additional Fee Per Unit",
+                          "bold": true
+                        }
+                      ],
+                      "uid": "d592f1fdf83f4844b0f5f9289df1521b"
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "uid": "71593578ef394b8f986e247c1dff7d46"
+                }
+              ],
+              "uid": "0c30577a39954cf09efc86d955ade19a"
+            }
+          ],
+          "uid": "42ff59a299614166aea27b4d585a3cad"
+        },
+        {
+          "type": "tbody",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "7425c481fdff4419b0af639382162f07",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Apparel"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "665a01814424457287e5a075c69cee59"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "1fda9c8860424c508df629088888352b",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Your item is an article of clothing."
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "6811f148c3d944ea8108895f2f560128"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "7f26531b922447cda307a2fd22a07556",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Add $0.50"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "8773f467fa994299b89825f6bc62c4cb"
+                }
+              ],
+              "uid": "cd52212d980e4704818a3b9bfce97e2a"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "Hazardous materials"
+                        }
+                      ],
+                      "uid": "1c95bdcf935d46f6b070644086750f94"
+                    }
+                  ],
+                  "uid": "2c50667a54f5477c8323e7b93dc25cd2"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "Your item is or contains a chemical, aerosol, pesticide or battery."
+                        }
+                      ],
+                      "uid": "6343b97ad5e043cf85355aadc77cc2ab"
+                    }
+                  ],
+                  "uid": "c1d7704c7080447ca759384e28df71b3"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "219a56f3937c43b783271927f7466d27",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Add $0.50"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "d841d45ebe5b4dc2b9a59d33c3c9606b"
+                }
+              ],
+              "uid": "5a768ed0f2fa49ecb4f54f3b0917c9e4"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "b631aad5376346a3b4378e576bab0ea8",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Retail price less than $10"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "4f8ec78cdd1946149573f5ee5f6954ee"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "2bd4997adad941dbb09092ed597f1f0c",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Your item is priced under $10."
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "5a8510897e4e4163b6a665e9184c72b8"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "dc0aebab69364f34ad8de6e011586c4d",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Add $1"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "5054fb5557984c57b5baefdb943d1563"
+                }
+              ],
+              "uid": "de59a986d0b24bdaa5cdf86b712fc8d5"
+            },
+            {
+              "uid": "a5903b8b7f4b403aac5592cee11f68ad",
+              "type": "trgrp",
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {
+                          "rowspan": 2
+                        },
+                        "dir": "ltr",
+                        "rowSpan": 2
+                      },
+                      "children": [
+                        {
+                          "uid": "4471c7846376447cbafd9f6054f6dc60",
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "Oversize"
+                            }
+                          ],
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          }
+                        }
+                      ],
+                      "uid": "59a25930a61c486d8e0273fda386100c"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "uid": "6b2ffdeed4a4454da13ab8fcc71d9564",
+                          "children": [
+                            {
+                              "text": "Your item meets "
+                            },
+                            {
+                              "type": "span",
+                              "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              },
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "uid": "d1e39fed2ed5457c88b6a5a556fd3299"
+                            },
+                            {
+                              "text": "at least one",
+                              "underline": true
+                            },
+                            {
+                              "bold": true,
+                              "text": " "
+                            },
+                            {
+                              "type": "span",
+                              "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              },
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "uid": "6def038ecfd24745a99eb09334bdfea7"
+                            },
+                            {
+                              "text": "of these criteria: "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ul",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "type": "li",
+                              "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              },
+                              "children": [
+                                {
+                                  "text": "Longest side greater than 48\" and up to 96” "
+                                }
+                              ],
+                              "uid": "cfff0ce953a744449005685e0edd33a2"
+                            },
+                            {
+                              "type": "li",
+                              "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              },
+                              "children": [
+                                {
+                                  "text": "Median side greater than 30\""
+                                }
+                              ],
+                              "uid": "f362c3734c52411e8469d58c9a1a8502"
+                            },
+                            {
+                              "type": "li",
+                              "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              },
+                              "children": [
+                                {
+                                  "text": "Longest side + girth greater than 105\" and up to 130”"
+                                }
+                              ],
+                              "uid": "b4e44f58b9494e5d86305d14825f164a"
+                            }
+                          ],
+                          "uid": "75f639c9d0cf4953bda5675febc38d5e"
+                        }
+                      ],
+                      "uid": "d453a2174ac94422b66890cbdb16e932"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "uid": "89c6fe4a1dee4e5ebdf650b0ead945c2",
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "Add $3"
+                            }
+                          ],
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          }
+                        }
+                      ],
+                      "uid": "6efe4d2599454cfa809d8242308146ba"
+                    }
+                  ],
+                  "uid": "3fa3835c17474daab15744d1d2542e5b"
+                },
+                {
+                  "uid": "44a4191310fd4513840e094bd20cfaed",
+                  "type": "tr",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "710c81f5410c4aecaf89d38230db7585",
+                      "type": "td",
+                      "attrs": {
+                        "void": true,
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Your item meets "
+                            },
+                            {
+                              "text": "at least one",
+                              "bold": true,
+                              "underline": true
+                            },
+                            {
+                              "text": " of these criteria: "
+                            }
+                          ],
+                          "uid": "7e29bc89726448c1bf0c9e6eb0b67a41"
+                        },
+                        {
+                          "uid": "14aba6d1064345c0a9144fa35f532c51",
+                          "type": "ul",
+                          "children": [
+                            {
+                              "uid": "c84a44c40057470e9fa89c61ef6f078d",
+                              "type": "li",
+                              "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              },
+                              "children": [
+                                {
+                                  "uid": "3ffe6433985849bc99f0b41ae4ae184a",
+                                  "type": "p",
+                                  "children": [
+                                    {
+                                      "text": "Longest side greater than 96\" and up to 108”"
+                                    }
+                                  ],
+                                  "attrs": {
+                                    "style": {},
+                                    "redactor-attributes": {},
+                                    "dir": "ltr"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "id": "8fafd3020596496991ad684f6df3ae05",
+                          "attrs": {
+                            "style": {}
+                          }
+                        },
+                        {
+                          "uid": "6f0731ac73474d678b91712c58d9c460",
+                          "type": "ul",
+                          "id": "8fafd3020596496991ad684f6df3ae05",
+                          "attrs": {
+                            "style": {}
+                          },
+                          "children": [
+                            {
+                              "uid": "ed91a5c836624de7993d2fb86798c8cc",
+                              "type": "li",
+                              "children": [
+                                {
+                                  "type": "p",
+                                  "children": [
+                                    {
+                                      "text": "Longest side + girth greater than 130\" and up to 165”"
+                                    }
+                                  ],
+                                  "attrs": {
+                                    "style": {},
+                                    "redactor-attributes": {},
+                                    "dir": "ltr"
+                                  },
+                                  "uid": "ececc54e86b84482bc11d7b7109a70b3"
+                                }
+                              ],
+                              "attrs": {
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "uid": "a6f20406a52345cd96acb08fbbc24a59"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Add $28"
+                            },
+                            {
+                              "text": "\n\n",
+                              "break": true
+                            },
+                            {
+                              "text": "The unit weight also starts at 90 lb. when determining the fulfillment fee."
+                            }
+                          ],
+                          "uid": "c2e9865a52474207b596cfd424c480e3"
+                        }
+                      ],
+                      "uid": "74f138b22a194201bcc848a331cb5c9a"
+                    }
+                  ]
+                }
+              ],
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              }
+            }
+          ],
+          "uid": "2862a51db8a64be5acea2f42e42cc381"
+        }
+      ]
+    },
+    {
+      "uid": "89b171f59e654787ad9a77bddb8754cf",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Want an example? Go to ",
+          "italic": true
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000009891",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "Calculating Your WFS Fees",
+              "italic": true
+            }
+          ],
+          "uid": "9c4e3e4b76b84a86bfa9e04b1f458e10"
+        },
+        {
+          "text": " to see a sample item's fulfillment fee.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "5803feb4ea824119adadf57356db7de7",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "35579a3324f04d849a0b7c5774ee4b7e",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "BigBulkyFulfillment"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "BigBulkyFulfillment"
+          },
+          "uid": "269e39c6d39340bfb96b4836e2bc1ab1",
+          "children": [
+            {
+              "text": "Big & Bulky Fulfillmen",
+              "id": ""
+            },
+            {
+              "id": "BigBulkyFulfillment",
+              "text": "t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "25dee8cdbfa04b4cbf8d64206ca20019",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?language=en_US&article=000011223"
+          },
+          "children": [
+            {
+              "text": "Big and bulky items"
+            }
+          ],
+          "uid": "7eb3ad881ffe48aa8607ead8897f7ae0"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "ec8479c301164d539c47e15006b7b991"
+        },
+        {
+          "text": "are shipped by freight. An item is considered big and bulky when it meets"
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "f2df5674c3964fe0822be836d1c1f76c"
+        },
+        {
+          "text": "at least one",
+          "bold": true
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "f83a387ae83b49358b1c46c0dbf4568c"
+        },
+        {
+          "text": "of these criteria:"
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "68ad624e695c4601afbe5620776b6be3",
+      "type": "ul",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Unit weight is greater than 150 lb. and up to 500 lb."
+            }
+          ],
+          "uid": "c0ed277a5ece4b609412d9a68d2833eb"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Longest side is greater than 108 inches and up to 120 inches"
+            }
+          ],
+          "uid": "17edfd2cc6c4439d83ecc14b42573530"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "Longest side + girth* is greater than 165 inches"
+            }
+          ],
+          "uid": "2fa6308aeac4446196ed375daa2fb82a"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "uid": "d3166ad8c8734f3d998b62f0309b442f",
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "type": "span",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "text": "Girth = 2*(width + height in inches)"
+                }
+              ],
+              "uid": "7f7b2356d41e46f7a4b245c3fc9e9114"
+            },
+            {
+              "text": "\n\n",
+              "break": true
+            },
+            {
+              "text": "Use the unit weight and round up to the nearest pound to calculate shipping weight. No additional fulfillment fees apply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "69d645d6b5094d0fa5a071774eeefef4",
+      "type": "table",
+      "attrs": {
+        "rows": 2,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {}
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {}
+                          },
+                          "children": [
+                            {
+                              "text": "Shipping Weight  "
+                            }
+                          ],
+                          "uid": "18179aef4544411ba99b6c290d7b594c"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "a60fe665a9454d29b9d6db24ca82ee0b"
+                    }
+                  ],
+                  "uid": "069952704d9d49a4b51d86c619819a11"
+                },
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Big & Bulky Base Fee Per Unit "
+                            }
+                          ],
+                          "uid": "64fb696109444d6a95163ff4023a601e"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "ead4508c29e741669e1dd7af453b5a9a"
+                    }
+                  ],
+                  "uid": "dd5cbbefc40e43e1b58d073ff9751831"
+                }
+              ],
+              "uid": "be9b9d580358495ebed6ed35de5ce188"
+            }
+          ],
+          "uid": "09aa9ec1c40745febcdb5907a27ef5ea"
+        },
+        {
+          "type": "tbody",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "Up to 500 lb."
+                        }
+                      ],
+                      "uid": "07ecb1e0740d459292edf6ed9e5fa778"
+                    }
+                  ],
+                  "uid": "8c501637674a4f3c966683eceabf13e6"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "$155 + $0.80 per lb. > 90 lb."
+                        }
+                      ],
+                      "uid": "d4fa9d338639418facf79003d564be1e"
+                    }
+                  ],
+                  "uid": "0e082bebb81840a4a6f23c1e48f9ed41"
+                }
+              ],
+              "uid": "a24c766996294411a9c34173d4463b25"
+            }
+          ],
+          "uid": "7b3020cf51754238aeb0a417a13e4e82"
+        }
+      ]
+    },
+    {
+      "uid": "31e9759768b44ae79ca49f3447083de5",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e624af8a7a95436b95262079b901813f",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "Storage"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "Storage"
+          },
+          "uid": "86faf07dba694939b735e110ababee04",
+          "children": [
+            {
+              "text": "Storage",
+              "id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "2486ab7e45664b1d85bfed4f20dcebdb",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "The storage fee is the cost of storing your items at a Walmart fulfillment center. It's based on the volume of the product being stored and the length of time. The fees displayed below are based on a 30-day calendar month. (You can track how long items have been at fulfillment centers with the"
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "0f6c50296036461abff8b450a3ec81d5"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://seller.walmart.com/wfsLite/reports"
+          },
+          "children": [
+            {
+              "text": "Inventory Health Report"
+            }
+          ],
+          "uid": "48b30b296b1f4cfc83665d0afe2db99b"
+        },
+        {
+          "text": ".)"
+        }
+      ]
+    },
+    {
+      "uid": "c2d16b3ebc1c458c9cf6e97450d59f60",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "d834ca2216c6494b8512cee5a1e01959",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Items Stored for Fewer Than 365 Days"
+        }
+      ]
+    },
+    {
+      "uid": "0c0b412a910142f8b51259afe2a83a51",
+      "type": "table",
+      "attrs": {
+        "rows": 3,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Length of Time            "
+                            }
+                          ],
+                          "uid": "cd3f8102eb8541998eebf193c767f42c"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "0f49443b3f05434d9dcb421b194c0947"
+                    }
+                  ],
+                  "uid": "561e5200a0d5481895866ee2d0a8bc2b"
+                },
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "Storage Fee Per Cubic Foot*"
+                        }
+                      ],
+                      "uid": "598e4039e5b64dd8bfba3afe773029f3"
+                    }
+                  ],
+                  "uid": "ecd97ded0f54495cbd0a4f689474abb7"
+                }
+              ],
+              "uid": "bd027b47cb4444bfb380207f87e7511f"
+            }
+          ],
+          "uid": "e404b851983e4e248ef03038a17f0317"
+        },
+        {
+          "type": "tbody",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "January–September"
+                        }
+                      ],
+                      "uid": "fcef6970cc94468fa900110052f140de"
+                    }
+                  ],
+                  "uid": "2ddc93bdde10490cb3fd9ce05c49bc69"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "$0.75 per cubic foot per month"
+                        }
+                      ],
+                      "uid": "f0e90d323e514ef5aff38725ad4a8b0e"
+                    }
+                  ],
+                  "uid": "dc2af680400c444dbd4fdf149c5d3bab"
+                }
+              ],
+              "uid": "2698ec1ccf0c48c59d34673c7179148b"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "ca51f7a71c5645f28951dfbe14196813",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "October–December"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "c93af540012143c8ba96018a53470ee8"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "789ff46499684d0baf79c055988b2c78",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "\n",
+                          "break": true,
+                          "attrs": {}
+                        },
+                        {
+                          "text": "$0.75 per cubic foot per month for items stored for fewer than or up to 30 days"
+                        },
+                        {
+                          "text": "\n\n",
+                          "break": true,
+                          "attrs": {}
+                        },
+                        {
+                          "text": "Add $1.50 per cubic foot per month for items stored for more than 30 days"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "018da18a1bfd4e8bb2ab200dea3a0230"
+                }
+              ],
+              "uid": "b5dd0e7ce75b4621b6e7e293c09ce049"
+            }
+          ],
+          "uid": "a777ce15a992484496a3099555e244a4"
+        }
+      ]
+    },
+    {
+      "uid": "90df8c31b0b048b4b36ef30f7c4fceac",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "* Unit cubic feet = (length x width x height in inches) / 1,728"
+            }
+          ],
+          "uid": "1038c069291a479cb21a258f3ad0431e"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "6e37f1b341434116b9577352540ac013",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "uid": "2cc7873b247e4376892e4c1042577afd",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "1b523ac9ee0f4c19b2e1c8916b32c440",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Items Stored for More Than 365 Days"
+        }
+      ]
+    },
+    {
+      "uid": "a217192d11de4f7ab879f619e13ecf96",
+      "type": "table",
+      "attrs": {
+        "rows": 2,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {
+                              "text-align": "center"
+                            },
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "Length of Time"
+                            }
+                          ],
+                          "uid": "341ad6306c1c47a697a35e24c19297e7"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "9fab5b57453e4f1da3d690723a04fce1"
+                    }
+                  ],
+                  "uid": "fb20678916a04f69b5a64967d3677a38"
+                },
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {}
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Storage Fee Per Cubic Foot*"
+                        }
+                      ],
+                      "uid": "dc3907aab84646c389d0132c8f58749b"
+                    }
+                  ],
+                  "uid": "ea2b548deaf5434c864c599510bb27ed"
+                }
+              ],
+              "uid": "48821fb2deff4cf9b2c47a883d34578d"
+            }
+          ],
+          "uid": "d251d8a2ef164991832e340c1962a034"
+        },
+        {
+          "type": "tbody",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "More than 12 months "
+                        }
+                      ],
+                      "uid": "307098a16501427190730be4e4df6f4a"
+                    }
+                  ],
+                  "uid": "9f2d265cd97e4fc2b90e191d84432d54"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "Up to $7.50 per cubic foot per month"
+                        }
+                      ],
+                      "uid": "2a512e99ef3d4d64b5937754f1f63d0e"
+                    }
+                  ],
+                  "uid": "c43efbc94c6c45378ab845fde7dc7963"
+                }
+              ],
+              "uid": "c617502f733243d482ba8b13dff6bebb"
+            }
+          ],
+          "uid": "5a03152618904a1c8a185212f3a0ef60"
+        }
+      ]
+    },
+    {
+      "uid": "1e14e23e956444ea921325ce543ffda1",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "* Unit cubic feet = (length x width x height in inches) / 1,728"
+            }
+          ],
+          "uid": "92bb526357b64a06a5a12ad360351ed3"
+        },
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "b87b2952d59346f6939d7c94f5643464",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Want an example? Go to ",
+          "italic": true
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000009891",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "Calculating Your WFS Fees",
+              "italic": true
+            }
+          ],
+          "uid": "8cd239b081d74c98b929c894e65026c6"
+        },
+        {
+          "text": " to see a sample item's storage fee.\n",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "bbf84d03f8be4ebfa3b1b717ee531759",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "ProblemInventory"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "ProblemInventory"
+          },
+          "uid": "718a11d7a8a3479cb75000e9006df461",
+          "children": [
+            {
+              "text": "Problem Inventory",
+              "id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "699349b4af74410ca865d4b24e746aa0",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Problem inventory is any inbound shipment that can’t be received into a Walmart fulfillment center. It may be returned to you at your expense if we can’t reach a resolution."
+        }
+      ]
+    },
+    {
+      "uid": "fdc207a31a9940d0a840fbd3229c55ef",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "d095b056d8de4656a718769778afa178",
+      "type": "table",
+      "attrs": {
+        "rows": 3,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ]
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "Issue"
+                        }
+                      ],
+                      "uid": "08ff44697abf49de96a0a4880306e2f1"
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "uid": "54eb1b6406214f16a785da770fe84e1d"
+                },
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "Chargeback Fee Per Unit"
+                        }
+                      ],
+                      "uid": "df189ab813a8443887c9460e60440dec"
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "uid": "fefd77eea19f42779d4dd1fb49c6f613"
+                }
+              ],
+              "uid": "97a503523f064ffc9e3be4493f8f27af"
+            }
+          ],
+          "uid": "3bd6f284240a46d6a67c8891f8d29f1e"
+        },
+        {
+          "type": "tbody",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "e168b9e23e2141a5862818a1c224053a",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Missing or incorrect label"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "0be53d71114e46579c8db196502f4021"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "b5da4fa002c642f5b03da8b4ac2409ce",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "$0.65"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "8147de1c6b4a406cb26b6239f1bc0cdc"
+                }
+              ],
+              "uid": "7ad7a07477484f788a9fff7d36ccc491"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "a33dc476b3ca4c90b1948cdf555983ce",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Missing or incorrect poly bag"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "b9705db5fce14c36bd35c57d4e861f11"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "21d0d45af44b4efb97742f582833b89e",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "$0.80"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "c77f374b4b764fccb6402de4a3ab48be"
+                }
+              ],
+              "uid": "a28d8aa0d1974225bd3e139f4fc90165"
+            }
+          ],
+          "uid": "0cf218c5a8444c0290a0538476c0678b"
+        }
+      ]
+    },
+    {
+      "uid": "75eefa58b614456b8f2be31643c0533c",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "uid": "904db334f81044688b5de3ff1876c3b1",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "Return"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "Return"
+          },
+          "uid": "e208977578c549369004ffbf53325453",
+          "children": [
+            {
+              "text": "Return Shipping & Exceptions",
+              "id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dd4aa31cdd2f43a6b83ab85ad05531d2",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Return Shipping Fee"
+        }
+      ]
+    },
+    {
+      "uid": "a931cdbeeb2548c897b025abee9c3537",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "The return shipping fee is based on shipping weight. Additional fees also apply for apparel, hazardous materials and oversize items. "
+        }
+      ]
+    },
+    {
+      "uid": "4f8a3ea058124f1d957be377ed9b6fa2",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "d70011a824de44b79d13ae7eaff0b10f",
+      "type": "table",
+      "attrs": {
+        "rows": 8,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ]
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "Shipping Weight            "
+                            }
+                          ],
+                          "uid": "2174dfd4a7ce42868b701e3afa7401b4"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "cc70b0a5ccf94d4fa3462790f3a5fa2a"
+                    }
+                  ],
+                  "uid": "7b470b2e167440f2ae30219a1ac8a4eb"
+                },
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "Standard Return Fee Per Unit              "
+                            }
+                          ],
+                          "uid": "3aca7768994b4c829414a14841a10b6e"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "b2bec34941554f1fa3aa8a6a2a5ef18f"
+                    }
+                  ],
+                  "uid": "ca6a30d96ff943a29102eb3d68a2816f"
+                }
+              ],
+              "uid": "4a941111e1c346e1afd8212f6d2f97d2"
+            }
+          ],
+          "uid": "74e0f1e9bdff4e7d8027552c57ea40ba"
+        },
+        {
+          "type": "tbody",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "≤ 1 lb."
+                        }
+                      ],
+                      "uid": "7a8d5910484a4998bed0abf265d8f26b"
+                    }
+                  ],
+                  "uid": "366eea8d4dc9475a9f312e525fc258af"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "$4.70"
+                        }
+                      ],
+                      "uid": "bb8ff63ecb4d4b13811c12a42f824679"
+                    }
+                  ],
+                  "uid": "42ab5aaeb37c49a6946d76a9b0e166a4"
+                }
+              ],
+              "uid": "1a4d951455984f6c9b1c825a7774e07b"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "bc5feb469a9848279d75abf03ec0417a",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "2 lb."
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "ff98a05471bb4428bbe7402d6e994c20"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "1f96787e6a314b0ebbe1dfd2db0258a8",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "\n",
+                          "break": true,
+                          "attrs": {}
+                        },
+                        {
+                          "text": "$6.20"
+                        },
+                        {
+                          "text": "\n",
+                          "break": true,
+                          "attrs": {}
+                        },
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "c95e5c65e15646f5b4bd8ba7b7c6d6fe"
+                }
+              ],
+              "uid": "6ae1334c1387454a9a99f8c841e26df0"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "32c74af2e04c41c3818eb26eafb784bf",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "3 lb."
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "51d80c0f3b144da786bf540503b2ee76"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "564ba730f8904d589ba41e812538e672",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "$6.70"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "d65cb5d97dce4f1d83b72d6a268b98ce"
+                }
+              ],
+              "uid": "4e4e017c2dc24e85a69f9b90d6b7f331"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "8eb11b276f63458f8822b5e681897d6a",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "4–20 lb."
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "924c7b653a784bc99f1b3b5deef570a4"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "$7.00 + $0.40 for each lb. > 4 lb."
+                        }
+                      ],
+                      "uid": "c944e2a5cb104cdfafdb7519b850b239"
+                    }
+                  ],
+                  "uid": "522831e3c2764db08c61294e932553c3"
+                }
+              ],
+              "uid": "3731ced2d8464c04bd083ee2abf5249a"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "21–30 lb."
+                        }
+                      ],
+                      "uid": "5dfdea63aa9c42498458d651eb1c6e1b"
+                    }
+                  ],
+                  "uid": "267cfa0534b54cf4abcbc5c1c1d62569"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "$15.55 + $0.40 for each lb. > 21 lb."
+                        }
+                      ],
+                      "uid": "9d9e45cd39374b9ebbd2dc68a7b8f080"
+                    }
+                  ],
+                  "uid": "ef95a553ee134192be980d7db1e7ccd3"
+                }
+              ],
+              "uid": "8ddd9b4ff9044a7d859aa0e26e916775"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "31–50 lb."
+                        }
+                      ],
+                      "uid": "aa1508c2ce284c8fb8734f079fddc593"
+                    }
+                  ],
+                  "uid": "0ae55aa401e24881be5235133920b3c4"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "$14.55 + $0.40 for each lb. > 31 lb."
+                        }
+                      ],
+                      "uid": "38f76ecdd7fe41c5899511f5d54d41ed"
+                    }
+                  ],
+                  "uid": "19cbebf1e50b4ab8accea5c19fdeb275"
+                }
+              ],
+              "uid": "348b458b7c1e4eed9eda018de2fd03e4"
+            },
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "≥ 51 lb."
+                        }
+                      ],
+                      "uid": "b2523742c9f8474abbdcc5b14dcee0c7"
+                    }
+                  ],
+                  "uid": "908965add2b44d339d4d413606c72edf"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "$17.55 + $0.40 for each lb. > 51 lb."
+                        }
+                      ],
+                      "uid": "ab9d6984f30c4ab3bd835e49310601b9"
+                    }
+                  ],
+                  "uid": "6c457ada15c2478694945bd59ecc7ca4"
+                }
+              ],
+              "uid": "40ee6429514542fe8cc5060b229a3150"
+            }
+          ],
+          "uid": "f7dc595e97434f2983f580b2e51eb699"
+        }
+      ]
+    },
+    {
+      "uid": "df7641c1c5df44aba94ebde972414998",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "4e7b8cc6b4384240b090de9ac6b8d6f2",
+      "type": "table",
+      "attrs": {
+        "rows": 2,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ],
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {},
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "Shipping Weight            "
+                            }
+                          ],
+                          "uid": "433a875e864444378046f40f555df267"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "aa9b902c4b6b4f4a893258f0db060f61"
+                    }
+                  ],
+                  "uid": "d0b4d5af0a9545e0bc3254b76fc12c28"
+                },
+                {
+                  "type": "th",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "Big & Bulky Return Fee Per Unit              "
+                            }
+                          ],
+                          "uid": "d3fc5ef75ba44c64a41c587b0bc15d2a"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "uid": "3221e5d0b966412eb0583d02e09f500a"
+                    }
+                  ],
+                  "uid": "58862fc1bac34b95b0c261875c72de9b"
+                }
+              ],
+              "uid": "105150e831a2485494779a23be20e821"
+            }
+          ],
+          "uid": "a148bce6659a4aeba0ddb7b134c407f9"
+        },
+        {
+          "type": "tbody",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "Up to 500 lb."
+                        }
+                      ],
+                      "uid": "1b26bcc781264e4aa0addd93acadc6bc"
+                    }
+                  ],
+                  "uid": "20b0356ed0f642439595483436c7c527"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "p",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "$155 + $0.80 per lb. > 90 lb."
+                        }
+                      ],
+                      "uid": "1977123ba7a74c43956d15cd92cc8571"
+                    }
+                  ],
+                  "uid": "6dc27200ed17460e87ef8bd93fd1dc4f"
+                }
+              ],
+              "uid": "458bf342b61641c08fb0c24e0beede36"
+            }
+          ],
+          "uid": "ab1d0b064d3c4dc9a30a93ca41b16b86"
+        }
+      ]
+    },
+    {
+      "uid": "abc27aa65dd148bb9f5ceb872db9c8e9",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "27862386e69d41a4938ee4ea9c4620d9",
+      "type": "h3",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Fulfillment & Returns Exceptions"
+        }
+      ]
+    },
+    {
+      "uid": "3e2349d640bd416cbdc92b88174dde59",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Walmart will cover the cost of return shipping for any returns identified as "
+        },
+        {
+          "text": "Walmart at fault",
+          "italic": true
+        },
+        {
+          "text": ". These include lost in transit, lost after delivery, unable to deliver, item damaged, shipping box damaged, arrived late, and wrong item received."
+        }
+      ]
+    },
+    {
+      "uid": "aa0a813e291149c186076a4bb9b5a621",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "break": true,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "599fb5b145ca42a69de1bf006afb6b73",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Sellers are responsible for paying the return shipping for any returns that are not identified as "
+        }
+      ]
+    },
+    {
+      "uid": "04932436a077460b87604f019e23dca1",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Walmart at fault",
+          "italic": true
+        },
+        {
+          "text": ". These include but are not limited to wrong size/poor fit, poor quality, missing parts or instructions, not as described, device or part(s) do not work, seller issued refund, bought another size or color, bought somewhere else, lower price, customer refused shipment, no longer wanted, difficult to setup/not compatible, color not as expected, and did not like fabric."
+        }
+      ]
+    },
+    {
+      "uid": "4c3791bc6d82419b8081896071ce1cd5",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Fulfillment Exceptions"
+        }
+      ]
+    },
+    {
+      "uid": "341f5eb59aea4beab04786d74ba0c1ca",
+      "type": "table",
+      "attrs": {
+        "rows": 3,
+        "cols": 2,
+        "colWidths": [
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "disabledCols": [
+          0,
+          1
+        ]
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {}
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {}
+              },
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {
+                    "colSpan": 2,
+                    "redactor-attributes": {
+                      "colspan": 2
+                    },
+                    "style": {
+                      "text-align": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "uid": "8525e498d7804efcb09fd899769d9132",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": " By End of Payment Cycle"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      }
+                    }
+                  ],
+                  "uid": "92e61034c66a4116b3c2cc53d955d75f"
+                },
+                {
+                  "uid": "1d457fab6f224d7ba5d3c820ad590b18",
+                  "type": "th",
+                  "attrs": {
+                    "void": true
+                  },
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "uid": "10340b42e9dd4f07b1273db0c6b9808f"
+            }
+          ],
+          "uid": "b922988dd2f34c9b88522c896f6a711c"
+        },
+        {
+          "type": "tbody",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "Walmart at fault",
+                      "bold": true,
+                      "attrs": {}
+                    },
+                    {
+                      "text": "\n\n",
+                      "break": true,
+                      "attrs": {}
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "Damaged or lost in fulfillment center"
+                        }
+                      ],
+                      "uid": "5969a938ca534d27addf8efe1ebb4efa"
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "uid": "e294b49a50304beeb59d93e5c2d91fdf"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "You’re"
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "uid": "e2055a104045478e8f67f4cfbd5dbad6"
+                    },
+                    {
+                      "text": "credited",
+                      "italic": true,
+                      "attrs": {}
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "uid": "c67aa5b5f5c14964b27ac8a2ab85494d"
+                    },
+                    {
+                      "text": "the original sales price. We retain fulfillment and commission fees. "
+                    }
+                  ],
+                  "uid": "cb1053e2a0be434fafe5b90416e5ebc9"
+                }
+              ],
+              "uid": "64977c60c1a74591895c5750d85433dc"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "7e0e44ba1a634a9ca0e823ba2edd34a8",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Walmart at fault",
+                          "bold": true,
+                          "attrs": {}
+                        },
+                        {
+                          "text": "\n\n",
+                          "break": true,
+                          "attrs": {}
+                        },
+                        {
+                          "text": "Lost in transit to customer"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "d4a600ccb35b4212bfd8a9ddf1c9f9eb"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "eb481f6d3f6a4f9f8eccc79dd53b3ae6",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "No adjustments: You retain the original sales price. We retain fulfillment and commission fees."
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "7f6d70b94790494481e6676618b739aa"
+                }
+              ],
+              "uid": "28d47c3a966941a699ad94480ef390ea"
+            }
+          ],
+          "uid": "dcea27f4c000484da2077badf5ea45f5"
+        }
+      ]
+    },
+    {
+      "uid": "b29660ee6b2f4da7b8282d2ba034255e",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7de3941a4cb6424d9dd2dbc8b754a5e3",
+      "type": "h3",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Return Exceptions"
+        }
+      ]
+    },
+    {
+      "uid": "58fe26dc98924bb68f7ddf9a34051c52",
+      "type": "table",
+      "attrs": {
+        "rows": 4,
+        "cols": 3,
+        "colWidths": [
+          250,
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "disabledCols": [
+          0,
+          1
+        ]
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "th",
+                  "attrs": {
+                    "colSpan": 2,
+                    "redactor-attributes": {
+                      "colspan": 2
+                    },
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "3c5a966ca6da4489a5027ec759a2c147",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": " Upon Return"
+                        }
+                      ],
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "5f2560f79d294db4b570ab4140bda0cf"
+                },
+                {
+                  "uid": "f292a1c996054d609f6e4d8ab6a43181",
+                  "type": "th",
+                  "attrs": {
+                    "void": true,
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "th",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "Dependent on Inventory Condition",
+                          "bold": true
+                        }
+                      ],
+                      "uid": "cc5f6dadf05446f3899513b98bf18e54"
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "uid": "07575f0d31c64194a77810f89135e475"
+                }
+              ],
+              "uid": "030400084fe24fa4b57bc0cc52d61593"
+            }
+          ],
+          "uid": "419ed2aa0d404e68bc6eeee74d1cb21c"
+        },
+        {
+          "type": "tbody",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "uid": "4b058cb9194049a2a9f1c7b0fd174cd8",
+              "type": "trgrp",
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {
+                          "rowspan": 2
+                        },
+                        "dir": "ltr",
+                        "rowSpan": 2
+                      },
+                      "children": [
+                        {
+                          "uid": "5476704e0e324f5991f6e8e9e22aaa26",
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "Walmart at fault                                        ",
+                              "bold": true,
+                              "attrs": {}
+                            }
+                          ],
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          }
+                        }
+                      ],
+                      "uid": "a29ff2dea67045d5ba3fd8fd840496ca"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {
+                          "rowspan": 2
+                        },
+                        "dir": "ltr",
+                        "rowSpan": 2
+                      },
+                      "children": [
+                        {
+                          "uid": "82e3bb97d586457a9c4b9c664ece5fff",
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "We cover the return shipping fee. "
+                            },
+                            {
+                              "text": "\n\n",
+                              "break": true,
+                              "attrs": {}
+                            },
+                            {
+                              "text": "No adjustments: You retain the original sales price. We retain the fulfillment and commission fees. "
+                            }
+                          ],
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          }
+                        }
+                      ],
+                      "uid": "d5798cf8a18b486f8d978570e59cb797"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "If the returned item is deemed sellable, we’ll restock it. In this case, the sale is reversed: you’re"
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": " "
+                            }
+                          ],
+                          "uid": "fb7fac12106b46a0aa991a603d1a272b"
+                        },
+                        {
+                          "text": "charged",
+                          "italic": true,
+                          "attrs": {}
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": " "
+                            }
+                          ],
+                          "uid": "95698680fa924e76b72e72efb7d6b7e5"
+                        },
+                        {
+                          "text": "the original sales price, but"
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": " "
+                            }
+                          ],
+                          "uid": "cc16a34f6d3c49dabbf50eed8ffee302"
+                        },
+                        {
+                          "text": "credited",
+                          "italic": true,
+                          "attrs": {}
+                        },
+                        {
+                          "type": "span",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": " "
+                            }
+                          ],
+                          "uid": "1d2bfa66881a4d7db4af0958b98313da"
+                        },
+                        {
+                          "text": "fulfillment and commission fees. "
+                        }
+                      ],
+                      "uid": "823e5fc6f8fb4542869c7e069762280f"
+                    }
+                  ],
+                  "uid": "b3ed0e9dd13f4d7fa41d38937a3bad92"
+                },
+                {
+                  "uid": "a3b57bcc26824b3c9c1464baa64c261e",
+                  "type": "tr",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "a5fd526d61ad47c185c4c7ef4631e5ed",
+                      "type": "td",
+                      "attrs": {
+                        "void": true,
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "uid": "ac03dc8db19349cbbca831d23355f148",
+                      "type": "td",
+                      "attrs": {
+                        "void": true,
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "uid": "6da5514d2dcc4d47a37cfe1cdb73ba78",
+                      "type": "td",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {
+                            "style": {},
+                            "redactor-attributes": {},
+                            "dir": "ltr"
+                          },
+                          "children": [
+                            {
+                              "text": "If the returned item is deemed unsellable, we’ll keep the inventory regardless of any "
+                            },
+                            {
+                              "uid": "8cb104e01104421d8e3f5ae5d2939651",
+                              "type": "a",
+                              "attrs": {
+                                "url": "https://seller.walmart.com/seller-profile/return-policy",
+                                "style": {},
+                                "redactor-attributes": {},
+                                "dir": "ltr"
+                              },
+                              "children": [
+                                {
+                                  "text": "return preferences"
+                                }
+                              ]
+                            },
+                            {
+                              "text": " set by you. "
+                            }
+                          ],
+                          "uid": "1b48c2d16c184e499a0c2d4c83ac4003"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              }
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "1afc8200614f4c5f9f0f4a65b90230bb",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Seller at fault",
+                          "bold": true,
+                          "attrs": {}
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "5c03dabdfde2461bb9281980b9f2a53d"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "text": "You pay the return shipping fee. "
+                    },
+                    {
+                      "text": "\n\n",
+                      "break": true,
+                      "attrs": {}
+                    },
+                    {
+                      "text": "The sale is reversed: You’re"
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "uid": "70cc18c72f344b7397f32762ad62825b"
+                    },
+                    {
+                      "text": "charged",
+                      "italic": true,
+                      "attrs": {}
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "uid": "8bffe90318b14b06b70cbe07c919e619"
+                    },
+                    {
+                      "text": "the original sales price and"
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "uid": "49815feed0f34b9db558f30b20213d4a"
+                    },
+                    {
+                      "text": "credited",
+                      "italic": true,
+                      "attrs": {}
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "uid": "1f22ff1141ba44878ef3fc19b44e0124"
+                    },
+                    {
+                      "text": "only the commission fee. We retain the fulfillment fee. "
+                    }
+                  ],
+                  "uid": "b69a3a10e28d44beb1c56138694ae6d1"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "text": "If the returned item is deemed unsellable or you’ve set specific"
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": " "
+                        }
+                      ],
+                      "uid": "02eb54485b21412e97f979110a0a698f"
+                    },
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "a",
+                      "attrs": {
+                        "url": "https://seller.walmart.com/seller-profile/return-policy",
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "text": "return preferences"
+                        }
+                      ],
+                      "uid": "335941ff426e414a996a9eb29b4c5a03"
+                    },
+                    {
+                      "text": ", removal or disposal fees will apply."
+                    }
+                  ],
+                  "uid": "f97574252eb8406888c55d9247286814"
+                }
+              ],
+              "uid": "b9011b20c6654ad6af06517d09fd9b96"
+            }
+          ],
+          "uid": "ef05e488d04b43c38d57edbca360cfda"
+        }
+      ]
+    },
+    {
+      "uid": "3bd87dd4e8154f459af636f835ae02f1",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "DisposalRemoval"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "DisposalRemoval"
+          },
+          "uid": "f136f09e347e44dea06b18f6804b664f",
+          "children": [
+            {
+              "text": "Disposal & Removal",
+              "id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "1cc4697fb06544949a736b2136dfe340",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Items can be disposed of or removed from inventory and shipped back to you for a per-unit fee. "
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "98b219ede27b4eb6a35eb6e9c66c1e01",
+      "type": "table",
+      "attrs": {
+        "rows": 3,
+        "cols": 3,
+        "colWidths": [
+          250,
+          250,
+          250
+        ],
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "thead",
+          "attrs": {
+            "style": {
+              "text-align": "center"
+            },
+            "redactor-attributes": {}
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {
+                  "text-align": "center"
+                },
+                "redactor-attributes": {}
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {}
+                  },
+                  "children": [
+                    {
+                      "text": "",
+                      "bold": true
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Unit Weight",
+                          "bold": true
+                        }
+                      ],
+                      "uid": "1e27a697f7644a95bc8daaecb552b685"
+                    },
+                    {
+                      "text": "",
+                      "bold": true
+                    }
+                  ],
+                  "uid": "4c1719a47c724d1fb0ca7fc841688991"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {
+                      "text-align": "center"
+                    },
+                    "redactor-attributes": {}
+                  },
+                  "children": [
+                    {
+                      "text": "",
+                      "bold": true
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Disposal Fee Per Unit",
+                          "bold": true
+                        }
+                      ],
+                      "uid": "75dda0d145804a6dbbacaa6ff521ef9e"
+                    },
+                    {
+                      "text": "",
+                      "bold": true
+                    }
+                  ],
+                  "uid": "4328a7a20d5b47368830dfa55a955ef9"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "",
+                      "bold": true
+                    },
+                    {
+                      "type": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "text": "Removal Fee Per Unit",
+                          "bold": true
+                        }
+                      ],
+                      "uid": "a8302129adef434e9b268985d7870ead"
+                    },
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "uid": "4590072bdaea424593bc7ff222a91932"
+                }
+              ],
+              "uid": "0ae78b42040e4807a451b3e173bb8cd3"
+            }
+          ],
+          "uid": "12d41164166e41b890c87326ff65cdda"
+        },
+        {
+          "type": "tbody",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "type": "tr",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "80dc3945a1f449a78b8c80a0fb102e5f",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "≤ 2 lb."
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "fdca6a4b02744ade95b809401b2b4d20"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "1ab694568f69454ebb5212b00e747bf2",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "$0.35"
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "f8c227ca3cbd4c5dad90e838e317fbd8"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "71f28351d606455e8cc7ea97a91247eb",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "uid": "c0a74d86cb6f47f0a299af39ce9822cf",
+                          "type": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "Disposal fee + $0.40 per lb. shipping cost"
+                            }
+                          ]
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "799efa80b761476294bce34f28b92931"
+                }
+              ],
+              "uid": "489f18554ef847d7878a6f3ee3ae7f46"
+            },
+            {
+              "type": "tr",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "473b5f39d3764fe4ae961a14b78e072a",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "3–500 lb."
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "77deafba6c1c48d8b6d373ccda600665"
+                },
+                {
+                  "type": "td",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "uid": "39b132d9375d44fcb42e2d39990abe7a",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "$0.35 + $0.20 for each lb. > 2 lb."
+                        }
+                      ],
+                      "attrs": {}
+                    }
+                  ],
+                  "uid": "569c8ce8b09645ae829c0164b831958b"
+                },
+                {
+                  "type": "td",
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  },
+                  "children": [
+                    {
+                      "uid": "0a480e2f084c4b3ea13a45326537304f",
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "uid": "cab90124f4c949938e67bfb2490fb7f8",
+                          "type": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "Disposal fee + $0.40 per lb. shipping cost"
+                            }
+                          ]
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "attrs": {
+                        "style": {},
+                        "redactor-attributes": {},
+                        "dir": "ltr"
+                      }
+                    }
+                  ],
+                  "uid": "61dacb2e8a5c499bb9627595f2f95bdc"
+                }
+              ],
+              "uid": "11d64fa8181e4d1b983a271d2440c764"
+            }
+          ],
+          "uid": "11ce40d6b50b4440b1b0286974f84a33"
+        }
+      ]
+    },
+    {
+      "uid": "8f84ea144c434ccea8ce833caab76545",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Hazmat Items"
+        }
+      ]
+    },
+    {
+      "uid": "72106be91a2d498097b67cb6a185d801",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Add $0.50 to the base fee"
+        }
+      ]
+    },
+    {
+      "uid": "6a009e6ffe864187b51e5b4cfe7e9317",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e341808c7a4f4fb0a07e13b4cd00ad52",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "AdditionalPrograms"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "AdditionalPrograms"
+          },
+          "uid": "763726ed369e41b1aebc8398645c0b5f",
+          "children": [
+            {
+              "text": "Additional WFS Programs",
+              "id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "42f014780a9a433c9142f97ee2da7231",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Additional programs may be available to WFS sellers. Find information in the links below, and additional fees may apply. "
+        }
+      ]
+    },
+    {
+      "uid": "eb710f1ff19a478490e7be213405dadd",
+      "type": "ul",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Send Walmart-fulfilled items made up of multiple boxes with"
+            },
+            {
+              "type": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "text": " "
+                }
+              ],
+              "uid": "e0a850ab6afd48c39f69d6b267a68cc3"
+            },
+            {
+              "text": ""
+            },
+            {
+              "type": "a",
+              "attrs": {
+                "url": "https://sellerhelp.walmart.com/s/guide?article=000010431"
+              },
+              "children": [
+                {
+                  "text": "Multi-Box"
+                }
+              ],
+              "uid": "d5355e99973e4a54aabf5cea7b0d707b"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "uid": "67509d9a59844a0a8cfcb40d810bf1e2"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Outsource your inventory preparation with"
+            },
+            {
+              "type": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "text": " "
+                }
+              ],
+              "uid": "a4a5929d40774475a23f2dfd70bbefb7"
+            },
+            {
+              "text": ""
+            },
+            {
+              "type": "a",
+              "attrs": {
+                "url": "https://sellerhelp.walmart.com/s/guide?article=000009900"
+              },
+              "children": [
+                {
+                  "text": "Prep Services"
+                }
+              ],
+              "uid": "cb7fa66daf184c80ac056c2a585a448c"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "uid": "976a10ce87004a6a956f00b25b7b592f"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Enjoy reduced shipping rates with the"
+            },
+            {
+              "type": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "text": " "
+                }
+              ],
+              "uid": "10c817b944c1408181499e133c7544c3"
+            },
+            {
+              "text": ""
+            },
+            {
+              "type": "a",
+              "attrs": {
+                "url": "https://sellerhelp.walmart.com/s/guide?article=000009514"
+              },
+              "children": [
+                {
+                  "text": "Preferred Carrier Program"
+                }
+              ],
+              "uid": "93d7191615824817a007970150b424b6"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "uid": "430adeafb1554a62b34be7243a418fd6"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "Simplify distributing inventory across the WFS network with"
+            },
+            {
+              "type": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "text": " "
+                }
+              ],
+              "uid": "7bb4c1900a454edb9d9e3d0df249b177"
+            },
+            {
+              "text": ""
+            },
+            {
+              "type": "a",
+              "attrs": {
+                "url": "https://sellerhelp.walmart.com/s/guide?article=000009930"
+              },
+              "children": [
+                {
+                  "text": "Inventory Transfer Services"
+                }
+              ],
+              "uid": "feac428a1662420fa22cd727ab819bf1"
+            },
+            {
+              "text": "."
+            },
+            {
+              "text": "\n",
+              "break": true
+            }
+          ],
+          "uid": "751ae80757d04e348da4e6f17163c482"
+        }
+      ]
+    },
+    {
+      "uid": "dc0a9ed9ff974637859036b33a5cd4f3",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Last updated: September 14, 2023",
+          "bold": true,
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "6ded81113e6844db98ec4eecc01db491",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    }
+  ],
+  "_version": 30
 }
