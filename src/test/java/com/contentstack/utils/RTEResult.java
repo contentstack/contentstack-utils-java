@@ -18,4 +18,7 @@ public class RTEResult {
     public static String kCodeHtml = "<code>Code template.</code>";
     public static String kLinkInPHtml = "<p><strong><em><u><sub></sub></u></em></strong><a href=\"LINK.com\">LINK</a></p>";
     public static String kEmbedHtml = "<iframe src=\"https://www.youtube.com/watch?v=AOP0yARiW8U\"></iframe>";
+    public static String kAnchorHtml = "<p redactor-attributes=\"{}\" style=\"\" dir=\"ltr\">This is a paragraph with break true and<br />backslash nThis para has just one line break without any break key<br />Third paragraph with multiple line breaks<br /><br /><br />Fourth paragraph with multiple line breaks and break key<br /><br />Fifth paragraph with multiple only tab \t and this is text after tab<br />\tThis paragraph should start with a tab and should have a break before.</p>";
+    public static String kWFSFeesHtml = "<p redactor-attributes=\"{}\" style=\"\" dir=\"ltr\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /><br /><br />\t\t\t\tUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />\tExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+
 }
