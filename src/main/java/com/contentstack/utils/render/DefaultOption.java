@@ -70,8 +70,7 @@ public class DefaultOption implements Option {
             case BOLD:
                 return "<strong>" + text + "</strong>";
             case BREAK:
-                //text = text.replace("\n", "");
-                return "<br />" + text.replace("\n", ""); // v1.2.5
+                return "<br />" + text.replace("\n", "");
             default:
                 return text;
         }
