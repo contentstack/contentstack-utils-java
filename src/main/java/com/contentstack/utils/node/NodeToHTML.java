@@ -29,7 +29,7 @@ public class NodeToHTML {
      */
     public static String textNodeToHTML(JSONObject nodeText, Option renderOption) {
         String text = nodeText.optString("text");
-        text = text.replace("\n", "");
+        text = text.replace("\n", "<br />");
         if (nodeText.has("superscript")) {
             text = renderOption.renderMark(MarkType.SUPERSCRIPT, text);
         }
@@ -52,7 +52,10 @@ public class NodeToHTML {
             text = renderOption.renderMark(MarkType.BOLD, text);
         }
         if (nodeText.has("break")) {
-            text = renderOption.renderMark(MarkType.BREAK, text);
+            if (!text.contains("<br />")) {
+                text = renderOption.renderMark(MarkType.BREAK, text);
+            }
+            // text = renderOption.renderMark(MarkType.BREAK, text);
         }
         return text;
     }
