@@ -102,6 +102,17 @@ public class TestRte {
         final String rte = "src/test/resources/reports/wfs_fees.json";
         JSONObject theRTE = new ReadResource().readJson(rte);
         String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
-        System.out.println(result);
+        Assert.assertEquals(kWFSFeesHtml, result);
     }
+
+
+    @Test
+    public void testAnchorIssue() throws IOException {
+        final String rte = "src/test/resources/reports/anchor.json";
+        JSONObject theRTE = new ReadResource().readJson(rte);
+        String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
+        Assert.assertEquals(kAnchorHtml, result);
+    }
+
+
 }

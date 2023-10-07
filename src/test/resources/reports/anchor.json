@@ -1,0 +1,58 @@
+{
+  "uid": "a59f9108e99747d4b3358d9e22b7c685",
+  "type": "doc",
+  "attrs": {
+    "dirty": true
+  },
+  "children": [
+    {
+      "type": "p",
+      "uid": "a3c0687b2f694bd68ec290fd92a62330",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "This is a paragraph with break true and"
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "backslash n"
+        },
+        {
+          "text": "This para has just one line break without any break key"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "Third paragraph with multiple line breaks"
+        },
+        {
+          "text": "\n\n\n"
+        },
+        {
+          "text": "Fourth paragraph with multiple line breaks and break key"
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "Fifth paragraph with multiple only tab \t and this is text after tab"
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "text": "This paragraph should start with a tab and should have a break before."
+        }
+      ]
+    }
+  ]
+}
