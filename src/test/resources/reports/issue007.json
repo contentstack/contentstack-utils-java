@@ -1,0 +1,5295 @@
+{
+  "type": "doc",
+  "attrs": {},
+  "uid": "d329be79c27f4aa0b0db5250651d772d",
+  "children": [
+    {
+      "uid": "86b30522869243539a8ab139630e168f",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "Create_Variant_Groups"
+      },
+      "children": [
+        {
+          "text": "Create Variant Groups"
+        }
+      ]
+    },
+    {
+      "uid": "234bd05d3e794942aa79ce61a335af20",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "There are two ways you can create Variant Groups:"
+        }
+      ]
+    },
+    {
+      "uid": "d78387ea76e44b5181138d9306c4ed47",
+      "type": "ul",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "For up to 49 existing standalone items, you can create a variant group via the Items dashboard in Seller Center."
+            }
+          ],
+          "uid": "7db76aa8c44d432ca6d9a6b198a23191"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "For 50+ items, you must use the Full Item Spec."
+            }
+          ],
+          "uid": "ce6ba52ec0ad4a6987326ad7e0eb30e8"
+        }
+      ]
+    },
+    {
+      "uid": "96f94d32d7ca41ec9563021968e3e258",
+      "type": "h3",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "Items_Dashboard_Method"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {},
+          "uid": "108b2964856c4838885aed9c8e334370",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "id": "Items_Dashboard_Method"
+          },
+          "uid": "6927dcf2c8214ce8849b915ed716c296",
+          "children": [
+            {
+              "text": "Items Dashboard Method"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "153afde6791d44d39f4354ca0ca74ea4",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "For up to 49 items, navigate to the"
+        }
+      ]
+    },
+    {
+      "uid": "5383310ce4864f1bac27c6207f88a9fd",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "ebcd9bc18f144647829eca3531dbb22e"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "4432356f664b46c3ae92ed91acf3f277",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Items",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "ed9a9399cdca4dedb350b073ae95253d",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "***REMOVED***"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a983891ae77c477db5cde6b06709cf13",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "dashboard under the"
+        }
+      ]
+    },
+    {
+      "uid": "7098d167fc1946bea5c71594114d1361",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "568db285cd6045038242cb38930e6ad7"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e7d831ceaaa14536a3277cb28654ab1c",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Product Catalog",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "60f810ee965d42099d72ee7d371b6a36",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "899024fb0006464381d7c84814af568e"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "39dddb22dc344149b5edd3fe8cdc1b55",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "section in the left-hand navigation menu of Seller Center. Locate the items by searching for the"
+        }
+      ]
+    },
+    {
+      "uid": "a7cb57b335f94ebd98b2f437bbf4c5ce",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "3576e38a5c27486496669a0bd7a6fcac"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f564f7d5a7194d79a9dc696adf5c803e",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "SKU ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "f07aafd9c72b47e394620ecf34127fa3",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "or"
+        }
+      ]
+    },
+    {
+      "uid": "f3dbf00cc6e64e269100ab0ddf13f7a4",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "6b2eceb887a744d6b73fb50c5cdb5f23"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "461ce3d15f0747028d4a7351851a9f39",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Item Name",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "49ab58cc21344d73806967eaa0f0ff17",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "5f8bbfc6137d42499bdc7fe8ea6c3b74"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "3afeea74570f4291bffb3e85751c63da",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "in the search bar above the items grid. Select the check box in the left-hand column for each item to be grouped together."
+        }
+      ]
+    },
+    {
+      "uid": "f664e740007647a387f263b3a7fd3061",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "af52fb26a9d844238b81a42de44feb2e",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**NOTE:",
+          "bold": true,
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "02899e435de14d3089093f4d5168d073",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "type": "span",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": " ",
+              "bold": true,
+              "italic": true
+            }
+          ],
+          "uid": "082d6fe688174cb68f589a40d87c0c98"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "17323c5b673c4c87adeecda006265eda",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "The limit for this feature is set to 49 items. If you select more than the maximum number of items from the item grid, you will receive an error when you select",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "d3711b70954d4500b1b48a808cb284aa",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "64fc47e8dcda48afbab400588e861414"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "41122efac9914541bf50aeb838af0239",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Create Variant Group.",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "e7482b3f90834c2ab668ec9b98a15a03",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "bold": true,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "475060ae1e124520ae18079391eae29c",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a4e61538f6344df5aa1e96eb8552f059",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Next, select the"
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "5d723bc524dc4707873de1cd804420a8"
+        },
+        {
+          "text": "More actions",
+          "italic": true
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "59b9f4eb025444c2bb9b2f891a7450e2"
+        },
+        {
+          "text": "dropdown menu that appears above the grid and choose "
+        },
+        {
+          "text": "Create Variant Group",
+          "italic": true
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "uid": "217ebee994ba4a5d838901e305a88581",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "674fa135db744e96800feb43321bbd92",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "892e5c2ac1e04873a66cbe684c0fec36",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a69c636be9c84f6694238b77b1550a12",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt3ac5326ad75c23c1",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt3ac5326ad75c23c1/64ff36e00812c3000a04e7c2/7667.gif",
+        "asset-name": "7667.gif",
+        "asset-type": "image/gif",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "left"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "86f5ca63cde540f3ab900b58f6fa9a04",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "30376a24ae8245fd815967345d7e574e",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Enter Variant Group Details",
+          "bold": true
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "uid": "8e19734a3910467b89b44646535fec88",
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": "In the view that appears, you will see the selected items and three information boxes at the top of the page."
+            }
+          ]
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f55ee1d22605435aa656b50c0e29faba",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "uid": "ef785632a3e840b08ab3cc4d1b3c0474",
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "54df0e5248534aaf8cf57b2bfc009e78",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt7b78a9dd75a31b47",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt7b78a9dd75a31b47/64ff370fa39049000db760b8/rtaImage_(26).jpeg",
+        "asset-name": "rtaImage_(26).jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "814px",
+          "width": "814px",
+          "max-height": "510px",
+          "height": "510px"
+        },
+        "redactor-attributes": {
+          "position": "left",
+          "height": "510"
+        },
+        "dir": "ltr",
+        "width": "814",
+        "max-width": "814",
+        "max-height": "510",
+        "height": "510"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "5d9a0300dfc24ac6af0dd4ee5c6df5f8",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "712420e2537946b9b8dd1617e1ded7da",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "Variant Group ID",
+          "bold": true
+        },
+        {
+          "text": " is a unique identifier that you create and use to find the items in a variant group. A Variant Group ID can be alphanumeric and up to 20 characters long."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "**NOTE:",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "text": " Walmart tracks Variant Group IDs on the ",
+          "italic": true
+        },
+        {
+          "text": "Items",
+          "bold": true
+        },
+        {
+          "text": " dashboard in Seller Center. For additional details, see ",
+          "italic": true
+        },
+        {
+          "uid": "67633ad53a5e4394a0ae7cd569dee107",
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000008328"
+          },
+          "children": [
+            {
+              "text": "View Variant Groups in Seller Center."
+            }
+          ]
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "Next, select the product "
+        },
+        {
+          "text": "Category ",
+          "italic": true
+        },
+        {
+          "text": "from the dropdown menu. If your items were set up using different categories, you will have more than one thing to choose from the dropdown menu. For example, some of the shirts in the variant group were set up under "
+        },
+        {
+          "text": "Clothing",
+          "bold": true
+        },
+        {
+          "text": ", while two of them were set up under "
+        },
+        {
+          "text": "Sports & Recreation Other",
+          "bold": true
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "**NOTE: ",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "text": "Selecting a category here does not change the listing details. It will affect how the variant group is displayed on site and determines what Variant Attribute Names are available.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "0fe42d29f01d422da64b4bd948375b86",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "italic": true,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "b0db57be384f4495a8a4fa16d76c433b",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blta6f1f0e7fe266d3f",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blta6f1f0e7fe266d3f/65087f426517c0000dfcb255/rtaImage_-_2023-09-18T094741.995.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T094741.995.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "5ed8a99de1d94ba7b208974a5ee0035d",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "italic": true,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "bea361b363da48a1950d5636f1b023dc",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Finally, select up to three Variant Attribute Names to use for this group. The options available are based on the category you chose in the previous step. "
+        },
+        {
+          "text": "Variant Attribute Names",
+          "bold": true
+        },
+        {
+          "text": " indicate what attributes vary within the group. For instance, if your item comes in sizes small, medium, and large, your Variant Attribute Name would be Size."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "Choose the most appropriate Variant Attribute Names from the dropdown. If your items have multiple attributes (e.g., different colors and sizes), select up to three options from the list. For additional information on attribute names, see "
+        },
+        {
+          "uid": "5d1b59d31b254682b5c23ffff4d8b348",
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000007909"
+          },
+          "children": [
+            {
+              "text": "Supported Variant Attribute Names.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "00126720855a45c18c26197df11919d2",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "6da789c234f64c51af89b1b18e9ebf79",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "bltcaa03bd408b030ea",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/bltcaa03bd408b030ea/65087f6c380e94000a18896c/rtaImage_-_2023-09-18T094828.540.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T094828.540.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "86a2e24d97044201b044048db1900b6f",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "c8e260327ae54dbcb065043d9b7a54c5",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "After you select the attributes, the columns will change to indicate the attribute details for each item. Please note that Variant Attribute(s) that have the same variant detail (e.g., Size, Color, etc.) on multiple items, are flagged as an error. Review the items for accuracy and make necessary changes to the item details and variants before submitting."
+        }
+      ]
+    },
+    {
+      "uid": "d2beba16a4ea4bba8f9a6d0707adb176",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "eefedee6084d4ca590598268483f2914",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt37ea67f83b7296a9",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt37ea67f83b7296a9/65087faca39049000db77846/rtaImage_-_2023-09-18T094930.009.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T094930.009.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "df95ebd3d3be4b80bdb49276922e461b",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "36aeabc613d44780881e421b7afe8f9f",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "When you have all the items confirmed and Variant Attribute Names verified, select one of the items in the group to be the Primary Variant. Simply select the "
+        },
+        {
+          "text": "Star",
+          "italic": true
+        },
+        {
+          "text": " icon in the"
+        },
+        {
+          "text": " Actions ",
+          "bold": true
+        },
+        {
+          "text": "column to indicate the Primary item."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "The "
+        },
+        {
+          "text": "Primary Variant ",
+          "bold": true
+        },
+        {
+          "text": "is the item that appears when users search "
+        },
+        {
+          "uid": "2deb380bb76f42e6863ef287e38aab6a",
+          "type": "a",
+          "attrs": {
+            "url": "http://walmart.com/"
+          },
+          "children": [
+            {
+              "text": "Walmart.com"
+            }
+          ]
+        },
+        {
+          "text": " and is the default view on the Item Page. Only select one Primary Variant per variant group, if you select a second item as the Primary, the icon will be deselected on your previous choice. Marketplace sellers typically choose the top-selling item or the item with the most inventory as the Primary Variant."
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "d2f063576fba46a19e89e55ed87d7d30",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt9a040f6870840f3d",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt9a040f6870840f3d/65087fe6269cb7000ace3fed/rtaImage_-_2023-09-18T095028.304.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095028.304.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "2e26c4ef42d64458981c03b3dcdd717b",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "94ffba4c1cb842d5b17a77762ab430f4",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "If there are items in the current view that you do not want to include in the group, select the "
+        },
+        {
+          "text": "X",
+          "italic": true
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "Actions",
+          "bold": true
+        },
+        {
+          "text": " column to remove it."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "**NOTE: ",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "text": "There is no confirmation screen for removing items using the ",
+          "italic": true
+        },
+        {
+          "text": "Action ",
+          "bold": true
+        },
+        {
+          "text": "column. Please ensure that you are removing the correct item, or you will have to start the process over.",
+          "italic": true
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "When all fields are complete, and there are no errors to address, select "
+        },
+        {
+          "text": "Submit",
+          "italic": true
+        },
+        {
+          "text": ". This will begin processing your request."
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "1de00103d97b4e97b73f84942845b034",
+      "type": "h3",
+      "attrs": {
+        "id": "Full_Item_Spec_Method",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Full Item Spec Method"
+        }
+      ]
+    },
+    {
+      "uid": "72e5469af945406bb2a89b8168af2dc6",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "For 50+ items, you can create a variant group using the Full Item Spec. To download the Full Item Spec, select "
+        }
+      ]
+    },
+    {
+      "uid": "c3321b4455b944fa85a9d371eeada2ee",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Items",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "90827009e1ca48cc81701f36c45abbd2",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " under the"
+        }
+      ]
+    },
+    {
+      "uid": "3928bcb5cdc04b968067c35b1c10f412",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "4ffc606108d14984bcdda1758d884b2a",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Product Catalog",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "0d28dbe3753a4397be69d65d32690b0f",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "62fa73ce233b417b81e188450c432663",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "dropdown menu, located in the left-hand navigation menu and select the"
+        }
+      ]
+    },
+    {
+      "uid": "442c864cbd744388b4795053e6b15fb2",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "5431ecdfc85f4b27b8a04d6daa46e122",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Add Items",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "a90f4cf0947a47f2a0039f61da001f42",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "096fd34ad5b8418e8f3be11324887c3e",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "button under the"
+        }
+      ]
+    },
+    {
+      "uid": "072d7d24a99c43c0b20cd67a6c64ed1d",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "c2372d4c499544af8b86f2a335a55037",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Manage Items",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "64fade3f80924f299531644413bc5b05",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "82b25342bd7e45fe919ff48809331afa",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "dropdown. "
+        }
+      ]
+    },
+    {
+      "uid": "19fe844297bd4389a50d29c83d356fdc",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7bbb2ff016394a5fbf115a95e4916638",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "c1eb59e4dffa4898bbba7971f9ef5be5",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a00c778d72144b85a3ed801daa9434d3",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "bltb9bbe5a6cd194057",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/bltb9bbe5a6cd194057/6508803fd63b5d000a9cd924/rtaImage_-_2023-09-18T095159.369.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095159.369.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "982px",
+          "width": "982px",
+          "max-height": "288px",
+          "height": "288px"
+        },
+        "redactor-attributes": {
+          "position": "left",
+          "height": "288"
+        },
+        "dir": "ltr",
+        "width": "982",
+        "max-width": "982",
+        "max-height": "288",
+        "height": "288"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a02809feedc643f999fd7f7c4cafd56c",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "88a9904a91ae4c19af043a0348565a6c",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Select the "
+        },
+        {
+          "text": "Walmart template",
+          "italic": true
+        },
+        {
+          "text": " link located under the "
+        },
+        {
+          "text": "Upload a spreadsheet",
+          "bold": true
+        },
+        {
+          "text": " heading."
+        }
+      ]
+    },
+    {
+      "uid": "6f7dcbd8b19c4e3a9c78234ea2981677",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f4eb9a88410742199224a687390416ac",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "bltecc3e6194d52b087",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/bltecc3e6194d52b087/6508806b269cb7000ace3ff1/rtaImage_-_2023-09-18T095240.404.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095240.404.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "1a54856026284ac2b296089b134582dc",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "6012bbcf4a624f7eb69dad207165a73b",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Select the "
+        },
+        {
+          "text": "Seller Fulfilled",
+          "italic": true
+        },
+        {
+          "text": ", fulfillment type.  "
+        }
+      ]
+    },
+    {
+      "uid": "2b11fa5b7d0d46e4ab0a1518d3637776",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "c9ddfbe5868d436bbe0c5417af3d2743",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt3e86d2491d932566",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt3e86d2491d932566/650880954f22f8000d8c7b79/rtaImage_-_2023-09-18T095319.050.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095319.050.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f2d67cb35b58410c896fc207e5d9e2c1",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "d26c29f01ca24570a3d0e240438d5696",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "After you choose your fulfillment type, you can download a spec sheet for each of your item categories.  "
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "Choose up to seven item categories from the "
+        },
+        {
+          "text": "Find a Category ",
+          "bold": true
+        },
+        {
+          "text": "dropdown menu under the "
+        },
+        {
+          "text": "Full Setup",
+          "bold": true
+        },
+        {
+          "text": " heading and then select "
+        },
+        {
+          "text": "Apply",
+          "italic": true
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "uid": "0488fc59a6ca481fb2b4735e91741b9e",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "05ec8eb21c5f4c1da306efe6927994de",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blta11605d23b0cbb0a",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blta11605d23b0cbb0a/650880cd103154000dae7f57/rtaImage_-_2023-09-18T095415.921.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095415.921.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ad2c16cbdb904597afa3bdfb94ae5556",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ad91c4ed9acc4c05bda77ea0e91e4993",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "After selecting "
+        },
+        {
+          "text": "Apply",
+          "italic": true
+        },
+        {
+          "text": ", the category dropdown will display the number of categories you selected. Verify that the number of categories is correct, and then select the "
+        },
+        {
+          "text": "Download",
+          "italic": true
+        },
+        {
+          "text": " button to download the Full Item Spec."
+        }
+      ]
+    },
+    {
+      "uid": "06e6998d12554328ac70e21d2803bae8",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "5f02ab1c83d44278931d5d8db425771c",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt30e7dfc04df37f95",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt30e7dfc04df37f95/650880fc4f22f8000d8c7b82/rtaImage_-_2023-09-18T095500.557.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095500.557.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ef56393f96db4111a92b3deb97b2dd31",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "984515c992a9437880b566e224919873",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "The file that downloads has up to seven sheets in the Excel workbook. Choose the correct category sheet for the items you are setting up (e.g., choose the correct tab for the items) to make sure your item is assigned to the appropriate shelf.  "
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "**NOTE: ",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "text": "Attributes vary by category, so you must choose the best option to ensure that the attributes in the spec sheet are relevant to your item. If you aren't sure which category to select, refer to the ",
+          "italic": true
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://gecrm.my.salesforce.com/sfc/p/61000000ZKTc/a/4M0000005U4f/8R9gEWVykwHSbinT_.cxJRDtWMGQJEUGO7qnxpVVQIg"
+          },
+          "children": [
+            {
+              "text": "Item Categorization Guide"
+            }
+          ],
+          "uid": "c89f2bb23b9a4fa3b5f8f23f6bdb4cbb"
+        },
+        {
+          "text": ". Once an item is set up with the appropriate spec category, the system assigns a Product Type. The Product Type determines the Contract Category and referral fees for your item.",
+          "italic": true
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "There are five required columns you must fill out to successfully set up a variant group. To easily find the columns mentioned in the examples below, enter the column name in the Excel search bar. "
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "86743925297f4b9b9e94187afb6b8c7d",
+      "type": "ol",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Variant Group ID",
+              "bold": true
+            },
+            {
+              "text": " – This is a unique ID that you create and use to identify all of the items in a variant group. A Variant Group ID can be alphanumeric and up to 20 characters long. If items have different Variant Group IDs, they will be in different groups."
+            }
+          ],
+          "uid": "62c3e1c0df9041598c9ed107a0d66f77"
+        }
+      ]
+    },
+    {
+      "uid": "b437f2843679421383e47ae27dd2ed71",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "41319ea616cb4bf6a04315f0bd246f29",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "bold": true,
+          "text": "**NOTE:",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "6343643eeda04e179c9a89f794234809",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "61da7891af0f4db29e529a501cb11c2b",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Walmart keeps track of the Variant Group ID for your group in the Seller Center Items dashboard. For additional details, please review ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "4cd3d408e57d431799042480560f8061",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000008328",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "View Variant Groups in Seller Center"
+            }
+          ],
+          "uid": "04a47ed856e3420abdd760b8fd192211"
+        },
+        {
+          "text": ".",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "cfba141ff4494d819a1097c1ad686985",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "italic": true,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "53817ff2780c490298b155b4ebb5ec95",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt702e8734e2fed7c4",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt702e8734e2fed7c4/650881376517c0000dfcb263/rtaImage_-_2023-09-18T095554.987.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095554.987.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "left"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "3e7054a2e9924ef583635fb34e5551d8",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "ab890d5a5ef8464ebbe43ec0ab054f6b",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t2. Variant Attribute Name ",
+          "bold": true
+        },
+        {
+          "text": "– Variant Attribute Name indicates what attributes vary within the group. For \t\tinstance, if your item comes in sizes small, medium, and large, your Variant Attribute Name would be Size. Choose the most appropriate Variant Attribute Name from the drop-down list. If your items vary for multiple attributes (e.g., different colors and different sizes), follow the instructions for adding "
+        },
+        {
+          "uid": "072f6e3de47c4784bd97a9e0ffacd4af",
+          "type": "a",
+          "attrs": {
+            "url": "https://gecrm.lightning.force.com/lightning/r/KB_Article__kav/ka08Y000001Q9FSQA0/view#Multi-select"
+          },
+          "children": [
+            {
+              "text": "Multi-select Attributes"
+            }
+          ]
+        },
+        {
+          "text": " below to create more columns. Enter each relevant variant for your group. For additional information on attribute names, please review "
+        },
+        {
+          "uid": "480ba4745cb74c28be71cee348b95501",
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000007909"
+          },
+          "children": [
+            {
+              "text": "Supported Variant Attribute Names"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "2247d94f194a48e1868eee1f72fcc46b",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "italic": true,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e1c14addd9954127b527565154a2f4ef",
+      "type": "ol",
+      "attrs": {
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "uid": "69c490ce4bce4872b4d92ecb8900c9af",
+          "type": "fragment",
+          "attrs": {},
+          "children": [
+            {
+              "text": "**",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "uid": "fc40af82d49f4f99a553e492db91e457",
+          "type": "fragment",
+          "attrs": {},
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "uid": "b8ffba294d0a4286a9d8e04ea064f7f8",
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": " We do not allow custom attributes for variants. You must select an option from the dropdown. If none apply, then do not use that attribute as a variant for your variant group. ",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "uid": "10a7f6aed9f740808652c2510cbf7a1e",
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "italic": true,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "uid": "1e5d904730de49ca9096664d79f175fa",
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "uid": "6276bcbff9f848f49110f1f19a085cd3",
+          "type": "fragment",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "bold": true,
+              "text": "3. Swatch Image - Swatch Variant Attribute"
+            },
+            {
+              "text": " – Visual variants can be set up to be displayed as swatches on the Item Page. For example, if you have a T-shirt that comes in different colors, Swatch Variant Attribute should be set to color,"
+            },
+            {
+              "text": " ",
+              "bold": true
+            },
+            {
+              "text": "and you should provide Swatch Image URLs for the different colors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "01a6e16012ae4093b9d275a77ac30b35",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "002961f195274550bfe61c95531b41cd",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt45bf67d4d60a48cb",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt45bf67d4d60a48cb/6508823d6517c0000dfcb26d/rtaImage_-_2023-09-18T095854.808.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T095854.808.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "429px",
+          "width": "429px",
+          "max-height": "292px",
+          "height": "292px"
+        },
+        "redactor-attributes": {
+          "position": "center",
+          "height": "292"
+        },
+        "dir": "ltr",
+        "width": "429",
+        "max-width": "429",
+        "max-height": "292",
+        "height": "292"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a7a10d6db8ba4d5eae2d7ec532f71544",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "667133ac91624dbaaf088df0fe9a105d",
+      "type": "p",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "attrs": {}
+    },
+    {
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t4. Swatch Image - Swatch Image URL ",
+          "bold": true
+        },
+        {
+          "text": "– Provide the image URLs for each swatch color. You need to include an image for each variation of that swatch, but not for every variation within the group. In the example below, the Seller needs two swatches - one for green and one for yellow. The Marketplace seller can use the same Swatch Image URL for small, medium, and large sizes. Swatch Image URLs must follow the rules described in "
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/guide?article=000009378"
+          },
+          "children": [
+            {
+              "text": "Guidelines & Requirements for Product Listing Images"
+            }
+          ],
+          "uid": "fe4294c9dcbf41d9bd5ad8bdd3faf02c"
+        },
+        {
+          "text": ".",
+          "italic": true
+        }
+      ],
+      "uid": "4116c20574334c52999ceb3de372e3b8"
+    },
+    {
+      "uid": "529538914c9f4a7ebbb5efce737f2b92",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "baa3997550d54d2986e190523e1c853d",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "italic": true,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "e27a87ca17a14f3db77f61bec7b6adba",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**NOTE:",
+          "bold": true,
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "c50d356d87d84570892c25f4e092d32a",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": " ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "25b58949d54e4731a692fb5768d0d0c3",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "If you do not provide a swatch image URL, the color variants will appear as tiles with the color stated as text as shown below. Walmart may derive a swatch image from your primary or secondary images to optimize variants for the customer experience. If you have any questions or concerns about variant swatch image that appears on",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "c62c1a6749d04f11b08f5c178648f05b",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "658ff39d116d478b87b25d015a5418c6",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "http://walmart.com/"
+          },
+          "children": [
+            {
+              "text": "Walmart.com"
+            }
+          ],
+          "uid": "7fa227b80d5b4f6ea060f417a7ac604c"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "c79188723461417e96709be2bcc0a3c2",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ",",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "598de1e5e7d84df2bc70dfde387dadbf",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "a25b065f986b4edab777bcfa977af9d7",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/s/contact?language=en_US"
+          },
+          "children": [
+            {
+              "text": "create a case"
+            }
+          ],
+          "uid": "8d879ccad03346618a5041a94060f6f0"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ea39992e2b9f4f3291852964e05acd6f",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " for Seller Support. ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "1576a05345c94a9a84b3586d742450e9",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "d018e351dce14f8ea552167d0fb32aa4",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Indicate what variant attribute name corresponds to the swatch provided."
+        }
+      ]
+    },
+    {
+      "uid": "cb8261fab66543489d10e32cb7e41b25",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "5c8952da75514d2889ce17f0375ffd28",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "cb19b61608da4b468fae31c149c0c804",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "66306e8dd8534150b4ea657dbf2280b5",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blta657be3f26a6e6c4",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blta657be3f26a6e6c4/6508828d6517c0000dfcb272/rtaImage_-_2023-09-18T100148.041.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T100148.041.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "left"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "86f80fad2cd74f9394934a703e456da5",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "04e447bdcd5e49adae0f1c26d660ea55",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Provide URLs for each swatch image in this column."
+        }
+      ]
+    },
+    {
+      "uid": "20a99d2759634d07a9550d1f37965321",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "b868dfd981ab4836b3d8ec0fb267a722",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt4ecce8fc93706a60",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt4ecce8fc93706a60/650882c0a39049000db7785c/rtaImage_-_2023-09-18T100237.804.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T100237.804.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "c814732cc9554a0bb98bd85287a94497",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "140e6e2f46fa4d17b4b5a98b61e99d15",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "If you do not provide a swatch image URL, the color variants will appear as tiles with the color stated as text as shown below. "
+        }
+      ]
+    },
+    {
+      "uid": "cd95773a203145fe827419e2226477ee",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "4641e892584d4407ab41ac233b80dc2f",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt120fa9024a2c9623",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt120fa9024a2c9623/650882e7a39049000db77860/rtaImage_-_2023-09-18T100318.987.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T100318.987.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "786px",
+          "width": "786px",
+          "max-height": "374px",
+          "height": "374px"
+        },
+        "redactor-attributes": {
+          "position": "center",
+          "height": "374"
+        },
+        "dir": "ltr",
+        "width": "786",
+        "max-width": "786",
+        "max-height": "374",
+        "height": "374"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "6331a661b85b4fe1831b35e3c4ad5f88",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f8be3f38abb24acdb506fc0c2bbac4f7",
+      "type": "p",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "attrs": {}
+    },
+    {
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t5. Is Primary Variant ",
+          "bold": true
+        },
+        {
+          "text": "– The Primary Variant is the item that appears when users search "
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "http://walmart.com/"
+          },
+          "children": [
+            {
+              "text": "Walmart.com"
+            }
+          ],
+          "uid": "fbcf1bf502a14b9f955fe37918a0c793"
+        },
+        {
+          "text": " and is the default view on the Item Page. To set an item as the Primary Variant, select "
+        },
+        {
+          "text": "Yes ",
+          "bold": true
+        },
+        {
+          "text": "from the drop-down menu in this column. Only select one Primary Variant per variant group. If you select "
+        },
+        {
+          "text": "Yes",
+          "bold": true
+        },
+        {
+          "text": " on more than one item in a single variant group, your feed may fail. Marketplace sellers usually make the top-selling item or the item with the most inventory as the Primary Variant. "
+        }
+      ],
+      "uid": "5d4fefbdd25544659a670d5e2c8a5a51"
+    },
+    {
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "uid": "d0e9a5808e004c36a1530841ab63ae19",
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e8864fb8ca4a4981b743d201f2812ec7",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**",
+          "italic": true
+        },
+        {
+          "text": "NOTE",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "text": ": If your item is in a merged variant group, the Primary Variant you select may not be the Primary Variant that appears on ",
+          "italic": true
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "http://walmart.com/"
+          },
+          "children": [
+            {
+              "text": "Walmart.com"
+            }
+          ],
+          "uid": "6e1fb2d04254416da4032f5ded84c9d1"
+        },
+        {
+          "text": ". Refer to the details below. ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "3a3a8a577c6642199cf6fc90b41b3c37",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "italic": true,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ef82cf53b5d5429b9e923384902aba05",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt388f503810e45210",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt388f503810e45210/65088368380e94000a188980/rtaImage_-_2023-09-18T100448.348.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T100448.348.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "940px",
+          "width": "940px",
+          "max-height": "195px",
+          "height": "195px"
+        },
+        "redactor-attributes": {
+          "position": "center",
+          "height": "195"
+        },
+        "dir": "ltr",
+        "width": "940",
+        "max-width": "940",
+        "max-height": "195",
+        "height": "195"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "eaf6bc1c0d364092900843b138a37b39",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "3f250f44641a4d0b96dc4f8c4558038e",
+      "type": "h3",
+      "attrs": {
+        "id": "API_Method",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "API Method"
+        }
+      ]
+    },
+    {
+      "uid": "fd366a8cbd4b48b4a19c283e0d418a5d",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "For APIs users, see below for what is required to create a variant group in XML. "
+        }
+      ]
+    },
+    {
+      "uid": "b85e3db43c77410f92ed34e56682db3a",
+      "type": "h3",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "XML Example:",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "5f4f82d8fdec4fcfa069d9f21f453969",
+      "type": "code",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "<Clothing>\n<variantGroupId>S1001</variantGroupId>\n<variantAttributeNames>\n      <variantAttributeName>clothingSize</variantAttributeName>\n      <variantAttributeName>color</variantAttributeName>\n</variantAttributeNames>\n<clothingSize>L</clothingSize>\n<color>\n    <colorValue>Blue</colorValue>\n</color>\n<swatchImages>\n  <swatchImage>\n     <swatchImageUrl>"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "http://10.10.10.10/product_images/blue_shirt.jpg%3C/swatchImageUrl%3E"
+          },
+          "children": [
+            {
+              "text": "http://10.10.10.10/product_images/blue_shirt.jpg</swatchImageUrl>"
+            }
+          ],
+          "uid": "c2b7b7f600374288a5731090d2f06621"
+        },
+        {
+          "text": ";\n     <swatchVariantAttribute>color</swatchVariantAttribute>\n  </swatchImage>\n</swatchImages>\n<isPrimaryVariant>true</isPrimaryVariant>\n</Clothing>"
+        }
+      ]
+    },
+    {
+      "uid": "fd646a517ffb4134b4c1c950b7c77eaa",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f24c553b6bca4321aacd19909f1ebb08",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**",
+          "italic": true
+        },
+        {
+          "text": "NOTE:",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "text": " API users should use the name of the field as the Variant Attribute Name. Match the case exactly. ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "f63896d3c62a4e9692503dcbd1bdc843",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "a1b698e5c8564c218f3fd008c6f42a20",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Upload the Spec"
+        }
+      ]
+    },
+    {
+      "uid": "e958416cdbe94bb3a597f773cf61c4fd",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Once you have completed the spec sheet with your variants, you will upload the sheet to Seller Center. If you need further details, you can follow the upload instructions provided in "
+        }
+      ]
+    },
+    {
+      "uid": "0a5827c7d8cd4a198ce24877d58060cb",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Upload the Completed Spec",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "c6d8ade756124af5a03d2fe7c7739396",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " of the "
+        }
+      ]
+    },
+    {
+      "uid": "03a66854f18a487ba4825db05e9c235c",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007680#Upload_Spec"
+          },
+          "children": [
+            {
+              "text": "Add Items in Bulk in Seller Center"
+            }
+          ],
+          "uid": "9db819ad00834e38b4ee5a57e1012981"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7dee11676b19430d825b0eaf2903871c",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "e35baec4d83c461491f2b3814f51f628",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "article."
+        }
+      ]
+    },
+    {
+      "uid": "e471ef2b435f4fe88c3ea38072535054",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "aa91de98c6e141afb2068bbff5dbd2a0",
+      "type": "h3",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Track Variant Group Feeds"
+        }
+      ]
+    },
+    {
+      "uid": "0d2a78f463974990a550b1d41d6afa54",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Select"
+        }
+      ]
+    },
+    {
+      "uid": "a42a2db4ee2945e1a682dd9067dc164c",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "78e1b8a635314726bb7ddb47d8ea76c0",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Copy Feed ID",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "c820782809e245428f620795a12d59e5",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "bd9ab9b0dcea452fb1e57383befba6be",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "in the success message and navigate to the"
+        }
+      ]
+    },
+    {
+      "uid": "38acb015c1d44daf90d0c22658aacd73",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "efe4dc3a37424175a5eaf729b34e02fc",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Activity Feed",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "b062088a9c294fe69aab44f6114db8f8",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "13a9a82579a14258bc8c4ebb8047e85b",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "to view the status of the request. If you did not copy the Feed ID, select"
+        }
+      ]
+    },
+    {
+      "uid": "8846b7818dd5484d854041fd8982b63c",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "73947ddc38dd4c56a959893b8a9f49b5",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Item Maintenance",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "4932643628094f778a98b2cbf1fd58c1",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "8472238551f544bea7e8332a2cfce1cc",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "from the"
+        }
+      ]
+    },
+    {
+      "uid": "fd07b29d096e4235938423c6c6e0df36",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "1d5b6d7d157048478852da35d4c16a7c",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Feed Type",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "a3ffd781898e44fc8e48c39e282d7f5a",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "984fe7bab06947b39f0e1fe5c37deec7",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "dropdown to view the status of the most recent feed. For additional details, see"
+        }
+      ]
+    },
+    {
+      "uid": "e68f1cb6c1d749299a9ff8a6b76b31cc",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "66804cfe2ec74b048d4f1d38b8b534a6",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007683"
+          },
+          "children": [
+            {
+              "text": "Activity Feed in Seller Center."
+            }
+          ],
+          "uid": "46fe19a559d647daa823dc24907c2119"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7c4273f13d2f47739bcf7cc6e167e7bb",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "bff867f441e44682956e569cd988fcda",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "9cf41294a0324966a16c4adbdd10a7dc",
+      "type": "h2",
+      "attrs": {
+        "id": "Multi-select",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Multi-select Attributes"
+        }
+      ]
+    },
+    {
+      "uid": "b662641fa2af44989b5f3d6415133e91",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Marketplace sellers can choose to add more information for certain attributes. We call these "
+        }
+      ]
+    },
+    {
+      "uid": "872f5e0285db4946817a7de8e573f3da",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Multi-select Attributes ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "0814d01bbd4c45cbac9f67898efa1434",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "and they can be identified by a plus sign next to the attribute title."
+        }
+      ]
+    },
+    {
+      "uid": "a1bbe6a776ec45dbb9c31ec0aab5757e",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7e7c1a04a89241acb014f0c4b91910c6",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "d235e83b93d24aab8df18db832d3990f",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a637caa268dd4b4ba26091ab0f3184ea",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt8fe8ec2de66453e4",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt8fe8ec2de66453e4/650883d26517c0000dfcb27b/rtaImage_-_2023-09-18T100703.887.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T100703.887.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "806px",
+          "width": "806px",
+          "max-height": "143px",
+          "height": "143px"
+        },
+        "redactor-attributes": {
+          "position": "left",
+          "height": "143"
+        },
+        "dir": "ltr",
+        "width": "806",
+        "max-width": "806",
+        "max-height": "143",
+        "height": "143"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "0eff986a01734d5e99b1d54f97abf340",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f7b62629755b45438c3b0789efc76343",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "While every category has different attributes, some of the most common multi-select attributes are:"
+        }
+      ]
+    },
+    {
+      "uid": "2d6262a730fd49f8a3f14c40f0d8fca5",
+      "type": "ul",
+      "attrs": {},
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Key Features"
+            }
+          ],
+          "uid": "fb4533a44a63403d946a608cd5ec11fb"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Additional Image"
+            }
+          ],
+          "uid": "dc458e379f1442bc97b139b66f7df42d"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Color"
+            }
+          ],
+          "uid": "d40993adab7840f7a1231dbc91675d6c"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Variant Attributes"
+            }
+          ],
+          "uid": "7ab968778a0946bca335f2aeaf4c5af1"
+        }
+      ]
+    },
+    {
+      "uid": "069a29a54a4140edbfecd7510d59201f",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "These attributes can have as many entries as required by your item. The first three are included in the downloaded spec. To add more, right-click the attribute title, or use the Excel Ribbon to add a new column to the sheet."
+        }
+      ]
+    },
+    {
+      "uid": "36bd232babfd42cbba9c083e840cd0d6",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "003c953b61134b44b2e6ef57c9db1150",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt886c8f2ef564ee52",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt886c8f2ef564ee52/6508840fd63b5d000a9cd935/rtaImage_-_2023-09-18T100802.800.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T100802.800.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "06d3eab73cf14babab1c5e32224269e2",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "458cf26643cb4004bf23873eba00c2d5",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**NOTE:",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "text": " The new column will automatically be added to the left. If you want to add columns to the end of a section, select the nearest column on the right.",
+          "italic": true
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "Copy the information from the attribute next to it (Highlight the entire column) and paste it into the corresponding new cells. If you would like to keep track of how many additions, you can choose to change the number in the newly created column, for example: Additional Image URL 4 (+) instead of Additional Image URL 3 (+) (optional)."
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "2e0574ef34dd4e0484d68a8360c9323f",
+      "type": "h2",
+      "attrs": {
+        "id": "Update_Variant_Group",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Update Variant Groups"
+        }
+      ]
+    },
+    {
+      "uid": "ed76d43a8f9543efa45b01dbe35d188e",
+      "type": "h3",
+      "attrs": {
+        "id": "Adding_Items_to_an_Existing_Group",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Add Items to Variant Groups"
+        }
+      ]
+    },
+    {
+      "uid": "d9f274e67ed445d78bb1bbb8f3dc82d5",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Assign the same "
+        }
+      ]
+    },
+    {
+      "uid": "b008fe3a907f4a74b246ca919df54856",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Variant Group ID ",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "f224394c93f44abd9773d94e41c86d48",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "to the new item to add it to an existing variant group. "
+        }
+      ]
+    },
+    {
+      "uid": "6df1862e9c5a410585435f1eed72086f",
+      "type": "ul",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "The new item(s) should have the same "
+            },
+            {
+              "text": "Variant Attribute Name ",
+              "bold": true
+            },
+            {
+              "text": "as the existing group. If you cannot find a corresponding column in this category, you should check that you've "
+            },
+            {
+              "type": "a",
+              "attrs": {
+                "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007680"
+              },
+              "children": [
+                {
+                  "text": "selected the correct"
+                }
+              ],
+              "uid": "5609b25231864ccd8f85f0d4397b4dab"
+            },
+            {
+              "text": " spec sheet. If this is the correct category, you should not set up this item using that Variant Attribute Name. "
+            }
+          ],
+          "uid": "39684e96f5eb4999a173666e167f2253"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Make sure that you define item details like size, color, etc. in the relevant attribute columns. "
+            }
+          ],
+          "uid": "b4215c73f76448b7bae297aecf1940dc"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "The new item(s) should also have the same "
+            },
+            {
+              "text": "Swatch Variant Attribute ",
+              "bold": true
+            },
+            {
+              "text": "(if applicable) as the existing group. "
+            }
+          ],
+          "uid": "b4fd8a984448443299f8024b736ea317"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "If you include a swatch variant, include the swatch image URL in the "
+            },
+            {
+              "text": "Swatch Image-Swatch Image URL",
+              "bold": true
+            },
+            {
+              "text": " attribute column. "
+            }
+          ],
+          "uid": "ef78e06dbc61431e85fbc4eff7c3076d"
+        }
+      ]
+    },
+    {
+      "uid": "ff146e16bb244f66af53557ba13aa145",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "8ba301dc62ff40d996c51a4369d54ad7",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "bltf93c8e91f02fa09f",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/bltf93c8e91f02fa09f/65088449d63b5d000a9cd939/rtaImage_-_2023-09-18T100902.181.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T100902.181.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "39402d0bca8c47c2a1334bb18288f4fe",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a18ce68d714c486c84d4830e45821e1e",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Upload the item(s). The new item(s) will be added to the existing variant group. "
+        }
+      ]
+    },
+    {
+      "uid": "088fa0f6837b4882b322ae7353bf987a",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "2a2e1f6ef4214beb94dc9870fef11ef2",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**NOTE",
+          "bold": true,
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "26a5bae3142145e2ae888a3af1e33da8",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ": Consider ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "92ac7b0b380449a5abf04ae21b176213",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://gecrm.lightning.force.com/lightning/r/KB_Article__kav/ka08Y000001Q9FSQA0/view#Variant_Limits"
+          },
+          "children": [
+            {
+              "text": "variant limits"
+            }
+          ],
+          "uid": "e18f5251929f40d793c6a394b1be20e5"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7f284fdfb83d456aae72551cfc2fd637",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " ",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "b5d5b6739cbf4304945203dae8e29cdb",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "when adding items to a variant group.",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "537d15be92c342c3b7fa80960a89fac7",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "0fcdfb2285bc464ba4d1096710825fd3",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "8b5d8486bd88469f8b5ef2880e011689",
+      "type": "h3",
+      "attrs": {
+        "id": "Removing_Items_from_a_Variant_Group",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Remove Items from a Variant Group "
+        }
+      ]
+    },
+    {
+      "uid": "25fbd29334d04a459f69438e5dad09d9",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "There are two ways to remove an item from an existing variant group: by downloading the Item Maintenance spec in Seller Center or using the "
+        },
+        {
+          "text": "Items",
+          "bold": true
+        },
+        {
+          "text": " dashboard."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "To remove items using the Item Maintenance spec:"
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "8f57f86bdfef458eb9e7d276c3498d8f",
+      "type": "ol",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Navigate to the "
+            },
+            {
+              "type": "a",
+              "attrs": {
+                "url": "https://seller.walmart.com/item/list"
+              },
+              "children": [
+                {
+                  "text": "Items",
+                  "bold": true
+                }
+              ],
+              "uid": "d8f87de5cd4d457494f8768b9ea096b4"
+            },
+            {
+              "text": " dashboard and select "
+            },
+            {
+              "text": "Manage Items",
+              "italic": true
+            },
+            {
+              "text": " > "
+            },
+            {
+              "text": "Update items",
+              "italic": true
+            },
+            {
+              "text": "."
+            }
+          ],
+          "uid": "e5c7a180e0834418a7f8ac6ea7a25662"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "On the next page, choose "
+            },
+            {
+              "text": "Seller Fulfilled",
+              "italic": true
+            },
+            {
+              "text": "."
+            }
+          ],
+          "uid": "e4ed219a06cb47449e404aeeb55addc4"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Choose your preferred update method, then download the spec."
+            }
+          ],
+          "uid": "575fc96649994b36be281937b101bec8"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Add the "
+            },
+            {
+              "text": "Product Type",
+              "bold": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Product ID",
+              "bold": true
+            },
+            {
+              "text": " in the appropriate columns."
+            }
+          ],
+          "uid": "57749a2bb7154f889d75d65e41dfb13a"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Find the "
+            },
+            {
+              "text": "Remove from Variant Group",
+              "bold": true
+            },
+            {
+              "text": " column and choose "
+            },
+            {
+              "text": "Yes",
+              "italic": true
+            },
+            {
+              "text": " from the dropdown menu. "
+            }
+          ],
+          "uid": "53643b93f5854c38a7a7b36af6ad367b"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "When ready, upload the spec back into Seller Center.   "
+            }
+          ],
+          "uid": "5986352ec7004df48a7259dbd12414d9"
+        }
+      ]
+    },
+    {
+      "uid": "03dca9fa110c4e72843b35b8d6ea8dd9",
+      "type": "p",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      }
+    },
+    {
+      "uid": "bea564774f0a4d998195da1c8c2c1589",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blte313047d7d705499",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blte313047d7d705499/65088493269cb7000ace4002/rtaImage_(27).png",
+        "asset-name": "rtaImage_(27).png",
+        "asset-type": "image/png",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "905px",
+          "width": "905px",
+          "max-height": "139px",
+          "height": "139px"
+        },
+        "redactor-attributes": {
+          "position": "center",
+          "height": "139"
+        },
+        "dir": "ltr",
+        "width": "905",
+        "max-width": "905",
+        "max-height": "139",
+        "height": "139"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "3a085801251c4324a4c2a8bf25bfe1a3",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "f6200abc2eb94e77a1f50d92fe2daaec",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**NOTE:",
+          "bold": true,
+          "italic": true
+        },
+        {
+          "bold": true,
+          "text": " "
+        },
+        {
+          "text": "It can take up to four hours for your changes to reflect on ",
+          "italic": true
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "http://walmart.com/"
+          },
+          "children": [
+            {
+              "text": "Walmart.com"
+            }
+          ],
+          "uid": "bfd0ba0c916049a3915d6853705ea283"
+        },
+        {
+          "text": ". If another seller or Walmart offers your item in a ",
+          "italic": true
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007667&language=en_US#Merged_Variant_Groups"
+          },
+          "children": [
+            {
+              "text": "merged variant group"
+            }
+          ],
+          "uid": "c6e1725a2e974e0db85d6ad6ac39dfa4"
+        },
+        {
+          "text": ", it will not be removed from the merged group that appears on Walmart.com.",
+          "italic": true
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "To remove an item from a variant group using the "
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://seller.walmart.com/item/list"
+          },
+          "children": [
+            {
+              "text": "Items",
+              "bold": true
+            }
+          ],
+          "uid": "56f78f461bc14b22928cd1572cd59aee"
+        },
+        {
+          "text": " dashboard:"
+        }
+      ]
+    },
+    {
+      "uid": "83d2e03910d7454f89ae37de23648d86",
+      "type": "ol",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Navigate to the "
+            },
+            {
+              "type": "a",
+              "attrs": {
+                "url": "https://seller.walmart.com/item/list"
+              },
+              "children": [
+                {
+                  "text": "Items",
+                  "bold": true
+                }
+              ],
+              "uid": "6843cc31826b4c21a9dcc0e12be7ca77"
+            },
+            {
+              "text": " dashboard, then use the "
+            },
+            {
+              "text": "Filters ",
+              "italic": true
+            },
+            {
+              "text": "button to select "
+            },
+            {
+              "text": "Variants",
+              "italic": true
+            },
+            {
+              "text": " > "
+            },
+            {
+              "text": "Variant item",
+              "italic": true
+            },
+            {
+              "text": " > "
+            },
+            {
+              "text": "Apply",
+              "italic": true
+            },
+            {
+              "text": ". This will filter your Items by variant groups."
+            }
+          ],
+          "uid": "11f97e53072a49afa36fdf5ce85a8eb5"
+        },
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Hover over the group you want to edit, then select the "
+            },
+            {
+              "text": "Variant",
+              "italic": true
+            },
+            {
+              "text": " item button when it appears."
+            }
+          ],
+          "uid": "a1ba888d0dea4161afb1b1e1c308afcb"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "Select the "
+            },
+            {
+              "text": "check box",
+              "italic": true
+            },
+            {
+              "text": " next to the item you want to remove from the group, then select "
+            },
+            {
+              "text": "Remove Variants",
+              "italic": true
+            },
+            {
+              "text": " from the "
+            },
+            {
+              "text": "More actions",
+              "bold": true
+            },
+            {
+              "text": " dropdown in the upper right corner. "
+            }
+          ],
+          "uid": "1544b280038f4842ac939e8b4f647f82"
+        }
+      ]
+    },
+    {
+      "uid": "a5295ccbbefe4c249b94ef8a0fab5f99",
+      "type": "p",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      }
+    },
+    {
+      "uid": "5d7ed36a17af4c34be769587d97a5f45",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt9757ec78b480abc5",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt9757ec78b480abc5/650884f4269cb7000ace4006/Remove_Variants_(2).png",
+        "asset-name": "Remove_Variants_(2).png",
+        "asset-type": "image/png",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "907px",
+          "width": "907px",
+          "max-height": "453px",
+          "height": "453px"
+        },
+        "redactor-attributes": {
+          "position": "center",
+          "height": "453"
+        },
+        "dir": "ltr",
+        "width": "907",
+        "max-width": "907",
+        "max-height": "453",
+        "height": "453"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "150fd16634e5432aa68e483669182b2a",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e9ff168a66fc4ee8950f20620a28f578",
+      "type": "h3",
+      "attrs": {
+        "id": "Combine_group",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Combine Two Variant Groups into a Single Group"
+        }
+      ]
+    },
+    {
+      "uid": "1cb9545aa99545c99bdf79ee1d3d0350",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Set the same Variant Group ID for all the items. Ensure that all the variant group parameters (Variant Attribute Name, Swatch Variant Attribute, etc.) are the same. Then, re-upload the items."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "The variant attributes must also match when merging groups and IDs. For example, if group 001 is divided by colors and group 002 by size, then the items in the combined group would need to include values in both color and size, to merge successfully. Please ensure that you provide Swatch image URLs for each line when you submit the spec sheet, or you may lose the images. "
+        }
+      ]
+    },
+    {
+      "uid": "e9875c0b33da462087cb1dd57f695fb4",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7dcab9806fa149b6b1ddf98f13681392",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt5836f49fccc75730",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt5836f49fccc75730/65088535e877e9000ae88e34/rtaImage_-_2023-09-18T101306.095.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T101306.095.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "486966e6b2124cd585efa304a9615df2",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a1f811fc4891461ebc6c828b9e772425",
+      "type": "h3",
+      "attrs": {
+        "id": "Separate_Group",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Separate a Single Variant Group into Multiple Groups"
+        }
+      ]
+    },
+    {
+      "uid": "b6900d83837e45ef895eb5bfbde3ada6",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Set a new Variant Group ID for the items you want to split from the group and configure all the variant group parameters. Then re-upload the items. "
+        }
+      ]
+    },
+    {
+      "uid": "cc785d6f75a44021be0d38394992bebf",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "741d72dd28c74c0083d39f71429c49a0",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt7786512e2c01899a",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt7786512e2c01899a/65088560103154000dae7f6e/rtaImage_-_2023-09-18T101351.206.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T101351.206.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "b5346072e29c4718b119a61977653f6d",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "8630f0e020ce474f945be8898ce6d127",
+      "type": "h3",
+      "attrs": {
+        "id": "Add_New_Attribute",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Add New Variant Attributes "
+        }
+      ]
+    },
+    {
+      "uid": "0ca31d8dc0504ab4860ec481d963b957",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Update the variant attributes in the Item Maintenance Spec and upload the file. For example, if the previous criteria for your variant group use the variant's color and size and you want to add a variant for fit."
+        }
+      ]
+    },
+    {
+      "uid": "3eb5da006a3746788563e6d3e8ee9a42",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "fd1737e8b7aa431da36316d91b0e2423",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt78ff501a37adf5d6",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt78ff501a37adf5d6/650885946517c0000dfcb280/rtaImage_-_2023-09-18T101442.883.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T101442.883.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ebb088d00a7b48388daf9f6c3265f2e4",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "0543d6178977453fb712ce1d475380d1",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Add a "
+        },
+        {
+          "text": "Variant Attribute Names",
+          "italic": true
+        },
+        {
+          "text": " row using the "
+        },
+        {
+          "uid": "2f7d4d995b7843419ea31d5192fb8f85",
+          "type": "a",
+          "attrs": {
+            "url": "https://gecrm.lightning.force.com/lightning/r/KB_Article__kav/ka08Y000001Q9FSQA0/view#Multi-select"
+          },
+          "children": [
+            {
+              "text": "Multi-select Attribute"
+            }
+          ]
+        },
+        {
+          "text": " process in your spec sheet or XML. You have to fill out the item attribute column for the new Variant attribute option as well. In the example below, we filled out the "
+        },
+        {
+          "text": "Clothing Fit",
+          "italic": true
+        },
+        {
+          "text": " Attribute in the orange section to correspond with the new Variant Attribute "
+        },
+        {
+          "text": "clothingFit.",
+          "italic": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "d7906dbf98094a2d8f83b7bbcf416a45",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "229d3bc2d43641368a1e906b9efe6b18",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blt7004615fb784971b",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt7004615fb784971b/650885bca39049000db77869/rtaImage_-_2023-09-18T101524.314.jpeg",
+        "asset-name": "rtaImage_-_2023-09-18T101524.314.jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "max-width": "907px",
+          "width": "907px",
+          "max-height": "152px",
+          "height": "152px",
+          "text-align": "center"
+        },
+        "redactor-attributes": {
+          "position": "center",
+          "height": "152"
+        },
+        "dir": "ltr",
+        "width": "907",
+        "max-width": "907",
+        "max-height": "152",
+        "height": "152"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "a8f9ee1d932c4a11ab13f593cd3d8a3a",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "eacb77816b5c41929f03f2bcfee496d9",
+      "type": "h2",
+      "attrs": {
+        "id": "Merged_Variant_Groups",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Merged Variant Groups"
+        }
+      ]
+    },
+    {
+      "uid": "9b593873bd1a4e01a63da52d1535863b",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "If you create a variant group that contains items sold by another Warehouse Supplier, DSV or Marketplace seller, your two groups will merge to appear on the same page."
+        }
+      ]
+    },
+    {
+      "uid": "67b259a6db004cad9c71138b726210ef",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "2ced99c904b94f88a07eea230ae0c4e8",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blte644efc92e6967c3",
+        "content-type-uid": "sys_assets",
+        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blte644efc92e6967c3/650885e74f22f8000d8c7b93/rtaImage_(28).png",
+        "asset-name": "rtaImage_(28).png",
+        "asset-type": "image/png",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {
+          "text-align": "center",
+          "max-width": "798px",
+          "width": "798px",
+          "max-height": "598px",
+          "height": "598px"
+        },
+        "redactor-attributes": {
+          "position": "center",
+          "height": "598"
+        },
+        "dir": "ltr",
+        "width": "798",
+        "max-width": "798",
+        "max-height": "598",
+        "height": "598"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ca7ae2ae5fdd4e89b9adb9451555e895",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "0fb97b1a08324456bd0c50e84ad0c991",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "You can group, modify, and delete your own variant groups, but any items in another variant group will continue to appear within that group. The system algorithmically selects the best content, so your content may not appear on the "
+        },
+        {
+          "text": "Item Page",
+          "bold": true
+        },
+        {
+          "text": ". Providing high-quality content will improve the likelihood that your content will appear on the"
+        },
+        {
+          "text": " Item Page",
+          "bold": true
+        },
+        {
+          "text": ". The Buy Box Winner will be the first listing to appear on the page, but customers can choose from any listing. We recommend checking your Buy Box score for items sold in merged variant groups, as described in "
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000006427"
+          },
+          "children": [
+            {
+              "text": "Buy Box Reports"
+            }
+          ],
+          "uid": "126116fb450d425e8439a5d6aad952a7"
+        },
+        {
+          "text": ".",
+          "italic": true
+        }
+      ]
+    },
+    {
+      "uid": "02d3096bb2ed4d3b83aba1528a982540",
+      "type": "h2",
+      "attrs": {
+        "id": "Variant_Limits",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "Variant Limits "
+        }
+      ]
+    },
+    {
+      "uid": "7e1d86e119fb46fb940f4dcb844ffebd",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Having too many items in one variant group makes it challenging for customers to find the item they want. We recommend having fewer than 50 items for a variant group that varies by a single attribute (e.g., a towel with 50 different colors). We also recommend having fewer than 500 items for a variant group that varies by multiple attributes (e.g., pants with 25 different sizes and 20 different colors)."
+        },
+        {
+          "text": "\n\n",
+          "break": true
+        },
+        {
+          "text": "**NOTE: ",
+          "bold": true
+        },
+        {
+          "text": " If you do not see your update immediately, please allow the feed to process (some feeds can take up to 4 hours) and check again before submitting a ticket for Partner Support. To learn more about feeds, please review ",
+          "italic": true
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007683"
+          },
+          "children": [
+            {
+              "text": "Feed Status in Seller Center"
+            }
+          ],
+          "uid": "98c314e2715544b383dcdc464ddedb14"
+        },
+        {
+          "text": ". ",
+          "italic": true
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "c23e71f36b124ea4ab2c07072a51074b",
+      "type": "h2",
+      "attrs": {
+        "id": "Variant_Errors",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Variant Group Errors"
+        }
+      ]
+    },
+    {
+      "uid": "ac42c0a21fa1416dae067c1dd17f8404",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "You may receive an error message when you upload a spec sheet with a new or updated variant group."
+        }
+      ]
+    },
+    {
+      "uid": "2f0270ddd13d4253b4ac0639a8936fd0",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "aead6f94947243bb967c060e28eebf68",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "17eb75e5d51a46bd839e863aa1e9c461",
+      "type": "p",
+      "attrs": {
+        "id": "Selecting_Invalid_Variant_Attributes",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Selecting Invalid Variant Attributes",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "ffb5950e99f24ef6b4215a0a4c36af1b",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Marketplace sellers often select a variant attribute for a spec field that they have not actually filled out. If you want to add or update a variant for an attribute, you must provide a value in that attribute column."
+        }
+      ]
+    },
+    {
+      "uid": "f797de0fb08a4efc8844af77d809c1b4",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "1f467731b2344634a3b474fa02d4261d",
+      "type": "p",
+      "attrs": {
+        "id": "Variant_Group_Limits",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Variant Group Limits",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "6d38f40d34ca42d29ad3338b4e04be98",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "Variant groups cannot exceed 1,000+ variants. If you add more than 1,000 variants, you will receive an error message that reads: "
+        },
+        {
+          "text": "\"Each variant group ID can only show up to 1,000 items on site. Please ensure your group has a maximum of 999 items.\"",
+          "italic": true
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": " "
+        }
+      ]
+    },
+    {
+      "uid": "4dea25572f574cb891916b04962b2b57",
+      "type": "p",
+      "attrs": {
+        "id": "Duplicate_Variants",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Duplicate Variants",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "4955ec8cf1e441fcbc88369ed814c6ba",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "If you have multiple products in a variant group that has similar values, such as color, you may receive the following error: "
+        },
+        {
+          "text": "\"Multiple items have the same values for their variant attributes. Please provide unique values or add more product variations to ensure your items are shown on site.\" ",
+          "italic": true
+        },
+        {
+          "text": "To fix this error, please take one of the following actions:"
+        }
+      ]
+    },
+    {
+      "uid": "6d35e056ed9e41abae44b3af017ed227",
+      "type": "ul",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "type": "li",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Make the Product Variation values unique:",
+              "bold": true
+            },
+            {
+              "text": " If two items currently vary by the same color (e.g., Blue), change one of them to a different color (e.g., Navy Blue)."
+            }
+          ],
+          "uid": "737ed3befec04c1c9df772484f2a7505"
+        },
+        {
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "Select additional Product Variation(s) to make unique combinations of values: ",
+              "bold": true
+            },
+            {
+              "text": "If two items currently vary by the same color (e.g., Blue), add the Product Variation for \"Size\" so the combination of values is different (e.g., item A will be Blue/Small, and item B will be Blue/Medium)."
+            }
+          ],
+          "uid": "65364c6495ac4a14bda9cced97c6ab33"
+        }
+      ]
+    }
+  ],
+  "_version": 23
+}
