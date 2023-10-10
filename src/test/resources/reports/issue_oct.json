@@ -1,0 +1,155 @@
+{
+  "type": "doc",
+  "attrs": {},
+  "uid": "7d20ddd1c7764fb398f5eebd122b3a23",
+  "children": [
+    {
+      "uid": "4ed44402efbe4aef88c56b48ab90df1e",
+      "type": "ol",
+      "children": [
+        {
+          "uid": "e4657cd07bc44613938019115fd0075d",
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "Attempt these troubleshooting steps if you encounter an error when acknowledging an order:"
+            }
+          ]
+        },
+        {
+          "uid": "df3e3f2ef1c54f90a225eb62561fd8bc",
+          "type": "ol",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "uid": "8a3ed68bbf324762868a5bba489de095",
+              "type": "li",
+              "attrs": {},
+              "children": [
+                {
+                  "uid": "728f459306b74356ace7c74776087ef8",
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Clear your browser history (cache and cookies)."
+                    }
+                  ],
+                  "attrs": {}
+                }
+              ]
+            },
+            {
+              "uid": "2f5bd433ccdf4e75aec3044eaaddb40f",
+              "type": "li",
+              "attrs": {},
+              "children": [
+                {
+                  "uid": "3e3a34db6acb45f3801dd32f8435a0a5",
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Close any open browser windows."
+                    }
+                  ],
+                  "attrs": {}
+                }
+              ]
+            },
+            {
+              "uid": "5c92220bd294423990132b6ab5e1006e",
+              "type": "li",
+              "attrs": {},
+              "children": [
+                {
+                  "uid": "17d556d44ead41d5baaf5b092b70d05c",
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Restart your computer."
+                    }
+                  ],
+                  "attrs": {}
+                }
+              ]
+            },
+            {
+              "uid": "b15be32b723a41b2b9e608c5118ecb4f",
+              "type": "li",
+              "attrs": {},
+              "children": [
+                {
+                  "uid": "66b83ac57a564fffa320a88ed0d6cc63",
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Try to view the order(s) in an incognito window."
+                    }
+                  ],
+                  "attrs": {}
+                }
+              ]
+            },
+            {
+              "uid": "75a0cabe941b46f2867ed5db8cf63928",
+              "type": "li",
+              "attrs": {
+                "style": {},
+                "redactor-attributes": {},
+                "dir": "ltr"
+              },
+              "children": [
+                {
+                  "uid": "74a5b36c096a46d69bafe4e6478840b4",
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Try to view the order(s) in a different browser."
+                    }
+                  ],
+                  "attrs": {
+                    "style": {},
+                    "redactor-attributes": {},
+                    "dir": "ltr"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uid": "03c0cf39e8314875880ede67325254fd",
+          "type": "li",
+          "attrs": {
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr"
+          },
+          "children": [
+            {
+              "text": "If you are still unable to view the order(s) after attempting the steps above, continue to create a case."
+            },
+            {
+              "text": "\n",
+              "break": true
+            }
+          ]
+        }
+      ],
+      "id": "2dc5dc600ba1414bb642907c58da9c42",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      }
+    }
+  ]
+}
