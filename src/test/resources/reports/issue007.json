@@ -768,7 +768,7 @@
           "italic": true
         },
         {
-          "text": " Walmart tracks Variant Group IDs on the ",
+          "text": " Company tracks Variant Group IDs on the ",
           "italic": true
         },
         {
@@ -783,7 +783,7 @@
           "uid": "67633ad53a5e4394a0ae7cd569dee107",
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000008328"
+            "url": "www.sellerhelp.com/s/guide?article=000008328"
           },
           "children": [
             {
@@ -921,7 +921,7 @@
           "uid": "5d1b59d31b254682b5c23ffff4d8b348",
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000007909"
+            "url": "www.sellerhelp.com/s/guide?article=000007909"
           },
           "children": [
             {
@@ -1103,11 +1103,11 @@
           "uid": "2deb380bb76f42e6863ef287e38aab6a",
           "type": "a",
           "attrs": {
-            "url": "http://walmart.com/"
+            "url": "www.company.com/"
           },
           "children": [
             {
-              "text": "Walmart.com"
+              "text": "company.com"
             }
           ]
         },
@@ -1513,7 +1513,7 @@
           "text": "Select the "
         },
         {
-          "text": "Walmart template",
+          "text": "company template",
           "italic": true
         },
         {
@@ -1965,7 +1965,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "Walmart keeps track of the Variant Group ID for your group in the Seller Center Items dashboard. For additional details, please review ",
+          "text": "company keeps track of the Variant Group ID for your group in the Seller Center Items dashboard. For additional details, please review ",
           "italic": true
         }
       ]
@@ -1985,7 +1985,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000008328",
+            "url": "www.sellerhelp.com/s/guide?article=000008328",
             "style": {},
             "redactor-attributes": {},
             "dir": "ltr"
@@ -2094,7 +2094,7 @@
           "uid": "480ba4745cb74c28be71cee348b95501",
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000007909"
+            "url": "www.sellerhelp.com/s/guide?article=000007909"
           },
           "children": [
             {
@@ -2321,7 +2321,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000009378"
+            "url": "www.sellerhelp.com/s/guide?article=000009378"
           },
           "children": [
             {
@@ -2400,7 +2400,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "If you do not provide a swatch image URL, the color variants will appear as tiles with the color stated as text as shown below. Walmart may derive a swatch image from your primary or secondary images to optimize variants for the customer experience. If you have any questions or concerns about variant swatch image that appears on",
+          "text": "If you do not provide a swatch image URL, the color variants will appear as tiles with the color stated as text as shown below. company may derive a swatch image from your primary or secondary images to optimize variants for the customer experience. If you have any questions or concerns about variant swatch image that appears on",
           "italic": true
         }
       ]
@@ -2427,11 +2427,11 @@
         {
           "type": "a",
           "attrs": {
-            "url": "http://walmart.com/"
+            "url": "www.Company.com/"
           },
           "children": [
             {
-              "text": "Walmart.com"
+              "text": "company.com"
             }
           ],
           "uid": "7fa227b80d5b4f6ea060f417a7ac604c"
@@ -2474,7 +2474,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/contact?language=en_US"
+            "url": "www.sellerhelp.com/s/contact?language=en_US"
           },
           "children": [
             {
@@ -2786,11 +2786,11 @@
         {
           "type": "a",
           "attrs": {
-            "url": "http://walmart.com/"
+            "url": "www.Company.com/"
           },
           "children": [
             {
-              "text": "Walmart.com"
+              "text": "company.com"
             }
           ],
           "uid": "fbcf1bf502a14b9f955fe37918a0c793"
@@ -2854,11 +2854,11 @@
         {
           "type": "a",
           "attrs": {
-            "url": "http://walmart.com/"
+            "url": "www.company.com/"
           },
           "children": [
             {
-              "text": "Walmart.com"
+              "text": "company.com"
             }
           ],
           "uid": "6e1fb2d04254416da4032f5ded84c9d1"
@@ -3107,7 +3107,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007680#Upload_Spec"
+            "url": "www.sellerhelp.com/seller/s/guide?article=000007680#Upload_Spec"
           },
           "children": [
             {
@@ -3359,7 +3359,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007683"
+            "url": "www.sellerhelp.com/seller/s/guide?article=000007683"
           },
           "children": [
             {
@@ -3787,7 +3787,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007680"
+                "url": "www.sellerhelp.com/seller/s/guide?article=000007680"
               },
               "children": [
                 {
@@ -4096,7 +4096,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "https://seller.walmart.com/item/list"
+                "url": "www.seller.com/item/list"
               },
               "children": [
                 {
@@ -4306,23 +4306,23 @@
         {
           "type": "a",
           "attrs": {
-            "url": "http://walmart.com/"
+            "url": "www.company.com/"
           },
           "children": [
             {
-              "text": "Walmart.com"
+              "text": "company.com"
             }
           ],
-          "uid": "bfd0ba0c916049a3915d6853705ea283"
+          "uid": "uid"
         },
         {
-          "text": ". If another seller or Walmart offers your item in a ",
+          "text": ". If another seller or company offers your item in a ",
           "italic": true
         },
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007667&language=en_US#Merged_Variant_Groups"
+            "url": "www.sellerhelp.com/seller/s/guide?article=000007667&language=en_US#Merged_Variant_Groups"
           },
           "children": [
             {
@@ -4332,7 +4332,7 @@
           "uid": "c6e1725a2e974e0db85d6ad6ac39dfa4"
         },
         {
-          "text": ", it will not be removed from the merged group that appears on Walmart.com.",
+          "text": ", it will not be removed from the merged group that appears on company.com.",
           "italic": true
         },
         {
@@ -4345,7 +4345,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://seller.walmart.com/item/list"
+            "url": "www.seller.company.com/item/list"
           },
           "children": [
             {
@@ -4379,7 +4379,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "https://seller.walmart.com/item/list"
+                "url": "www.seller.com/item/list"
               },
               "children": [
                 {
@@ -5016,7 +5016,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000006427"
+            "url": "www.sellerhelp.com/seller/s/guide?article=000006427"
           },
           "children": [
             {
@@ -5073,7 +5073,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/seller/s/guide?article=000007683"
+            "url": "www.sellerhelp.com/seller/s/guide?article=000007683"
           },
           "children": [
             {

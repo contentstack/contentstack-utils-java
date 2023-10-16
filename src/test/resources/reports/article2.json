@@ -35,7 +35,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009239&language=en_US#Overview"
+                                "url": "www.sellerhelp.com/s/guide?article=000009239&language=en_US#Overview"
                             },
                             "children": [
                                 {
@@ -64,7 +64,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009239&language=en_US#ErrorMessages",
+                                "url": "www.sellerhelp.com/s/guide?article=000009239&language=en_US#ErrorMessages",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -664,7 +664,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Item dimensions aren't eligible for Walmart-fulfilled. Check the dimensions."
+                                                            "text": "Item dimensions aren't eligible for company-fulfilled. Check the dimensions."
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1016,7 +1016,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Item information is not present for sku, Please set it up as Walmart Fulfilled item in the Seller Center."
+                                                            "text": "Item information is not present for sku, Please set it up as company Fulfilled item in the Seller Center."
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1033,7 +1033,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "We couldn't verify the item information. Make sure it's set to Walmart-fulfilled."
+                                                            "text": "We couldn't verify the item information. Make sure it's set to company-fulfilled."
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1555,7 +1555,7 @@
             "article_id": "000009239",
             "salesforce_summary": "Find solutions to common errors after uploading an inbound order template.",
             "category_id_b": [
-                "Walmart Fulfillment Services (WFS): Troubleshooting"
+                "Fulfillment Services (WFS): Troubleshooting"
             ],
             "url_name": "WFS-Inbound-Order-Issue-Troubleshooting",
             "is_archived_": false,

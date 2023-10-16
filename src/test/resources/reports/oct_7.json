@@ -905,10 +905,10 @@
               "text": " "
             }
           ],
-          "uid": "56fb20a01df446e393029dbaf5e2f0f0"
+          "uid": "uid"
         },
         {
-          "text": "that only differ by a few attributes. This is what a variant group looks like on Walmart.com:"
+          "text": "that only differ by a few attributes. This is what a variant group looks like on company.com:"
         }
       ]
     },
@@ -933,7 +933,7 @@
         "display-type": "display",
         "asset-uid": "blta78588c5804da9e9",
         "content-type-uid": "sys_assets",
-        "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blta78588c5804da9e9/64ff36130812c3000a04e7bc/rtaImage_(25).jpeg",
+        "asset-link": "www.test.com/example.jpeg",
         "asset-name": "rtaImage_(25).jpeg",
         "asset-type": "image/jpeg",
         "type": "asset",
