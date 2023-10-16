@@ -43,7 +43,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000009215&language=en_US#AdditionalFees"
+            "url": "https://sellerhelp.com/s/guide?article=000009215&language=en_US#AdditionalFees"
           },
           "children": [
             {
@@ -204,7 +204,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000009215&language=en_US#BigBulkyFulfillment"
+            "url": "www.sellerhelp.com/s/guide?article=000009215&language=en_US#BigBulkyFulfillment"
           },
           "children": [
             {
@@ -289,7 +289,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000009215&language=en_US#AdditionalFees"
+            "url": "www.sellerhelp.com/s/guide?article=000009215&language=en_US#AdditionalFees"
           },
           "children": [
             {
@@ -2157,7 +2157,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000009891",
+            "url": "www.company.com/s/guide?article=000009891",
             "style": {},
             "redactor-attributes": {},
             "dir": "ltr"
@@ -2234,7 +2234,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?language=en_US&article=000011223"
+            "url": "www.sellerhelp.com/s/guide?language=en_US&article=000011223"
           },
           "children": [
             {
@@ -2613,7 +2613,7 @@
       },
       "children": [
         {
-          "text": "The storage fee is the cost of storing your items at a Walmart fulfillment center. It's based on the volume of the product being stored and the length of time. The fees displayed below are based on a 30-day calendar month. (You can track how long items have been at fulfillment centers with the"
+          "text": "The storage fee is the cost of storing your items at a company fulfillment center. It's based on the volume of the product being stored and the length of time. The fees displayed below are based on a 30-day calendar month. (You can track how long items have been at fulfillment centers with the"
         },
         {
           "type": "span",
@@ -2631,7 +2631,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://seller.walmart.com/wfsLite/reports"
+            "url": "www.seller.com/wfsLite/reports"
           },
           "children": [
             {
@@ -3181,7 +3181,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.walmart.com/s/guide?article=000009891",
+            "url": "www.sellerhelp.com/s/guide?article=000009891",
             "style": {},
             "redactor-attributes": {},
             "dir": "ltr"
@@ -3238,7 +3238,7 @@
       },
       "children": [
         {
-          "text": "Problem inventory is any inbound shipment that can’t be received into a Walmart fulfillment center. It may be returned to you at your expense if we can’t reach a resolution."
+          "text": "Problem inventory is any inbound shipment that can’t be received into a company fulfillment center. It may be returned to you at your expense if we can’t reach a resolution."
         }
       ]
     },
@@ -4090,10 +4090,10 @@
       },
       "children": [
         {
-          "text": "Walmart will cover the cost of return shipping for any returns identified as "
+          "text": "company will cover the cost of return shipping for any returns identified as "
         },
         {
-          "text": "Walmart at fault",
+          "text": "company at fault",
           "italic": true
         },
         {
@@ -4140,7 +4140,7 @@
       },
       "children": [
         {
-          "text": "Walmart at fault",
+          "text": "company at fault",
           "italic": true
         },
         {
@@ -4262,7 +4262,7 @@
                   "attrs": {},
                   "children": [
                     {
-                      "text": "Walmart at fault",
+                      "text": "company at fault",
                       "bold": true,
                       "attrs": {}
                     },
@@ -4345,7 +4345,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": "Walmart at fault",
+                          "text": "company at fault",
                           "bold": true,
                           "attrs": {}
                         },
@@ -4587,7 +4587,7 @@
                           "type": "p",
                           "children": [
                             {
-                              "text": "Walmart at fault                                        ",
+                              "text": "company at fault                                        ",
                               "bold": true,
                               "attrs": {}
                             }
@@ -4789,7 +4789,7 @@
                               "uid": "8cb104e01104421d8e3f5ae5d2939651",
                               "type": "a",
                               "attrs": {
-                                "url": "https://seller.walmart.com/seller-profile/return-policy",
+                                "url": "www.seller.com/seller-profile/return-policy",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -4977,7 +4977,7 @@
                     {
                       "type": "a",
                       "attrs": {
-                        "url": "https://seller.walmart.com/seller-profile/return-policy",
+                        "url": "www.seller.com/seller-profile/return-policy",
                         "style": {},
                         "redactor-attributes": {},
                         "dir": "ltr"
@@ -5449,7 +5449,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "Send Walmart-fulfilled items made up of multiple boxes with"
+              "text": "Send company-fulfilled items made up of multiple boxes with"
             },
             {
               "type": "span",
@@ -5467,7 +5467,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "https://sellerhelp.walmart.com/s/guide?article=000010431"
+                "url": "www.sellerhelp.com/s/guide?article=000010431"
               },
               "children": [
                 {
@@ -5505,7 +5505,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "https://sellerhelp.walmart.com/s/guide?article=000009900"
+                "url": "www.sellerhelp.com/s/guide?article=000009900"
               },
               "children": [
                 {
@@ -5543,7 +5543,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "https://sellerhelp.walmart.com/s/guide?article=000009514"
+                "url": "www.sellerhelp.com/s/guide?article=000009514"
               },
               "children": [
                 {
@@ -5585,7 +5585,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "https://sellerhelp.walmart.com/s/guide?article=000009930"
+                "url": "www.sellerhelp.com/s/guide?article=000009930"
               },
               "children": [
                 {
