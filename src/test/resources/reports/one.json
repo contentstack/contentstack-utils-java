@@ -1,0 +1,27 @@
+{
+  "uid": "a59f9108e99747d4b3358d9e22b7c685",
+  "type": "doc",
+  "attrs": {
+    "dirty": true
+  },
+  "children": [
+    {
+      "type": "p",
+      "uid": "a3c0687b2f694bd68ec290fd92a62330",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "A paragraph with break set as true",
+          "break": true
+        },
+        {
+          "text": "A paragraph with line break \n and \t tab"
+        }
+      ]
+    }
+  ]
+}

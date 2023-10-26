@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>1.2.5</version>
+    <version>1.2.6</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS</description>
@@ -27,8 +27,8 @@
         <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <validation-version>2.0.1.Final</validation-version>
-        <json-version>20230618</json-version>
-        <spring-web-version>6.0.12</spring-web-version>
+        <json-version>20231013</json-version>
+        <spring-web-version>6.0.13</spring-web-version>
         <org.apache.commons-text>1.10.0</org.apache.commons-text>
     </properties>
 
@@ -230,7 +230,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-<!--                    <executable>${JAVA_HOME}/bin/javac</executable>-->
+                    <!--                    <executable>${JAVA_HOME}/bin/javac</executable>-->
                 </configuration>
             </plugin>
             <plugin>

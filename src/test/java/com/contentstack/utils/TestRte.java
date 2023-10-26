@@ -99,9 +99,58 @@ public class TestRte {
 
     @Test
     public void testHERFID() throws IOException {
-        final String rte = "src/test/resources/reports/jsonviewer.json";
+        final String rte = "src/test/resources/reports/wfs_fees.json";
+        JSONObject theRTE = new ReadResource().readJson(rte);
+        String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
+        Assert.assertEquals(kWFSFeesHtml, result);
+    }
+
+
+
+    @Test
+    public void testAnchorIssue() throws IOException {
+        final String rte = "src/test/resources/reports/anchor.json";
+        JSONObject theRTE = new ReadResource().readJson(rte);
+        String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
+        Assert.assertEquals(kAnchorHtml, result);
+    }
+
+    @Test
+    public void testAffectedEntry() throws IOException {
+        final String rte = "src/test/resources/reports/wfs.json";
         JSONObject theRTE = new ReadResource().readJson(rte);
         String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
         System.out.println(result);
+        Assert.assertEquals(kWFSAffectedHtml, result);
     }
+
+
+    @Test
+    public void testOne() throws IOException {
+        final String rte = "src/test/resources/reports/one.json";
+        JSONObject theRTE = new ReadResource().readJson(rte);
+        String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
+        System.out.println(result);
+        Assert.assertEquals(kONEHtml, result);
+    }
+
+    @Test
+    public void testOCT7Issue() throws IOException {
+        final String rte = "src/test/resources/reports/oct_7.json";
+        JSONObject theRTE = new ReadResource().readJson(rte);
+        String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
+        System.out.println(result);
+       // Assert.assertEquals(kONEHtml, result);
+    }
+
+    @Test
+    public void testIssueOct() throws IOException {
+        final String rte = "src/test/resources/reports/issue_oct.json";
+        JSONObject theRTE = new ReadResource().readJson(rte);
+        String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
+        System.out.println(result);
+        // Assert.assertEquals(kONEHtml, result);
+    }
+
+
 }

@@ -38,7 +38,7 @@
                             "uid": "7cf9ff933bc9451db91f7640a7abe795",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#Overview"
+                                "url": "https://sellerhelp.com/s/guide?article=000011223&language=en_US#Overview"
                             },
                             "children": [
                                 {
@@ -68,7 +68,7 @@
                             "uid": "5b1d825c49d2497d8be8da44aef1e1b8",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#Criteria"
+                                "url": "https://sellerhelp.com/s/guide?article=000011223&language=en_US#Criteria"
                             },
                             "children": [
                                 {
@@ -97,7 +97,7 @@
                             "uid": "56bca13f60af4b1685d999d0467e668f",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#Fees"
+                                "url": "https://sellerhelp.com/s/guide?article=000011223&language=en_US#Fees"
                             },
                             "children": [
                                 {
@@ -126,7 +126,7 @@
                             "uid": "f8a82c9c8ade4e9b9bfecbfbac0de7f3",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#SendInventory"
+                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#SendInventory"
                             },
                             "children": [
                                 {
@@ -156,7 +156,7 @@
                             "uid": "e71b1ac38f844596a8580c731d6f8e97",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#ShippingSpeeds"
+                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#ShippingSpeeds"
                             },
                             "children": [
                                 {
@@ -185,7 +185,7 @@
                             "uid": "f70c0eee069b4e03b0024fb484da832c",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#CustomerReturns"
+                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#CustomerReturns"
                             },
                             "children": [
                                 {
@@ -214,7 +214,7 @@
                             "uid": "066e64424c094d44813d16cd133c064a",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011223&language=en_US#FAQ"
+                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#FAQ"
                             },
                             "children": [
                                 {
@@ -965,7 +965,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://marketplace.walmart.com/walmart-fulfillment-services-pricing/",
+                                "url": "www.marketplace.com/company-fulfillment-services-pricing/",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1018,7 +1018,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009215",
+                                "url": "www.sellerhelp.com/s/guide?article=000009215",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1119,7 +1119,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009495",
+                                "url": "www.sellerhelp.com/s/guide?article=000009495",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1171,7 +1171,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009163",
+                                "url": "www.sellerhelp.com/s/guide?article=000009163",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1276,14 +1276,14 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009514",
+                                "url": "www.sellerhelp.com/s/guide?article=000009514",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
                             },
                             "children": [
                                 {
-                                    "text": "Walmart preferred carrier"
+                                    "text": "company preferred carrier"
                                 }
                             ],
                             "uid": "438484945beb44608d43038ebd574fce"
@@ -1366,7 +1366,7 @@
                     },
                     "children": [
                         {
-                            "text": "Big and bulky items are shipped using ground transportation and may require more than 2 days for delivery. The shipping speed will depend on your assigned fulfillment center and the customer’s location. On Walmart.com, items will have a 3+day shipping tag but customers will see a more accurate estimate in the listing’s details."
+                            "text": "Big and bulky items are shipped using ground transportation and may require more than 2 days for delivery. The shipping speed will depend on your assigned fulfillment center and the customer’s location. On company.com, items will have a 3+day shipping tag but customers will see a more accurate estimate in the listing’s details."
                         }
                     ]
                 },
@@ -1500,7 +1500,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009158",
+                                "url": "www.sellerhelp.com/s/guide?article=000009158",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1547,11 +1547,11 @@
                             "uid": "4c9b8b48099d4f8f919f48e12447ad09"
                         },
                         {
-                            "text": "Walmart at fault",
+                            "text": "company at fault",
                             "italic": true
                         },
                         {
-                            "text": ", Walmart will keep the inventory regardless of your "
+                            "text": ", company will keep the inventory regardless of your "
                         },
                         {
                             "type": "span",
@@ -1573,7 +1573,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000009493",
+                                "url": "www.sellerhelp.com/s/guide?article=000009493",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1710,7 +1710,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000010431",
+                                "url": "www.sellerhelp.com/s/guide?article=000010431",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1758,7 +1758,7 @@
                             "break": true
                         },
                         {
-                            "text": "Q: Are big and bulky items part of Walmart+ assortment?",
+                            "text": "Q: Are big and bulky items part of company+ assortment?",
                             "bold": true
                         }
                     ]
@@ -1773,7 +1773,7 @@
                     },
                     "children": [
                         {
-                            "text": "A: Yes, big and bulky items are included in Walmart+. Walmart+ members will get free shipping on those items."
+                            "text": "A: Yes, big and bulky items are included in company+. company+ members will get free shipping on those items."
                         }
                     ]
                 },
@@ -1890,10 +1890,10 @@
         },
         "meta_data": {
             "article_id": "000011223",
-            "salesforce_summary": "Fulfill large, heavy items with Walmart, up to 500 lb. and longest side of 120 in.",
+            "salesforce_summary": "Fulfill large, heavy items with company, up to 500 lb. and longest side of 120 in.",
             "category_id_b": [
-                "Walmart Fulfillment Services (WFS): Shipping to WFS",
-                "Walmart Fulfillment Services (WFS): WFS Programs & Services"
+                "company Fulfillment Services (WFS): Shipping to WFS",
+                "company Fulfillment Services (WFS): WFS Programs & Services"
             ],
             "url_name": "WFS-Big-Bulky-Items",
             "is_archived_": false,

@@ -1,0 +1,253 @@
+{
+  "type": "doc",
+  "attrs": {},
+  "uid": "0fd46e86a61243c09dcc80745907766e",
+  "children": [
+    {
+      "uid": "cf3a4370a7ad42f593ca3faa6a9a0f0f",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "In this article:\n\t",
+          "bold": true
+        },
+        {
+          "uid": "3d98dd4fef7a479eb24c0630e3c45fc8",
+          "type": "a",
+          "attrs": {
+            "url": "#Overview",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Overview"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "bcbf80bbae094aabaa38c26b3c28c064",
+          "type": "a",
+          "attrs": {
+            "url": "#Fulfillment",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Standard Fulfillment"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "fcc1d2219e2f48438e3c8212b3bb3526",
+          "type": "a",
+          "attrs": {
+            "url": "#AdditionalFees",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Additional Fees"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "4ff064c605dd4f2db1b1760eaec58bf0",
+          "type": "a",
+          "attrs": {
+            "url": "#BigBulkyFulfillment",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Big & Bulky Fulfillment"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "6b8033fd36f0446691c9b6f04599b1bb",
+          "type": "a",
+          "attrs": {
+            "url": "#Storage",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Storage"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "4bb36b3ecbec4d19b45ca65c447de57f",
+          "type": "a",
+          "attrs": {
+            "url": "#ProblemInventory",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Problem Inventory"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "fdca6fcdaea6468e8bc84ba0260cc97b",
+          "type": "a",
+          "attrs": {
+            "url": "#Return",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Return Shipping & Exceptions"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "43a9d8dd407f41dfa997a1456a46f15e",
+          "type": "a",
+          "attrs": {
+            "url": "#DisposalRemoval",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Disposal & Removal"
+            }
+          ]
+        },
+        {
+          "text": "\n\t"
+        },
+        {
+          "uid": "4184bc290b2e49a09bf0b8eecab10507",
+          "type": "a",
+          "attrs": {
+            "url": "#AdditionalPrograms",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Additional WFS Programs"
+            }
+          ]
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "5ea4088502954f129c0a7c808379c871",
+      "type": "h2",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr",
+        "id": "Overview"
+      },
+      "children": [
+        {
+          "type": "fragment",
+          "attrs": {
+            "id": "Overview"
+          },
+          "uid": "5db3cc4ecdc04465b1a02d79e4ff82dd",
+          "children": [
+            {
+              "text": "Overview",
+              "id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ad5dcf980577497d9f548b2594177f5a",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Fulfillment Services is a competitive and cost-effective solution that offers an end-to-end ecommerce fulfillment experience. Our fee structure is simple and straightforward, without signup or monthly subscription fees. You're also free to ship and store any amount of inventory you choose, without minimums or maximums. Use the"
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "996c2a6e620b4866af4696c8565752b9"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "www.abcd.com/?_gl=1*1t4i6i1*_ga*OTkwMDc3NzQuMTY1MjM3NjY3Nw..*_ga_1LB22TM2MG*MTY1MjcyNDU5My41OS4xLjE2NTI3MjY5NzIuMA.."
+          },
+          "children": [
+            {
+              "text": "WFS Calculator"
+            }
+          ],
+          "uid": "f9de9f6827ac4768b039fbfd99b2829a"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "744594825c234deaa3439357297756b4"
+        },
+        {
+          "text": "to estimate your fulfillment and storage fees."
+        },
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "\nThe following fees are effective as of August 2023 and are subject to change."
+        }
+      ]
+    }
+  ]
+}

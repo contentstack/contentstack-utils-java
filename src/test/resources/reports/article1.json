@@ -32,7 +32,7 @@
           {
             "type": "a",
             "attrs": {
-              "url": "https://gecrm.my.salesforce.com/sfc/p/61000000ZKTc/a/8Y000002Ankd/G1HbvlwMxDanH_tabP_gsQvgqYIgxTZDq5CpfN..PZQ"
+              "url": "gecrm.my.salesforce.com/sfc/p/61000000ZKTc/a/8Y000002Ankd/G1HbvlwMxDanH_tabP_gsQvgqYIgxTZDq5CpfN..PZQ"
             },
             "children": [
               {
@@ -222,7 +222,7 @@
           {
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US"
+              "url": "sellerhelp.com/s/guide?article=000009375&language=en_US"
             },
             "children": [
               {
@@ -807,7 +807,7 @@
               "display-type": "display",
               "asset-uid": "blt8e8dc3e053abc753",
               "content-type-uid": "sys_assets",
-              "asset-link": "***REMOVED***/v3/assets/***REMOVED***/blt8e8dc3e053abc753/64f87ea26517c0000dfc9145/2023-08-10_09-21-21_(1)_(1).gif",
+              "asset-link": "abcd.com.example.gif",
               "asset-name": "2023-08-10_09-21-21_(1)_(1).gif",
               "asset-type": "image/gif",
               "type": "asset",
@@ -955,7 +955,7 @@
             "break": true
           },
           {
-            "text": "A: The customer refund will be put on hold for 72 hours while Walmart reviews your dispute. Customer refund holds will be automatically released after 72 hours. If the dispute is approved within that time frame, the customer will not be refunded and their return will be canceled. "
+            "text": "A: The customer refund will be put on hold for 72 hours while reviews your dispute. Customer refund holds will be automatically released after 72 hours. If the dispute is approved within that time frame, the customer will not be refunded and their return will be canceled. "
           }
         ]
       },
@@ -992,7 +992,7 @@
             "break": true
           },
           {
-            "text": "A: Yes. If you're not satisfied with the resolution of your dispute provided by Walmart, you can submit an appeal. You can only appeal a decision once, and it must be submitted within 30 days of receiving the denial or decision.   "
+            "text": "A: Yes. If you're not satisfied with the resolution of your dispute provided by, you can submit an appeal. You can only appeal a decision once, and it must be submitted within 30 days of receiving the denial or decision.   "
           },
           {
             "text": "\n",
@@ -1024,7 +1024,7 @@
           {
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US#:~:text=submit%20an%20appeal%2C-,create%20a%20case,-with%20Partner%20Support"
+              "url": "www.sellerhelp.com/s/guide?article=000009375&language=en_US#:~:text=submit%20an%20appeal%2C-,create%20a%20case,-with%20Partner%20Support"
             },
             "children": [
               {
@@ -1110,7 +1110,7 @@
           {
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US"
+              "url": "www.sellerhelp.com/s/guide?article=000009375&language=en_US"
             },
             "children": [
               {
@@ -1176,7 +1176,7 @@
           {
             "type": "a",
             "attrs": {
-              "url": "http://seller.walmart.com/"
+              "url": "www.seller.com/"
             },
             "children": [
               {
@@ -1231,31 +1231,31 @@
               "name": "Returns and Disputes",
               "description": "Returns happen, but – depending on the situation – you may need to file a dispute for a customer return. Keep watching to learn how to file a returns-related dispute for your items–including items of high-value. We'll also go over how to track the approval status in Seller Center.",
               "embed": {
-                "html": "<iframe src=\"https://player.vimeo.com/video/851090171?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;airplay=0&amp;audio_tracks=0&amp;chapters=0&amp;chromecast=0&amp;closed_captions=0&amp;transcript=0&amp;player_id=0&amp;app_id=275298\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" title=\"Returns and Disputes\"></iframe>"
+                "html": "<iframe src=\"www.player.vimeo.com/video/851090171?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;airplay=0&amp;audio_tracks=0&amp;chapters=0&amp;chromecast=0&amp;closed_captions=0&amp;transcript=0&amp;player_id=0&amp;app_id=275298\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" title=\"Returns and Disputes\"></iframe>"
               },
               "created_time": "2023-08-02T22:23:03+00:00",
               "pictures": {
                 "sizes": [
                   {
-                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_100x75?r=pad"
+                    "link": "example.com"
                   },
                   {
-                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_200x150?r=pad"
+                    "link": "test.com"
                   },
                   {
-                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_295x166?r=pad"
+                    "link": "test.com"
                   },
                   {
-                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_640x360?r=pad"
+                    "link": "test.com"
                   },
                   {
-                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_960x540?r=pad"
+                    "link": "test.com"
                   },
                   {
-                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_1280x720?r=pad"
+                    "link": "test.com"
                   },
                   {
-                    "link": "https://i.vimeocdn.com/video/1705667469-32d899a8b1e6f25f4f11029d8acb9e20a4bac2811f77423f8ad6cd3e2a920caa-d_1920x1080?r=pad"
+                    "link": "test.com"
                   }
                 ]
               }
@@ -1303,7 +1303,7 @@
           {
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#overview"
+              "url": "www.sellerhelp.com/s/guide?article=000009068&language=en_US#overview"
             },
             "children": [
               {
@@ -1333,7 +1333,7 @@
             "uid": "d23727f697e04525bf1bd60301bc26af",
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#eligibility"
+              "url": "www.sellerhelp.com/s/guide?article=000009068&language=en_US#eligibility"
             },
             "children": [
               {
@@ -1362,7 +1362,7 @@
             "uid": "47df7ccf6037427c98c5a01beab8373c",
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#highvalue"
+              "url": "test.com"
             },
             "children": [
               {
@@ -1391,7 +1391,7 @@
             "uid": "02ef37a4bdce4203a398c8853b8d7c45",
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#electronic"
+              "url": "www.sellerhelp.com/s/guide?article=000009068&language=en_US#electronic"
             },
             "children": [
               {
@@ -1420,7 +1420,7 @@
             "uid": "ccdf371de3084c26a3a5cc324513adb8",
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#fileadispute"
+              "url": "www.sellerhelp.com/s/guide?article=000009068&language=en_US#fileadispute"
             },
             "children": [
               {
@@ -1450,7 +1450,7 @@
             "uid": "015ca8f0a6ef497a9f96ad0d397af813",
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#faq"
+              "url": "www.sellerhelp.com/s/guide?article=000009068&language=en_US#faq"
             },
             "children": [
               {
@@ -1479,7 +1479,7 @@
             "uid": "c030eee9ad004497857b6b41ebee79fd",
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009068&language=en_US#helpful"
+              "url": "www.sellerhelp.com/s/guide?article=000009068&language=en_US#helpful"
             },
             "children": [
               {
@@ -1532,7 +1532,7 @@
             "uid": "eb0b2af4dfb0470e9217e85b919b3b2e",
             "children": [
               {
-                "text": "While returns are a natural part of the post-purchase experience, you may encounter instances when the returned item is damaged, or missing parts or accessories. Keep reading to determine if you’re eligible to dispute a customer return with Walmart, and find out how to file the dispute via the"
+                "text": "While returns are a natural part of the post-purchase experience, you may encounter instances when the returned item is damaged, or missing parts or accessories. Keep reading to determine if you’re eligible to dispute a customer return with, and find out how to file the dispute via the"
               }
             ]
           },
@@ -1568,7 +1568,7 @@
               {
                 "type": "a",
                 "attrs": {
-                  "url": "https://seller.walmart.com/order-management/returns"
+                  "url": "www.seller.com/order-management/returns"
                 },
                 "children": [
                   {
@@ -1640,7 +1640,7 @@
           {
             "type": "a",
             "attrs": {
-              "url": "https://sellerhelp.walmart.com/s/guide?article=000009375&language=en_US",
+              "url": "www.sellerhelp.com/s/guide?article=000009375&language=en_US",
               "style": {},
               "redactor-attributes": {},
               "dir": "ltr"

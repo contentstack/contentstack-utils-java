@@ -1,0 +1,990 @@
+{
+  "type": "doc",
+  "attrs": {},
+  "uid": "c517d4c5864e4f59a7db5421ba6e6bc0",
+  "children": [
+    {
+      "uid": "0185d2693f9647a79568073f09f5061e",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "In this article:",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "uid": "489d2905ef3e46ceb476484b6ec1fcd3",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Overview",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Overview"
+            }
+          ],
+          "uid": "f400319bee8e4327aa7732db17f59a51"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "4c60b68023cc431d927220ad90139f73",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "a95cc18153494bf49218da57ee1e7577",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Create_Variant_Groups",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Create Variant Groups"
+            }
+          ],
+          "uid": "58025cabb7024eefa9d33ae73f2fb3b3"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "7ca40a51d4e24ef3a4ddd7ef1fccd392",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "49b975d52bb34917901c2b29bbfa79ae",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Items_Dashboard_Method",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Items Dashboard Method"
+            }
+          ],
+          "uid": "edf5aac2aff3456190b1d166be233aef"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "1f18a938123246a0a54d76b0fa7cc901",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "7e9fefb2ef0f4f60b925084791bb3e3b",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Full_Item_Spec_Method",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Full Item Spec Method"
+            }
+          ],
+          "uid": "8f38f1696cbc4026b021c2cac3b1f58f"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "2237c564900e4be78051f2ed0828a7e7",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "5f1c49523356489b8c51e65562e48cd0",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#API_Method",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "API Method"
+            }
+          ],
+          "uid": "7c78efd57d914203b2b544601b7bec80"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ecf445a422da4131aeb768db4a8f1d3a",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ebad26d195f445c68198bde3d821e640",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Multi-select",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Multi-select Attributes"
+            }
+          ],
+          "uid": "c093cac882bd4cb19ee484db5c79072e"
+        },
+        {
+          "text": "\t\t"
+        }
+      ]
+    },
+    {
+      "uid": "5d8c4db4a4e246039f6d00d76cd7909d",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Update_Variant_Group",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Update Variant Groups"
+            }
+          ],
+          "uid": "f0e4fbf8b07740b6b25e25c638c7ad99"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "db0454fa45d34e96bd578cbe5e8cd15e",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "136c51481cb24e869d514bc61e93ab2d",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Adding_Items_to_an_Existing_Group",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Add Items to an Existing Variant Group"
+            }
+          ],
+          "uid": "85f3fb6b1f574fb0a51128b4286d9431"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "66ef60bc86a54ff5889a672e0f76ccaa",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "429b2c65c7a14157a9eecf3eaac39794",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Removing_Items_from_a_Variant_Group",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Remove Items from a Variant Group"
+            }
+          ],
+          "uid": "0d485c66228e4de18b2da37300a30183"
+        },
+        {
+          "text": "\t"
+        }
+      ]
+    },
+    {
+      "uid": "5fa7af9fe20b494bbe113ba0526b1296",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "3db5dcd39bcf45239dc21617f7a1b641",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Combine_group",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Combine Two Variant Groups"
+            }
+          ],
+          "uid": "f67cc09b3cf945cb8af34265c0b961d6"
+        },
+        {
+          "text": "\t"
+        }
+      ]
+    },
+    {
+      "uid": "cf7f2edac752449189e8cfd826ad96f3",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Separate_Group",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Separate a Single Variant Group into Multiple Groups"
+            }
+          ],
+          "uid": "61b510b237624a13a28b910b1ad794d5"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "40d29b4a64a74fca880293b4329e2234",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\n",
+          "break": true
+        },
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Add_New_Attribute",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Add New Variant Attributes"
+            }
+          ],
+          "uid": "0084486abcd14e3da7b923d77498dc91"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "230d72eb9c2c4beaaadb210bb15bbb3a",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "31a657fa93834ef6b2a2cae98b102389",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Merged_Variant_Groups",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Merged Variant Groups"
+            }
+          ],
+          "uid": "2126e7bf88f64f68bd35a7401123fa35"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "5cdfff064fb046bdb3ef3bb056b40735",
+      "type": "fragment",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e54af9f49c7e494dbf78a2b127259c24",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Variant_Limits",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Variant Limits"
+            }
+          ],
+          "uid": "65ef59d207fe4653a9b553fa9957e0ec"
+        },
+        {
+          "text": "\t"
+        }
+      ]
+    },
+    {
+      "uid": "0d7fbf0b656248eb8e147e39c2f06e10",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "1c843288c1174e19a8213564f78ad555",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Variant_Errors",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Variant Group Errors"
+            }
+          ],
+          "uid": "fbf5516ad94644169918ea90c4d53f3a"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "e234ead5477b412a975f90fe090e55a8",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "d316bbdcf1e645769cc5ac06ed013e93",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Selecting_Invalid_Variant_Attributes",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "target": "_self"
+          },
+          "uid": "20ef2eec04034a25ae0bed8a83db6d5c",
+          "children": [
+            {
+              "text": "Selecting Invalid Variant Attributes"
+            }
+          ]
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "9e6a4ca195aa4e43a9d0bc03dfe4fc8b",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "9c01a18934444dd8a6357fd4dabe8da7",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Variant_Group_Limits",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Variant Group Limits"
+            }
+          ],
+          "uid": "b08cb48ba3504a03a099d8ad57a978ff"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "8c2569e1c99b4deebcca9a79b364f70a",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "",
+          "break": true
+        }
+      ]
+    },
+    {
+      "uid": "6f0d68b7377a4043828410f874ff6930",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Duplicate_Variants",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Duplicate Variants"
+            }
+          ],
+          "uid": "6e811a3e4fa04daf9acb649c13610bbe"
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "8fe9b21ac77048d3a2b825a8d693cc3a",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "772637418ede42059eb4b7241962eb26",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "\t"
+        },
+        {
+          "type": "a",
+          "attrs": {
+            "url": "#Helpful_Resources",
+            "style": {},
+            "redactor-attributes": {},
+            "dir": "ltr",
+            "target": "_self"
+          },
+          "children": [
+            {
+              "text": "Helpful Resources"
+            }
+          ],
+          "uid": "a4574778d5514a2bbd110fd1c81a9eef"
+        },
+        {
+          "text": "\t"
+        }
+      ]
+    },
+    {
+      "uid": "596d70dcdb8e494185e3e585596dc44d",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ca86b05f032b4dedb7c9e5ff03ba1b90",
+      "type": "fragment",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "ab781fe7f2ba43ec952bca5436c463ca",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "4643a6cf240e43cfb3f6e328f9ef64f4",
+      "type": "h2",
+      "attrs": {
+        "id": "Overview",
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "Overview"
+        }
+      ]
+    },
+    {
+      "uid": "8dcf4b9637ac4105804d3660470f26e1",
+      "type": "p",
+      "attrs": {},
+      "children": [
+        {
+          "text": "A variant group is a group of individual "
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": "items"
+            }
+          ],
+          "uid": "fa12914a320c45c5b630fa9fc5958a59"
+        },
+        {
+          "text": ""
+        },
+        {
+          "type": "span",
+          "attrs": {},
+          "children": [
+            {
+              "text": " "
+            }
+          ],
+          "uid": "uid"
+        },
+        {
+          "text": "that only differ by a few attributes. This is what a variant group looks like on company.com:"
+        }
+      ]
+    },
+    {
+      "uid": "bce9476d4323429c8b50bc6e51263a27",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "590285a62fa44fc9bb7f73dcedce5e5e",
+      "type": "reference",
+      "attrs": {
+        "display-type": "display",
+        "asset-uid": "blta78588c5804da9e9",
+        "content-type-uid": "sys_assets",
+        "asset-link": "www.test.com/example.jpeg",
+        "asset-name": "rtaImage_(25).jpeg",
+        "asset-type": "image/jpeg",
+        "type": "asset",
+        "class-name": "embedded-asset",
+        "inline": false,
+        "style": {},
+        "redactor-attributes": {
+          "position": "left"
+        },
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "51e0c8f6ad3d4ceb95a651ae77b2df10",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "uid": "745ab7eb541c4ffcaaa2c33862496238",
+      "type": "p",
+      "attrs": {
+        "style": {},
+        "redactor-attributes": {},
+        "dir": "ltr"
+      },
+      "children": [
+        {
+          "text": "**NOTE: ",
+          "italic": true,
+          "bold": true
+        },
+        {
+          "italic": true,
+          "text": "All items in a variant group should be included as separate items in the spec sheet. For instance, if you have a T-shirt that comes in two colors and three different sizes, you should have a total of six rows with each variation defined in a separate row. "
+        }
+      ]
+    }
+  ],
+  "_version": 23
+}
