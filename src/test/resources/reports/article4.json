@@ -59,7 +59,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#Overview",
+                                "url": "https://sellerhelp.com/s/guide?article=000011074&language=en_US#Overview",
                                 "target": "_self"
                             },
                             "children": [
@@ -103,7 +103,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#User_Roles",
+                                "url": "https://sellerhelp.com/s/guide?article=000011074&language=en_US#User_Roles",
                                 "target": "_self"
                             },
                             "children": [
@@ -147,7 +147,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#Add_a_New_User",
+                                "url": "https://sellerhelp.com/s/guide?article=000011074&language=en_US#Add_a_New_User",
                                 "target": "_self"
                             },
                             "children": [
@@ -187,7 +187,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#FAQs",
+                                "url": "www.sellerhelp.com/s/guide?article=000011074&language=en_US#FAQs",
                                 "target": "_self"
                             },
                             "children": [
@@ -231,7 +231,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011074&language=en_US#Helpful_Resources",
+                                "url": "www.sellerhelp.com/s/guide?article=000011074&language=en_US#Helpful_Resources",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -276,7 +276,7 @@
                     "attrs": {},
                     "children": [
                         {
-                            "text": "As a Walmart Marketplace seller, you may need to add a new user to your Seller Center account for various reasons, such as granting access to another member of your organization. Only sellers with admin level access can add users within Seller Center. The process is quick and easy; this guide will show you how to do it. "
+                            "text": "Marketplace seller, you may need to add a new user to your Seller Center account for various reasons, such as granting access to another member of your organization. Only sellers with admin level access can add users within Seller Center. The process is quick and easy; this guide will show you how to do it. "
                         }
                     ]
                 },
@@ -459,7 +459,7 @@
                                             ]
                                         },
                                         {
-                                            "text": "Generating credentials to access Walmart's Rest APIs. "
+                                            "text": "Generating credentials to access company's Rest APIs. "
                                         }
                                     ]
                                 },
@@ -673,7 +673,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://seller.walmart.com/home"
+                                "url": "https://seller.com/home"
                             },
                             "children": [
                                 {
@@ -1061,7 +1061,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.walmart.com/s/guide?article=000011072&language=en_US"
+                                "url": "www.sellerhelp.com/s/guide?article=000011072&language=en_US"
                             },
                             "children": [
                                 {
@@ -1134,7 +1134,7 @@
                     },
                     "children": [
                         {
-                            "text": "Watch the Seller Academy tutorial below for guidance on using Administrator Options to manage your Walmart Marketplace account:"
+                            "text": "Watch the Seller Academy tutorial below for guidance on using Administrator Options to manage your company Marketplace account:"
                         }
                     ]
                 },
@@ -1163,7 +1163,7 @@
                             {
                                 "uri": "/videos/848178033",
                                 "name": "Administrator Options",
-                                "description": "Managing your administrator options is an important part of staying on top of your Walmart Marketplace account. In this video, we’ll show you how to use the Administrator Options dashboard in Seller Center to manage users and roles for your account, setup email notifications and create message templates. We’ll also take a look at where you can view your agreements, verify account details and link your other accounts if you sell on multiple marketplaces.",
+                                "description": "Managing your administrator options is an important part of staying on top of your company Marketplace account. In this video, we’ll show you how to use the Administrator Options dashboard in Seller Center to manage users and roles for your account, setup email notifications and create message templates. We’ll also take a look at where you can view your agreements, verify account details and link your other accounts if you sell on multiple marketplaces.",
                                 "embed": {
                                     "html": "<iframe src=\"https://player.vimeo.com/video/848178033?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;airplay=0&amp;audio_tracks=0&amp;chapters=0&amp;chromecast=0&amp;closed_captions=0&amp;transcript=0&amp;player_id=0&amp;app_id=275298\" width=\"1920\" height=\"1068\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" title=\"Administrator Options\"></iframe>"
                                 },
@@ -1171,25 +1171,25 @@
                                 "pictures": {
                                     "sizes": [
                                         {
-                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_100x75?r=pad"
+                                            "link": "www.test.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_100x75?r=pad"
                                         },
                                         {
-                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_200x150?r=pad"
+                                            "link": "www.test.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_200x150?r=pad"
                                         },
                                         {
-                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_295x166?r=pad"
+                                            "link": "www.test.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_295x166?r=pad"
                                         },
                                         {
-                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_640x360?r=pad"
+                                            "link": "www.test.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_640x360?r=pad"
                                         },
                                         {
-                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_960x540?r=pad"
+                                            "link": "www.test.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_960x540?r=pad"
                                         },
                                         {
-                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_1280x720?r=pad"
+                                            "link": "www.test.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_1280x720?r=pad"
                                         },
                                         {
-                                            "link": "https://i.vimeocdn.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_1920x1080?r=pad"
+                                            "link": "www.test.com/video/1701742470-30340ec72ad5ac6290511ae4658f2cd26db815e45f3f50700dead6bd01d5e200-d_1920x1080?r=pad"
                                         }
                                     ]
                                 }
@@ -1212,7 +1212,7 @@
         },
         "meta_data": {
             "article_id": "000011074",
-            "salesforce_summary": "This quick and easy guide walks you through the steps you can take to add a user to your Seller Center account.",
+            "salesforce_summary": "This quick and easy guide company you through the steps you can take to add a user to your Seller Center account.",
             "category_id_b": [
                 "Getting Started: Account Settings"
             ],
