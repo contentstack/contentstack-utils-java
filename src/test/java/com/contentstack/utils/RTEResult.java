@@ -23,4 +23,6 @@ public class RTEResult {
     public static String kWFSFeesHtml = "<p redactor-attributes=\"{}\" style=\"\" dir=\"ltr\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /><br /><br />\t\t\t\tUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />\tExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
 
     public static String kONEHtml = "<p redactor-attributes=\"{}\" style=\"\" dir=\"ltr\"><br />A paragraph with break set as trueA paragraph with line break <br /> and \t tab</p>";
+
+    public static String kFragment = "<ul redactor-attributes=\"{}\" style=\"\" dir=\"ltr\"><li redactor-attributes=\"{}\" style=\"\" dir=\"ltr\"><fragment><strong>One</strong></fragment><ul style=\"\"><li redactor-attributes=\"{}\" style=\"\" dir=\"ltr\">nested one </li><li redactor-attributes=\"{}\" style=\"\" dir=\"ltr\">nested two </li></ul></li><li redactor-attributes=\"{}\" style=\"\" dir=\"ltr\">Two</li></ul>";
 }
