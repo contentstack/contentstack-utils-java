@@ -152,5 +152,14 @@ public class TestRte {
         // Assert.assertEquals(kONEHtml, result);
     }
 
+    @Test
+    public void testFragment() throws IOException {
+        final String rte = "src/test/resources/reports/fragment.json";
+        JSONObject rteFragment = new ReadResource().readJson(rte);
+        String[] keyPath = {"json_rte"};
+        Utils.jsonToHTML(rteFragment, keyPath, new DefaultOption());
+        Assert.assertEquals(kFragment, rteFragment.get("json_rte"));
+    }
+
 
 }

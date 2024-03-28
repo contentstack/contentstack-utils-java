@@ -2,6 +2,18 @@
 
 A brief description of what changes project contains
 
+## March 24, 2024
+
+#### v1.2.7
+
+- added support for fragment tag in Json Rte
+
+## Oct 26, 2023
+
+#### v1.2.6
+
+- Fix for line '<br>' tags issue identified in v1.2.5
+
 ## Oct 5, 2023
 
 #### v1.2.5
