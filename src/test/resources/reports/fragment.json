@@ -1,0 +1,132 @@
+{
+  "title": "",
+  "json_rte":
+  {
+    "type": "doc",
+    "attrs":
+    {},
+    "uid": "71ff5918b9434999b97c97629aecc32e",
+    "children":
+    [
+      {
+        "uid": "6b80a5ead10445bf939d39c1f033bed9",
+        "type": "ul",
+        "children":
+        [
+          {
+            "uid": "bf242d94ca4847b6a7144c57c03d0c84",
+            "type": "li",
+            "attrs":
+            {
+              "style":
+              {},
+              "redactor-attributes":
+              {},
+              "dir": "ltr"
+            },
+            "children":
+            [
+              {
+                "type": "fragment",
+                "children":
+                [
+                  {
+                    "text": "One",
+                    "bold": true
+                  }
+                ],
+                "uid": "cc6c5b25a77f443ba7b7cc1c1a92e7cb"
+              },
+              {
+                "uid": "388cdd29331e46859cb78806c30aab52",
+                "type": "ul",
+                "attrs":
+                {
+                  "style":
+                  {}
+                },
+                "children":
+                [
+                  {
+                    "type": "li",
+                    "attrs":
+                    {
+                      "style":
+                      {},
+                      "redactor-attributes":
+                      {},
+                      "dir": "ltr"
+                    },
+                    "uid": "5e35c7de876e463a80d5b7e7bb3dbb46",
+                    "children":
+                    [
+                      {
+                        "text": "nested one "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "attrs":
+                    {
+                      "style":
+                      {},
+                      "redactor-attributes":
+                      {},
+                      "dir": "ltr"
+                    },
+                    "uid": "23015f6106ad47db9142a01fa6e5465c",
+                    "children":
+                    [
+                      {
+                        "text": "nested two "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "attrs":
+            {
+              "style":
+              {},
+              "redactor-attributes":
+              {},
+              "dir": "ltr"
+            },
+            "uid": "6c3fe490f18347b896d3ac2ec982d389",
+            "children":
+            [
+              {
+                "text": "Two"
+              }
+            ]
+          }
+        ],
+        "id": "10b11adfd2be427bb20f9e24122a6b48",
+        "attrs":
+        {
+          "style":
+          {},
+          "redactor-attributes":
+          {},
+          "dir": "ltr"
+        }
+      }
+    ],
+    "_version": 1
+  },
+  "tags":
+  [],
+  "locale": "en-us",
+  "uid": "blt9a8011fa3669348b",
+  "created_by": "blta7bacfb988d2bf5c",
+  "updated_by": "blt734e8a0a85290dd1",
+  "created_at": "2024-02-08T10:58:07.835Z",
+  "updated_at": "2024-02-13T10:59:49.357Z",
+  "_version": 9,
+  "_in_progress": true
+}

@@ -154,6 +154,8 @@ public class DefaultOption implements Option {
                 return "<code" + strAttrs + ">" + children + "</code>";
             case "reference":
                 return "";
+            case "fragment":
+                return "<fragment" + strAttrs + ">" + children + "</fragment>";
             default:
                 return children;
         }
