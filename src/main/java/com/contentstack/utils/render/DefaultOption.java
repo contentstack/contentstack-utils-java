@@ -109,6 +109,10 @@ public class DefaultOption implements Option {
             case "img":
                 String assetLink = getNodeStr(nodeObject, "asset-link");
                 if (!assetLink.isEmpty()) {
+                    JSONObject attrs = nodeObject.optJSONObject("attrs");
+                    if (attrs.has("link")) {
+                        return "<a href=\"" + escapeInjectHtml(nodeObject, "link") + "\" />" + "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children + "</a>";
+                    }
                     return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children;
                 }
                 return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + children;
