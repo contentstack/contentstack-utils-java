@@ -2,6 +2,10 @@
 
 A brief description of what changes project contains
 
+#### v1.2.8
+
+- added surefire plugin to generate test reports
+
 ## March 24, 2024
 
 #### v1.2.7
