@@ -2,9 +2,12 @@
 
 A brief description of what changes project contains
 
+## April 23, 2024
+
 #### v1.2.8
 
 - added surefire plugin to generate test reports
+- Fixed Snyk issues
 
 ## March 24, 2024
 
