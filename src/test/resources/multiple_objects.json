@@ -13,7 +13,7 @@
             "file_size": "59014",
             "tags": [],
             "filename": "iphone-mockup.png",
-            "url": "https://dev16-images.contentstack.com/v3/assets/iphone-mockup.png",
+            "url": "https://images/v3/assets/iphone-mockup.png",
             "ACL": [],
             "_version": 1,
             "title": "iphone-mockup.png",
@@ -37,7 +37,7 @@
             "created_at": "2020-10-05T06:20:12.914Z",
             "created_by": "theUserId",
             "rich_text_editor": [
-                "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/77263d300aee3e6b/120a5a04d91c9466/5ebb86965a68ad069038b729/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
+                "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://images/v3/assets/77263d300aee3e6b/120a5a04d91c9466/5ebb86965a68ad069038b729/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
             ],
             "tags": [],
             "title": "Alaukik assets",
@@ -58,7 +58,7 @@
         "created_at": "2020-10-05T07:28:48.062Z",
         "created_by": "theUserId",
         "rich_text_editor": [
-            "<p><a data-sys-entry-uid=\"712998525c052ff0\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"alaukik_assets\" sys-style-type=\"link\" class=\"embedded-entry\" type=\"entry\" href=\"/untitled\">test example</a>&nbsp;<span class=\"redactor-component embedded-entry inline-entry\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"712998525c052ff0\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"alaukik_assets\" sys-style-type=\"inline\" type=\"entry\"></span>Hey how are you&nbsp;</p>\n<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/77263d300aee3e6b/120a5a04d91c9466/5ebb86965a68ad069038b729/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"hey this is tag\" data-sys-asset-link=\"https://pbs.twimg.com/profile_images/944044690185134080/dxAswGWd_400x400.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
+            "<p><a data-sys-entry-uid=\"712998525c052ff0\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"alaukik_assets\" sys-style-type=\"link\" class=\"embedded-entry\" type=\"entry\" href=\"/untitled\">test example</a>&nbsp;<span class=\"redactor-component embedded-entry inline-entry\" data-redactor-type=\"embed\" data-widget-code=\"\" data-sys-entry-uid=\"712998525c052ff0\" data-sys-entry-locale=\"en-us\" data-sys-content-type-uid=\"alaukik_assets\" sys-style-type=\"inline\" type=\"entry\"></span>Hey how are you&nbsp;</p>\n<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://images/v3/assets/77263d300aee3e6b/120a5a04d91c9466/5ebb86965a68ad069038b729/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"hey this is tag\" data-sys-asset-link=\"https://pbs.twimg.com/profile_images/944044690185134080/dxAswGWd_400x400.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
         ],
         "tags": [],
         "title": "this is unique title",
@@ -90,7 +90,7 @@
             "created_at": "2020-10-05T06:20:12.914Z",
             "created_by": "theUserId",
             "rich_text_editor": [
-                "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
+                "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://images/v3/assets/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
             ],
             "tags": [],
             "title": "Alaukik assets",
@@ -140,7 +140,7 @@
             "file_size": "59014",
             "tags": [],
             "filename": "iphone-mockup.png",
-            "url": "https://dev16-images.contentstack.com/v3/assets/iphone-mockup.png",
+            "url": "https://images/v3/assets/iphone-mockup.png",
             "ACL": [],
             "_version": 1,
             "title": "iphone-mockup.png",
@@ -155,7 +155,7 @@
         "created_at": "2020-10-05T06:20:12.914Z",
         "created_by": "theUserId",
         "rich_text_editor": [
-            "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://dev16-images.contentstack.com/v3/assets/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
+            "<figure class=\"embedded-asset\" data-sys-asset-filelink=\"https://images/v3/assets/iphone-mockup.png\" data-sys-asset-uid=\"120a5a04d91c9466\" data-sys-asset-filename=\"iphone-mockup.png\" data-sys-asset-contenttype=\"image/png\" data-sys-asset-alt=\"iphone-mockup.png\" data-sys-asset-caption=\"this is alaukik asset\" data-sys-asset-link=\"https://res.cloudinary.com/cmscritic/image/upload/q_auto,f_auto/v1575482654/ext_j5caua.jpg\" data-sys-asset-position=\"center\" data-sys-asset-isnewtab=\"true\" type=\"asset\" sys-style-type=\"display\"></figure>"
         ],
         "tags": [],
         "title": "Alaukik assets",
