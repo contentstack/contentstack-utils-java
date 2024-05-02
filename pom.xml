@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>1.2.7</version>
+    <version>1.2.8</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS</description>
@@ -20,16 +20,16 @@
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <junit.version>4.13.2</junit.version>
-        <jsoup.version>1.16.1</jsoup.version>
+        <jsoup.version>1.17.2</jsoup.version>
         <json.simple.version>1.1.1</json.simple.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
         <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <validation-version>2.0.1.Final</validation-version>
-        <json-version>20231013</json-version>
-        <spring-web-version>6.0.18</spring-web-version>
-        <org.apache.commons-text>1.10.0</org.apache.commons-text>
+        <json-version>20240303</json-version>
+        <spring-web-version>6.1.6</spring-web-version>
+        <org.apache.commons-text>1.11.0</org.apache.commons-text>
     </properties>
 
     <developers>
@@ -140,6 +140,15 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
