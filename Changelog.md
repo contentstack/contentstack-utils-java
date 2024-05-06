@@ -2,12 +2,6 @@
 
 A brief description of what changes project contains
 
-## May 6, 2024
-
-#### v1.2.9
-
-- Fixed vulnerability issue related to strAttrs and children. 
-
 ## April 23, 2024
 
 #### v1.2.8

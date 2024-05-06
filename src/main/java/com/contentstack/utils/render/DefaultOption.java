@@ -6,8 +6,6 @@ import com.contentstack.utils.interfaces.Option;
 import com.contentstack.utils.node.MarkType;
 import org.apache.commons.text.StringEscapeUtils;
 import org.json.JSONObject;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 
 import java.util.*;
 
@@ -103,70 +101,67 @@ public class DefaultOption implements Option {
     public String renderNode(String nodeType, JSONObject nodeObject, NodeCallback callback) {
         String strAttrs = strAttrs(nodeObject);
         String children = callback.renderChildren(nodeObject.optJSONArray("children"));
-        // Jsoup sanitization
-        Document sanitizedChildren = Jsoup.parse(children);
-        String cleanChildren = sanitizedChildren.body().html();
         switch (nodeType) {
             case "p":
-                return "<p" + strAttrs + ">" + cleanChildren + "</p>";
+                return "<p" + strAttrs + ">" + children + "</p>";
             case "a":
-                return "<a" + strAttrs + " href=\"" + escapeInjectHtml(nodeObject, "href") + "\">" + cleanChildren + "</a>";
+                return "<a" + strAttrs + " href=\"" + escapeInjectHtml(nodeObject, "href") + "\">" + children + "</a>";
             case "img":
                 String assetLink = getNodeStr(nodeObject, "asset-link");
                 if (!assetLink.isEmpty()) {
                     JSONObject attrs = nodeObject.optJSONObject("attrs");
                     if (attrs.has("link")) {
-                        return "<a href=\"" + escapeInjectHtml(nodeObject, "link") + "\" >" + "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + cleanChildren + "</a>";
+                        return "<a href=\"" + escapeInjectHtml(nodeObject, "link") + "\" >" + "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children + "</a>";
                     }
-                    return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + cleanChildren;
+                    return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "asset-link") + "\" />" + children;
                 }
-                return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + cleanChildren;
+                return "<img" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\" />" + children;
             case "embed":
-                return "<iframe" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\"" + cleanChildren + "</iframe>";
+                return "<iframe" + strAttrs + " src=\"" + escapeInjectHtml(nodeObject, "src") + "\"" + children + "</iframe>";
             case "h1":
-                return "<h1" + strAttrs + ">" + cleanChildren + "</h1>";
+                return "<h1" + strAttrs + ">" + children + "</h1>";
             case "h2":
-                return "<h2" + strAttrs + ">" + cleanChildren + "</h2>";
+                return "<h2" + strAttrs + ">" + children + "</h2>";
             case "h3":
-                return "<h3" + strAttrs + ">" + cleanChildren + "</h3>";
+                return "<h3" + strAttrs + ">" + children + "</h3>";
             case "h4":
-                return "<h4" + strAttrs + ">" + cleanChildren + "</h4>";
+                return "<h4" + strAttrs + ">" + children + "</h4>";
             case "h5":
-                return "<h5" + strAttrs + ">" + cleanChildren + "</h5>";
+                return "<h5" + strAttrs + ">" + children + "</h5>";
             case "h6":
-                return "<h6" + strAttrs + ">" + cleanChildren + "</h6>";
+                return "<h6" + strAttrs + ">" + children + "</h6>";
             case "ol":
-                return "<ol" + strAttrs + ">" + cleanChildren + "</ol>";
+                return "<ol" + strAttrs + ">" + children + "</ol>";
             case "ul":
-                return "<ul" + strAttrs + ">" + cleanChildren + "</ul>";
+                return "<ul" + strAttrs + ">" + children + "</ul>";
             case "li":
-                return "<li" + strAttrs + ">" + cleanChildren + "</li>";
+                return "<li" + strAttrs + ">" + children + "</li>";
             case "hr":
                 return "<hr" + strAttrs + " />";
             case "table":
-                return "<table " + strAttrs + ">" + cleanChildren + "</table>";
+                return "<table " + strAttrs + ">" + children + "</table>";
             case "thead":
-                return "<thead " + strAttrs + ">" + cleanChildren + "</thead>";
+                return "<thead " + strAttrs + ">" + children + "</thead>";
             case "tbody":
-                return "<tbody" + strAttrs + ">" + cleanChildren + "</tbody>";
+                return "<tbody" + strAttrs + ">" + children + "</tbody>";
             case "tfoot":
-                return "<tfoot" + strAttrs + ">" + cleanChildren + "</tfoot>";
+                return "<tfoot" + strAttrs + ">" + children + "</tfoot>";
             case "tr":
-                return "<tr" + strAttrs + ">" + cleanChildren + "</tr>";
+                return "<tr" + strAttrs + ">" + children + "</tr>";
             case "th":
-                return "<th" + strAttrs + ">" + cleanChildren + "</th>";
+                return "<th" + strAttrs + ">" + children + "</th>";
             case "td":
-                return "<td" + strAttrs + ">" + cleanChildren + "</td>";
+                return "<td" + strAttrs + ">" + children + "</td>";
             case "blockquote":
-                return "<blockquote" + strAttrs + ">" + cleanChildren + "</blockquote>";
+                return "<blockquote" + strAttrs + ">" + children + "</blockquote>";
             case "code":
-                return "<code" + strAttrs + ">" + cleanChildren + "</code>";
+                return "<code" + strAttrs + ">" + children + "</code>";
             case "reference":
                 return "";
             case "fragment":
-                return "<fragment" + strAttrs + ">" + cleanChildren + "</fragment>";
+                return "<fragment" + strAttrs + ">" + children + "</fragment>";
             default:
-                return cleanChildren;
+                return children;
         }
     }
 
@@ -187,16 +182,6 @@ public class DefaultOption implements Option {
                 for (String key : attrsObject.keySet()) {
                     Object objValue = attrsObject.opt(key);
                     String value = objValue.toString();
-
-                    StringBuilder escapedValue = new StringBuilder();
-                    for (char ch : value.toCharArray()) {
-                      if (ch == '&' || ch == '<' || ch == '>' || ch == '"' || ch == '\'') {
-                        escapedValue.append("&#").append((int) ch).append(';'); 
-                      } else {
-                        escapedValue.append(ch);
-                      }
-                    }
-                    value = escapedValue.toString();
                     // If style is available, do styling calculations
                     if (Objects.equals(key, "style")) {
                         String resultStyle = stringifyStyles(attrsObject.optJSONObject("style"));
