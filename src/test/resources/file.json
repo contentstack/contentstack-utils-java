@@ -1,0 +1,150 @@
+{
+  "data": {
+    "test": {
+      "json_rte1": {
+        "json": {
+          "type": "doc",
+          "attrs": {},
+          "uid": "2fcad68bd7d34cd5a01c8ccdd915c7ae",
+          "children": [
+            {
+              "uid": "a8c4ca25e7304707822eafcdb22536e7",
+              "type": "reference",
+              "attrs": {
+                "display-type": "display",
+                "asset-uid": "blt51f558a28ef555ca",
+                "content-type-uid": "sys_assets",
+                "asset-link": "https://images.contentstack.io/v3/assets/blt6fc934a068135ff9/blt51f558a28ef555ca/6643371882c344cb839ec1a8/ben.jpeg",
+                "asset-name": "Designer.png",
+                "asset-type": "image/jpeg",
+                "type": "asset",
+                "class-name": "embedded-asset",
+                "alt": "Designer.png",
+                "asset-alt": "Designer.png",
+                "inline": false
+              },
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "attrs": {},
+              "uid": "795712911f514e7cad0a1f087800f2a8",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ],
+          "_version": 4
+        },
+        "embedded_itemsConnection": {
+          "edges": [
+            {
+              "node": {
+                "title": "Designer.png",
+                "url": "https://images.contentstack.io/v3/assets/blt6fc934a068135ff9/blt51f558a28ef555ca/66545ff10258be81fc639ae5/Virginia_Woolf_Headshot.jpg",
+                "system": {
+                  "uid": "blt51f558a28ef555ca",
+                  "content_type_uid": "sys_assets"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "json_rte2": {
+        "embedded_itemsConnection": {
+          "edges": [
+            {
+              "node": {
+                "title": "W._E._B._Du_Bois_Headshot.jpg",
+                "url": "https://images.contentstack.io/v3/assets/blt6fc934a068135ff9/blt897c06ebf8c6353a/66545fe479abeeb60a3d4e35/Mark_Twain_Headshot.jpg",
+                "system": {
+                  "content_type_uid": "sys_assets",
+                  "uid": "blt897c06ebf8c6353a"
+                }
+              }
+            },
+            {
+              "node": {
+                "title": "iot-icon.png",
+                "url": "https://images.contentstack.io/v3/assets/blt6fc934a068135ff9/bltbd81ff2ed42f1317/6654501e466a1c9b3edecb21/iot-icon.png",
+                "system": {
+                  "content_type_uid": "sys_assets",
+                  "uid": "bltbd81ff2ed42f1317"
+                }
+              }
+            }
+          ]
+        },
+        "json": {
+          "type": "doc",
+          "uid": "fb4ae425afcd466a872f662596ccd852",
+          "attrs": {},
+          "children": [
+            {
+              "uid": "58a41f7b4c5340ad8bfea5ffb9c98dde",
+              "type": "reference",
+              "attrs": {
+                "display-type": "display",
+                "asset-uid": "blt897c06ebf8c6353a",
+                "content-type-uid": "sys_assets",
+                "asset-link": "https://images.contentstack.io/v3/assets/blt6fc934a068135ff9/blt897c06ebf8c6353a/6644340e015b1c2d2b56ca48/W._E._B._Du_Bois_Headshot.jpg",
+                "asset-name": "W._E._B._Du_Bois_Headshot.jpg",
+                "asset-type": "image/jpeg",
+                "type": "asset",
+                "class-name": "embedded-asset",
+                "alt": "W._E._B._Du_Bois_Headshot.jpg",
+                "asset-alt": "W._E._B._Du_Bois_Headshot.jpg",
+                "inline": false
+              },
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "attrs": {},
+              "uid": "321122af10bd4e288b296c2ca87eb2a8",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "uid": "91537fbd2f3c48cc939cdf737a392986",
+              "type": "reference",
+              "attrs": {
+                "display-type": "display",
+                "asset-uid": "bltbd81ff2ed42f1317",
+                "content-type-uid": "sys_assets",
+                "asset-link": "https://images.contentstack.io/v3/assets/blt6fc934a068135ff9/bltbd81ff2ed42f1317/664425e3a3f9df03dfc0e5e6/5216292.jpg",
+                "asset-name": "iot-icon.png",
+                "asset-type": "image/jpeg",
+                "type": "asset",
+                "class-name": "embedded-asset",
+                "alt": "iot-icon.png",
+                "asset-alt": "iot-icon.png",
+                "inline": false
+              },
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ],
+          "_version": 4
+        }
+      }
+    }
+  }
+}
