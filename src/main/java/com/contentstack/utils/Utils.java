@@ -11,6 +11,9 @@ import org.jsoup.nodes.Document;
 
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.StreamSupport;
@@ -248,7 +251,96 @@ public class Utils {
         jsonArray.forEach(jsonObj -> render((JSONObject) jsonObj, keyPath, renderObject));
     }
 
+    //update assetURL in json of GQL response
+    public static void UpdateAssetURLForGQL(JSONObject entryJson) {
+        Map<String, String> assetUrls = new HashMap<>();
+        if (entryJson.has("data")) {
+            JSONObject data = entryJson.optJSONObject("data");
+            for (String key : data.keySet()) {
+                Object value = data.get(key);
+                if (value instanceof JSONObject) {
+                    JSONObject contentTypeObj = (JSONObject) value;
+                    Iterator<String> keys = contentTypeObj.keys();
+                    while (keys.hasNext()) {
+                        String mainKey = keys.next();
+                        Object embeddedItem = contentTypeObj.get(mainKey);
+                        if (embeddedItem instanceof JSONObject) {
+                            JSONObject jsonRteObj = (JSONObject) embeddedItem;
+                            if (jsonRteObj.has("embedded_itemsConnection")) {
+                                JSONObject embeddedConnection = jsonRteObj.getJSONObject("embedded_itemsConnection");
+                                if (embeddedConnection.has("edges")) {
+                                    JSONArray embeddedItems = embeddedConnection.getJSONArray("edges");
+                                    for (int i = 0; i < embeddedItems.length(); i++) {
+                                        JSONObject item = embeddedItems.getJSONObject(i);
+                                        if (item.has("node")) {
+                                            JSONObject nodeList = item.getJSONObject("node");
+                                            if (nodeList.has("url")) {
+                                                String url = nodeList.getString("url");
+                                                if (nodeList.has("system")) {
+                                                    JSONObject systemList = nodeList.getJSONObject("system");
+                                                    if ("sys_assets".equals(systemList.optString("content_type_uid")) && systemList.has("uid")) {
+                                                        String uid = systemList.getString("uid");
+                                                        assetUrls.put(uid, url);
+                                                        updateChildObjects(entryJson, assetUrls);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                throw new IllegalArgumentException("_embedded_items not present in entry. Call includeEmbeddedItems() before fetching entry.");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
+    private static void updateChildObjects(JSONObject entryJson, Map<String, String> assetUrls) {
+        if (entryJson.has("data")) {
+            JSONObject dataObject = entryJson.getJSONObject("data");
+            for (String key : dataObject.keySet()) {
+                Object value = dataObject.get(key);
+                if (value instanceof JSONObject) {
+                    JSONObject contentTypeObj = (JSONObject) value;
+                    Iterator<String> keys = contentTypeObj.keys();
+                    while (keys.hasNext()) {
+                        String mainKey = keys.next();
+                        Object embeddedItem = contentTypeObj.get(mainKey);
+                        if (embeddedItem instanceof JSONObject) {
+                            JSONObject jsonRteObj = (JSONObject) embeddedItem;
+                            if (jsonRteObj.has("json")) {
+                                JSONObject jsonValue = jsonRteObj.getJSONObject("json");
+                                if (jsonValue.has("children")) {
+                                    JSONArray childrenArray = jsonValue.getJSONArray("children");
+                                    updateChildrenArray(childrenArray, assetUrls);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private static void updateChildrenArray(JSONArray childrenArray, Map<String, String> assetUrls) {
+        for (int i = 0; i < childrenArray.length(); i++) {
+            JSONObject child = childrenArray.getJSONObject(i);
+            if (child.has("attrs")) {
+                JSONObject attrsObject = child.getJSONObject("attrs");
+                if (attrsObject.has("asset-uid") && attrsObject.has("asset-link")) {
+                    String assetUid = attrsObject.getString("asset-uid");
+                    if (assetUrls.containsKey(assetUid)) {
+                        attrsObject.put("asset-link", assetUrls.get(assetUid));
+                    }
+                }
+            }
+        }
+    }
 }
 
 

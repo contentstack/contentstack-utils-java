@@ -164,7 +164,14 @@ public class UtilTests {
         };
         Utils.jsonToHTML(rteObject, keyPath, new DefaultOptionClass());
     }
-
+     
+    @Test 
+    public void testUpdateAssetUrl() throws IOException{
+        final String json = "src/test/resources/file.json";
+        JSONObject localJsonObj1 = new ReadResource().readJson(json);
+        Utils.UpdateAssetURLForGQL(localJsonObj1);
+        // System.out.println(localJsonObj1);
+    }
 
 }
 
