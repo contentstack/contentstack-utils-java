@@ -14,7 +14,7 @@
                 "display-type": "display",
                 "asset-uid": "blt51f558a28ef555ca",
                 "content-type-uid": "sys_assets",
-                "asset-link": "https://images.***REMOVED***/v3/assets/***REMOVED***/blt51f558a28ef555ca/6643371882c344cb839ec1a8/ben.jpeg",
+                "asset-link": "https://images.contentstack.io/v3/assets/***REMOVED***/blt51f558a28ef555ca/6643371882c344cb839ec1a8/ben.jpeg",
                 "asset-name": "Designer.png",
                 "asset-type": "image/jpeg",
                 "type": "asset",
@@ -47,7 +47,7 @@
             {
               "node": {
                 "title": "Designer.png",
-                "url": "https://images.***REMOVED***/v3/assets/***REMOVED***/blt51f558a28ef555ca/66545ff10258be81fc639ae5/Virginia_Woolf_Headshot.jpg",
+                "url": "https://images.contentstack.io/v3/assets/***REMOVED***/blt51f558a28ef555ca/66545ff10258be81fc639ae5/Virginia_Woolf_Headshot.jpg",
                 "system": {
                   "uid": "blt51f558a28ef555ca",
                   "content_type_uid": "sys_assets"
@@ -63,7 +63,7 @@
             {
               "node": {
                 "title": "W._E._B._Du_Bois_Headshot.jpg",
-                "url": "https://images.***REMOVED***/v3/assets/***REMOVED***/blt897c06ebf8c6353a/66545fe479abeeb60a3d4e35/Mark_Twain_Headshot.jpg",
+                "url": "https://images.contentstack.io/v3/assets/***REMOVED***/blt897c06ebf8c6353a/66545fe479abeeb60a3d4e35/Mark_Twain_Headshot.jpg",
                 "system": {
                   "content_type_uid": "sys_assets",
                   "uid": "blt897c06ebf8c6353a"
@@ -73,7 +73,7 @@
             {
               "node": {
                 "title": "iot-icon.png",
-                "url": "https://images.***REMOVED***/v3/assets/***REMOVED***/bltbd81ff2ed42f1317/6654501e466a1c9b3edecb21/iot-icon.png",
+                "url": "https://images.contentstack.io/v3/assets/***REMOVED***/bltbd81ff2ed42f1317/6654501e466a1c9b3edecb21/iot-icon.png",
                 "system": {
                   "content_type_uid": "sys_assets",
                   "uid": "bltbd81ff2ed42f1317"
@@ -94,7 +94,7 @@
                 "display-type": "display",
                 "asset-uid": "blt897c06ebf8c6353a",
                 "content-type-uid": "sys_assets",
-                "asset-link": "https://images.***REMOVED***/v3/assets/***REMOVED***/blt897c06ebf8c6353a/6644340e015b1c2d2b56ca48/W._E._B._Du_Bois_Headshot.jpg",
+                "asset-link": "https://images.contentstack.io/v3/assets/***REMOVED***/blt897c06ebf8c6353a/6644340e015b1c2d2b56ca48/W._E._B._Du_Bois_Headshot.jpg",
                 "asset-name": "W._E._B._Du_Bois_Headshot.jpg",
                 "asset-type": "image/jpeg",
                 "type": "asset",
@@ -126,7 +126,7 @@
                 "display-type": "display",
                 "asset-uid": "bltbd81ff2ed42f1317",
                 "content-type-uid": "sys_assets",
-                "asset-link": "https://images.***REMOVED***/v3/assets/***REMOVED***/bltbd81ff2ed42f1317/664425e3a3f9df03dfc0e5e6/5216292.jpg",
+                "asset-link": "https://images.contentstack.io/v3/assets/***REMOVED***/bltbd81ff2ed42f1317/664425e3a3f9df03dfc0e5e6/5216292.jpg",
                 "asset-name": "iot-icon.png",
                 "asset-type": "image/jpeg",
                 "type": "asset",
