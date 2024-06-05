@@ -14,6 +14,7 @@ import java.util.*;
 
 public class DefaultOption implements Option {
 
+
     /**
      * The function `renderOptions` takes in a JSON object and metadata and returns a string based on the
      * style type of the metadata.
@@ -153,10 +154,19 @@ public class DefaultOption implements Option {
                 return "<tfoot" + strAttrs + ">" + cleanChildren + "</tfoot>";
             case "tr":
                 return "<tr" + strAttrs + ">" + cleanChildren + "</tr>";
-            case "th":
-                return "<th" + strAttrs + ">" + cleanChildren + "</th>";
-            case "td":
-                return "<td" + strAttrs + ">" + cleanChildren + "</td>";
+            case "th":{
+                if (nodeObject.has("attrs") && nodeObject.optJSONObject("attrs").has("void") && 
+                    nodeObject.optJSONObject("attrs").optBoolean("void")) {
+                  return "";
+                }else{
+                return "<th" + strAttrs + ">" + cleanChildren + "</th>";}}
+            case "td":{
+                if (nodeObject.has("attrs") && nodeObject.optJSONObject("attrs").has("void") && 
+                    nodeObject.optJSONObject("attrs").optBoolean("void")) {
+                  return "";
+                }else{
+                return "<td" + strAttrs + ">" + cleanChildren + "</td>";}}
+              
             case "blockquote":
                 return "<blockquote" + strAttrs + ">" + cleanChildren + "</blockquote>";
             case "code":
