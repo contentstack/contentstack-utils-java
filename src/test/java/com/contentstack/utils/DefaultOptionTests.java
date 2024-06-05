@@ -1,14 +1,20 @@
 package com.contentstack.utils;
 
 import com.contentstack.utils.helper.Metadata;
+import com.contentstack.utils.interfaces.NodeCallback;
 import com.contentstack.utils.render.DefaultOption;
+
+
 import org.json.JSONObject;
+import org.json.JSONArray;
 import org.jsoup.nodes.Attributes;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
+
+import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -81,6 +87,100 @@ public class DefaultOptionTests {
                 "outerHTMLTet", attributes);
         String result = defaultOptions.renderOptions(localJsonObj.optJSONObject("_embedded_items"), metadata);
         Assert.assertEquals("<img src=\"\" alt=\"\" />", result);
+    }
+     @Test
+    public void testRenderNodeWithVoidTd() {
+        DefaultOption defaultOptions = new DefaultOption();
+        JSONObject nodeObject = new JSONObject();
+        JSONObject attrs = new JSONObject();
+        attrs.put("void", true);
+        nodeObject.put("attrs", attrs);
+        nodeObject.put("children", new JSONArray());
+
+        NodeCallback callback = children -> {
+            // Simple callback implementation for testing purposes
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < children.length(); i++) {
+                sb.append(children.getJSONObject(i).getString("type"));
+            }
+            return sb.toString();
+        };
+
+        String result = defaultOptions.renderNode("td", nodeObject, callback);
+        Assert.assertEquals("", result);
+    }
+    @Test
+    public void testRenderNodeWithVoidTh() {
+        DefaultOption defaultOptions = new DefaultOption();
+        JSONObject nodeObject = new JSONObject();
+        JSONObject attrs = new JSONObject();
+        attrs.put("void", true);
+        nodeObject.put("attrs", attrs);
+        nodeObject.put("children", new JSONArray());
+
+        NodeCallback callback = children -> {
+            // Simple callback implementation for testing purposes
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < children.length(); i++) {
+                sb.append(children.getJSONObject(i).getString("type"));
+            }
+            return sb.toString();
+        };
+
+        String result = defaultOptions.renderNode("th", nodeObject, callback);
+        Assert.assertEquals("", result);
+    }
+
+    @Test
+    public void testRenderNodeWithoutVoidTd() {
+        DefaultOption defaultOptions = new DefaultOption();
+        JSONObject nodeObject = new JSONObject();
+        JSONObject attrs = new JSONObject();
+        attrs.put("class", "example");
+        nodeObject.put("attrs", attrs);
+        JSONArray children = new JSONArray();
+        JSONObject child = new JSONObject();
+        child.put("type", "text");
+        child.put("content", "example content");
+        children.put(child);
+        nodeObject.put("children", children);
+
+        NodeCallback callback = childrenArray -> {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < childrenArray.length(); i++) {
+                sb.append(childrenArray.getJSONObject(i).getString("content"));
+            }
+            return sb.toString();
+        };
+
+        String result = defaultOptions.renderNode("td", nodeObject, callback);
+        Assert.assertEquals("<td class=\"example\">example content</td>", result);
+    }
+
+    @Test
+    public void testRenderNodeWithoutVoidTh() {
+        DefaultOption defaultOptions = new DefaultOption();
+        JSONObject nodeObject = new JSONObject();
+        JSONObject attrs = new JSONObject();
+        attrs.put("class", "example");
+        nodeObject.put("attrs", attrs);
+        JSONArray children = new JSONArray();
+        JSONObject child = new JSONObject();
+        child.put("type", "text");
+        child.put("content", "example content");
+        children.put(child);
+        nodeObject.put("children", children);
+
+        NodeCallback callback = childrenArray -> {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < childrenArray.length(); i++) {
+                sb.append(childrenArray.getJSONObject(i).getString("content"));
+            }
+            return sb.toString();
+        };
+
+        String result = defaultOptions.renderNode("th", nodeObject, callback);
+        Assert.assertEquals("<th class=\"example\">example content</th>", result);
     }
 
 }

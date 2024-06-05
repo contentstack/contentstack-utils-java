@@ -3,6 +3,12 @@
 A brief description of what changes project contains
 ## May 28, 2024
 
+#### v1.2.11
+
+- Fix: ignore td/th in case of attrs has void:true 
+
+## May 14, 2024
+
 #### v1.2.10
 
 -Enhancement: Update Asset url method added for GQL
