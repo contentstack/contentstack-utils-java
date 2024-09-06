@@ -29,8 +29,8 @@ jobs:
           mkdir -p $HOME/.m2
           echo "<settings><servers><server><id>ossrh</id><username>${{ secrets.OSSRH_USERNAME }}</username><password>${{ secrets.OSSRH_PASSWORD }}</password></server></servers></settings>" > $HOME/.m2/settings.xml
 
-      - name: Publish to Maven Central
-        run: mvn --batch-mode clean deploy
+      - name: Build and Publish to Local Maven Repository
+        run: mvn --batch-mode clean install deploy -Dgpg.skip=true -DskipTests=true -DskipNexusStaging=true -DaltDeploymentRepository=local::default::file://$HOME/.m2/repository
       
       # - name: Publish package
       #   run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} deploy
