@@ -23,7 +23,7 @@ jobs:
           # gpg-passphrase: GPG_PASSPHRASE
           # Build and publish to a local Maven repository for testing
       - name: Build and Publish to Local Maven Repository
-        run: mvn --batch-mode clean install deploy -DaltDeploymentRepository=local::default::file://$HOME/.m2/repository
+        run: mvn --batch-mode clean install deploy -Dgpg.skip=true -DaltDeploymentRepository=local::default::file://$HOME/.m2/repository
       
       # - name: Publish package
       #   run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} deploy
