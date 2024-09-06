@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS</description>
-    <url>https://www.contentstack.com</url>
+    <url>https://www.***REMOVED***</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,9 +35,9 @@
     <developers>
         <developer>
             <name>shaileshmishra</name>
-            <email>shailesh.mishra@contentstack.com</email>
+            <email>shailesh.mishra@***REMOVED***</email>
             <organization>contentstack</organization>
-            <organizationUrl>https://www.contentstack.com/</organizationUrl>
+            <organizationUrl>https://www.***REMOVED***/</organizationUrl>
         </developer>
     </developers>
 
@@ -73,7 +73,7 @@
 
     <organization>
         <name>Contentstack.</name>
-        <url>http://contentstack.com</url>
+        <url>http://***REMOVED***</url>
     </organization>
 
     <dependencies>
