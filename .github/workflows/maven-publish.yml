@@ -38,10 +38,23 @@ jobs:
           server-id: github
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
-      # - name: Set up Maven settings
-      #   run: |
-      #     mkdir -p $HOME/.m2
-      #     echo "<settings><servers><server><id>ossrh</id><username>${{ secrets.OSSRH_USERNAME }}</username><password>${{ secrets.OSSRH_PASSWORD }}</password></server></servers></settings>" > $HOME/.m2/settings.xml
+      - name: Set up Maven settings for OSSRH
+        run: |
+          mkdir -p $HOME/.m2
+          echo "<settings>
+                <servers>
+                  <server>
+                    <id>ossrh</id>
+                    <username>${{ secrets.OSSRH_USERNAME }}</username>
+                    <password>${{ secrets.OSSRH_PASSWORD }}</password>
+                  </server>
+                  <server>
+                    <id>github</id>
+                    <username>${{ github.actor }}</username>
+                    <password>${{ secrets.GITHUB_TOKEN }}</password>
+                  </server>
+                </servers>
+                </settings>" > $HOME/.m2/settings.xml
       - name: Publish to GitHub Packages
         run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} deploy
         env:
