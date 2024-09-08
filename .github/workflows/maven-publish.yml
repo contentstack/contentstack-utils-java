@@ -1,8 +1,7 @@
 name: Publish package to the Maven Central Repository
 on:
   pull_request:
-  # release:
-  #   types: [ created ]
+    # types: [ created ]
 jobs:
   publish-maven:
     runs-on: ubuntu-latest
@@ -21,39 +20,25 @@ jobs:
           server-password: MAVEN_PASSWORD
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           gpg-passphrase: GPG_PASSPHRASE
-          # Build and publish to a local Maven repository for testing
-      # - name: Build and Publish to Local Maven Repository
-      #   run: mvn --batch-mode clean install deploy -Dgpg.skip=true -DskipTests=true -DskipNexusStaging=true -DaltDeploymentRepository=local::default::file://$HOME/.m2/repository
-      - name: Set up Maven settings
-        run: |
-          mkdir -p $HOME/.m2
-          echo "<settings><servers><server><id>ossrh</id><username>${{ secrets.OSSRH_USERNAME }}</username><password>${{ secrets.OSSRH_PASSWORD }}</password></server></servers></settings>" > $HOME/.m2/settings.xml
-
-      - name: Build and Publish to Local Maven Repository
-        run: mvn --batch-mode clean install deploy -Dgpg.skip=true -DskipTests=true -DskipNexusStaging=true -DaltDeploymentRepository=local::default::file://$HOME/.m2/repository
-      
-      # - name: Publish package
-      #   run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} deploy
-      #   env:
-      #     MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
-      #     MAVEN_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
-      #     GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-      # Optional: Verify the artifacts are published in the local repository
-      - name: Verify Local Publish
-        run: ls -R $HOME/.m2/repository/com.contentstack.sdk/utils
-  # publish-github:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #     - name: Set up Java for publishing to GitHub Packages
-  #       uses: actions/setup-java@v3
-  #       with:
-  #         java-version: '11'
-  #         distribution: 'adopt'
-  #         server-id: github
-  #         gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
-  #         gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
-  #     - name: Publish to GitHub Packages
-  #       run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} deploy
-  #       env:
-  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish package
+        run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} deploy
+        env:
+          MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+  publish-github:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Java for publishing to GitHub Packages
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+          server-id: github
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
+      - name: Publish to GitHub Packages
+        run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
