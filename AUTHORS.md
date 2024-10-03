@@ -1,5 +1,5 @@
 # Authors
 
-- [ishaileshmishra](shailesh.mishra@contentstack.com)
-- [shaileshmishra](mshaileshr@contentstack.com)
-- [admin](dev@contentstack.com)
+- [ishaileshmishra](shailesh.mishra@***REMOVED***)
+- [shaileshmishra](mshaileshr@***REMOVED***)
+- [admin](dev@***REMOVED***)
