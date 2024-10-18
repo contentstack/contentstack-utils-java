@@ -8,7 +8,7 @@ If you believe you have found a security vulnerability in any Contentstack-owned
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Send email to [security@***REMOVED***](mailto:security@***REMOVED***).
+Send email to [security@contentstack.com](mailto:security@contentstack.com).
 
 You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message.
 
@@ -24,4 +24,4 @@ Please include the requested information listed below (as much as you can provid
 
 This information will help us triage your report more quickly.
 
-[https://www.***REMOVED***/trust/](https://www.***REMOVED***/trust/)
+[https://www.contentstack.com/trust/](https://www.contentstack.com/trust/)
