@@ -3,11 +3,16 @@
 A brief description of what changes project contains
 ## Oct 21, 2024
 
+#### v1.2.12
+
+- Fix: Snyk issues
+- Added workflow
+
+## May 28, 2024
+
 #### v1.2.11
 
 - Fix: ignore td/th in case of attrs has void:true 
-- Fix: Snyk issues
-- Worflow added
 
 ## May 14, 2024
 
