@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>1.2.11</version>
+    <version>1.2.12</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS</description>
-    <url>https://www.contentstack.com</url>
+    <url>https://contentstack.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,7 +28,7 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <validation-version>2.0.1.Final</validation-version>
         <json-version>20240303</json-version>
-        <spring-web-version>6.1.6</spring-web-version>
+        <spring-web-version>6.1.14</spring-web-version>
         <org.apache.commons-text>1.12.0</org.apache.commons-text>
     </properties>
 
