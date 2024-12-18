@@ -20,7 +20,7 @@
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <junit.version>4.13.2</junit.version>
-        <jsoup.version>1.17.2</jsoup.version>
+        <jsoup.version>1.18.2</jsoup.version>
         <json.simple.version>1.1.1</json.simple.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
         <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
