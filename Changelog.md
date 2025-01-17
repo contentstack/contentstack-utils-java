@@ -1,6 +1,12 @@
 # Changelog
 
 A brief description of what changes project contains
+## Jan 20, 2025
+
+#### v1.2.13
+
+- Fix: Snyk issues
+
 ## Oct 21, 2024
 
 #### v1.2.12
