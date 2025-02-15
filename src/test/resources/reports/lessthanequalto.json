@@ -14,7 +14,7 @@
       },
       "children": [
         {
-          "text": "Standard Fulfillment",
+          "text": " Fulfillment",
           "id": ""
         }
       ]
@@ -25,7 +25,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "The fulfillment fee for standard items includes a base fee, plus"
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
         },
         {
           "type": "span",
@@ -43,7 +43,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "https://sellerhelp.com/s/guide?article=000009215&language=en_US#AdditionalFees"
+            "url": "https://gigantic-tradition.info/"
           },
           "children": [
             {
@@ -53,7 +53,7 @@
           "uid": "0a9014addcc74b7fa718648ec075b29d"
         },
         {
-          "text": " for apparel, hazardous materials, items with low retail prices and oversize items. Standard items are shipped by small parcel."
+          "text": " lorem ipsum."
         },
         {
           "type": "span",
@@ -66,7 +66,7 @@
           "uid": "fdcf66e1857943aaa703679e90470315"
         },
         {
-          "text": "An item is considered standard when it meets these criteria:",
+          "text": " lorem ipsum.",
           "bold": true
         },
         {
@@ -88,7 +88,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "Unit weight is less than or equal to 150 lb."
+              "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
             }
           ],
           "uid": "bffc785cdf3042f194189de26b954c84"
@@ -98,7 +98,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "Longest side is less than or equal to 108 inches."
+              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
             }
           ],
           "uid": "ade36bf253a34c1fbb8906c6cec15f72"
@@ -108,7 +108,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "Longest side + girth* is less than or equal to 165 inches."
+              "text": "Longest side "
             }
           ],
           "uid": "68b19ca3cd014b5b9799072ca97590e2"
@@ -133,7 +133,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "* Girth = 2*(width + height in inches)",
+              "text": " height in inches",
               "subscript": true
             }
           ],
@@ -204,11 +204,11 @@
         {
           "type": "a",
           "attrs": {
-            "url": "www.sellerhelp.com/s/guide?article=000009215&language=en_US#BigBulkyFulfillment"
+            "url": "https://gigantic.info/"
           },
           "children": [
             {
-              "text": "big and bulky item"
+              "text": "big item"
             }
           ],
           "uid": "c71213d03c694c6f8e7bc72db78c8633"
@@ -227,7 +227,7 @@
           "uid": "9f40a4ae3d02450083f2d6fe05b68495"
         },
         {
-          "text": "and must be shipped by freight. The big and bulky fulfillment fee will apply."
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
         }
       ]
     },
@@ -251,7 +251,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "Calculate the Base Fee for Standard Items"
+          "text": "Calculate the Base"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "Step 1 – Measure your item’s dimensions."
+          "text": " Measure your item’s dimensions."
         }
       ]
     },
@@ -271,7 +271,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "You’ll need these to calculate dimensional weight. If your item is"
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
         },
         {
           "type": "span",
@@ -289,7 +289,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "www.sellerhelp.com/s/guide?article=000009215&language=en_US#AdditionalFees"
+            "url": "https://gigantic-tradition.info"
           },
           "children": [
             {
@@ -299,7 +299,7 @@
           "uid": "32d889bca7d64cd7ab855db9e6e83c16"
         },
         {
-          "text": ", it may determine the starting unit weight and have an additional fee."
+          "text": ", it may determine the starting unit weight and have an additional."
         }
       ]
     },
@@ -323,7 +323,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "Step 2 – Determine your item’s shipping weight."
+          "text": "Determine your item’s shipping weight."
         }
       ]
     },
@@ -485,7 +485,7 @@
                               "type": "li",
                               "children": [
                                 {
-                                  "text": "Add 0.25 lb. for packaging materials"
+                                  "text": " packaging materials"
                                 }
                               ],
                               "attrs": {}
@@ -534,7 +534,7 @@
                           "type": "p",
                           "children": [
                             {
-                              "text": "Between 1 lb. and up to 150 lb."
+                              "text": "Between"
                             }
                           ],
                           "attrs": {}
@@ -600,7 +600,7 @@
       },
       "children": [
         {
-          "text": "Step 3 – Use this table to find your base fulfillment fee for standard items."
+          "text": " lorem ipsum."
         }
       ]
     },
@@ -737,7 +737,7 @@
                           },
                           "children": [
                             {
-                              "text": "Standard Base Fee Per Unit "
+                              "text": "Standard "
                             }
                           ],
                           "uid": "1f80640b82dc4ddcb1669a1d9fe5cdc9"
@@ -1003,7 +1003,7 @@
                       },
                       "children": [
                         {
-                          "text": "$5.75 + $0.40 for each lb. > 4 lb."
+                          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                         }
                       ],
                       "uid": "3d63098ba8c74a838d70119a3b80f009"
@@ -1064,7 +1064,7 @@
                       },
                       "children": [
                         {
-                          "text": "$15.55 + $0.40 for each lb. > 21 lb."
+                          "text": "$15.55 "
                         }
                       ],
                       "uid": "0d5c633adc0642569adb857a8f7af3bb"
@@ -1233,7 +1233,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "*Heavier items may require more than two days for delivery because they're shipped using ground transportation."
+              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
             }
           ],
           "uid": "c69ff491f85d41beae578c56170ba42d"
@@ -1285,7 +1285,7 @@
           ]
         },
         {
-          "text": "Additional Fulfillment Fees",
+          "text": "Fulfillment Fees",
           "id": ""
         }
       ]
@@ -1300,7 +1300,7 @@
       },
       "children": [
         {
-          "text": "For standard items only, add the following fees to the base fulfillment fee if your item applies. (These additional fees do"
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
         },
         {
           "type": "span",
@@ -1327,7 +1327,7 @@
           "uid": "09d562e175bc4c20b0b37a311dc52b0f"
         },
         {
-          "text": "apply to big and bulky items.)"
+          "text": " lorem ipsum."
         },
         {
           "text": "\n",
@@ -1571,7 +1571,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": "Your item is an article of clothing."
+                          "text": "Your item is an article ."
                         }
                       ],
                       "attrs": {
@@ -1596,7 +1596,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": "Add $0.50"
+                          "text": "Add "
                         }
                       ],
                       "attrs": {
@@ -1682,7 +1682,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": "Add $0.50"
+                          "text": "Add "
                         }
                       ],
                       "attrs": {
@@ -1841,7 +1841,7 @@
                           "uid": "6b2ffdeed4a4454da13ab8fcc71d9564",
                           "children": [
                             {
-                              "text": "Your item meets "
+                              "text": " ends meets "
                             },
                             {
                               "type": "span",
@@ -1901,7 +1901,7 @@
                               },
                               "children": [
                                 {
-                                  "text": "Longest side greater than 48\" and up to 96” "
+                                  "text": "Longest side greater "
                                 }
                               ],
                               "uid": "cfff0ce953a744449005685e0edd33a2"
@@ -2157,21 +2157,21 @@
         {
           "type": "a",
           "attrs": {
-            "url": "www.company.com/s/guide?article=000009891",
+            "url": "https://gigantic-tradition.info/",
             "style": {},
             "redactor-attributes": {},
             "dir": "ltr"
           },
           "children": [
             {
-              "text": "Calculating Your WFS Fees",
+              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo",
               "italic": true
             }
           ],
           "uid": "9c4e3e4b76b84a86bfa9e04b1f458e10"
         },
         {
-          "text": " to see a sample item's fulfillment fee.",
+          "text": " to see a sample item's fulfillment .",
           "italic": true
         }
       ]
@@ -2234,11 +2234,11 @@
         {
           "type": "a",
           "attrs": {
-            "url": "www.sellerhelp.com/s/guide?language=en_US&article=000011223"
+            "url": "https://gigantic.info/"
           },
           "children": [
             {
-              "text": "Big and bulky items"
+              "text": " items"
             }
           ],
           "uid": "7eb3ad881ffe48aa8607ead8897f7ae0"
@@ -2257,7 +2257,7 @@
           "uid": "ec8479c301164d539c47e15006b7b991"
         },
         {
-          "text": "are shipped by freight. An item is considered big and bulky when it meets"
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
         },
         {
           "type": "span",
@@ -2369,7 +2369,7 @@
               "break": true
             },
             {
-              "text": "Use the unit weight and round up to the nearest pound to calculate shipping weight. No additional fulfillment fees apply."
+              "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
             }
           ]
         }
@@ -2443,7 +2443,7 @@
                           },
                           "children": [
                             {
-                              "text": "Shipping Weight  "
+                              "text": "Shipping  "
                             }
                           ],
                           "uid": "18179aef4544411ba99b6c290d7b594c"
@@ -2491,7 +2491,7 @@
                           },
                           "children": [
                             {
-                              "text": "Big & Bulky Base Fee Per Unit "
+                              "text": "Big items "
                             }
                           ],
                           "uid": "64fb696109444d6a95163ff4023a601e"
@@ -2613,7 +2613,7 @@
       },
       "children": [
         {
-          "text": "The storage fee is the cost of storing your items at a company fulfillment center. It's based on the volume of the product being stored and the length of time. The fees displayed below are based on a 30-day calendar month. (You can track how long items have been at fulfillment centers with the"
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
         },
         {
           "type": "span",
@@ -2631,7 +2631,7 @@
         {
           "type": "a",
           "attrs": {
-            "url": "www.seller.com/wfsLite/reports"
+            "url": "https://gigantic-tradition.info"
           },
           "children": [
             {
@@ -2665,7 +2665,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "Items Stored for Fewer Than 365 Days"
+          "text": "Fewer Than 365 Days"
         }
       ]
     },
@@ -2806,7 +2806,7 @@
                       "attrs": {},
                       "children": [
                         {
-                          "text": "January–September"
+                          "text": "January"
                         }
                       ],
                       "uid": "fcef6970cc94468fa900110052f140de"
@@ -2847,7 +2847,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": "October–December"
+                          "text": "October"
                         }
                       ],
                       "attrs": {}
@@ -3175,20 +3175,20 @@
       },
       "children": [
         {
-          "text": "Want an example? Go to ",
+          "text": "Want lorem ipsum",
           "italic": true
         },
         {
           "type": "a",
           "attrs": {
-            "url": "www.sellerhelp.com/s/guide?article=000009891",
+            "url": "https://gullible-poisoning.net",
             "style": {},
             "redactor-attributes": {},
             "dir": "ltr"
           },
           "children": [
             {
-              "text": "Calculating Your WFS Fees",
+              "text": " lorem ipsum.",
               "italic": true
             }
           ],
@@ -3238,7 +3238,7 @@
       },
       "children": [
         {
-          "text": "Problem inventory is any inbound shipment that can’t be received into a company fulfillment center. It may be returned to you at your expense if we can’t reach a resolution."
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
         }
       ]
     },
@@ -3382,7 +3382,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": "Missing or incorrect poly bag"
+                          "text": "Missing "
                         }
                       ],
                       "attrs": {}
@@ -3450,7 +3450,7 @@
           "uid": "e208977578c549369004ffbf53325453",
           "children": [
             {
-              "text": "Return Shipping & Exceptions",
+              "text": "Exceptions",
               "id": ""
             }
           ]
@@ -3463,7 +3463,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "Return Shipping Fee"
+          "text": "Return Fee"
         }
       ]
     },
@@ -3477,7 +3477,7 @@
       },
       "children": [
         {
-          "text": "The return shipping fee is based on shipping weight. Additional fees also apply for apparel, hazardous materials and oversize items. "
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
         }
       ]
     },
@@ -3940,7 +3940,7 @@
                           "attrs": {},
                           "children": [
                             {
-                              "text": "Shipping Weight            "
+                              "text": "Shipping             "
                             }
                           ],
                           "uid": "433a875e864444378046f40f555df267"
@@ -4076,7 +4076,7 @@
       },
       "children": [
         {
-          "text": "Fulfillment & Returns Exceptions"
+          "text": "Exceptions"
         }
       ]
     },
@@ -4090,14 +4090,14 @@
       },
       "children": [
         {
-          "text": "company will cover the cost of return shipping for any returns identified as "
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
         },
         {
           "text": "company at fault",
           "italic": true
         },
         {
-          "text": ". These include lost in transit, lost after delivery, unable to deliver, item damaged, shipping box damaged, arrived late, and wrong item received."
+          "text": ". lorem ipsum"
         }
       ]
     },
@@ -4126,7 +4126,7 @@
       },
       "children": [
         {
-          "text": "Sellers are responsible for paying the return shipping for any returns that are not identified as "
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
         }
       ]
     },
@@ -4144,7 +4144,7 @@
           "italic": true
         },
         {
-          "text": ". These include but are not limited to wrong size/poor fit, poor quality, missing parts or instructions, not as described, device or part(s) do not work, seller issued refund, bought another size or color, bought somewhere else, lower price, customer refused shipment, no longer wanted, difficult to setup/not compatible, color not as expected, and did not like fabric."
+          "text": ".sed"
         }
       ]
     },
@@ -4214,7 +4214,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": " By End of Payment Cycle"
+                          "text": " By Cycle"
                         }
                       ],
                       "attrs": {
@@ -4276,7 +4276,7 @@
                       "attrs": {},
                       "children": [
                         {
-                          "text": "Damaged or lost in fulfillment center"
+                          "text": "Damaged"
                         }
                       ],
                       "uid": "5969a938ca534d27addf8efe1ebb4efa"
@@ -4320,7 +4320,7 @@
                       "uid": "c67aa5b5f5c14964b27ac8a2ab85494d"
                     },
                     {
-                      "text": "the original sales price. We retain fulfillment and commission fees. "
+                      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                     }
                   ],
                   "uid": "cb1053e2a0be434fafe5b90416e5ebc9"
@@ -4355,7 +4355,7 @@
                           "attrs": {}
                         },
                         {
-                          "text": "Lost in transit to customer"
+                          "text": "Lost "
                         }
                       ],
                       "attrs": {}
@@ -4376,7 +4376,7 @@
                       "type": "p",
                       "children": [
                         {
-                          "text": "No adjustments: You retain the original sales price. We retain fulfillment and commission fees."
+                          "text": "No adjustments"
                         }
                       ],
                       "attrs": {
@@ -4617,7 +4617,7 @@
                           "type": "p",
                           "children": [
                             {
-                              "text": "We cover the return shipping fee. "
+                              "text": "We cover lorem ipsum "
                             },
                             {
                               "text": "\n\n",
@@ -4625,7 +4625,7 @@
                               "attrs": {}
                             },
                             {
-                              "text": "No adjustments: You retain the original sales price. We retain the fulfillment and commission fees. "
+                              "text": "No adjustments "
                             }
                           ],
                           "attrs": {
@@ -4646,7 +4646,7 @@
                       },
                       "children": [
                         {
-                          "text": "If the returned item is deemed sellable, we’ll restock it. In this case, the sale is reversed: you’re"
+                          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                         },
                         {
                           "type": "span",
@@ -4718,7 +4718,7 @@
                           "uid": "1d2bfa66881a4d7db4af0958b98313da"
                         },
                         {
-                          "text": "fulfillment and commission fees. "
+                          "text": "fulfillment "
                         }
                       ],
                       "uid": "823e5fc6f8fb4542869c7e069762280f"
@@ -4783,13 +4783,13 @@
                           },
                           "children": [
                             {
-                              "text": "If the returned item is deemed unsellable, we’ll keep the inventory regardless of any "
+                              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                             },
                             {
                               "uid": "8cb104e01104421d8e3f5ae5d2939651",
                               "type": "a",
                               "attrs": {
-                                "url": "www.seller.com/seller-profile/return-policy",
+                                "url": "https://gigantic-tradition.info",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -4861,7 +4861,7 @@
                   },
                   "children": [
                     {
-                      "text": "You pay the return shipping fee. "
+                      "text": "You pay  "
                     },
                     {
                       "text": "\n\n",
@@ -4869,7 +4869,7 @@
                       "attrs": {}
                     },
                     {
-                      "text": "The sale is reversed: You’re"
+                      "text": "The sale "
                     },
                     {
                       "type": "span",
@@ -4941,7 +4941,7 @@
                       "uid": "1f22ff1141ba44878ef3fc19b44e0124"
                     },
                     {
-                      "text": "only the commission fee. We retain the fulfillment fee. "
+                      "text": "only lorem ipsum "
                     }
                   ],
                   "uid": "b69a3a10e28d44beb1c56138694ae6d1"
@@ -4955,7 +4955,7 @@
                   },
                   "children": [
                     {
-                      "text": "If the returned item is deemed unsellable or you’ve set specific"
+                      "text": "If the returned item "
                     },
                     {
                       "type": "span",
@@ -4977,7 +4977,7 @@
                     {
                       "type": "a",
                       "attrs": {
-                        "url": "www.seller.com/seller-profile/return-policy",
+                        "url": "https://gigantic.info/",
                         "style": {},
                         "redactor-attributes": {},
                         "dir": "ltr"
@@ -5037,7 +5037,7 @@
       "attrs": {},
       "children": [
         {
-          "text": "Items can be disposed of or removed from inventory and shipped back to you for a per-unit fee. "
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
         },
         {
           "text": "\n",
@@ -5251,7 +5251,7 @@
                           "attrs": {},
                           "children": [
                             {
-                              "text": "Disposal fee + $0.40 per lb. shipping cost"
+                              "text": "Disposal"
                             }
                           ]
                         },
@@ -5330,7 +5330,7 @@
                           "attrs": {},
                           "children": [
                             {
-                              "text": "Disposal fee + $0.40 per lb. shipping cost"
+                              "text": "Disposal"
                             }
                           ]
                         },
@@ -5375,7 +5375,7 @@
       },
       "children": [
         {
-          "text": "Add $0.50 to the base fee"
+          "text": "Add "
         }
       ]
     },
@@ -5414,7 +5414,7 @@
           "uid": "763726ed369e41b1aebc8398645c0b5f",
           "children": [
             {
-              "text": "Additional WFS Programs",
+              "text": "Additional ",
               "id": ""
             }
           ]
@@ -5431,7 +5431,7 @@
       },
       "children": [
         {
-          "text": "Additional programs may be available to WFS sellers. Find information in the links below, and additional fees may apply. "
+          "text": "Additional programs  "
         }
       ]
     },
@@ -5449,7 +5449,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "Send company-fulfilled items made up of multiple boxes with"
+              "text": "Send "
             },
             {
               "type": "span",
@@ -5467,7 +5467,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "www.sellerhelp.com/s/guide?article=000010431"
+                "url": "https://gigantic-tradition.info"
               },
               "children": [
                 {
@@ -5505,7 +5505,7 @@
             {
               "type": "a",
               "attrs": {
-                "url": "www.sellerhelp.com/s/guide?article=000009900"
+                "url": "https://gullible-poisoning.net"
               },
               "children": [
                 {
@@ -5525,7 +5525,7 @@
           "attrs": {},
           "children": [
             {
-              "text": "Enjoy reduced shipping rates with the"
+              "text": "Enjoy reduced rates with the"
             },
             {
               "type": "span",
@@ -5543,11 +5543,11 @@
             {
               "type": "a",
               "attrs": {
-                "url": "www.sellerhelp.com/s/guide?article=000009514"
+                "url": "https://gigantic-tradition.info"
               },
               "children": [
                 {
-                  "text": "Preferred Carrier Program"
+                  "text": "Preferred  Program"
                 }
               ],
               "uid": "93d7191615824817a007970150b424b6"
@@ -5567,7 +5567,7 @@
           },
           "children": [
             {
-              "text": "Simplify distributing inventory across the WFS network with"
+              "text": "Simplify distributing"
             },
             {
               "type": "span",
@@ -5585,11 +5585,11 @@
             {
               "type": "a",
               "attrs": {
-                "url": "www.sellerhelp.com/s/guide?article=000009930"
+                "url": "https://gigantic.info/"
               },
               "children": [
                 {
-                  "text": "Inventory Transfer Services"
+                  "text": " Transfer "
                 }
               ],
               "uid": "feac428a1662420fa22cd727ab819bf1"
