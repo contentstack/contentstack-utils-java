@@ -41,7 +41,7 @@
           },
           "children": [
             {
-              "text": "Standard Fulfillment"
+              "text": "Fulfillment"
             }
           ]
         },
@@ -52,12 +52,12 @@
           "uid": "fcc1d2219e2f48438e3c8212b3bb3526",
           "type": "a",
           "attrs": {
-            "url": "#AdditionalFees",
+            "url": "#Fees",
             "target": "_self"
           },
           "children": [
             {
-              "text": "Additional Fees"
+              "text": "Fees"
             }
           ]
         },
@@ -68,12 +68,12 @@
           "uid": "4ff064c605dd4f2db1b1760eaec58bf0",
           "type": "a",
           "attrs": {
-            "url": "#BigBulkyFulfillment",
+            "url": "#Fulfillment",
             "target": "_self"
           },
           "children": [
             {
-              "text": "Big & Bulky Fulfillment"
+              "text": "Fulfillment"
             }
           ]
         },
@@ -100,12 +100,12 @@
           "uid": "4bb36b3ecbec4d19b45ca65c447de57f",
           "type": "a",
           "attrs": {
-            "url": "#ProblemInventory",
+            "url": "#problem",
             "target": "_self"
           },
           "children": [
             {
-              "text": "Problem Inventory"
+              "text": "problem"
             }
           ]
         },
@@ -121,7 +121,7 @@
           },
           "children": [
             {
-              "text": "Return Shipping & Exceptions"
+              "text": "Return"
             }
           ]
         },
@@ -132,12 +132,12 @@
           "uid": "43a9d8dd407f41dfa997a1456a46f15e",
           "type": "a",
           "attrs": {
-            "url": "#DisposalRemoval",
+            "url": "#Removal",
             "target": "_self"
           },
           "children": [
             {
-              "text": "Disposal & Removal"
+              "text": "Removal"
             }
           ]
         },
@@ -148,12 +148,12 @@
           "uid": "4184bc290b2e49a09bf0b8eecab10507",
           "type": "a",
           "attrs": {
-            "url": "#AdditionalPrograms",
+            "url": "#Programs",
             "target": "_self"
           },
           "children": [
             {
-              "text": "Additional WFS Programs"
+              "text": "Programs"
             }
           ]
         },
@@ -197,7 +197,7 @@
       },
       "children": [
         {
-          "text": "Fulfillment Services is a competitive and cost-effective solution that offers an end-to-end ecommerce fulfillment experience. Our fee structure is simple and straightforward, without signup or monthly subscription fees. You're also free to ship and store any amount of inventory you choose, without minimums or maximums. Use the"
+          "text": "lorem ipsum"
         },
         {
           "type": "span",
@@ -215,11 +215,11 @@
         {
           "type": "a",
           "attrs": {
-            "url": "www.abcd.com/?_gl=1*1t4i6i1*_ga*OTkwMDc3NzQuMTY1MjM3NjY3Nw..*_ga_1LB22TM2MG*MTY1MjcyNDU5My41OS4xLjE2NTI3MjY5NzIuMA.."
+            "url": "https://example.com"
           },
           "children": [
             {
-              "text": "WFS Calculator"
+              "text": "Calculator"
             }
           ],
           "uid": "f9de9f6827ac4768b039fbfd99b2829a"
@@ -238,14 +238,14 @@
           "uid": "744594825c234deaa3439357297756b4"
         },
         {
-          "text": "to estimate your fulfillment and storage fees."
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
         },
         {
           "text": "\n",
           "break": true
         },
         {
-          "text": "\nThe following fees are effective as of August 2023 and are subject to change."
+          "text": "\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
         }
       ]
     }

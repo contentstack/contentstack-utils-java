@@ -1,6 +1,6 @@
 {
     "entry": {
-        "title": "Troubleshoot WFS Inbound Order Issues",
+        "title": "Title",
         "overview": {
             "type": "doc",
             "attrs": {},
@@ -16,7 +16,7 @@
                     },
                     "children": [
                         {
-                            "text": "In this article:",
+                            "text": "article:",
                             "bold": true
                         }
                     ]
@@ -35,7 +35,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009239&language=en_US#Overview"
+                                "url": "https://spry-cashew.name"
                             },
                             "children": [
                                 {
@@ -64,14 +64,14 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009239&language=en_US#ErrorMessages",
+                                "url": "https://exotic-pyramid.org/",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
                             },
                             "children": [
                                 {
-                                    "text": "Error Messages and Action Items"
+                                    "text": "Error"
                                 }
                             ],
                             "uid": "6c4de8913bb04243a20a829e3fcec8a1"
@@ -111,7 +111,7 @@
                             "uid": "2e04e1a087524eabb9dfc69a1ca363a2",
                             "children": [
                                 {
-                                    "text": "Overview "
+                                    "text": "Overview"
                                 }
                             ]
                         }
@@ -127,7 +127,7 @@
                     },
                     "children": [
                         {
-                            "text": "You might have issues submitting an inbound order due to incorrect information or a system error. Here are common errors and ways to resolve them."
+                            "text": "But I must explain to you how all this mistaken"
                         }
                     ]
                 }
@@ -149,7 +149,7 @@
                     },
                     "children": [
                         {
-                            "text": "Error Messages and Action Items "
+                            "text": "Messages"
                         }
                     ]
                 },
@@ -185,7 +185,7 @@
                                                     "attrs": {},
                                                     "children": [
                                                         {
-                                                            "text": "Error Message",
+                                                            "text": "Message1",
                                                             "bold": true
                                                         }
                                                     ],
@@ -237,7 +237,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Expected Delivery Date should be of future and not the past"
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -254,7 +254,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Reset the expected delivery date so it's set in the future."
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -278,7 +278,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "expectedDeliveryDate cannot be null/empty"
+                                                            "text": "Far far away, behind the word mountains, far from the"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -295,7 +295,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Enter an expected delivery date."
+                                                            "text": "The quick, brown fox jumps over a lazy dog. DJs"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -319,7 +319,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "itemQty should be product of innerPack Qty and vendorPackQty"
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -336,7 +336,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "The item quantity must equal the product of the vendor pack and inner pack quantities."
+                                                            "text": "Far far away, behind the word mountains, far from the"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -377,7 +377,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Enter a zip code."
+                                                            "text": "Enter something"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -401,7 +401,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Shipment Plan is already created for this inbound order"
+                                                            "text": "One morning, when Gregor Samsa woke from troubled dreams, he"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -418,7 +418,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "This inbound order ID already exists. Enter a new one."
+                                                            "text": "Enter a new one."
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -442,7 +442,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "innerPackQty should be great then zero"
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -459,7 +459,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Enter an inner pack quantity greater than 0."
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -483,7 +483,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "vendorPackQty should be great then zero"
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -500,7 +500,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Enter a vendor pack quantity greater than 0."
+                                                            "text": "The quick, brown fox jumps over a lazy dog. DJs"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -524,7 +524,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "sellerId and inboundOrderId is mandatory"
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -541,7 +541,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Row 1 with Inbound Order ID is missing. If it was deleted, add it back or download a new template."
+                                                            "text": " Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -565,7 +565,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "addressLine1 is invalid .enter valid addressLine1 String in english language characters"
+                                                            "text": "Far far away, behind the word mountains, far from the"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -582,7 +582,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Address must be in English."
+                                                            "text": "The quick, brown fox jumps over a lazy dog. DJs"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -606,7 +606,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Error parsing json input"
+                                                            "text": "Error"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -623,7 +623,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "The template is missing required rows or columns. If they were deleted, add them back or download a new template."
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -647,7 +647,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Items Dimensions are not suitable for creating po for sku"
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -664,7 +664,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Item dimensions aren't eligible for company-fulfilled. Check the dimensions."
+                                                            "text": "Far far away, behind the word mountains, far from the"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -688,7 +688,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "itemQty should be great then zero"
+                                                            "text": "The quick, brown fox jumps over a lazy dog. DJs"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -705,7 +705,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Enter an item quantity greater than 0."
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -729,7 +729,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "OrderItem in create Shipment request is repeated more than once"
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -746,7 +746,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Make sure items are only entered once."
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -770,7 +770,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "productType is invalid"
+                                                            "text": "Far far away, behind the word mountains, far from the"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -787,7 +787,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Product type ID must be GTIN, UPC, or EAN."
+                                                            "text": "The quick, brown fox jumps over a lazy dog. DJs"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -811,7 +811,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "productId with productType GTIN should be 14 digit"
+                                                            "text": "Error"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -828,7 +828,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "GTIN must be 14 digits. If your GTIN is correct but shorter than 14 digits, add zeros in front."
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -852,7 +852,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Product ID with Product Type UPC should be 12 digit"
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -869,7 +869,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "UPC must be 12 digits. "
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -893,7 +893,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Item is not WFS Eligible for sku"
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -910,7 +910,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "The following items are prohibited. See our Prohibited Products Policy or contact Seller Support for more details."
+                                                            "text": "One morning, when Gregor Samsa woke from troubled dreams, he"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -934,7 +934,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Products in the same Inbound Order template cannot have different Expected Delivery Date."
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -951,7 +951,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "All items must have the same expected delivery date."
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -975,7 +975,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "inboundOrderId is invalid .enter valid inboundOrderId String in english language and without '?','/','|','\\','+','#' characters"
+                                                            "text": "lorem '?','/','|','\\','+','#' characters"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -992,7 +992,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Inbound Order ID is invalid. Use only English letters, numbers, or these special characters: -, _ "
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1016,7 +1016,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Item information is not present for sku, Please set it up as company Fulfilled item in the Seller Center."
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1033,7 +1033,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "We couldn't verify the item information. Make sure it's set to company-fulfilled."
+                                                            "text": "Far far away, behind the word mountains, far from the"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1057,7 +1057,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "itemDesc length cannot be greater than 450 chars"
+                                                            "text": "itemDesc length "
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1074,7 +1074,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Item description must be shorter than 450 characters."
+                                                            "text": " Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1098,7 +1098,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "itemDesc cannot be null/empty"
+                                                            "text": "Far far away, behind the word mountains, far from the"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1139,7 +1139,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "addressLine1 cannot be null/empty"
+                                                            "text": "One morning, when Gregor Samsa woke from troubled dreams, he"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1156,7 +1156,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Enter an address."
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1180,7 +1180,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "countryCode cannot be null/empty"
+                                                            "text": " Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1197,7 +1197,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Enter a country code."
+                                                            "text": "lorem ipsum"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1221,7 +1221,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "stateCode code cannot be more then 10 chars"
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1238,7 +1238,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "State code must be 2 letters only."
+                                                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1262,7 +1262,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "city is invalid .enter valid city String in english language characters"
+                                                            "text": "lorem ipsum"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1279,7 +1279,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "City must be in English."
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1303,7 +1303,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "postalCode is invalid .enter valid postalCode"
+                                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1320,7 +1320,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Zip code is invalid. Check for errors and try again."
+                                                            "text": "lorem ipsum"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1344,7 +1344,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "number of items should be more then one and less then five thousand"
+                                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1361,7 +1361,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Check that you've added at least 1 item and no more than 5,000."
+                                                            "text": "Check that you've added at least"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -1402,7 +1402,7 @@
                     },
                     "children": [
                         {
-                            "text": "If you submitted an inbound order template, our system will automatically check it and create an error report that will appear in a pop-up window. Select "
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                         },
                         {
                             "type": "span",
@@ -1423,7 +1423,7 @@
                             "bold": true
                         },
                         {
-                            "text": "to download the error report. Make corrections and then resubmit the template."
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                         }
                     ]
                 },
@@ -1553,11 +1553,11 @@
         },
         "meta_data": {
             "article_id": "000009239",
-            "salesforce_summary": "Find solutions to common errors after uploading an inbound order template.",
+            "salesforce_summary": "lorem",
             "category_id_b": [
-                "Fulfillment Services (WFS): Troubleshooting"
+                "Troubleshooting"
             ],
-            "url_name": "WFS-Inbound-Order-Issue-Troubleshooting",
+            "url_name": "Troubleshooting",
             "is_archived_": false,
             "is_authenticated_": false,
             "is_visible_to_customer_": true,
