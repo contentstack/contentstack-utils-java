@@ -29,35 +29,44 @@ public class NodeToHTML {
      */
     public static String textNodeToHTML(JSONObject nodeText, Option renderOption) {
         String text = nodeText.optString("text");
-        text = text.replace("\n", "<br />");
+        //Sanitization of text
+        String cleanedText = escapeTextNodes(text)
+                    .replace("\n", "<br />")
+                    .replace("\t", "&nbsp;&nbsp;&nbsp;&nbsp;");
+      
         if (nodeText.has("superscript")) {
-            text = renderOption.renderMark(MarkType.SUPERSCRIPT, text);
+            cleanedText = renderOption.renderMark(MarkType.SUPERSCRIPT, cleanedText);
         }
         if (nodeText.has("subscript")) {
-            text = renderOption.renderMark(MarkType.SUBSCRIPT, text);
+            cleanedText = renderOption.renderMark(MarkType.SUBSCRIPT, cleanedText);
         }
         if (nodeText.has("inlineCode")) {
-            text = renderOption.renderMark(MarkType.INLINECODE, text);
+            cleanedText = renderOption.renderMark(MarkType.INLINECODE, cleanedText);
         }
         if (nodeText.has("strikethrough")) {
-            text = renderOption.renderMark(MarkType.STRIKETHROUGH, text);
+            cleanedText = renderOption.renderMark(MarkType.STRIKETHROUGH, cleanedText);
         }
         if (nodeText.has("underline")) {
-            text = renderOption.renderMark(MarkType.UNDERLINE, text);
+            cleanedText = renderOption.renderMark(MarkType.UNDERLINE, cleanedText);
         }
         if (nodeText.has("italic")) {
-            text = renderOption.renderMark(MarkType.ITALIC, text);
+            cleanedText = renderOption.renderMark(MarkType.ITALIC, cleanedText);
         }
         if (nodeText.has("bold")) {
-            text = renderOption.renderMark(MarkType.BOLD, text);
+            cleanedText = renderOption.renderMark(MarkType.BOLD, cleanedText);
         }
         if (nodeText.has("break")) {
-            if (!text.contains("<br />")) {
-                text = renderOption.renderMark(MarkType.BREAK, text);
+            if (!cleanedText.contains("<br />")) {
+                cleanedText = renderOption.renderMark(MarkType.BREAK, cleanedText);
             }
-            // text = renderOption.renderMark(MarkType.BREAK, text);
+            // cleanedText = renderOption.renderMark(MarkType.BREAK, cleanedText);
         }
-        return text;
+        return cleanedText;
     }
 
+    private static String escapeTextNodes(String input) {
+        return input.replace("&", "&amp;")
+                    .replace("<", "&lt;")
+                    .replace(">", "&gt;");
+    }
 }
