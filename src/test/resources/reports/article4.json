@@ -59,7 +59,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.com/s/guide?article=000011074&language=en_US#Overview",
+                                "url": "https://scrawny-calculus.org",
                                 "target": "_self"
                             },
                             "children": [
@@ -103,7 +103,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.com/s/guide?article=000011074&language=en_US#User_Roles",
+                                "url": "https://scrawny-calculus.org",
                                 "target": "_self"
                             },
                             "children": [
@@ -147,7 +147,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.com/s/guide?article=000011074&language=en_US#Add_a_New_User",
+                                "url": "https://example.com",
                                 "target": "_self"
                             },
                             "children": [
@@ -187,7 +187,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000011074&language=en_US#FAQs",
+                                "url": "https://example.com",
                                 "target": "_self"
                             },
                             "children": [
@@ -231,7 +231,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000011074&language=en_US#Helpful_Resources",
+                                "url": "https://scrawny-calculus.org",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -276,7 +276,7 @@
                     "attrs": {},
                     "children": [
                         {
-                            "text": "Marketplace seller, you may need to add a new user to your Seller Center account for various reasons, such as granting access to another member of your organization. Only sellers with admin level access can add users within Seller Center. The process is quick and easy; this guide will show you how to do it. "
+                            "text":"lorem ipsum"
                         }
                     ]
                 },
@@ -310,7 +310,7 @@
                             "uid": "1b919030db2f429ca63b2fd063b681d1"
                         },
                         {
-                            "text": "If you do not have admin level access, reach out to your account administrator for help. ",
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat",
                             "italic": true
                         }
                     ]
@@ -381,7 +381,7 @@
                                             "uid": "d4be6a6c8c234666baba3f8c3f1fbce4"
                                         },
                                         {
-                                            "text": "Admin access gives the user the ability to manage and make updates to all areas in Seller Center including:  "
+                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                         }
                                     ]
                                 },
@@ -459,7 +459,7 @@
                                             ]
                                         },
                                         {
-                                            "text": "Generating credentials to access company's Rest APIs. "
+                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                         }
                                     ]
                                 },
@@ -473,7 +473,7 @@
                                     "uid": "231d870a468a4d50ad1235eb308aada8",
                                     "children": [
                                         {
-                                            "text": "Requesting access to sell in special approval categories.  "
+                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                         }
                                     ]
                                 },
@@ -487,7 +487,7 @@
                                     "uid": "6d5c38994f6641da8d209f9d639c40ae",
                                     "children": [
                                         {
-                                            "text": "Creating new user accounts to provide Seller Center access to members of your company.  "
+                                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                         }
                                     ]
                                 },
@@ -501,7 +501,7 @@
                                     "uid": "a14fd515f5b14e7e851fabd45b0d8904",
                                     "children": [
                                         {
-                                            "text": "Reviewing, signing and accepting binding legal agreements in Seller Center on behalf of the seller.  "
+                                            "text": "lorem ipsum"
                                         }
                                     ]
                                 }
@@ -540,7 +540,7 @@
                                     },
                                     "children": [
                                         {
-                                            "text": "Read and Write access gives the user the ability to perform operational tasks in Seller Center such as setting up items or viewing reports.  "
+                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                         }
                                     ]
                                 },
@@ -564,7 +564,7 @@
                                     "attrs": {},
                                     "children": [
                                         {
-                                            "text": "Read Only access gives the user the ability to view data or create and download reports. Users with Read Only access cannot update or modify existing data.  "
+                                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                         }
                                     ]
                                 },
@@ -606,7 +606,7 @@
                             "uid": "f7bb6913dddf45a08b0bb645a7b8c824"
                         },
                         {
-                            "text": "Marketplace sellers are responsible for their user's actions. Designate your user permissions carefully and limit Admin access to individuals in your company who can accept binding terms on behalf of your company. ",
+                            "text": "lorem ipsum",
                             "italic": true
                         }
                     ]
@@ -645,7 +645,7 @@
                     "attrs": {},
                     "children": [
                         {
-                            "text": "Step 1 – Navigate to User Management Settings"
+                            "text": "Step 1"
                         }
                     ]
                 },
@@ -673,11 +673,11 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://seller.com/home"
+                                "url": "https://home.com"
                             },
                             "children": [
                                 {
-                                    "text": "Seller Center"
+                                    "text": " Center"
                                 }
                             ],
                             "uid": "a0648d6208f14695ad469c19c28acb0f"
@@ -696,7 +696,7 @@
                             "uid": "1885e36e1d0d4761888d6f5c7e969846"
                         },
                         {
-                            "text": "account. Navigate to the"
+                            "text": "Navigate to the"
                         },
                         {
                             "type": "span",
@@ -736,7 +736,7 @@
                             "uid": "7c04bea0dfe6474bb54d92da2fda30d4"
                         },
                         {
-                            "text": "User Management",
+                            "text": "lorem ipsum",
                             "italic": true
                         },
                         {
@@ -805,7 +805,7 @@
                     "attrs": {},
                     "children": [
                         {
-                            "text": "Step 2 – Add User "
+                            "text": "Step 2"
                         }
                     ]
                 },
@@ -911,7 +911,7 @@
                     },
                     "children": [
                         {
-                            "text": "Step 3 – Add User Info "
+                            "text": "Step 3 "
                         }
                     ]
                 },
@@ -921,7 +921,7 @@
                     "attrs": {},
                     "children": [
                         {
-                            "text": "Enter the new user’s information, including their name, email address and their role. Select"
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                         },
                         {
                             "type": "span",
@@ -948,7 +948,7 @@
                             "uid": "dcf89cc17be1463fae819dc6ea2aa275"
                         },
                         {
-                            "text": "to send an email invitation to the new user. The email will include a link that the new user can use to create their account and set their password. "
+                            "text": "lorem ipsum"
                         }
                     ]
                 },
@@ -1025,7 +1025,7 @@
                     },
                     "children": [
                         {
-                            "text": "Frequently Asked Questions"
+                            "text": "Questions"
                         }
                     ]
                 },
@@ -1035,7 +1035,7 @@
                     "attrs": {},
                     "children": [
                         {
-                            "text": "Q: Can I edit or remove users once they’ve been added to my Seller Center account? ",
+                            "text": "lorem ipsum",
                             "bold": true
                         },
                         {
@@ -1043,7 +1043,7 @@
                             "break": true
                         },
                         {
-                            "text": "A: Yes. Edit or remove users from your list by selecting the three vertical dots menu, and then choosing the option you want. You can find more information in"
+                            "text": ""
                         },
                         {
                             "type": "span",
@@ -1061,7 +1061,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000011072&language=en_US"
+                                "url": "https://scrawny-calculus.org"
                             },
                             "children": [
                                 {
@@ -1134,7 +1134,7 @@
                     },
                     "children": [
                         {
-                            "text": "Watch the Seller Academy tutorial below for guidance on using Administrator Options to manage your company Marketplace account:"
+                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                         }
                     ]
                 },
@@ -1216,12 +1216,12 @@
             "category_id_b": [
                 "Getting Started: Account Settings"
             ],
-            "url_name": "Add-a-New-User-to-My-Seller-Center-Account",
+            "url_name": "Center-Account",
             "is_archived_": false,
             "is_authenticated_": false,
             "is_visible_to_customer_": true,
             "partner_channel": [
-                "U.S. Marketplace"
+                "India"
             ]
         },
         "tags": [
