@@ -1,6 +1,6 @@
 {
     "entry": {
-        "title": "WFS Big and Bulky Items",
+        "title": "Example 2",
         "overview": {
             "type": "doc",
             "attrs": {},
@@ -38,7 +38,7 @@
                             "uid": "7cf9ff933bc9451db91f7640a7abe795",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.com/s/guide?article=000011223&language=en_US#Overview"
+                                "url": "https://exotic-pyramid.org/"
                             },
                             "children": [
                                 {
@@ -68,11 +68,11 @@
                             "uid": "5b1d825c49d2497d8be8da44aef1e1b8",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.com/s/guide?article=000011223&language=en_US#Criteria"
+                                "url": "https://vigilant-right.net"
                             },
                             "children": [
                                 {
-                                    "text": "What Counts as Big and Bulky?"
+                                    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                 }
                             ]
                         },
@@ -97,7 +97,7 @@
                             "uid": "56bca13f60af4b1685d999d0467e668f",
                             "type": "a",
                             "attrs": {
-                                "url": "https://sellerhelp.com/s/guide?article=000011223&language=en_US#Fees"
+                                "url": "https://slimy-humour.biz/"
                             },
                             "children": [
                                 {
@@ -126,11 +126,11 @@
                             "uid": "f8a82c9c8ade4e9b9bfecbfbac0de7f3",
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#SendInventory"
+                                "url": "https://gummy-prompt.info/"
                             },
                             "children": [
                                 {
-                                    "text": "Send Inventory to WFS"
+                                    "text": "Email us "
                                 }
                             ]
                         },
@@ -156,11 +156,11 @@
                             "uid": "e71b1ac38f844596a8580c731d6f8e97",
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#ShippingSpeeds"
+                                "url": "https://scrawny-calculus.org"
                             },
                             "children": [
                                 {
-                                    "text": "Shipping Speeds"
+                                    "text": "More information"
                                 }
                             ]
                         },
@@ -185,11 +185,11 @@
                             "uid": "f70c0eee069b4e03b0024fb484da832c",
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#CustomerReturns"
+                                "url": "https://scrawny-calculus.org"
                             },
                             "children": [
                                 {
-                                    "text": "Customer Returns"
+                                    "text": "Returns"
                                 }
                             ]
                         },
@@ -214,11 +214,11 @@
                             "uid": "066e64424c094d44813d16cd133c064a",
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000011223&language=en_US#FAQ"
+                                "url": "https://ex"
                             },
                             "children": [
                                 {
-                                    "text": "Frequently Asked Questions"
+                                    "text": " Questions"
                                 }
                             ]
                         },
@@ -276,7 +276,7 @@
                             },
                             "children": [
                                 {
-                                    "text": "Unlock more of your WFS catalog with big and bulky items. If you’ve sent standard items to WFS before, the item setup, packaging and inbounding processes are all the same. Send inventory to WFS facilities through freight shipping, and we’ll take care of delivering big and bulky items to customers in a reliable and timely manner. Here are just some examples of big and bulky items: "
+                                    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                 }
                             ],
                             "uid": "d2515730328b4f3c9a54792141497b1e"
@@ -318,7 +318,7 @@
                             "attrs": {},
                             "children": [
                                 {
-                                    "text": "Home appliances (e.g., big screen TVs, refrigerators)"
+                                    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                 }
                             ],
                             "uid": "1416b0e968ff460081c41849adb63071"
@@ -328,7 +328,7 @@
                             "attrs": {},
                             "children": [
                                 {
-                                    "text": "Sporting and recreation equipment (e.g., kayaks, bikes, home gyms, pool tables)"
+                                    "text": "Crazy games to be played"
                                 }
                             ],
                             "uid": "2abf76b52f0b47ad9e36289ee8bcbacc"
@@ -338,7 +338,7 @@
                             "attrs": {},
                             "children": [
                                 {
-                                    "text": "Outdoor items (e.g., pools, trampolines, patio furniture)"
+                                    "text": "Indoor sports equipments"
                                 }
                             ],
                             "uid": "bf4fed38cafa46b789d3bbda0d7afed4"
@@ -352,7 +352,7 @@
                             },
                             "children": [
                                 {
-                                    "text": "Home goods (e.g., furniture, desks, chairs)"
+                                    "text": "Transport everything you wish to"
                                 }
                             ],
                             "uid": "71fa112c43104372bbbca8a3f3486182"
@@ -377,7 +377,7 @@
                     },
                     "children": [
                         {
-                            "text": "What Counts as Big and Bulky?"
+                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                         }
                     ]
                 },
@@ -398,7 +398,7 @@
                             "attrs": {},
                             "children": [
                                 {
-                                    "text": "Your item is considered big and bulky if it meets"
+                                    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                                 },
                                 {
                                     "type": "span",
@@ -601,7 +601,7 @@
                             },
                             "children": [
                                 {
-                                    "text": "Your big and bulky item must also be able to fit through a trailer door. Make sure it follows these limits: "
+                                    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                                 }
                             ],
                             "uid": "79018d7a97d34626b012956fa66e4d53"
@@ -656,7 +656,7 @@
                             },
                             "children": [
                                 {
-                                    "text": "Shortest side is less than 93 in."
+                                    "text": "Li Europan lingues es membres del sam familie. Lor separat"
                                 }
                             ]
                         }
@@ -693,7 +693,7 @@
                             "attrs": {},
                             "children": [
                                 {
-                                    "text": "Imagine Bentonville Sporting Goods sells kayaks. Each one weighs 36 lb. and is 120\" x 28\" x 14.\" To determine if it’s eligible for the Big and Bulky tier:"
+                                    "text": "Imagine lorem ipsum"
                                 }
                             ],
                             "uid": "8b0d26466c3b4a1a9d88d344a3eb016b"
@@ -732,7 +732,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "Unit weight",
+                                                            "text": "age",
                                                             "bold": true,
                                                             "attrs": {}
                                                         }
@@ -751,7 +751,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "36 lb."
+                                                            "text": "36"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -837,7 +837,7 @@
                                                     "type": "p",
                                                     "children": [
                                                         {
-                                                            "text": "120\" + 2*(28\" + 14\") = 204\""
+                                                            "text": "Random stuff"
                                                         }
                                                     ],
                                                     "attrs": {}
@@ -888,7 +888,7 @@
                             },
                             "children": [
                                 {
-                                    "text": "This kayak is a big and bulky item because its longest side and longest side + girth meet the criteria. Its dimensions are also within a trailer’s limits."
+                                    "text": "This kayak is a big"
                                 }
                             ],
                             "uid": "855b48e6c8e14ab0b28ea657cfcc380e"
@@ -943,7 +943,7 @@
                     },
                     "children": [
                         {
-                            "text": "The simplest way to preview fulfillment and storage fees is through the "
+                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                         },
                         {
                             "type": "span",
@@ -965,7 +965,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.marketplace.com/company-fulfillment-services-pricing/",
+                                "url": "https://ex",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -978,7 +978,7 @@
                             "uid": "7e47dadc92484530aea674e442a55760"
                         },
                         {
-                            "text": ". Just tell us the item dimensions and weight, and we’ll automatically calculate estimated fees. Big and bulky fees are based only on unit weight. We do not charge for packaging or pallet weight."
+                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                         }
                     ]
                 },
@@ -996,7 +996,7 @@
                             "break": true
                         },
                         {
-                            "text": "For a complete breakdown of fees, including storage and return shipping, see the "
+                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                         },
                         {
                             "type": "span",
@@ -1018,7 +1018,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009215",
+                                "url": "https://exotic-pyramid.org/",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1081,7 +1081,7 @@
                             "uid": "3c413ba8a8f3401ba36cf7155b7fdb19",
                             "children": [
                                 {
-                                    "text": "Sending Inventory to WFS"
+                                    "text": "Email us"
                                 }
                             ]
                         }
@@ -1097,7 +1097,7 @@
                     },
                     "children": [
                         {
-                            "text": "No matter the size and shape of your items, you’ll use the same processes to "
+                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                         },
                         {
                             "type": "span",
@@ -1119,7 +1119,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009495",
+                                "url": "https://exotic-pyramid.org/",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1171,14 +1171,14 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009163",
+                                "url": "https://gummy-prompt.info/",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
                             },
                             "children": [
                                 {
-                                    "text": "send inventory"
+                                    "text": "send deliveries"
                                 }
                             ],
                             "uid": "e4957d3756cd4dd4b84be5659f2fb504"
@@ -1201,7 +1201,7 @@
                             "uid": "9d3ae86dc6ef41c68b80f602ec40fcdb"
                         },
                         {
-                            "text": "to a WFS facility. See the "
+                            "text": "swimming "
                         },
                         {
                             "type": "span",
@@ -1223,7 +1223,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "https://gecrm.my.salesforce.com/sfc/p/#61000000ZKTc/a/4M0000000Osv/jOvZtC6FccRf50_edQMkxZRBo9oZ5hq8QKZMsaaRKi4",
+                                "url": "https://slimy-humour.biz/",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1236,7 +1236,7 @@
                             "uid": "e5673a3b3bcd4d4eb8e58bdb3960227d"
                         },
                         {
-                            "text": " for labeling and packaging details."
+                            "text": "trekking "
                         }
                     ]
                 },
@@ -1276,20 +1276,20 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009514",
+                                "url": "https://scrawny-calculus.org",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
                             },
                             "children": [
                                 {
-                                    "text": "company preferred carrier"
+                                    "text": "company A"
                                 }
                             ],
                             "uid": "438484945beb44608d43038ebd574fce"
                         },
                         {
-                            "text": ", we can only accept 48” x 40” pallets for freight at this time. For non-standard pallet sizes, please use a different carrier. "
+                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                         }
                     ]
                 },
@@ -1317,7 +1317,7 @@
                     },
                     "children": [
                         {
-                            "text": "Big and bulky items that have been properly packed and labeled will be checked in within 2 business days. However, items that require unplanned prep work, arrive during peak (October 1–December 31), or other circumstances may take up to ten days to process."
+                            "text": "We’ll then follow the "
                         }
                     ]
                 },
@@ -1350,7 +1350,7 @@
                             "uid": "96569dc9b3b34570a0390f30fa52181b",
                             "children": [
                                 {
-                                    "text": "Shipping Speeds"
+                                    "text": " Speeds"
                                 }
                             ]
                         }
@@ -1366,7 +1366,7 @@
                     },
                     "children": [
                         {
-                            "text": "Big and bulky items are shipped using ground transportation and may require more than 2 days for delivery. The shipping speed will depend on your assigned fulfillment center and the customer’s location. On company.com, items will have a 3+day shipping tag but customers will see a more accurate estimate in the listing’s details."
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                         }
                     ]
                 },
@@ -1399,7 +1399,7 @@
                             "uid": "19e4f26b637841aa87cf5bed53fca8be",
                             "children": [
                                 {
-                                    "text": "Customer Returns"
+                                    "text": "Customer"
                                 }
                             ]
                         }
@@ -1415,7 +1415,7 @@
                     },
                     "children": [
                         {
-                            "text": "Big and bulky items "
+                            "text": "items "
                         },
                         {
                             "type": "span",
@@ -1450,7 +1450,7 @@
                             "uid": "38dcd5490a4f485e908e92d956eb57bf"
                         },
                         {
-                            "text": "be returned in stores. Instead, customers can return big and bulky items by scheduling a pickup. The customer will get instructions on how to do so, including placing the item outside their home’s door. They do not need to repackage the item as the carrier will take care of it and transport items directly from a customer’s home to a WFS return center."
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                         }
                     ]
                 },
@@ -1500,14 +1500,14 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009158",
+                                "url": "https://exotic-pyramid.org/",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
                             },
                             "children": [
                                 {
-                                    "text": "WFS returns process"
+                                    "text": "process"
                                 }
                             ],
                             "uid": "3ba0782f246344d5979613f9f73cc15e"
@@ -1530,7 +1530,7 @@
                             "uid": "1b4fe6f42b634a009627474945192884"
                         },
                         {
-                            "text": "to assess the returned item. If it’s in a sellable condition, we’ll put the item back in inventory. However, customers may return big and bulky items already assembled or with damaged packaging. If the item is unsellable, we’ll send it back to you or dispose of it. Note that for any returns identified as "
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                         },
                         {
                             "type": "span",
@@ -1551,7 +1551,7 @@
                             "italic": true
                         },
                         {
-                            "text": ", company will keep the inventory regardless of your "
+                            "text": ", company will keep the "
                         },
                         {
                             "type": "span",
@@ -1573,14 +1573,14 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000009493",
+                                "url": "https://scrawny-calculus.org",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
                             },
                             "children": [
                                 {
-                                    "text": "return preferences"
+                                    "text": "return "
                                 }
                             ],
                             "uid": "4bf60d72cd884edaafe16858d603042d"
@@ -1622,7 +1622,7 @@
                     },
                     "children": [
                         {
-                            "text": "Frequently Asked Questions"
+                            "text": "Far far away, behind the word mountains, far from the"
                         }
                     ]
                 },
@@ -1637,7 +1637,7 @@
                     "children": [
                         {
                             "bold": true,
-                            "text": "Q: What fulfillment centers will I ship to?"
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat"
                         }
                     ]
                 },
@@ -1651,7 +1651,7 @@
                     },
                     "children": [
                         {
-                            "text": "A: Our non-sort facilities are distributed throughout the US. You’ll be assigned a WFS facility once you create an inbound order in Seller Center. We determine the ship-to location based on geographic sales demand and available capacity.  "
+                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                         }
                     ]
                 },
@@ -1680,7 +1680,7 @@
                     },
                     "children": [
                         {
-                            "text": "Q: Can I send an item that has multiple boxes?",
+                            "text": "Li Europan lingues es membres del sam familie. Lor separat",
                             "bold": true
                         },
                         {
@@ -1688,7 +1688,7 @@
                             "break": true
                         },
                         {
-                            "text": "A: Yes, you can send "
+                            "text": "The quick, brown fox jumps over a lazy dog. DJs"
                         },
                         {
                             "type": "span",
@@ -1710,7 +1710,7 @@
                         {
                             "type": "a",
                             "attrs": {
-                                "url": "www.sellerhelp.com/s/guide?article=000010431",
+                                "url": "https://vigilant-right.net",
                                 "style": {},
                                 "redactor-attributes": {},
                                 "dir": "ltr"
@@ -1740,7 +1740,7 @@
                             "uid": "7141cd846a13477284a927b7be11f2ca"
                         },
                         {
-                            "text": "to WFS fulfillment centers. You’ll need set up the item in your catalog as a sellable set made up of multiple boxes (e.g., trampoline shipped as a safety net, jump mat and legs)."
+                            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
                         }
                     ]
                 },
@@ -1758,7 +1758,7 @@
                             "break": true
                         },
                         {
-                            "text": "Q: Are big and bulky items part of company+ assortment?",
+                            "text": "The quick, brown fox jumps over a lazy dog. DJs",
                             "bold": true
                         }
                     ]
@@ -1773,7 +1773,7 @@
                     },
                     "children": [
                         {
-                            "text": "A: Yes, big and bulky items are included in company+. company+ members will get free shipping on those items."
+                            "text": "Far far away, behind the word mountains, far from the"
                         }
                     ]
                 },
@@ -1802,7 +1802,7 @@
                     },
                     "children": [
                         {
-                            "text": "Q: Can I have big and bulky items returned to me?",
+                            "text": "Far far away, behind the word mountains, far from the",
                             "bold": true
                         }
                     ]
@@ -1817,7 +1817,7 @@
                     },
                     "children": [
                         {
-                            "text": "A. Yes, you can have your big and bulky items sent back to you rather than being restocked or disposed of. Make sure to set your return preferences in Seller Center. Removal fees will apply."
+                            "text": "Far far away, behind the word mountains, far from the"
                         }
                     ]
                 },
@@ -1835,7 +1835,7 @@
                             "break": true
                         },
                         {
-                            "text": "Q: Can I apply discounts to big and bulky item fulfillment?",
+                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
                             "bold": true
                         }
                     ]
@@ -1850,7 +1850,7 @@
                     },
                     "children": [
                         {
-                            "text": "A: Promotional discounts are not eligible for big and bulky items."
+                            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
                         }
                     ]
                 }
@@ -1890,12 +1890,12 @@
         },
         "meta_data": {
             "article_id": "000011223",
-            "salesforce_summary": "Fulfill large, heavy items with company, up to 500 lb. and longest side of 120 in.",
+            "salesforce_summary": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo",
             "category_id_b": [
-                "company Fulfillment Services (WFS): Shipping to WFS",
-                "company Fulfillment Services (WFS): WFS Programs & Services"
+                "category_id_b",
+                "category_id_c"
             ],
-            "url_name": "WFS-Big-Bulky-Items",
+            "url_name": "Contact us ",
             "is_archived_": false,
             "is_authenticated_": false,
             "is_visible_to_customer_": true,
