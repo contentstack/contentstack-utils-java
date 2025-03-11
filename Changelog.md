@@ -1,11 +1,12 @@
 # Changelog
 
 A brief description of what changes project contains
-## Jan 20, 2025
+## Mar 17, 2025
 
-#### v1.2.13
+#### v1.2.15
 
 - Fix: Snyk issues
+- Fix: Publish workflows
 
 ## Oct 21, 2024
 
