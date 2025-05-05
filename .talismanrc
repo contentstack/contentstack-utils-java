@@ -1,6 +1,9 @@
 threshold: medium
 
 fileignoreconfig:
+- filename: .github/workflows/secrets-scan.yml
+  ignore_detectors:
+    - filecontent
 
 - filename: src/test/resources/issue/jsonfile.json
   checksum: d67cd6db0795f8c5a5f5edf34a457720191e8894889e9f9bb4b8106c23b40799
