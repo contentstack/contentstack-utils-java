@@ -258,6 +258,8 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
+sample/
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,code-java,java-web,maven,gradle,intellij,visualstudiocode,eclipse
 .idea/compiler.xml
 .idea/encodings.xml
