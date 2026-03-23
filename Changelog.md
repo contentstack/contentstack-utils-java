@@ -1,6 +1,12 @@
 # Changelog
 
 A brief description of what changes project contains
+## Mar 23, 2026
+
+#### v1.3.0
+
+- Enhancement: Variant Utility
+
 ## Mar 17, 2025
 
 #### v1.2.15
