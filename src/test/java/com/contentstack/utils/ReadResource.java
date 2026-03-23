@@ -16,8 +16,6 @@ public class ReadResource {
 
     public JSONObject readJson(String filename) throws IOException {
         File file = new File(filename);
-        String absolutePath = file.getAbsolutePath();
-        System.out.println(absolutePath);
         BufferedReader reader = new BufferedReader(new FileReader(file));
         StringBuilder stringBuilder = new StringBuilder();
         char[] buffer = new char[10];

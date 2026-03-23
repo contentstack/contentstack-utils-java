@@ -120,7 +120,6 @@ public class TestRte {
         final String rte = "src/test/resources/reports/wfs.json";
         JSONObject theRTE = new ReadResource().readJson(rte);
         String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
-        System.out.println(result);
         Assert.assertEquals(kWFSAffectedHtml, result);
     }
 
@@ -130,7 +129,6 @@ public class TestRte {
         final String rte = "src/test/resources/reports/one.json";
         JSONObject theRTE = new ReadResource().readJson(rte);
         String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
-        System.out.println(result);
         Assert.assertEquals(kONEHtml, result);
     }
 
@@ -139,7 +137,6 @@ public class TestRte {
         final String rte = "src/test/resources/reports/oct_7.json";
         JSONObject theRTE = new ReadResource().readJson(rte);
         String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
-        System.out.println(result);
        // Assert.assertEquals(kONEHtml, result);
     }
 
@@ -148,7 +145,6 @@ public class TestRte {
         final String rte = "src/test/resources/reports/issue_oct.json";
         JSONObject theRTE = new ReadResource().readJson(rte);
         String result = Utils.jsonToHTML(theRTE, new DefaultOption(), null);
-        System.out.println(result);
         // Assert.assertEquals(kONEHtml, result);
     }
 
