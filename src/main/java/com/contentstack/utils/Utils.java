@@ -337,7 +337,16 @@ public class Utils {
         return variantResults;
     }
 
-    public static JSONObject getDataCsvariantsAttribute(JSONObject entry, String contentTypeUid) {
+    /**
+     * Builds the {@code data-csvariants} attribute value from one or more entries (variant metadata
+     * for personalization). Prefer this over {@link #getDataCsvariantsAttribute(JSONObject, String)}.
+     *
+     * @param entry          one CDA entry, or {@code null} for an empty attribute
+     * @param contentTypeUid content type UID (required when {@code entry} is non-null)
+     * @return {@link JSONObject} with key {@code data-csvariants} whose value is a JSON string of the
+     *         variant metadata array
+     */
+    public static JSONObject getVariantMetadataTags(JSONObject entry, String contentTypeUid) {
 
         if (entry == null) {
             JSONObject result = new JSONObject();
@@ -346,10 +355,16 @@ public class Utils {
         }
         JSONArray entries = new JSONArray();
         entries.put(entry);
-        return getDataCsvariantsAttribute(entries, contentTypeUid);
+        return getVariantMetadataTags(entries, contentTypeUid);
     }
 
-    public static JSONObject getDataCsvariantsAttribute(JSONArray entries, String contentTypeUid) {
+    /**
+     * @param entries        array of CDA entries, or {@code null} for an empty attribute
+     * @param contentTypeUid content type UID (required, non-empty)
+     * @return {@link JSONObject} with key {@code data-csvariants} whose value is a JSON string of the
+     *         variant metadata array
+     */
+    public static JSONObject getVariantMetadataTags(JSONArray entries, String contentTypeUid) {
 
         JSONObject result = new JSONObject();
         if (entries == null) {
@@ -364,6 +379,24 @@ public class Utils {
         String resultString = variantResults.toString();
         result.put("data-csvariants", resultString);
         return result;
+    }
+
+    /**
+     * @deprecated Use {@link #getVariantMetadataTags(JSONObject, String)} instead. Retained for
+     *             backward compatibility with earlier releases.
+     */
+    @Deprecated
+    public static JSONObject getDataCsvariantsAttribute(JSONObject entry, String contentTypeUid) {
+        return getVariantMetadataTags(entry, contentTypeUid);
+    }
+
+    /**
+     * @deprecated Use {@link #getVariantMetadataTags(JSONArray, String)} instead. Retained for
+     *             backward compatibility with earlier releases.
+     */
+    @Deprecated
+    public static JSONObject getDataCsvariantsAttribute(JSONArray entries, String contentTypeUid) {
+        return getVariantMetadataTags(entries, contentTypeUid);
     }
 
     private static JSONArray extractVariantAliasesFromEntry(JSONObject entry) {
