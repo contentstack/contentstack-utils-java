@@ -206,13 +206,13 @@ public class UtilTests {
     }
 
     @Test
-    public void testGetDataCsvariantsAttributeSingleEntry() throws IOException {
+    public void testGetVariantMetadataTagsSingleEntry() throws IOException {
         final String json = "src/test/resources/variant_entry_single.json";
         JSONObject full = new ReadResource().readJson(json);
         JSONObject entry = full.getJSONObject("entry");
         String contentTypeUid = "movie";
 
-        JSONObject result = Utils.getDataCsvariantsAttribute(entry, contentTypeUid);
+        JSONObject result = Utils.getVariantMetadataTags(entry, contentTypeUid);
 
         Assert.assertTrue(result.has("data-csvariants"));
         String dataCsvariantsStr = result.getString("data-csvariants");
@@ -253,13 +253,13 @@ public class UtilTests {
     }
 
     @Test
-    public void testGetDataCsvariantsAttributeMultipleEntries() throws IOException {
+    public void testGetVariantMetadataTagsMultipleEntries() throws IOException {
         final String json = "src/test/resources/variant_entries.json";
         JSONObject full = new ReadResource().readJson(json);
         JSONArray entries = full.getJSONArray("entries");
         String contentTypeUid = "movie";
 
-        JSONObject result = Utils.getDataCsvariantsAttribute(entries, contentTypeUid);
+        JSONObject result = Utils.getVariantMetadataTags(entries, contentTypeUid);
 
         Assert.assertTrue(result.has("data-csvariants"));
         String dataCsvariantsStr = result.getString("data-csvariants");
@@ -295,10 +295,22 @@ public class UtilTests {
     }
 
     @Test
-    public void testGetDataCsvariantsAttributeWhenEntryNull() {
-        JSONObject result = Utils.getDataCsvariantsAttribute((JSONObject) null, "landing_page");
+    public void testGetVariantMetadataTagsWhenEntryNull() {
+        JSONObject result = Utils.getVariantMetadataTags((JSONObject) null, "landing_page");
         Assert.assertTrue(result.has("data-csvariants"));
         Assert.assertEquals("[]", result.getString("data-csvariants"));
+    }
+
+    @Test
+    public void testGetDataCsvariantsAttributeDelegatesToGetVariantMetadataTags() throws IOException {
+        final String json = "src/test/resources/variant_entry_single.json";
+        JSONObject full = new ReadResource().readJson(json);
+        JSONObject entry = full.getJSONObject("entry");
+        String contentTypeUid = "movie";
+        JSONObject fromNew = Utils.getVariantMetadataTags(entry, contentTypeUid);
+        @SuppressWarnings("deprecation")
+        JSONObject fromOld = Utils.getDataCsvariantsAttribute(entry, contentTypeUid);
+        Assert.assertEquals(fromNew.toString(), fromOld.toString());
     }
 
 }

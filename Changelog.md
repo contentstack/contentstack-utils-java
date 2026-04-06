@@ -3,6 +3,10 @@
 A brief description of what changes project contains
 ## Mar 23, 2026
 
+#### v1.4.0
+
+- Enhancement: Added `Utils.getVariantMetadataTags(JSONObject, String)` and `Utils.getVariantMetadataTags(JSONArray, String)` as the canonical API for the `data-csvariants` payload. `Utils.getDataCsvariantsAttribute(...)` is deprecated and delegates to `getVariantMetadataTags(...)` for backward compatibility.
+
 #### v1.3.0
 
 - Enhancement: Variant Utility
