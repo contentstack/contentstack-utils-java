@@ -1,0 +1,44 @@
+---
+description: Java 17 and com.contentstack.utils conventions for the Utils SDK
+globs:
+  - "**/*.java"
+---
+
+# Java standards – Contentstack Utils (Java)
+
+Apply these conventions when editing Java code in this repository.
+
+## Language and runtime
+
+- **Java 17** via `maven-compiler-plugin` `<release>17</release>` in `pom.xml`. Ignore legacy `maven.compiler.source/target` `1.8` properties; the compiler plugin is authoritative.
+- Avoid raw types; use proper generics where applicable.
+
+## Package and layout
+
+- Production code lives under **`com.contentstack.utils`** and subpackages (`render`, `node`, `embedded`, `helper`, `interfaces`).
+- Keep the existing package structure; do not introduce new top-level packages without team alignment.
+
+## Naming
+
+- **Classes:** PascalCase (e.g. `Utils`, `DefaultOption`, `AutomateCommon`).
+- **Methods / variables:** camelCase.
+- **Test classes:** Mix of `*Tests`, `*Test`, `Test*` already in use (see **testing.mdc**).
+
+## JSON and HTML
+
+- Prefer **`org.json`** (`JSONObject`, `JSONArray`) for public APIs and internals, consistent with `Utils` and `GQL`.
+- Use **Jsoup** for RTE HTML parsing; follow patterns in `AutomateCommon` and `Utils`.
+
+## Validation and utility types
+
+- `javax.validation.constraints` (e.g. `@NotNull`) appear on some public methods; keep Javadoc aligned with actual null behavior.
+- Hide construction with private constructors where the codebase already does (e.g. `GQL`, `AutomateCommon`).
+
+## Dependencies
+
+- This artifact is a small JAR (`com.contentstack.sdk:utils`) consumed by the Contentstack Java SDK. Prefer minimal, well-scoped dependencies; justify new ones in `pom.xml`.
+- This repo does **not** use Lombok; do not introduce it without an explicit team decision.
+
+## General
+
+- Document public API with Javadoc; keep examples in line with real usage (`Utils.render`, `GQL.jsonToHTML`, `DefaultOption`).

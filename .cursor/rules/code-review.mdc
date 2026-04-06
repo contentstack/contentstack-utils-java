@@ -1,0 +1,35 @@
+---
+description: PR and code review checklist – API stability, errors, compatibility, security, tests
+alwaysApply: true
+---
+
+# Code review checklist – Contentstack Utils (Java)
+
+Use this checklist when reviewing pull requests or before opening a PR.
+
+## API design and stability
+
+- [ ] **Public API:** New or changed public methods on `Utils`, `GQL`, `DefaultOption`, or `interfaces` are necessary, documented (Javadoc), and justified for `com.contentstack.sdk:utils` consumers.
+- [ ] **Backward compatibility:** No breaking changes unless explicitly versioned (e.g. major) and noted in `Changelog.md`.
+- [ ] **Naming:** Consistent with existing Utils style and Contentstack RTE / embedded terminology.
+
+## Error handling and robustness
+
+- [ ] **JSON safety:** Missing keys / `_embedded_items` handled predictably; no new NPEs or silent behavior changes without rationale.
+- [ ] **Null safety:** `JSONObject` / `JSONArray` access uses `opt*` / `has` patterns consistent with existing code.
+
+## Dependencies and security
+
+- [ ] **Dependencies:** New or upgraded dependencies in `pom.xml` are justified; versions do not introduce known regressions for SDK consumers.
+- [ ] **SCA:** Address security findings (e.g. Snyk on PRs, `.github/workflows/sca-scan.yml`) in scope or track with a follow-up.
+
+## Testing
+
+- [ ] **Coverage:** New or modified behavior has tests under `src/test/java/com/contentstack/utils/` and fixtures under `src/test/resources/` when needed.
+- [ ] **Surefire:** Because `testFailureIgnore` is enabled, confirm results in **`target/surefire-reports/`**, not only exit code.
+
+## Severity (optional)
+
+- **Blocker:** Must fix before merge (e.g. breaking public API without approval, critical vulnerability, no tests for new behavior).
+- **Major:** Should fix (e.g. undocumented HTML/JSON behavior change, missing Javadoc on new public API).
+- **Minor:** Nice to fix (e.g. style, typos in comments).
