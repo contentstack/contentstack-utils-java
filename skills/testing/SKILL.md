@@ -1,38 +1,47 @@
 ---
 name: testing
-description: Use when adding or refactoring tests — JUnit 4, fixtures, Surefire testFailureIgnore, JaCoCo
+description: JUnit 4, Surefire, JaCoCo, fixtures, offline policy — use when adding or changing tests
 ---
 
 # Testing – Contentstack Utils (Java)
 
-Use this skill when creating or modifying test classes under `src/test/java` or fixtures under `src/test/resources`.
+## When to use
 
-## Framework
+- Creating or editing tests under `src/test/java/com/contentstack/utils/`.
+- Adding JSON under `src/test/resources/`.
+- Investigating CI failures or coverage gaps.
 
-- **JUnit 4** (`junit:junit` in `pom.xml`).
-- **Maven Surefire** runs tests from `src/test/java`.
+## Instructions
 
-## Surefire
+### Framework
 
-`pom.xml` sets **`testFailureIgnore`** to **`true`**. Check **`target/surefire-reports/`**; a green Maven exit code does not guarantee all tests passed.
+- **JUnit 4** (`junit:junit`, test scope in `pom.xml`).
+- **Maven Surefire** runs classes from `src/test/java`.
 
-## Naming and layout
+### Surefire caveat
 
-- Mirror package **`com.contentstack.utils`**; examples: `UtilTests`, `DefaultOptionTests`, `AssetLinkTest`, `TestRte`.
-- Helpers: `ReadResource`, `DefaultOptionClass`, etc.
+- **`testFailureIgnore`** is **`true`** in `pom.xml`. Always inspect **`target/surefire-reports/`** — a successful Maven exit code does not guarantee all tests passed.
 
-## Fixtures
+### Naming and layout
 
-- JSON under **`src/test/resources/`**. Paths are often relative to the module root (see `UtilTests`).
+- Mirror package **`com.contentstack.utils`**.
+- Existing patterns: `UtilTests`, `DefaultOptionTests`, `AssetLinkTest`, `TestRte`, `TestMetadata`, `Test*`, `*Test`, `*Tests`.
+- No separate `*IT` Maven profile in this repo; optional **`sample/`** uses the Delivery SDK with env vars (see `sample/README.md`).
 
-## Coverage
+### Fixtures
 
-- **JaCoCo** — report at **`target/site/jacoco/index.html`** after `mvn test`.
+- JSON and assets under **`src/test/resources/`** (e.g. `multiple_rich_text_content.json`, `reports/`). Loading patterns: `ReadResource`, `UtilTests` `@BeforeClass`.
 
-## Credentials
+### Helpers
 
-- Default unit tests are **offline**. The **`sample/`** project may require stack env vars — see `sample/README.md`.
+- `ReadResource`, `DefaultOptionClass`, and similar helpers — keep tests **deterministic** and **offline** (no live API for default unit tests).
+
+### Coverage
+
+- **JaCoCo** on `mvn test`; HTML report **`target/site/jacoco/index.html`**.
 
 ## References
 
-- Project rule: `.cursor/rules/testing.mdc`
+- **`skills/dev-workflow/SKILL.md`** — when to run tests before PRs.
+- **`skills/framework/SKILL.md`** — Maven/Surefire configuration.
+- **`skills/code-review/SKILL.md`** — test expectations for reviews.
