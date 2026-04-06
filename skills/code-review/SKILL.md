@@ -1,58 +1,49 @@
 ---
 name: code-review
-description: Use when reviewing PRs or before opening a PR — API design, compatibility, dependencies, security, tests
+description: PR checklist and optional Blocker/Major/Minor — use when reviewing or before submitting a PR
 ---
 
 # Code review – Contentstack Utils (Java)
 
-Use this skill when performing or preparing a pull request review for this repository.
-
 ## When to use
 
-- Reviewing another contributor’s PR.
-- Self-review before submission.
-- Verifying changes meet API, compatibility, security, and test standards.
+- Reviewing another contributor’s pull request.
+- Self-review before merge.
+- Auditing API, security, or test coverage for a change set.
 
 ## Instructions
 
-Work through the checklist below. Optionally tag items with **Blocker**, **Major**, or **Minor**.
+### API design and stability
 
-### 1. API design and stability
+- [ ] **Public API:** New or changed methods on `Utils`, `GQL`, `DefaultOption`, or `interfaces` are necessary, Javadoc’d, and safe for `com.contentstack.sdk:utils` consumers.
+- [ ] **Backward compatibility:** Breaking changes only with major version / **`Changelog.md`** plan.
+- [ ] **Naming:** Consistent with existing Utils and RTE/embedded terminology.
 
-- [ ] **Public API:** New or changed public surface on `Utils`, `GQL`, `DefaultOption`, or `interfaces` is documented and justified for Maven consumers.
-- [ ] **Backward compatibility:** Breaking changes only with version/changelog alignment.
-- [ ] **Naming:** Consistent with existing Utils and RTE terminology.
+### Error handling and robustness
 
-**Severity:** Unapproved breaking API change = Blocker. Missing Javadoc on new public API = Major.
+- [ ] **JSON:** Missing keys / `_embedded_items` behave predictably; no accidental NPEs or silent semantic changes.
+- [ ] **Null safety:** `JSONObject` / `JSONArray` access follows existing `opt*` / `has` patterns.
 
-### 2. Robustness
+### Dependencies and security
 
-- [ ] **JSON:** No unintended behavior change for `_embedded_items` / GraphQL shapes without tests and release notes.
-- [ ] **HTML output:** Customer-visible markup changes are documented.
+- [ ] **Dependencies:** `pom.xml` changes are justified; consider downstream Java SDK consumers.
+- [ ] **SCA:** Snyk / team process (`.github/workflows/sca-scan.yml`) — address or defer with a ticket.
 
-**Severity:** Silent breaking HTML/JSON behavior = Major.
+### Testing
 
-### 3. Dependencies and security
+- [ ] **Coverage:** New behavior has tests and fixtures under `src/test/java` / `src/test/resources` as needed.
+- [ ] **Surefire:** With `testFailureIgnore`, verify **`target/surefire-reports/`**, not only exit code.
 
-- [ ] **Dependencies:** Version bumps in `pom.xml` are intentional; consider Snyk/SCA.
-- [ ] **SCA:** Address or defer security findings with a ticket.
+### Severity (optional)
 
-**Severity:** New critical/high CVE in scope = Blocker.
-
-### 4. Testing
-
-- [ ] **Coverage:** New logic has tests; Surefire reports reviewed when using global `testFailureIgnore`.
-- [ ] **Quality:** Tests are deterministic and assert meaningful behavior.
-
-**Severity:** No tests for new behavior = Blocker.
-
-### 5. Optional severity summary
-
-- **Blocker:** Breaking API without approval, security issue, missing tests for new code.
-- **Major:** Missing docs, risky dependency bump, unclear JSON/HTML behavior.
-- **Minor:** Style, typos, minor refactors.
+| Level | Examples |
+|-------|----------|
+| **Blocker** | Unapproved breaking public API; critical CVE; no tests for new behavior. |
+| **Major** | Undocumented HTML/JSON behavior change; missing Javadoc on new public API; risky dependency bump. |
+| **Minor** | Style, typos, internal refactor with equivalent coverage. |
 
 ## References
 
-- Project rule: `.cursor/rules/code-review.mdc`
-- Testing skill: `skills/testing/SKILL.md`
+- **`skills/testing/SKILL.md`** — test conventions and Surefire.
+- **`skills/contentstack-utils-java/SKILL.md`** — API boundaries.
+- **`AGENTS.md`** — stack and commands.

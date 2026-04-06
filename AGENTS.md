@@ -1,62 +1,53 @@
 # Contentstack Utils (Java) – Agent guide
 
-This document is the main entry point for AI agents working in **contentstack-utils-java**. Repo: [contentstack-utils-java](https://github.com/contentstack/contentstack-utils-java).
+**Universal entry point** for contributors and AI agents. Detailed conventions live in **`skills/*/SKILL.md`**.
 
-## Project
+## What this repo is
 
-- **Name:** Contentstack Utils (Java) — Maven artifact `com.contentstack.sdk:utils`.
-- **Purpose:** Library for **rendering Rich Text Editor (RTE) content and embedded items** from Contentstack entry JSON (REST/CDA-style with `_embedded_items`) and GraphQL-shaped responses. It does **not** perform HTTP calls or manage API keys; use it with the [Contentstack Java Delivery SDK](https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java) after fetching entries.
+| Field | Detail |
+|--------|--------|
+| **Name:** | [contentstack-utils-java](https://github.com/contentstack/contentstack-utils-java) — Maven `com.contentstack.sdk:utils` |
+| **Purpose:** | Library for rendering **Rich Text Editor (RTE)** content and **embedded items** from Contentstack entry JSON (REST/CDA-style with `_embedded_items`) and GraphQL-shaped responses. Consumed by the [Contentstack Java Delivery SDK](https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java) and apps that already hold entry JSON. |
+| **Out of scope (if any):** | **No HTTP client** in this package: no stack API calls, tokens, or `includeEmbeddedItems()` — those belong to the Delivery SDK or your app. Optional **`sample/`** wires the SDK + Utils for manual testing only. |
 
-## Tech stack
+## Tech stack (at a glance)
 
-- **Language:** Java **17** (`maven-compiler-plugin` `<release>17</release>` in `pom.xml`).
-- **Build:** Maven.
-- **Testing:** JUnit 4, Maven Surefire, JaCoCo (see `pom.xml`; Surefire uses `testFailureIgnore`).
-- **JSON / HTML:** `org.json`, Jsoup, `commons-text`; `javax.validation` API; `spring-web` is a compile dependency (not a public HTTP client surface for this module).
+| Area | Details |
+|------|---------|
+| **Language** | Java **17** — `maven-compiler-plugin` `<release>17</release>` in root `pom.xml` (legacy `1.8` properties in `pom.xml` are not authoritative). |
+| **Build** | **Maven** — root `pom.xml`; optional module `sample/pom.xml`. |
+| **Tests** | **JUnit 4**, Maven **Surefire** (`src/test/java/com/contentstack/utils/**/*.java`). Surefire **`testFailureIgnore`** is `true` — check `target/surefire-reports/`. |
+| **Lint / coverage** | No Checkstyle/Spotless in repo — match existing style. **JaCoCo** (`target/site/jacoco/` after `mvn test`). |
+| **Other** | JSON: `org.json`, `json-simple` (provided). HTML: **Jsoup**. `spring-web` compile dependency — not a public REST client API for this module. **Snyk** on PRs (`.github/workflows/sca-scan.yml`). |
 
-## Main entry points
+## Commands (quick reference)
 
-- **`Contentstack.stack(...)`** — Not in this repo; provided by the Java SDK (see root `README.md`).
-- **`com.contentstack.utils.Utils`** — `render`, `renderContent`, `jsonToHTML`, variant helpers, etc.
-- **`com.contentstack.utils.GQL`** — GraphQL entry `jsonToHTML`.
-- **`com.contentstack.utils.render.DefaultOption`** / **`interfaces.Option`** — custom RTE/embedded rendering.
-- **Paths:** `src/main/java/com/contentstack/utils/` (production), `src/test/java/com/contentstack/utils/` (tests). Optional **`sample/`** demonstrates Delivery SDK + Utils together.
+| Command type | Command |
+|--------------|---------|
+| **Build** | `mvn clean compile` |
+| **Test** | `mvn clean test` |
+| **Lint** | *(none configured — rely on IDE and code review)* |
 
-## Commands
+| Optional | Command / location |
+|----------|---------------------|
+| Single test class | `mvn test -Dtest=UtilTests` |
+| Javadoc | `mvn javadoc:javadoc` |
+| Sample (after `mvn install` with skips if needed) | `mvn -f sample/pom.xml compile` |
+| **CI** | Java **17** publish: `.github/workflows/maven-publish.yml` · SCA: `.github/workflows/sca-scan.yml` · branch rules: `.github/workflows/check-branch.yml` |
 
-- **Build and test:** `mvn clean test`
-- **Compile only:** `mvn clean compile`
-- **Single test class:** `mvn test -Dtest=UtilTests`
-- **Javadoc (optional):** `mvn javadoc:javadoc`
+## Where the documentation lives: skills
 
-CI uses Java **17** (`.github/workflows/maven-publish.yml`). **Snyk** runs on PRs (`.github/workflows/sca-scan.yml`).
+| Skill | Path | What it covers |
+|-------|------|----------------|
+| **Development workflow** | [`skills/dev-workflow/SKILL.md`](skills/dev-workflow/SKILL.md) | Branches, CI, build/test commands, PR expectations, optional TDD. |
+| **Java (language & layout)** | [`skills/java/SKILL.md`](skills/java/SKILL.md) | Java 17, `com.contentstack.utils` packages, naming, JSON/Jsoup, dependencies. |
+| **Contentstack Utils API** | [`skills/contentstack-utils-java/SKILL.md`](skills/contentstack-utils-java/SKILL.md) | Public API: `Utils`, `GQL`, `DefaultOption`, JSON contracts, RTE/embedded boundaries. |
+| **Testing** | [`skills/testing/SKILL.md`](skills/testing/SKILL.md) | JUnit 4, fixtures, Surefire/JaCoCo, offline tests vs `sample/`. |
+| **Code review** | [`skills/code-review/SKILL.md`](skills/code-review/SKILL.md) | PR checklist, optional Blocker/Major/Minor. |
+| **Framework (build & tooling)** | [`skills/framework/SKILL.md`](skills/framework/SKILL.md) | Maven plugins, publishing, GPG, Central, `sample/` dependency hygiene. |
 
-## Rules and skills
+An index with **when to use** hints is in [`skills/README.md`](skills/README.md).
 
-### `.cursor/rules/`
+## Using Cursor (optional)
 
-| Resource | Role |
-|----------|------|
-| **README.md** | Index of all rules and when they apply |
-| **dev-workflow.md** | Branches, tests, PRs, optional TDD |
-| **java.mdc** | Applies to `**/*.java`: Java 17, `com.contentstack.utils`, JSON/Jsoup |
-| **contentstack-utils-java.mdc** | Applies to `src/main/java/**/*.java`: Utils/GQL, RTE, embedded JSON |
-| **testing.mdc** | Applies to `src/test/**/*.java`: JUnit 4, fixtures, JaCoCo |
-| **code-review.mdc** | Always applied: PR checklist |
-
-### `skills/`
-
-| Skill | Use when |
-|-------|----------|
-| **contentstack-utils-java** | Changing RTE, embedded items, `Utils` / `GQL`, `DefaultOption`, callbacks |
-| **testing** | Adding or refactoring tests and fixtures |
-| **code-review** | Reviewing PRs or pre-merge self-review |
-| **framework** | Editing `pom.xml`, plugins, publishing, or `sample/` dependency management |
-
-See **`skills/README.md`** for details. For editor-wide Cursor user skills (if configured), this repo’s project skills live only under **`./skills/`**.
-
-## Official documentation
-
-- [Contentstack Developers](https://www.contentstack.com/docs/)
-- [Content Delivery API](https://www.contentstack.com/docs/apis/content-delivery-api/)
-- Root **`README.md`** — Maven coordinates and embedded-items examples
+If you use **Cursor**, [`.cursor/rules/README.md`](.cursor/rules/README.md) only points to **`AGENTS.md`** — same docs as everyone else.
