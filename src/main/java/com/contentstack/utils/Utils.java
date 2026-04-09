@@ -399,6 +399,53 @@ public class Utils {
         return getVariantMetadataTags(entries, contentTypeUid);
     }
 
+    /**
+     * Adds Contentstack Live Preview (CSLP) editable tags to an entry. Mutates {@code entry} by attaching a
+     * {@code $} object with {@code data-cslp} / {@code data-cslp-parent-field} values. Behavior matches
+     * contentstack-utils-javascript {@code addTags} / {@code entry-editable.ts}.
+     *
+     * @param entry          CDA-style entry JSON; if {@code null}, the method returns without changes
+     * @param contentTypeUid content type UID (lower-cased internally)
+     * @param tagsAsObject   if {@code true}, tag values are JSON objects; if {@code false}, {@code data-cslp=...} strings
+     * @param locale         locale segment for paths (default in overloads: {@code en-us})
+     * @param options        optional; default lowercases locale unless disabled
+     * @see EditableTags#addEditableTags(JSONObject, String, boolean, String, EditableTagsOptions)
+     */
+    public static void addEditableTags(JSONObject entry, String contentTypeUid, boolean tagsAsObject, String locale,
+            EditableTagsOptions options) {
+        EditableTags.addEditableTags(entry, contentTypeUid, tagsAsObject, locale, options);
+    }
+
+    /**
+     * @see #addEditableTags(JSONObject, String, boolean, String, EditableTagsOptions)
+     */
+    public static void addEditableTags(JSONObject entry, String contentTypeUid, boolean tagsAsObject) {
+        EditableTags.addEditableTags(entry, contentTypeUid, tagsAsObject);
+    }
+
+    /**
+     * @see #addEditableTags(JSONObject, String, boolean, String, EditableTagsOptions)
+     */
+    public static void addEditableTags(JSONObject entry, String contentTypeUid, boolean tagsAsObject, String locale) {
+        EditableTags.addEditableTags(entry, contentTypeUid, tagsAsObject, locale);
+    }
+
+    /**
+     * Alias for {@link #addEditableTags(JSONObject, String, boolean, String, EditableTagsOptions)} (JS {@code addTags}).
+     */
+    public static void addTags(JSONObject entry, String contentTypeUid, boolean tagsAsObject, String locale,
+            EditableTagsOptions options) {
+        EditableTags.addTags(entry, contentTypeUid, tagsAsObject, locale, options);
+    }
+
+    /**
+     * Recursive CSLP tag map for tests and advanced use — see {@link EditableTags#getTag(Object, String, boolean, String, EditableTags.AppliedVariantsState)}.
+     */
+    public static JSONObject getTag(Object content, String prefix, boolean tagsAsObject, String locale,
+            EditableTags.AppliedVariantsState appliedVariants) {
+        return EditableTags.getTag(content, prefix, tagsAsObject, locale, appliedVariants);
+    }
+
     private static JSONArray extractVariantAliasesFromEntry(JSONObject entry) {
         JSONArray variantArray = new JSONArray();
         JSONObject publishDetails = entry.optJSONObject("publish_details");
