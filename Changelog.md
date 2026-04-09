@@ -1,6 +1,13 @@
 # Changelog
 
 A brief description of what changes project contains
+
+## Apr 20, 2026
+
+#### v1.5.0
+
+- Enhancement: Live Preview Editable tags 
+
 ## Mar 23, 2026
 
 #### v1.4.0
