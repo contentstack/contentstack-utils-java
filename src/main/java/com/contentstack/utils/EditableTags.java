@@ -167,6 +167,8 @@ public final class EditableTags {
         if (!metaUid.isEmpty() && !updatedMetakey.isEmpty()) {
             updatedMetakey = updatedMetakey + "." + metaUid;
         }
+        // For array fields, per-element processing below must not overwrite this — line 220's field tag uses it.
+        String fieldMetakey = updatedMetakey;
 
         if (value instanceof JSONArray) {
             JSONArray arr = (JSONArray) value;
@@ -178,13 +180,13 @@ public final class EditableTags {
                 String childKey = key + "__" + index;
                 String parentKey = key + "__parent";
                 metaUid = metaUidFromValue(obj);
-                updatedMetakey = shouldApplyVariant ? metaKeyPrefix + key : "";
-                if (!metaUid.isEmpty() && !updatedMetakey.isEmpty()) {
-                    updatedMetakey = updatedMetakey + "." + metaUid;
+                String elementMetakey = shouldApplyVariant ? metaKeyPrefix + key : "";
+                if (!metaUid.isEmpty() && !elementMetakey.isEmpty()) {
+                    elementMetakey = elementMetakey + "." + metaUid;
                 }
                 String indexPath = prefix + "." + key + "." + index;
                 String fieldPath = prefix + "." + key;
-                putTag(tags, childKey, indexPath, tagsAsObject, applied, shouldApplyVariant, updatedMetakey);
+                putTag(tags, childKey, indexPath, tagsAsObject, applied, shouldApplyVariant, elementMetakey);
                 putParentTag(tags, parentKey, fieldPath, tagsAsObject);
                 if (obj instanceof JSONObject) {
                     JSONObject jobj = (JSONObject) obj;
@@ -202,11 +204,11 @@ public final class EditableTags {
                                 : locale;
                         String refPrefix = jobj.optString("_content_type_uid") + "." + jobj.optString("uid") + "."
                                 + refLocale;
-                        jobj.put("$", getTag(jobj, refPrefix, tagsAsObject, locale,
+                        jobj.put("$", getTag(jobj, refPrefix, tagsAsObject, refLocale,
                                 new AppliedVariantsState(newApplied, newShould, "")));
                     } else {
                         jobj.put("$", getTag(jobj, indexPath, tagsAsObject, locale,
-                                new AppliedVariantsState(applied, shouldApplyVariant, updatedMetakey)));
+                                new AppliedVariantsState(applied, shouldApplyVariant, elementMetakey)));
                     }
                 }
             }
@@ -217,7 +219,7 @@ public final class EditableTags {
         }
 
         String fieldTagPath = prefix + "." + key;
-        putTag(tags, key, fieldTagPath, tagsAsObject, applied, shouldApplyVariant, updatedMetakey);
+        putTag(tags, key, fieldTagPath, tagsAsObject, applied, shouldApplyVariant, fieldMetakey);
     }
 
     private static String metaUidFromValue(Object value) {

@@ -85,6 +85,39 @@ public class EditableTagsTest {
         Assert.assertEquals("data-cslp=ct.e1.en-us.items", dollar.getString("items"));
     }
 
+    /**
+     * Parent field tag for an array must use the field-level metakey (for variant resolution), not the last
+     * element's {@code _metadata.uid} suffix — otherwise a per-element variant key (e.g. {@code items.uidB})
+     * would incorrectly win for the parent {@code items} tag.
+     */
+    @Test
+    public void arrayFieldParentTagUsesFieldMetakeyNotLastElementMetadata() {
+        JSONObject applied = new JSONObject();
+        applied.put("items", "fieldVar");
+        applied.put("items.uidB", "wrongVar");
+        JSONObject metaA = new JSONObject();
+        metaA.put("uid", "uidA");
+        JSONObject metaB = new JSONObject();
+        metaB.put("uid", "uidB");
+        JSONObject el0 = new JSONObject();
+        el0.put("_metadata", metaA);
+        el0.put("x", "a");
+        JSONObject el1 = new JSONObject();
+        el1.put("_metadata", metaB);
+        el1.put("x", "b");
+        JSONArray arr = new JSONArray().put(el0).put(el1);
+        JSONObject entry = new JSONObject();
+        entry.put("uid", "e1");
+        entry.put("_applied_variants", applied);
+        entry.put("items", arr);
+        Utils.addEditableTags(entry, "ct", false, "en-us", null);
+        String parentItemsTag = entry.getJSONObject("$").getString("items");
+        Assert.assertTrue("parent field should resolve variant via key \"items\"",
+                parentItemsTag.contains("ct.e1_fieldVar.en-us.items"));
+        Assert.assertFalse("parent field must not apply last element's variant (items.uidB -> wrongVar)",
+                parentItemsTag.contains("e1_wrongVar"));
+    }
+
     @Test
     public void referenceInArrayUsesRefPrefix() {
         JSONObject ref = new JSONObject();
@@ -97,6 +130,33 @@ public class EditableTagsTest {
         Utils.addEditableTags(entry, "post", false, "en-us", null);
         JSONObject refDollar = ref.getJSONObject("$");
         Assert.assertEquals("data-cslp=author_ct.refuid.en-us.title", refDollar.getString("title"));
+    }
+
+    /**
+     * Referenced entry may declare its own {@code locale}; recursive {@code getTag} must receive {@code refLocale}
+     * (not the parent entry locale) so nested plain objects use the correct path segment, and nested refs in arrays
+     * without {@code locale} fall back to that reference locale (not the top-level entry locale).
+     */
+    @Test
+    public void referenceInArrayPassesRefLocaleToNestedGetTag() {
+        JSONObject nested = new JSONObject();
+        nested.put("name", "Nested");
+        JSONObject subRef = new JSONObject();
+        subRef.put("_content_type_uid", "child_ct");
+        subRef.put("uid", "c1");
+        subRef.put("x", "v");
+        JSONObject ref = new JSONObject();
+        ref.put("_content_type_uid", "author_ct");
+        ref.put("uid", "refuid");
+        ref.put("locale", "fr-fr");
+        ref.put("profile", nested);
+        ref.put("nested_refs", new JSONArray().put(subRef));
+        JSONObject entry = new JSONObject();
+        entry.put("uid", "e1");
+        entry.put("authors", new JSONArray().put(ref));
+        Utils.addEditableTags(entry, "post", false, "en-us", null);
+        Assert.assertEquals("data-cslp=author_ct.refuid.fr-fr.profile.name", nested.getJSONObject("$").getString("name"));
+        Assert.assertEquals("data-cslp=child_ct.c1.fr-fr.x", subRef.getJSONObject("$").getString("x"));
     }
 
     @Test
