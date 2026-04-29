@@ -1,4 +1,4 @@
-# Changelog
+# CHANGELOG
 
 A brief description of what changes project contains
 
@@ -6,7 +6,7 @@ A brief description of what changes project contains
 
 #### v1.5.0
 
-- Enhancement: Live Preview Editable tags 
+- Enhancement: Live Preview Editable tags
 
 ## Mar 23, 2026
 
@@ -36,7 +36,7 @@ A brief description of what changes project contains
 
 #### v1.2.11
 
-- Fix: ignore td/th in case of attrs has void:true 
+- Fix: ignore td/th in case of attrs has void:true
 
 ## May 14, 2024
 
@@ -48,7 +48,7 @@ A brief description of what changes project contains
 
 #### v1.2.9
 
-- Fixed vulnerability issue related to strAttrs and children. 
+- Fixed vulnerability issue related to strAttrs and children.
 
 ## April 23, 2024
 
@@ -136,4 +136,3 @@ A brief description of what changes project contains
 ## Support
 
 - For support, email fake@fake.com or join our Slack channel.
-
