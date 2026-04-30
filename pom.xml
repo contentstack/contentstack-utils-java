@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.contentstack.sdk</groupId>
     <artifactId>utils</artifactId>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <packaging>jar</packaging>
     <name>Contentstack-utils</name>
     <description>Java Utils SDK for Contentstack Content Delivery API, Contentstack is a headless CMS</description>
@@ -28,7 +28,7 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <validation-version>2.0.1.Final</validation-version>
         <json-version>20251224</json-version>
-        <spring-web-version>7.0.6</spring-web-version>
+        <spring-web-version>7.0.7</spring-web-version>
         <org.apache.commons-text>1.15.0</org.apache.commons-text>
     </properties>
 
@@ -212,8 +212,7 @@
                             <use>false</use>
                             <source>17</source>
                             <links>
-                                <link>http://docs.oracle.com/javase/8/docs/api/</link>
-                                <link>http://docs.oracle.com/javase/8/docs/api/</link>
+                                <link>https://docs.oracle.com/en/java/javase/17/docs/api/</link>
                             </links>
                             <doclint>none</doclint>
                         </configuration>
