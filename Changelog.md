@@ -7,7 +7,6 @@ A brief description of what changes project contains
 #### v1.5.1
 
 - Fix: Upgraded `org.springframework:spring-web` to 7.0.7 to address Snyk-reported vulnerabilities in Spring Framework (including transitive `spring-core`)
-- Chore: Javadoc external `links` updated to Java 17 API documentation for successful builds on modern JDKs
 
 ## Apr 20, 2026
 
