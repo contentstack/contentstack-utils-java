@@ -1,6 +1,7 @@
 package com.contentstack.utils;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -151,28 +152,29 @@ public class Endpoint {
             return regionsData;
         }
 
-        // Try bundled classpath resource first
+        // Try live download first so users always get the latest regions
+        try {
+            String json = downloadRegions();
+            regionsData = new JSONObject(json).getJSONArray("regions");
+            return regionsData;
+        } catch (IOException | JSONException ignored) {
+            // network unavailable — fall through to bundled fallback
+        }
+
+        // Fallback: bundled regions.json packaged in the JAR (offline safety net)
         InputStream is = Endpoint.class.getClassLoader().getResourceAsStream(REGIONS_RESOURCE);
         if (is != null) {
             try (BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))) {
                 String json = reader.lines().collect(Collectors.joining("\n"));
                 regionsData = new JSONObject(json).getJSONArray("regions");
                 return regionsData;
-            } catch (Exception e) {
-                // fall through to live download
+            } catch (IOException | JSONException ignored) {
+                // fall through to error
             }
         }
 
-        // Fallback: download from Contentstack
-        try {
-            String json = downloadRegions();
-            regionsData = new JSONObject(json).getJSONArray("regions");
-            return regionsData;
-        } catch (Exception e) {
-            throw new RuntimeException(
-                    "contentstack/utils: regions.json not found and could not be downloaded. " +
-                    "Ensure the JAR was built correctly or network access is available.", e);
-        }
+        throw new RuntimeException(
+                "contentstack/utils: could not load regions — network unavailable and no bundled fallback found.");
     }
 
     private static String downloadRegions() throws IOException {
