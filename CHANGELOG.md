@@ -2,6 +2,12 @@
 
 A brief description of what changes project contains
 
+## Jun 10, 2026
+
+#### v1.5.2
+
+- Snyk fixes
+
 ## Apr 30, 2026
 
 #### v1.5.1
