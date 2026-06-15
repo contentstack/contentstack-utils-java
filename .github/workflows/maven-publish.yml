@@ -4,12 +4,15 @@ on:
     types: [created]
 jobs:
   publish-maven:
+    if: ${{ startsWith(github.event.release.tag_name, 'v') && !github.event.release.draft }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.release.tag_name }}
       - name: Set up Maven Central Repository
         uses: actions/setup-java@v3
         with:
@@ -27,9 +30,12 @@ jobs:
           MAVEN_PASSWORD: ${{ secrets.MAVEN_PASSWORD }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
   publish-github:
+    if: ${{ startsWith(github.event.release.tag_name, 'v') && !github.event.release.draft }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.release.tag_name }}
       - name: Set up Java for publishing to GitHub Packages
         uses: actions/setup-java@v3
         with:
@@ -37,7 +43,7 @@ jobs:
           distribution: 'adopt'
           server-id: github
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
-          gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          gpg-passphrase: GPG_PASSPHRASE
       - name: Set up Maven settings for Central and GitHub
         run: |
           mkdir -p $HOME/.m2

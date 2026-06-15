@@ -15,7 +15,7 @@ description: Branches, CI, build and test commands, PR expectations, optional TD
 
 ### Branches
 
-- Default integration for PRs is often **`staging`**; merging into **`master`** may be restricted (see `.github/workflows/check-branch.yml`).
+- Feature/fix PRs should target **`development`**. Release PRs are raised directly from **`development`** to **`master`**.
 - Feature/fix branches often use ticket-style names (e.g. `fix/DX-5734`).
 
 ### Running tests and builds
@@ -28,7 +28,7 @@ description: Branches, CI, build and test commands, PR expectations, optional TD
 ### Pull requests
 
 - Describe the change; link issues/tickets when applicable.
-- Keep public API backward-compatible unless releasing a breaking version; update **`Changelog.md`** for user-visible behavior.
+- Keep public API backward-compatible unless releasing a breaking version; update **`CHANGELOG.md`** for user-visible behavior.
 - Use **`skills/code-review/SKILL.md`** as the review checklist.
 
 ### Optional: TDD

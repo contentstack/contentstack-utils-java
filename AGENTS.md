@@ -33,7 +33,7 @@
 | Single test class | `mvn test -Dtest=UtilTests` |
 | Javadoc | `mvn javadoc:javadoc` |
 | Sample (after `mvn install` with skips if needed) | `mvn -f sample/pom.xml compile` |
-| **CI** | Java **17** publish: `.github/workflows/maven-publish.yml` · SCA: `.github/workflows/sca-scan.yml` · branch rules: `.github/workflows/check-branch.yml` |
+| **CI** | Java **17** publish: `.github/workflows/maven-publish.yml` (GitHub **Release** for tag `v*`, draft releases skipped) · SCA: `.github/workflows/sca-scan.yml` · back-merge automation: `.github/workflows/back-merge-pr.yml` |
 
 ## Where the documentation lives: skills
 

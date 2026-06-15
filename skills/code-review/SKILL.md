@@ -16,7 +16,7 @@ description: PR checklist and optional Blocker/Major/Minor — use when reviewin
 ### API design and stability
 
 - [ ] **Public API:** New or changed methods on `Utils`, `GQL`, `DefaultOption`, or `interfaces` are necessary, Javadoc’d, and safe for `com.contentstack.sdk:utils` consumers.
-- [ ] **Backward compatibility:** Breaking changes only with major version / **`Changelog.md`** plan.
+- [ ] **Backward compatibility:** Breaking changes only with major version / **`CHANGELOG.md`** plan.
 - [ ] **Naming:** Consistent with existing Utils and RTE/embedded terminology.
 
 ### Error handling and robustness
