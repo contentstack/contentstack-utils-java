@@ -2,11 +2,11 @@
 
 A brief description of what changes project contains
 
-## Apr 30, 2026
+## Jun 10, 2026
 
 #### v1.5.1
 
-- Fix: Upgraded `org.springframework:spring-web` to 7.0.7 to address Snyk-reported vulnerabilities in Spring Framework (including transitive `spring-core`)
+- Fix: Upgraded `org.springframework:spring-web` to 7.0.8 to address Snyk-reported vulnerabilities in Spring Framework (including transitive `spring-core`)
 
 ## Apr 20, 2026
 
