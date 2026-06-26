@@ -2,6 +2,14 @@
 
 A brief description of what changes project contains
 
+## Jun 29, 2026
+
+#### v1.6.0
+
+- Feature: Dynamic endpoint resolution via `Endpoint.getContentstackEndpoint()` backed by the Contentstack Regions Registry
+- Feature: `Utils.getContentstackEndpoint()` proxy for backward-compatible access
+- Feature: `regions.json` auto-downloaded at build time via `scripts/download-regions.sh` with runtime fallback
+
 ## Jun 10, 2026
 
 #### v1.5.1
