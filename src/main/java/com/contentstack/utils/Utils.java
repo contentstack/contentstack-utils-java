@@ -559,4 +559,52 @@ public class Utils {
             }
         }
     }
+
+    /**
+     * Returns the URL for a specific service in the given region.
+     * Proxy for {@link Endpoint#getContentstackEndpoint(String, String)}.
+     *
+     * @param region  region ID or alias (e.g. {@code na}, {@code eu}, {@code us}, {@code azure-na})
+     * @param service service name (e.g. {@code contentDelivery}, {@code contentManagement})
+     * @return full URL including {@code https://}
+     */
+    public static String getContentstackEndpoint(String region, String service) {
+        return Endpoint.getContentstackEndpoint(region, service);
+    }
+
+    /**
+     * Returns the URL for a specific service in the given region.
+     * Proxy for {@link Endpoint#getContentstackEndpoint(String, String, boolean)}.
+     *
+     * @param region     region ID or alias
+     * @param service    service name
+     * @param omitHttps  when {@code true}, strips {@code https://} from the result
+     * @return URL string, with or without scheme depending on {@code omitHttps}
+     */
+    public static String getContentstackEndpoint(String region, String service, boolean omitHttps) {
+        return Endpoint.getContentstackEndpoint(region, service, omitHttps);
+    }
+
+    /**
+     * Returns all endpoint URLs for the given region.
+     * Proxy for {@link Endpoint#getContentstackEndpoint(String)}.
+     *
+     * @param region region ID or alias
+     * @return map of service name → URL
+     */
+    public static Map<String, String> getContentstackEndpoint(String region) {
+        return Endpoint.getContentstackEndpoint(region);
+    }
+
+    /**
+     * Returns all endpoint URLs for the given region.
+     * Proxy for {@link Endpoint#getContentstackEndpoint(String, boolean)}.
+     *
+     * @param region    region ID or alias
+     * @param omitHttps when {@code true}, strips {@code https://} from every URL
+     * @return map of service name → URL
+     */
+    public static Map<String, String> getContentstackEndpoint(String region, boolean omitHttps) {
+        return Endpoint.getContentstackEndpoint(region, omitHttps);
+    }
 }
