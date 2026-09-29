@@ -2,6 +2,18 @@
 
 A brief description of what changes project contains
 
+## Aug 26, 2026
+
+#### v1.6.2
+
+- Fix: Upgraded `org.jsoup:jsoup` to 1.23.2 to address a Snyk-reported Allocation of Resources Without Limits or Throttling vulnerability (CVE-2026-75140)
+
+## Aug 17, 2026
+
+#### v1.6.1
+
+- Fix: Upgraded `org.jsoup:jsoup` to 1.23.1 to address a Snyk-reported Cross-site Scripting (XSS) vulnerability
+
 ## Jun 29, 2026
 
 #### v1.6.0
