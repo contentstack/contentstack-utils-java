@@ -2,6 +2,12 @@
 
 A brief description of what changes project contains
 
+## Oct 26, 2026
+
+#### v1.6.3
+
+- Fix: Updated `org.springframework:spring-web` from 7.0.8 to 7.0.9 to resolve Snyk-reported Spring Framework vulnerabilities (resource allocation without limits, XSS, HTTP response splitting, sensitive cookie without Secure attribute). Patch-level bump; no API or dependency changes.
+
 ## Aug 26, 2026
 
 #### v1.6.2
